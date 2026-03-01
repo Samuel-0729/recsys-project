@@ -72,12 +72,12 @@ def consent():
         with get_conn() as conn:
             with conn.cursor() as cur:
                 cur.execute(
-                    """
-                    INSERT INTO participants (participant_id, grp)
-                    VALUES (%s, %s);
-                    """,
-                    (participant_id, grp),
-                )
+                """
+                INSERT INTO participants (participant_id, grp, created_at)
+                VALUES (%s, %s, now() AT TIME ZONE 'Asia/Taipei');
+                """,
+                (participant_id, grp),
+            )
             conn.commit()
 
         return jsonify({"participant_id": participant_id, "grp": grp}), 201
@@ -375,8 +375,8 @@ def recommend():
                 cur.execute(
                     """
                     INSERT INTO recommendation_logs
-                    (log_id, participant_id, grp, preferences, recommended_movie_ids)
-                    VALUES (%s, %s, %s, %s::jsonb, %s);
+                    (log_id, participant_id, grp, preferences, recommended_movie_ids, created_at)
+                    VALUES (%s, %s, %s, %s::jsonb, %s, now() AT TIME ZONE 'Asia/Taipei');
                     """,
                     (log_id, participant_id, grp, json.dumps(original_prefs), recommended_ids),
                 )
