@@ -1,0 +1,19 @@
+# ===== 大型資料/匯出檔（一定要忽略）=====
+data_csv/
+*.dump
+*.sql
+
+# （可選）如果你確定所有 csv 都不需要上 GitHub，再打開這行
+# *.csv
+
+# ===== 機密設定（一定要忽略）=====
+.env
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== Node/React =====
+node_modules/
+dist/
+build/

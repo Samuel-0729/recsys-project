@@ -1,0 +1,1185 @@
+﻿movie_id,title,title_zh,genres,year,avg_rating,rating_count,imdb_id,tmdb_id,region,poster_url
+103665,Ip Man: The Final Fight,葉問：終極一戰,Action|Drama,2013.0,3.268867924528302,106.0,2495118,182127.0,HK,https://image.tmdb.org/t/p/w500/kmfk88LpbNMzpVayoFqp8JYqYw1.jpg
+103688,"Conjuring, The",厲陰宅,Horror|Thriller,2013.0,3.672927847346452,5031.0,1457767,138843.0,US,https://image.tmdb.org/t/p/w500/xbOUJ4PUWSj7aZYwpJHIBzUB4n2.jpg
+103721,Love,愛在太空,Drama|Sci-Fi,2011.0,2.563953488372093,86.0,1541874,54320.0,US,https://image.tmdb.org/t/p/w500/ghKqC61MuwJIY8Wh61258fxpcRV.jpg
+103727,"Colony, The",末世殖民地,Action|Horror|Sci-Fi|Thriller,2013.0,2.793333333333333,375.0,1160996,178809.0,CA,https://image.tmdb.org/t/p/w500/ppTqHex38Jkpg9fhPzDcYJuxqhR.jpg
+103736,Scenic Route,觀光路線,Drama|Thriller,2013.0,3.466216216216216,74.0,2012011,172847.0,US,https://image.tmdb.org/t/p/w500/fLR1XII83u0zMPcW5sSR3XBxwYC.jpg
+103755,Turbo,渦輪方程式,Adventure|Animation|Children|Comedy|Fantasy,2013.0,2.9532193158953723,994.0,1860353,77950.0,US,https://image.tmdb.org/t/p/w500/nc5sKsVkRHzM6nhQSWW4DQLNTIA.jpg
+103772,"Wolverine, The",金鋼狼：武士之戰,Action|Adventure|Fantasy|Sci-Fi,2013.0,3.2160866847259846,4799.0,1430132,76170.0,US,https://image.tmdb.org/t/p/w500/5GZrq4e3SXYrdTpCBzvu1W3kVnN.jpg
+103801,Drinking Buddies,酒友行不行,Comedy|Drama|Romance,2013.0,3.21107544141252,623.0,2265398,172533.0,US,https://image.tmdb.org/t/p/w500/iunbsMWtkwfrtRzU7hdCHhPjjJf.jpg
+103810,Red 2,超危險特工2：狠戰,Action|Comedy|Crime|Thriller,2013.0,3.4554712460063897,2504.0,1821694,146216.0,US,https://image.tmdb.org/t/p/w500/xZuXQK8Vg9BP3GYZTTZouwgV3k9.jpg
+103825,Vehicle 19,玩命車手,Thriller,2013.0,2.574468085106383,47.0,1911662,180948.0,US,https://image.tmdb.org/t/p/w500/vRZobS1s3ojOpLFUbFVb2k1qDQI.jpg
+103849,New World (Shin-sae-gye),闇黑新世界,Thriller,2013.0,3.775384615384616,325.0,2625030,165213.0,KR,https://image.tmdb.org/t/p/w500/56d02lY8c2jpIgRM2ZfdEopwVJI.jpg
+103867,Night Train To Lisbon,里斯本夜車,Mystery|Romance|Thriller,2013.0,3.4832214765100677,149.0,1654523,160139.0,DE,https://image.tmdb.org/t/p/w500/3vrOC9TUgXOrXMBicEoxFXSutvy.jpg
+103869,Bigfoot,翻天覆地大腳怪,Adventure|Horror|Sci-Fi,2012.0,1.0588235294117647,17.0,1876261,117856.0,US,https://image.tmdb.org/t/p/w500/7Uq9ZzMiHHLhU2bkuvL1KsxFfyz.jpg
+103873,"Breath, The (Nefes: Vatan sagolsun)",呼吸,Action|Drama|Thriller,2009.0,3.431034482758621,29.0,1171701,27957.0,TR,https://image.tmdb.org/t/p/w500/cxRoQLbjN8Fpmh4VlBjPcu4kfly.jpg
+103883,2 Guns,2槍斃命,Action|Comedy|Crime,2013.0,3.335973597359736,1515.0,1272878,136400.0,US,https://image.tmdb.org/t/p/w500/c0nmGLvzCJWHU5Oldvuaoy9BD1j.jpg
+103966,Lost in Thailand (Ren zai jiong tu zhi tai jiong),人再囧途之泰囧,Adventure|Comedy|Drama,2012.0,3.083333333333333,12.0,2459022,151743.0,CN,https://image.tmdb.org/t/p/w500/fTN7asKKrD5dc99t3t0raWV1jFT.jpg
+103978,Darling Companion,愛狗在心眼難開,Drama,2012.0,2.5416666666666665,12.0,1730687,89325.0,US,https://image.tmdb.org/t/p/w500/wqlUsjcu874Ja9iOpWin2APUxCj.jpg
+103980,Blue Jasmine,藍色茉莉,Drama,2013.0,3.614230019493177,2565.0,2334873,160588.0,US,https://image.tmdb.org/t/p/w500/9YoyAIyMr1wBc9HuhAgmmGkGxGy.jpg
+103982,Frankenstein's Army,科學怪軍團,Action|Horror|Sci-Fi,2013.0,2.8951612903225805,62.0,1925435,153738.0,US,https://image.tmdb.org/t/p/w500/1XMsUXSNM7L72bw6pfapJW5eOIO.jpg
+103984,"Great Beauty, The (Grande Bellezza, La)",絕美之城,Comedy|Drama,2013.0,3.933641975308642,1296.0,2358891,179144.0,IT,https://image.tmdb.org/t/p/w500/kUbM6rcIP3E6kx7oMS6PirpvOH8.jpg
+104050,Phantom of the Megaplex,電影院驚魂記,Action|Children|Comedy|Mystery,2000.0,3.25,22.0,266850,26450.0,CA,https://image.tmdb.org/t/p/w500/saZEFau4Y4EYvXQgdAcVTxiDopy.jpg
+104074,Percy Jackson: Sea of Monsters,波西傑克森：妖魔之海,Adventure|Children|Fantasy,2013.0,2.9018612521150597,1182.0,1854564,76285.0,US,https://image.tmdb.org/t/p/w500/u9Jzrpc1f6uPnyESXEojrrqKjX1.jpg
+104076,"Smurfs 2, The",藍色小精靈2,Animation|Children|Comedy,2013.0,2.3552631578947367,304.0,2017020,77931.0,US,https://image.tmdb.org/t/p/w500/4LkbC6lmC9SZkglTzmjADDV2bcE.jpg
+104078,Alan Partridge: Alpha Papa,王牌DJ出任務,Comedy,2013.0,3.493150684931507,438.0,469021,177699.0,GB,https://image.tmdb.org/t/p/w500/oqdSe46XQ9CKcj1WMyfD2LaVoER.jpg
+104137,Prince Avalanche,無路用之王,Comedy|Drama,2013.0,3.1825,200.0,2195548,113148.0,US,https://image.tmdb.org/t/p/w500/kCfs93bW6FdLIZoYN5pYILysyx4.jpg
+104211,We're the Millers,全家就是米家,Comedy|Crime,2013.0,3.4905942334739803,5688.0,1723121,138832.0,US,https://image.tmdb.org/t/p/w500/orIq2b5Dv18E2875YFybLB33lJo.jpg
+104218,Grown Ups 2,亞當等大人2,Comedy,2013.0,2.4994219653179197,865.0,2191701,109418.0,US,https://image.tmdb.org/t/p/w500/d0uw6R0ig33QM16pB13Api1TOrW.jpg
+104231,Drug War (Du zhan),毒戰,Crime,2012.0,3.411290322580645,124.0,2165735,110410.0,CN,https://image.tmdb.org/t/p/w500/f0XSmGJDB84Yv853m71lV5FPWLs.jpg
+104241,Kick-Ass 2,特攻聯盟2,Action|Comedy|Crime,2013.0,3.13468809073724,3174.0,1650554,59859.0,US,https://image.tmdb.org/t/p/w500/nrezce4lbhjGAw6cX7tm2XyMaI3.jpg
+104243,Riddick,超世紀戰警：闇黑對決,Action|Sci-Fi|Thriller|IMAX,2013.0,3.4292011755276515,3743.0,1411250,87421.0,CA,https://image.tmdb.org/t/p/w500/hpczpIpAdI0q64dhOEfb3mYYm0z.jpg
+104245,Planes,飛機總動員,Adventure|Animation|Comedy,2013.0,2.607594936708861,474.0,1691917,151960.0,US,https://image.tmdb.org/t/p/w500/6Svt6tNONeUzhC7vFjZkMXzHTG0.jpg
+104272,Blackfish,黑魚,Documentary,2013.0,3.839521452145215,1212.0,2545118,158999.0,US,https://image.tmdb.org/t/p/w500/kCk4mDFE96Mn1AYfEcbxkIiw7ND.jpg
+104274,Paranoia,決勝機密,Drama|Thriller,2013.0,2.8666666666666667,180.0,1413495,115348.0,IN,https://image.tmdb.org/t/p/w500/isbiljuGztxLlcOvrSw5FkQDGEd.jpg
+104283,"Wind Rises, The (Kaze tachinu)",風起,Animation|Drama|Romance,2013.0,3.933164905833716,2177.0,2013293,149870.0,JP,https://image.tmdb.org/t/p/w500/e61IpFSlQ9x85exQzEWivz71m1I.jpg
+104285,"Maria, ihm schmeckt's nicht! (Maria, He Doesn't Like It)",到坎勃貝蘿去提親,Comedy,2009.0,3.357142857142857,7.0,1339122,24631.0,DE,https://image.tmdb.org/t/p/w500/vypsnoxI3ACS5CMAuP76QNAJIU3.jpg
+104303,Jobs,賈伯斯,Drama,2013.0,3.0941845764854614,791.0,2357129,115782.0,US,https://image.tmdb.org/t/p/w500/pizlhnMEuRNEiEFHj3IaJCBihaY.jpg
+104312,"Mortal Instruments: City of Bones, The",天使聖物：骸骨之城,Action|Adventure|Drama|IMAX,2013.0,3.092961487383798,753.0,1538403,123553.0,DE,https://image.tmdb.org/t/p/w500/tLzmlqCvmIprwsNjS3aIEm8HK24.jpg
+104314,Hitler's Children,希特勒的子孙们,Documentary,2011.0,3.475,20.0,2359085,113362.0,DE,https://image.tmdb.org/t/p/w500/h4XWZa16wRTbrpM1oJIxTDbRmFP.jpg
+104319,"First Grader, The",一年級生,Drama,2010.0,3.527027027027027,37.0,790663,47559.0,KE,https://image.tmdb.org/t/p/w500/jstfYxEYMFfSO6tQaYL6O0AMUol.jpg
+104337,Lee Daniels' The Butler,白宮第一管家,Drama,2013.0,3.502750275027503,909.0,1327773,132363.0,US,https://image.tmdb.org/t/p/w500/6TlbMJvBwA9y2RHYN5hWc0qQZUj.jpg
+104350,Terms and Conditions May Apply,魔鬼藏在同意書,Documentary,2013.0,3.6021505376344085,93.0,2084953,159622.0,US,https://image.tmdb.org/t/p/w500/hiXXUS7LVqALDNugz5kRvS0Xkx1.jpg
+104356,Museum Hours,美術館時光,Drama,2013.0,3.6184210526315783,38.0,2268732,128133.0,AT,https://image.tmdb.org/t/p/w500/4Zdwr2r8VesUT7tmEoOTGsRnlQj.jpg
+104361,Ain't Them Bodies Saints,險路謎情,Drama,2013.0,3.268965517241379,145.0,2388637,152748.0,US,https://image.tmdb.org/t/p/w500/xkGkVjeMcvEg7P3VxWy8wYBJ7Dv.jpg
+104374,About Time,真愛每一天,Drama|Fantasy|Romance,2013.0,3.9705734722047934,7969.0,2194499,122906.0,GB,https://image.tmdb.org/t/p/w500/rgYQIlpIAipsfAq2qOu0vSa1KqE.jpg
+104379,Chennai Express,寶萊塢愛情特快車,Action|Adventure|Comedy,2013.0,2.951754385964912,114.0,2112124,205022.0,IN,https://image.tmdb.org/t/p/w500/9j7XfhBJKNfidMCa8JsNbqU1waV.jpg
+104386,Cold Prey II (Fritt Vilt II),雪山驚魂2,Horror,2008.0,3.1129032258064515,62.0,1188990,15440.0,NO,https://image.tmdb.org/t/p/w500/9GwYRa1N9TSQI24TiKUK3URRptj.jpg
+104388,Cold Prey III (Fritt Vilt III),雪山驚魂3,Horror,2010.0,2.4782608695652173,23.0,1464535,56937.0,NO,https://image.tmdb.org/t/p/w500/gg8carK1jUQLRcUQEx1mayDiIb9.jpg
+104408,Truth or Die ,真腥話大冒險,Horror|Thriller,2012.0,2.963768115942029,69.0,1838722,101179.0,US,https://image.tmdb.org/t/p/w500/iS6xzzAJIQaGmkcpx4PY3UeAwpq.jpg
+104431,Enter Nowhere,走投無路,Mystery|Thriller,2011.0,3.161290322580645,124.0,1631707,98568.0,US,https://image.tmdb.org/t/p/w500/eBWZmjzehYXmVTCsFan9RnzmZ7Z.jpg
+104441,"Frozen Ground, The",驚天凍地,Crime|Drama|Thriller,2013.0,3.0468354430379745,395.0,2005374,199373.0,US,https://image.tmdb.org/t/p/w500/4X1UPzCpIy5s5hExJ5WGxao20Mb.jpg
+104457,You're Next,下一個就是你,Horror|Thriller,2011.0,3.4680944055944054,1144.0,1853739,83899.0,US,https://image.tmdb.org/t/p/w500/l163jakfKvchUTVTtBi0KA7ZhIc.jpg
+104464,Taipei Exchanges (Di 36 ge gu shi),第36個故事,Comedy|Drama,2010.0,3.5,3.0,1682949,42355.0,TW,https://image.tmdb.org/t/p/w500/12J3NvSFaz3XUUiOlRA5vfWG6yG.jpg
+104518,Empire State,帝國警戒,Action|Drama,2013.0,2.8157894736842106,76.0,2171867,169209.0,US,https://image.tmdb.org/t/p/w500/uU4zhkZYVfo7MGKPVIYONseusoL.jpg
+104576,"Seasoning House, The",調味的房子,Horror|Thriller,2012.0,3.0,51.0,1555093,127651.0,US,https://image.tmdb.org/t/p/w500/6AJQlfKsaNuWM1uCpXwLzYk6vx4.jpg
+104590,Tidal Wave,海雲臺,Drama,2009.0,2.640625,32.0,1153040,33196.0,KR,https://image.tmdb.org/t/p/w500/qp34RiSRjpfodABYuo52WefBjB7.jpg
+104606,The Last Drop,空降神兵,Action|Adventure|Crime|War,2006.0,1.75,8.0,398029,2911.0,GB,https://image.tmdb.org/t/p/w500/uMzMmrzi0ATCICWlszQOm1OMJjG.jpg
+104631,Adore,愛，墮落,Drama|Romance,2013.0,3.2344632768361583,177.0,2103267,111190.0,AU,https://image.tmdb.org/t/p/w500/hIQqIeG7Ude0QRUFntdLtsAUEBB.jpg
+104636,TT3D: Closer to the Edge,TT3D：更接近邊緣,Documentary,2011.0,3.9461538461538463,65.0,1698010,79628.0,US,https://image.tmdb.org/t/p/w500/xTpacyxa9ly5UPfgogsmf83g2zt.jpg
+104671,Dracula (Dracula 3D),德古拉3D,Horror|Romance|Thriller,2012.0,1.8035714285714288,28.0,1852770,135812.0,IT,https://image.tmdb.org/t/p/w500/n1EsoM2cotsQRmvNnQJlOeC1jNe.jpg
+104712,Instructions Not Included (No se Aceptan Devoluciones),重點是，我愛你,Comedy|Drama,2013.0,3.696335078534031,191.0,2378281,211954.0,MX,https://image.tmdb.org/t/p/w500/zZyaSXJaGAFpoIkEZoakYe6ygag.jpg
+104728,One Direction: This Is Us,1世代：我們的世代,Documentary,2013.0,2.3902439024390243,41.0,2515086,164558.0,US,https://image.tmdb.org/t/p/w500/d4OdJwP9lSoWKvpHbv8wqNhkrlZ.jpg
+104736,Closed Circuit,全面鎖定,Crime|Drama|Mystery,2013.0,3.034482758620689,145.0,2218003,146223.0,GB,https://image.tmdb.org/t/p/w500/lN9n3xQX0o5yJ6EuMUjjF0oldOU.jpg
+104760,Getaway,死路十條,Action|Crime,2013.0,2.1881720430107525,93.0,2167202,146227.0,US,https://image.tmdb.org/t/p/w500/uIcaW8EZgckZNuQiLF6mDi0eLRI.jpg
+104841,Gravity,地心引力,Action|Sci-Fi|IMAX,2013.0,3.59748427672956,18126.0,1454468,49047.0,US,https://image.tmdb.org/t/p/w500/3hc1fcozqnkFFe5wZ1bU7Lxb5fJ.jpg
+104863,What If,好友戀習簿,Comedy|Drama|Romance,2013.0,3.4876819708846583,893.0,1486834,212716.0,CA,https://image.tmdb.org/t/p/w500/n3fAO5dfbUr5E8wegR2Ex1Svcfk.jpg
+104867,"Sex of Angels, The (El sexo de los ángeles)",天使的性,Drama|Romance,2012.0,3.3,25.0,1840911,104634.0,ES,https://image.tmdb.org/t/p/w500/fJ3RMm3mfv8TFNqJ7T3NQBQPX04.jpg
+104879,Prisoners,私法爭鋒,Drama|Mystery|Thriller,2013.0,4.038098731789121,9541.0,1392214,146233.0,US,https://image.tmdb.org/t/p/w500/94GlsNQp0kQmprOP7rHIdmik1F1.jpg
+104881,"Out of the Furnace (Dust to Dust) (Low Dweller, The)",逃出鎔爐,Drama|Thriller,2013.0,3.335843373493976,664.0,1206543,164457.0,US,https://image.tmdb.org/t/p/w500/cOuQQ4eRpSBxb0G9OXzWE1pHPeq.jpg
+104906,Austenland,奧斯汀莊園,Comedy|Romance,2013.0,3.257085020242915,247.0,1985019,156711.0,US,https://image.tmdb.org/t/p/w500/8f9XX2rIOY5kmzivS5sZfnVuCxE.jpg
+104908,Insidious: Chapter 2,陰兒房第2章：陰魂守舍,Horror|Thriller,2013.0,3.378993610223642,1252.0,2226417,91586.0,US,https://image.tmdb.org/t/p/w500/ssMP0RW5HKCYvkb18qCxs6mgC8g.jpg
+104913,Rush,決戰終點線,Action|Drama,2013.0,3.876957082335605,5429.0,1979320,96721.0,GB,https://image.tmdb.org/t/p/w500/yLuexMnrnzD7GdxJHbvSaOr3WFZ.jpg
+104925,"Family, The",黑幫追殺令,Action|Comedy|Crime,2013.0,3.1898569570871262,769.0,2404311,112205.0,US,https://image.tmdb.org/t/p/w500/ww0nrH0T5tfbIAbtFYEgJRc42wR.jpg
+104944,Short Term 12,她和她的小鬼們,Drama,2013.0,3.988990825688073,2180.0,2370248,169813.0,US,https://image.tmdb.org/t/p/w500/3qL7mOdgfTQb87Chcg6RbII1viC.jpg
+105028,Post Tenebras Lux,舐夢人,Drama,2012.0,3.3951612903225805,62.0,1754367,103689.0,MX,https://image.tmdb.org/t/p/w500/xIKrYjBvMlqZ2yYuZZt3R2iLHJq.jpg
+105037,"To Do List, The",大學生＂做＂了沒？,Comedy,2013.0,3.021197007481297,401.0,1758795,129139.0,US,https://image.tmdb.org/t/p/w500/vSVYCcvDJljrESZo1jJyXPVvwfk.jpg
+105197,Nebraska,內布拉斯加,Adventure|Drama,2013.0,3.7365823565700182,1621.0,1821549,129670.0,US,https://image.tmdb.org/t/p/w500/6Jlglxw8fRdynrKTphiH1gWgC1U.jpg
+105204,Saint (Sint),噬血主教,Horror,2010.0,2.265625,32.0,1167675,45756.0,NL,https://image.tmdb.org/t/p/w500/ubK0fpQWPfFzY14X3Qdpzzfv9wA.jpg
+105211,Enough Said,無須多言,Comedy|Drama|Romance,2013.0,3.4698085419734905,679.0,2390361,209263.0,US,https://image.tmdb.org/t/p/w500/p5naJg0K8xF0h0HWEfiz6rc9lC4.jpg
+105213,Don Jon,超急情聖,Comedy|Drama|Romance,2013.0,3.1258,2500.0,2229499,138697.0,US,https://image.tmdb.org/t/p/w500/xu1e3sVEHJWlXgqFoGE0hoxScp0.jpg
+105246,Mood Indigo (L'écume des jours),泡沫人生,Drama|Fantasy,2013.0,3.44392523364486,214.0,2027140,157820.0,FR,https://image.tmdb.org/t/p/w500/cwSBXt6j5ZwaD1dAMJ0SJCL7EQH.jpg
+105340,Miracle in Cell No. 7,7號房的禮物,Comedy|Drama,2013.0,3.8676470588235294,102.0,2659414,158445.0,KR,https://image.tmdb.org/t/p/w500/au303zg1X2ovrOGBcfQjfeY7qcD.jpg
+105343,Special 26,詐騙天才,Crime|Drama|Thriller,2013.0,3.8587786259541983,131.0,2377938,165904.0,IN,https://image.tmdb.org/t/p/w500/cOo6lOiZXO0zldPKsih9asKPWDo.jpg
+105351,Runner Runner,逆轉王牌,Crime|Drama|Thriller,2013.0,2.834558823529412,272.0,2364841,146238.0,US,https://image.tmdb.org/t/p/w500/eyRFJyZSobOVDYnUIkeBNXCXyId.jpg
+105355,Blue Is the Warmest Color (La vie d'Adèle),藍色是最溫暖的顏色,Drama|Romance,2013.0,3.72887323943662,2272.0,2278871,152584.0,FR,https://image.tmdb.org/t/p/w500/6qgGBtU7HQv73zdqhzQ0XOYSVVp.jpg
+105357,Tyler Perry's Temptation: Confessions of a Marriage Counselor,婚姻顧問,Drama,2013.0,1.9545454545454544,22.0,2070862,97006.0,US,https://image.tmdb.org/t/p/w500/22hclz5NzRKyWb81TjO1yx1Wn4w.jpg
+105420,Parkland,關鍵目擊,Drama,2013.0,3.4183673469387754,98.0,2345112,209262.0,US,https://image.tmdb.org/t/p/w500/g8XndkHfameS3uFtlnFmhhXXtTV.jpg
+105439,Sword of Desperation (Hisshiken torisashi),必死剣 鳥刺し,Action|Drama,2010.0,3.583333333333333,6.0,1606761,55884.0,JP,https://image.tmdb.org/t/p/w500/b9Sdx9gQsv7wKxOxH74UF0CWFhh.jpg
+105468,Cloudy with a Chance of Meatballs 2,食破天驚2,Animation|Children|Comedy|Fantasy,2013.0,3.207087126137841,1538.0,1985966,109451.0,US,https://image.tmdb.org/t/p/w500/AgJeFDveTNugxfykzrfCdpBDyJu.jpg
+105470,Extraction,母虎出獄,Action,2013.0,2.9285714285714284,7.0,2823574,218381.0,US,https://image.tmdb.org/t/p/w500/aAU27tuWBrIcOhxLyxd1QgFgXSi.jpg
+105477,Talaash,阿米爾罕大搜索,Crime|Drama|Mystery,2012.0,3.1962025316455698,79.0,1787988,86004.0,IN,https://image.tmdb.org/t/p/w500/oCxyN7HmJ7zWp8jtJeMRHABnutF.jpg
+105504,Captain Phillips,怒海劫,Adventure|Drama|Thriller|IMAX,2013.0,3.787541638907395,7505.0,1535109,109424.0,MT,https://image.tmdb.org/t/p/w500/gpP760bnTKdEf3nm82S9ZdKvi72.jpg
+105519,"Philosophers, The (After The Dark)",末日公投/末日哲學家,Drama|Fantasy|Sci-Fi,2013.0,3.1404761904761904,210.0,1928340,198287.0,US,https://image.tmdb.org/t/p/w500/ihMtatIMAkMv6AnFfazHMja9bj0.jpg
+105531,"Wall, The (Die Wand)",隱牆,Drama|Fantasy,2012.0,3.25,80.0,1745686,115442.0,DE,https://image.tmdb.org/t/p/w500/ttQ2JPhriO0Nd6SbTtb4NzRkk5N.jpg
+105560,Beneath the Dark,黑暗之下,Drama|Mystery|Thriller,2010.0,2.4285714285714284,7.0,1422800,49004.0,US,https://image.tmdb.org/t/p/w500/ibgJKgRuPwLJbHJhhQmVqVGILuk.jpg
+105585,Machete Kills (Machete 2),殺千刀重出江湖,Action|Crime|Thriller,2013.0,2.9476479514415783,659.0,2002718,106747.0,US,https://image.tmdb.org/t/p/w500/rIKFa687P6adopP5g4jGnnbdKvB.jpg
+105593,Filth,下流刑警,Comedy|Crime|Drama,2013.0,3.62298747763864,1118.0,1450321,85889.0,DE,https://image.tmdb.org/t/p/w500/bXrZRB8U5TbwgLLKmyG4nYOzi6p.jpg
+105608,Sunshine on Leith ,愛在陽光燦爛時,Musical,2013.0,3.472972972972973,37.0,2481198,214100.0,GB,https://image.tmdb.org/t/p/w500/j1dHvJ32wGKZqqT0gRqz31Zr1Us.jpg
+105628,Parking (Ting che),停車,Crime|Drama,2008.0,3.125,8.0,1232827,8935.0,TW,https://image.tmdb.org/t/p/w500/pfLIR57Xbgz2ESlRRLYsdccS8SH.jpg
+105653,Escape Plan,鋼鐵墳墓,Action|Mystery|Thriller,2013.0,3.3602789256198347,1936.0,1211956,107846.0,US,https://image.tmdb.org/t/p/w500/zKxjirXywMVl8FTqUsWwplyuI8D.jpg
+105703,Haute Cuisine,巴黎御膳房,Drama,2012.0,3.493589743589744,78.0,2094877,139651.0,FR,https://image.tmdb.org/t/p/w500/blUiFgBX2VQBtkjHRciQZZX7aL3.jpg
+105731,Carrie,魔女嘉莉,Drama|Horror,2013.0,2.822167487684729,1015.0,1939659,133805.0,US,https://image.tmdb.org/t/p/w500/AobuUPGSbOEx8KNtxFLTgm3GVK0.jpg
+105742,"Fifth Estate, The",危機解密,Drama|Thriller,2013.0,3.0924657534246576,292.0,1837703,162903.0,US,https://image.tmdb.org/t/p/w500/h9qSi5dL6ovsSObflmsYAoy64ZM.jpg
+105755,"Counselor, The",玩命法則,Crime|Drama|Thriller,2013.0,2.7395209580838324,501.0,2193215,109091.0,US,https://image.tmdb.org/t/p/w500/9Vmj9fbiRLYcsin88bBFMFTaytP.jpg
+105811,Godzilla vs. Megaguirus (Gojira tai Megagirasu: Jî shômetsu sakusen),哥吉拉×美加基拉斯 G消滅作戰,Action|Sci-Fi,2000.0,2.7745098039215685,51.0,255198,39468.0,JP,https://image.tmdb.org/t/p/w500/kxYJgQAlIi2x0vkV4mRZJJknC8J.jpg
+105835,"Double, The",盜貼人生,Comedy|Drama|Thriller,2013.0,3.458920187793427,852.0,1825157,146015.0,GB,https://image.tmdb.org/t/p/w500/7kNcpmP1Pe9fWLKEbEOX5GEWueC.jpg
+105844,12 Years a Slave,自由之心,Drama,2013.0,3.886350218443736,8469.0,2024544,76203.0,US,https://image.tmdb.org/t/p/w500/73V93VxJGRkBBUkF2fkglWHoXay.jpg
+105869,Kill Your Darlings,愛殺達令,Crime|Drama|Romance|Thriller,2013.0,3.4403553299492384,394.0,1311071,157370.0,US,https://image.tmdb.org/t/p/w500/1yVbRJBwF2ZZbmzIZhSLLtlLpaz.jpg
+105954,All Is Lost,海上求生記,Action|Adventure|Drama,2013.0,3.473809523809524,840.0,2017038,152747.0,US,https://image.tmdb.org/t/p/w500/9cVA4oX2xHgiglv6hemxwAaofsq.jpg
+106002,Ender's Game,戰爭遊戲,Action|Adventure|Sci-Fi|IMAX,2013.0,3.369526040728059,5549.0,1731141,80274.0,US,https://image.tmdb.org/t/p/w500/c1XmE5EHNdDB3rKe3cpYd3XnNPc.jpg
+106011,"Blue Umbrella, The",一支小藍傘,Animation,2013.0,3.763076923076923,325.0,2616880,200481.0,US,https://image.tmdb.org/t/p/w500/iSWV7ra8HJ3gYnZFMMrPe8CBbrv.jpg
+106022,Toy Story of Terror,玩具總動員之驚魂夜,Animation|Children|Comedy,2013.0,3.3426183844011144,359.0,2446040,213121.0,US,https://image.tmdb.org/t/p/w500/5g7alS36WeFsACj5d6fnCnUrMS2.jpg
+106030,"Last Days on Mars, The",星際禁區,Horror|Sci-Fi,2013.0,2.8793103448275863,319.0,1709143,190847.0,IE,https://image.tmdb.org/t/p/w500/kpuzH5SFZjB7edymudWQxg1Ltax.jpg
+106072,Thor: The Dark World,雷神索爾2：黑暗世界,Action|Adventure|Fantasy|IMAX,2013.0,3.185643264217291,8247.0,1981115,76338.0,US,https://image.tmdb.org/t/p/w500/bcnWbZK503AQOVidHMeW8v0TsR2.jpg
+106094,Godzilla: Tokyo S.O.S. (Gojira tai Mosura tai Mekagojira: Tôkyô S.O.S.),哥吉拉 × 摩斯拉 × 機械哥吉拉 東京 SOS,Action|Fantasy|Sci-Fi,2003.0,2.9468085106382977,47.0,366526,39469.0,JP,https://image.tmdb.org/t/p/w500/eaapf6HcjZm52FrAabahN2MyJDK.jpg
+106100,Dallas Buyers Club,藥命俱樂部,Drama,2013.0,3.903862620112264,10511.0,790636,152532.0,US,https://image.tmdb.org/t/p/w500/5KBwiHtGOqb4Moeti89IKvyNfpy.jpg
+106109,"Masquerade (Gwanghai, Wangyidoen namja)",雙面君王,Drama,2012.0,3.5307692307692307,65.0,2290840,133200.0,KR,https://image.tmdb.org/t/p/w500/lduBhQke0F7AqCvIM8YxGI412Kn.jpg
+106144,"Selfish Giant, The",刺蝟少年,Drama,2013.0,3.602941176470588,136.0,2304426,194101.0,GB,https://image.tmdb.org/t/p/w500/6laG4He4MTlefhfKB3GriJND1n2.jpg
+106163,"Touch of Sin, A (Tian zhu ding)",天注定,Drama,2013.0,3.5205479452054798,146.0,2852400,187022.0,FR,https://image.tmdb.org/t/p/w500/A9MKM1uHlktLRH0OoNRZUSIQYTM.jpg
+106195,How I Live Now,我的生存之道,Action|Drama|Thriller,2013.0,3.281368821292776,263.0,1894476,162215.0,GB,https://image.tmdb.org/t/p/w500/63TMTCmz6Z0qpE21CDgwwTrZAzI.jpg
+106204,Pieta,聖殤,Drama,2013.0,3.61965811965812,117.0,2299842,123377.0,KR,https://image.tmdb.org/t/p/w500/zSEIzsGBJ33w1hRVx3tnb90jePi.jpg
+106234,Great Expectations,遠大前程,Drama,2012.0,3.375,72.0,1836808,121674.0,GB,https://image.tmdb.org/t/p/w500/tVFKCO5K0cLJ94k8nS2066J6dPG.jpg
+106236,Somm,頂尖侍酒大師,Documentary,2012.0,3.511627906976744,86.0,2204371,184149.0,US,https://image.tmdb.org/t/p/w500/eFFcelCpwOxACJrpIRRFk236tj4.jpg
+106240,Free Birds,火雞反擊戰,Action|Adventure|Animation|Children|Comedy|Sci-Fi,2013.0,2.610655737704918,244.0,1621039,175574.0,US,https://image.tmdb.org/t/p/w500/ikD6X4CTKT4PtXJsxyoKIFmxFY3.jpg
+106243,Godzilla Against MechaGodzilla (Gojira tai Mekagojira),哥吉拉×機械哥吉拉,Action|Sci-Fi|Thriller,2002.0,2.8870967741935485,62.0,314111,12636.0,JP,https://image.tmdb.org/t/p/w500/tcPfAohk0QiCtYOxPZ2a9GhAl0c.jpg
+106254,Boy Wonder,復仇少年,Action|Crime|Drama,2010.0,3.3412698412698414,63.0,1456060,80188.0,US,https://image.tmdb.org/t/p/w500/lKYynKG4qVemVNd2BUF6vgY9TJj.jpg
+106326,Things We Do For Love (Kaikella rakkaudella),為愛做的一切,Drama,2013.0,3.142857142857143,14.0,2167791,203062.0,FI,https://image.tmdb.org/t/p/w500/kqtEMwifEOXskblBSZfMJFBH7J1.jpg
+106330,Last Vegas,賭城大丈夫,Comedy|Drama|Romance,2013.0,3.193138500635324,787.0,1204975,137093.0,US,https://image.tmdb.org/t/p/w500/otQ01cPgJbXgjT5SeT1BKLVCG21.jpg
+106336,So Young (Zhi wo men zhong jiang shi qu de qing chun),致我們終將逝去的青春,Drama,2013.0,3.333333333333333,9.0,2765340,191421.0,CN,https://image.tmdb.org/t/p/w500/ftfwBdFFrvrIIhBrwbWBejIH8ZT.jpg
+106438,Philomena,遲來的守護者,Comedy|Drama,2013.0,3.742468772961058,1361.0,2431286,205220.0,GB,https://image.tmdb.org/t/p/w500/eBUv2GmGdXmCk1AaSOmyiu70hN8.jpg
+106441,"Book Thief, The",偷書賊,Children|Drama|War,2013.0,3.7298467688207855,1501.0,816442,203833.0,US,https://image.tmdb.org/t/p/w500/ncFUohZ2emdGMR5aSPtQZ7g7NQJ.jpg
+106452,Ida,依達的抉擇,Drama,2013.0,3.746206896551724,725.0,2718492,209274.0,PL,https://image.tmdb.org/t/p/w500/duBCjRYvx4qxwWR930C18F1wNyL.jpg
+106471,One Piece Film: Strong World,航海王：強者天下,Action|Adventure|Animation|Comedy|Fantasy,2009.0,3.5625,72.0,1485763,41498.0,JP,https://image.tmdb.org/t/p/w500/ajOTtM25hEMkQfbNkyKtJ5cOFVs.jpg
+106473,One Piece Film Z,航海王：Z,Action|Adventure|Animation|Fantasy,2012.0,3.2534246575342465,73.0,2375379,176983.0,JP,https://image.tmdb.org/t/p/w500/tQAaf3WzbcR4ja5VsHnScLiNDfz.jpg
+106487,The Hunger Games: Catching Fire,飢餓遊戲：星火燎原,Action|Adventure|Sci-Fi|IMAX,2013.0,3.4972417797778905,13777.0,1951264,101299.0,US,https://image.tmdb.org/t/p/w500/6HTJQW37kvV0J9lCxsiyLgPaLCE.jpg
+106489,"Hobbit: The Desolation of Smaug, The",哈比人：荒谷惡龍,Adventure|Fantasy|IMAX,2013.0,3.5856673511293637,12175.0,1170358,57158.0,US,https://image.tmdb.org/t/p/w500/qI3lidFtVz4eZ02qGJ8hXfDdTtv.jpg
+106491,47 Ronin,浪人47,Action|Adventure|Fantasy,2013.0,3.041845493562232,1398.0,1335975,64686.0,US,https://image.tmdb.org/t/p/w500/eIpmIiOqxjhpCPkz7CAvOOVnei4.jpg
+106508,"Dyatlov Pass Incident, The (Devil's Pass)",詭山,Mystery|Thriller,2013.0,2.906716417910448,134.0,1905040,169219.0,US,https://image.tmdb.org/t/p/w500/8hyvniwVeSvKbTNKrY44ndMsQht.jpg
+106540,Delivery Man,百萬精先生,Comedy,2013.0,3.072356215213358,539.0,2387559,146239.0,US,https://image.tmdb.org/t/p/w500/dPywwr8wUsXz3MxRbGDya5fFswx.jpg
+106542,Charlie Countryman,這該死的愛,Action|Comedy|Romance,2013.0,3.1944444444444446,162.0,1196948,41602.0,RO,https://image.tmdb.org/t/p/w500/cG890qHyHQmek87teugphWk5wDo.jpg
+106590,Hansel & Gretel,人肉滿屋,Horror,2013.0,2.4423076923076925,26.0,2415464,200462.0,US,https://image.tmdb.org/t/p/w500/ig7Wagwqv3a0yguVlWSaswQI97U.jpg
+106696,Frozen,冰雪奇緣,Adventure|Animation|Comedy|Fantasy|Musical|Romance,2013.0,3.4398306611421368,11102.0,2294629,109445.0,US,https://image.tmdb.org/t/p/w500/kR0H9GlxxfCxActRpWXe4AIczZX.jpg
+106747,Circles (Krugovi),生命之環,Drama,2013.0,3.4285714285714284,14.0,1839522,110919.0,RS,https://image.tmdb.org/t/p/w500/sT4BErYqu2SjwsHGoE99KtpxsOM.jpg
+106766,Inside Llewyn Davis,醉鄉民謠,Drama,2013.0,3.738517179023508,2765.0,2042568,86829.0,US,https://image.tmdb.org/t/p/w500/z3wkJMclpXiqMeXlvYGsWvX4Hto.jpg
+106782,"Wolf of Wall Street, The",華爾街之狼,Comedy|Crime|Drama,2013.0,3.934272737426008,26861.0,993846,106646.0,US,https://image.tmdb.org/t/p/w500/JoMYoYiG3jHX3sTxs7kCqvHszC.jpg
+106785,Homefront,最後防線,Action|Crime|Thriller,2013.0,3.289473684210526,684.0,2312718,204082.0,US,https://image.tmdb.org/t/p/w500/hVRWZIkOjqVKDLg236azCZ4nypD.jpg
+106839,Mandela: Long Walk to Freedom,曼德拉：漫漫自由路,Drama,2013.0,3.3260869565217392,138.0,2304771,192136.0,ZA,https://image.tmdb.org/t/p/w500/lj78eI5MLwXqCfI4v007Xo7Svb3.jpg
+106841,August: Osage County,八月心風暴,Comedy|Drama,2013.0,3.5116822429906542,642.0,1322269,152737.0,US,https://image.tmdb.org/t/p/w500/e9242V7CajHWjQArhiMYjMGjFhZ.jpg
+106868,Breaking the Girls ,恐怖女孩,Crime|Thriller,2013.0,2.717391304347826,23.0,1510686,136850.0,US,https://image.tmdb.org/t/p/w500/uS5zSDRhSzdghcLP8bZOZcOURl.jpg
+106870,Grave Encounters 2,預見亡靈2,Horror,2012.0,2.782857142857143,175.0,2231554,134366.0,CA,https://image.tmdb.org/t/p/w500/uFnPfU54VlOc4Dxi0TYeSZaMxEI.jpg
+106879,Fright Night 2: New Blood,吸血鬼就在隔壁２,Horror,2013.0,2.4054054054054053,37.0,2486630,214597.0,US,https://image.tmdb.org/t/p/w500/3Is5G28YLNKq22n5Ee2yTmYA3m6.jpg
+106881,Sweetwater,甜蜜的復仇,Thriller|Western,2013.0,3.0,35.0,2224004,158916.0,US,https://image.tmdb.org/t/p/w500/q69vCHmShdsiXixCIdwJuyJXEXY.jpg
+106916,American Hustle,瞞天大佈局,Crime|Drama,2013.0,3.5299823633156966,6237.0,1800241,168672.0,US,https://image.tmdb.org/t/p/w500/ol0r89QKFVN7Un4rlZBzz5YL57a.jpg
+106918,"Secret Life of Walter Mitty, The",白日夢冒險王,Adventure|Comedy|Drama,2013.0,3.690601900739176,5682.0,359950,116745.0,US,https://image.tmdb.org/t/p/w500/uMQWJPHUUwaCnk31artntENtVPZ.jpg
+106920,Her,雲端情人,Drama|Romance|Sci-Fi,2013.0,3.901490356516657,17110.0,1798709,152601.0,US,https://image.tmdb.org/t/p/w500/bSNrzFnI6JMgUd6Ce9gEgSxxY2V.jpg
+106983,Young & Beautiful,美麗．誘惑,Drama,2013.0,3.566420664206642,271.0,2752200,184314.0,FR,https://image.tmdb.org/t/p/w500/4f5iUWSM1JjihjeFGQXv0FEL7LV.jpg
+107000,"Challenger Disaster, The",挑戰者,Drama,2013.0,3.578125,32.0,2421662,177203.0,US,https://image.tmdb.org/t/p/w500/ltSiY7rORMGlSHGI7Lr0sgI8D6.jpg
+107002,Linsanity,林書豪旋瘋,Documentary,2013.0,3.263157894736842,19.0,2359427,159142.0,US,https://image.tmdb.org/t/p/w500/bpBn0oq6kRuf2o34EL3goyh2NKC.jpg
+107028,"Fourth Angel, The",火線正義,Action|Drama|Thriller,2001.0,3.05,10.0,254334,57047.0,GB,https://image.tmdb.org/t/p/w500/m4IndiS7IfUDjobyIENlFaba6b9.jpg
+107069,Lone Survivor,紅翼行動,Action|Drama|Thriller|War,2013.0,3.72201646090535,2430.0,1091191,193756.0,US,https://image.tmdb.org/t/p/w500/rzKbfpko85YVyltEgOtKKW6jWhm.jpg
+107083,Geography Club,地理俱樂部,Comedy|Drama|Romance,2013.0,3.388059701492537,67.0,2235902,197033.0,US,https://image.tmdb.org/t/p/w500/hv01ZefVgTqznMY0w6LOL0GIXeN.jpg
+107085,Measuring the World (Die Vermessung der Welt),丈量世界,Adventure|Drama,2012.0,3.1842105263157894,19.0,1571401,115023.0,AT,https://image.tmdb.org/t/p/w500/cEzYumB3zmDN5VobhKHVV3jK60y.jpg
+107141,Saving Mr. Banks,大夢想家,Comedy|Drama,2013.0,3.621731675953708,2333.0,2140373,140823.0,US,https://image.tmdb.org/t/p/w500/hCFiVMmlkDhPQxQTyxqfKcUAvjR.jpg
+107274,"Deep, The (Djúpið)",冰海寒深,Drama,2012.0,3.537037037037037,27.0,1764275,127913.0,IS,https://image.tmdb.org/t/p/w500/q3jHb1y7nMPIGCddQdRr0WxgFJL.jpg
+107304,Gurren Lagann: Childhood's End (Gekijô ban Tengen toppa guren ragan: Guren hen),天元突破 紅蓮螺巖 紅蓮篇,Adventure|Animation|Drama|Sci-Fi|War,2008.0,3.57,50.0,1288461,20986.0,JP,https://image.tmdb.org/t/p/w500/kdq5NIEWCguhMAaxu2MGjeayEzO.jpg
+107306,Gurren Lagann: The Lights in the Sky are Stars (Gekijô ban Tengen toppa guren ragan: Ragan hen),天元突破 紅蓮螺巖 螺巖篇,Adventure|Animation|Drama|Sci-Fi|War,2009.0,3.761904761904762,42.0,1422651,23452.0,JP,https://image.tmdb.org/t/p/w500/4e9J3vCy0uNPlHb4832ins7oaic.jpg
+107314,Oldboy,復仇,Action|Drama|Mystery,2013.0,2.8233743409490333,569.0,1321511,87516.0,US,https://image.tmdb.org/t/p/w500/3yngZp8UUeGwPvQ8lekfxqxzjaS.jpg
+107348,Anchorman 2: The Legend Continues,銀幕大角頭2：傳奇再續,Comedy,2013.0,2.9694772987409386,2621.0,1229340,109443.0,US,https://image.tmdb.org/t/p/w500/dAoBDOSwnCZDy0ryFEZgPUCOjjT.jpg
+107352,Killing Lincoln,刺殺林肯,Drama|War,2013.0,2.9166666666666665,24.0,2299248,170039.0,US,https://image.tmdb.org/t/p/w500/9AsqoEhMiWpkqvwcHQOyW0L9pra.jpg
+107361,Unbeatable (Ji zhan),激戰：勇者不敗,Action|Drama,2013.0,3.477272727272727,22.0,3003668,213015.0,HK,https://image.tmdb.org/t/p/w500/lQH71a2lDvHazEOvHeZnKv2qXVr.jpg
+107406,Snowpiercer,末日列車,Action|Drama|Sci-Fi,2013.0,3.541482171987881,8582.0,1706620,110415.0,KR,https://image.tmdb.org/t/p/w500/pIMZCCXpLgyFOpS2zTYBw9B1Wdz.jpg
+107436,Haunter,附身,Horror|Mystery|Thriller,2013.0,3.0994475138121547,181.0,2345567,166271.0,CA,https://image.tmdb.org/t/p/w500/gBsO7Sp3g1oOaxQ44pomsJLm7m7.jpg
+107537,Q,巴黎Q娘,Drama,2011.0,3.26056338028169,71.0,1879030,86331.0,FR,https://image.tmdb.org/t/p/w500/yBTElYnRkwySYzMunE6urPT9LvT.jpg
+107539,In the Fog (V tumane),在霧中,Drama|War,2012.0,3.1818181818181817,22.0,2325741,103742.0,BY,https://image.tmdb.org/t/p/w500/zeA8etvUyukfVstlJqurj2UkFza.jpg
+107541,As Cool As I Am,酷我隨行,Comedy|Drama,2013.0,3.013157894736842,38.0,1906329,83869.0,US,https://image.tmdb.org/t/p/w500/izoKkDJCbYhIkrPzpCcwrqg2K90.jpg
+107565,"Fuck You, Goethe (Fack Ju Göhte)",不良鮮師,Comedy,2013.0,3.4069148936170213,188.0,2987732,233063.0,DE,https://image.tmdb.org/t/p/w500/hV88MiailtnGVF6rbp6Ug6UBKYS.jpg
+107649,Borgman,該死的中產階級,Thriller,2013.0,3.545673076923077,208.0,1954315,186929.0,NL,https://image.tmdb.org/t/p/w500/ieNgLsOHRCfIZJXCek6fxoH5wPs.jpg
+107702,Grudge Match,進擊的大佬,Comedy,2013.0,3.0153846153846158,260.0,1661382,64807.0,US,https://image.tmdb.org/t/p/w500/wMD46eZOaw8P2XRhKIemE95sciK.jpg
+107707,Dhoom,遁天神盜,Action|Crime|Musical|Romance,2004.0,3.234375,96.0,422091,17478.0,IN,https://image.tmdb.org/t/p/w500/A7fxXAsuYEohxYNl8YeH3FYkuDv.jpg
+107737,Bounty Killer,賞金殺手,Action|Sci-Fi|Thriller,2013.0,2.9901960784313726,51.0,2369396,209504.0,US,https://image.tmdb.org/t/p/w500/bG7wdte8enWVc1uuLX6Ys7ckxwd.jpg
+107769,Paranormal Activity: The Marked Ones,鬼入鏡：詛咒,Horror|Thriller,2014.0,2.77536231884058,276.0,2473682,227348.0,US,https://image.tmdb.org/t/p/w500/xhxVyRVrJhd4nPNeOi4Vj4bm7Zh.jpg
+107771,Only Lovers Left Alive,噬血戀人,Drama|Horror|Romance,2013.0,3.724495848161328,1686.0,1714915,152603.0,FR,https://image.tmdb.org/t/p/w500/5ItF70ALhQuVY77kk8eA07HKnn5.jpg
+107883,The Lunchbox,美味情書,Drama|Romance,2013.0,3.883333333333333,570.0,2350496,191714.0,IN,https://image.tmdb.org/t/p/w500/eZvdKgnFLjkxe9rpYZhRMLE0X0U.jpg
+107906,Lost in Siberia (Ausgerechnet Sibirien),西伯利亞迷愛記,Comedy|Drama,2012.0,4.166666666666667,3.0,1833843,107445.0,DE,https://image.tmdb.org/t/p/w500/6aKGZ4oLGnwO7kszU1cBpmFHOJ1.jpg
+107916,Yves Saint Laurent,時尚大師聖羅蘭,Drama|Romance,2014.0,3.223958333333333,96.0,2707858,245775.0,FR,https://image.tmdb.org/t/p/w500/c3OQ4DtCzm4JfBxviXk5g7grsxM.jpg
+107953,Dragon Ball Z: Battle of Gods,七龍珠 Z 劇場版：神與神,Action|Animation|Fantasy|IMAX,2013.0,3.2357723577235773,246.0,2263944,126963.0,JP,https://image.tmdb.org/t/p/w500/3JEdSdY7iMjscW4JJcthUctF9Zz.jpg
+107958,Foosball (Metegol),挑戰者聯盟,Adventure|Animation|Romance,2013.0,2.5875,40.0,1634003,153158.0,FR,https://image.tmdb.org/t/p/w500/22F3HAUI649GMaR7mlz7rWOoUT6.jpg
+107987,Diana,黛安娜,Drama|Romance,2013.0,2.6714285714285717,70.0,1758595,118289.0,GB,https://image.tmdb.org/t/p/w500/rg5TDRbyUnovpgcbaMhb4N3KOad.jpg
+108143,Cutie and the Boxer,小可愛與拳擊手,Documentary,2013.0,3.2916666666666665,48.0,2355540,159002.0,US,https://image.tmdb.org/t/p/w500/Aq1lwd2yQGNaoEPv3ivHSkCK9B.jpg
+108156,Ride Along,龍兄唬弟,Action|Comedy,2014.0,3.1799746514575413,789.0,1408253,168530.0,US,https://image.tmdb.org/t/p/w500/qrt65VVaP5DEEBZgB5XYctA82Qv.jpg
+108188,Jack Ryan: Shadow Recruit,傑克萊恩︰詭影任務,Action|Drama|Thriller|IMAX,2014.0,3.242176386913229,1406.0,1205537,137094.0,US,https://image.tmdb.org/t/p/w500/dlCfHOOuGTOAfmsjbATBnYLJMG8.jpg
+108190,Divergent,分歧者,Adventure|Romance|Sci-Fi|IMAX,2014.0,3.206323504346344,5867.0,1840309,157350.0,US,https://image.tmdb.org/t/p/w500/bjaRKhc76p1hkzlpkPookEWqWvI.jpg
+108200,Reasonable Doubt,搜索戰,Crime|Thriller,2014.0,2.8146067415730336,89.0,2304953,240916.0,CA,https://image.tmdb.org/t/p/w500/bsFGgFSpMknZF4OdU1q2qecsfVW.jpg
+108212,Saint Laurent,巴黎聖羅蘭,Drama|Romance,2014.0,3.2459016393442623,61.0,2707848,221667.0,FR,https://image.tmdb.org/t/p/w500/pt8Bfe0X26iLyIuGPzWBuhwjROk.jpg
+108318,"Single Shot, A",致命一擊,Crime|Drama|Film-Noir|Thriller,2013.0,2.9054054054054053,74.0,1540741,159932.0,CA,https://image.tmdb.org/t/p/w500/zRGBGjdeGf12Pmalr1adT9IpoId.jpg
+108514,Yeh Jawaani Hai Deewani,青春洋溢色彩,Comedy|Drama|Musical|Romance,2013.0,3.68978102189781,137.0,2178470,185008.0,IN,https://image.tmdb.org/t/p/w500/em39H81XLCDgXsI7V4IcBZseEO6.jpg
+108546,Private Lessons (Élève libre),私房教慾,Drama,2008.0,3.0,7.0,1226334,72465.0,BE,https://image.tmdb.org/t/p/w500/gTr8RstwzYLVzTPNmkprZPb3rYq.jpg
+108569,"Monkey's Paw, The",猴掌,Horror|Thriller,2013.0,1.8958333333333333,24.0,2513092,222911.0,US,https://image.tmdb.org/t/p/w500/zKL3skF2qCQPcVm2PpR52DJfQKS.jpg
+108592,My Son (Mon fils à moi),我的兒子,Drama,2006.0,3.2,10.0,446370,76268.0,FR,https://image.tmdb.org/t/p/w500/sNcmkD0aowU3yD9TF5v2duoHPdx.jpg
+108599,"Banshee Chapter, The",喪妖集聚,Horror|Thriller,2013.0,3.07843137254902,102.0,2011276,207769.0,US,https://image.tmdb.org/t/p/w500/nyXKB77RrItfUsAcgoIlXmUfged.jpg
+108647,It Boy (20 ans d'écart),20歲的差距,Comedy|Romance,2013.0,3.528985507246377,69.0,2186812,173185.0,FR,https://image.tmdb.org/t/p/w500/pJ7diOJZIxLaS2bUFJ49cWIyhjR.jpg
+108689,"I, Frankenstein",科學怪人：屠魔大戰,Action|Fantasy|Sci-Fi|IMAX,2014.0,2.4353281853281854,518.0,1418377,100241.0,AU,https://image.tmdb.org/t/p/w500/cWo6k0M8zmAPHqvorumsPsB9afI.jpg
+108729,Enemy,雙面危敵,Mystery|Thriller,2013.0,3.592312640720489,3109.0,2316411,181886.0,CA,https://image.tmdb.org/t/p/w500/vf40tyDRKZsBmaLsYeopzfFLzLx.jpg
+108760,Big Bad Wolves,誰是大野狼,Crime|Thriller,2013.0,3.392,125.0,2309224,171540.0,IL,https://image.tmdb.org/t/p/w500/dALJtin2OCXjYNpDOIoQjk3CM55.jpg
+108778,Stranger by the Lake (L'inconnu du lac),湖畔春光,Drama|Romance,2013.0,3.511428571428572,175.0,2852458,186992.0,FR,https://image.tmdb.org/t/p/w500/etuOhGtCIfWi2D4ntxhQSErdTzA.jpg
+108780,Labor Day,一日一生,Drama|Romance,2013.0,3.376470588235294,255.0,1967545,130150.0,US,https://image.tmdb.org/t/p/w500/w0aWbWDtoCW89R5bQUxK6m87dg3.jpg
+108789,Beyond the Walls (Hors les murs),我們的幸福時光,Drama,2012.0,3.25,12.0,2402623,136437.0,CA,https://image.tmdb.org/t/p/w500/cTg0xwCByZradHgiFO3jK3Fw6sA.jpg
+108825,"Young and Prodigious T.S. Spivet, The (L'extravagant voyage du jeune et prodigieux T.S. Spivet)",天才少年的奇幻冒險,Adventure|Children|Drama,2013.0,3.577319587628866,194.0,1981107,157841.0,CA,https://image.tmdb.org/t/p/w500/oysKliAtQ6WWcA2NQMFehYhOf06.jpg
+108864,"Prey, The (La proie)",即刻追擊,Action|Crime|Thriller,2011.0,3.1704545454545454,44.0,1726861,59118.0,FR,https://image.tmdb.org/t/p/w500/9VVlDMDhRO0fQUh8y6xwgyzMkb9.jpg
+108877,"Soul of Bread, The (Ai de mian bao hun)",愛的麵包魂,Comedy|Romance,2012.0,2.333333333333333,3.0,2191861,118761.0,TW,https://image.tmdb.org/t/p/w500/sNGMrWZUctXJtp3Wv9wfZm1giPh.jpg
+108879,Teen Beach Movie,青春海灘電影版,Children|Musical,2013.0,2.96896551724138,145.0,2325989,177888.0,US,https://image.tmdb.org/t/p/w500/fWRRF1dP5fNsXjLRkxTZnkhctDR.jpg
+108928,"Monuments Men, The",大尋寶家,Action|Drama|War,2014.0,3.044528301886793,1325.0,2177771,152760.0,US,https://image.tmdb.org/t/p/w500/7t6Zb7ddJEMT0OnlVEbdLVFjl8e.jpg
+108932,The Lego Movie,樂高玩電影,Action|Adventure|Animation|Children|Comedy|Fantasy,2014.0,3.66705755887814,10233.0,1490017,137106.0,US,https://image.tmdb.org/t/p/w500/y0xjk7MuHEbZUPD5HAgQjTmwIa1.jpg
+108945,RoboCop,機器戰警,Action|Crime|Sci-Fi|IMAX,2014.0,2.885412592882284,2557.0,1234721,97020.0,US,https://image.tmdb.org/t/p/w500/phpPQhnhT70qAiLeIgtcKy79MOx.jpg
+108949,"Art of the Steal, The",偷盜藝術,Crime,2013.0,3.224537037037037,216.0,2172985,209247.0,CA,https://image.tmdb.org/t/p/w500/4R6ojBfyO8fj3WszLE9rog5qR4W.jpg
+108981,Nymphomaniac: Volume II,性愛成癮的女人（下）,Drama|Mystery,2013.0,3.5177576601671308,1436.0,2382009,249397.0,DK,https://image.tmdb.org/t/p/w500/iLUNqgNKuWn667kXCKztSxYbT3k.jpg
+108983,La Luna,月光光,Animation,2011.0,3.871681415929204,678.0,1957945,83564.0,US,https://image.tmdb.org/t/p/w500/9euW64JUgFlA7fxN8lAmwK6gUaQ.jpg
+109008,Viper in the Fist,悲憐赤子心,Drama,2004.0,2.25,8.0,380798,24685.0,FR,https://image.tmdb.org/t/p/w500/ypsUkfDEl5te76LHqzMZqDPwFaK.jpg
+109027,Eyjafjallajökull,尪某愛計較,Comedy,2013.0,3.129032258064516,31.0,2207072,219318.0,FR,https://image.tmdb.org/t/p/w500/tVcmqcyYONZd765gJN8pw5MkIMN.jpg
+109072,Sabotage,震撼殺戮,Action|Crime|Drama,2014.0,2.735087719298245,285.0,1742334,144336.0,US,https://image.tmdb.org/t/p/w500/gjsmL75PysLQTxNNsJcMgjXwIj.jpg
+109074,"Four, The (Si da ming bu)",四大名捕,Action|Crime|Fantasy,2012.0,2.6666666666666665,24.0,2204340,120143.0,CN,https://image.tmdb.org/t/p/w500/5s8M7fhkbJwP2HbYRUEVTtLniAp.jpg
+109102,"Little Brother, Big Trouble: A Christmas Adventure (Niko 2: Lentäjäveljekset)",極地大冒險2,Adventure|Animation|Children|Comedy,2012.0,2.611111111111111,9.0,1856053,141614.0,DK,https://image.tmdb.org/t/p/w500/5CrixltDa29QsgH4yTDIEUW9fXu.jpg
+109177,Don't Go Breaking My Heart (Daan gyun naam yu),單身男女,Romance,2011.0,3.0,8.0,1776143,67793.0,HK,https://image.tmdb.org/t/p/w500/plkTLnk8eN0OEL3ihyw8Rd70zpW.jpg
+109181,Adult World,成人世界,Comedy,2013.0,3.170391061452514,179.0,1067765,143049.0,US,https://image.tmdb.org/t/p/w500/gI3AmarNB7eJXG0Qe8DzWiYjBWv.jpg
+109183,Date and Switch,我的出櫃好友,Comedy,2014.0,3.0625,64.0,1878942,99367.0,US,https://image.tmdb.org/t/p/w500/ieLOyHzoJKyflqGdfj82S1MMm5A.jpg
+109187,"Zero Theorem, The",明日定律,Drama|Fantasy|Sci-Fi,2013.0,3.264705882352941,850.0,2333804,157834.0,GB,https://image.tmdb.org/t/p/w500/9XuvkfOUTMIbfFDMyKcMT1GNK3E.jpg
+109189,Endless Love,無盡的愛,Drama|Romance,2014.0,3.5628019323671496,207.0,2318092,226857.0,US,https://image.tmdb.org/t/p/w500/z7FZP6uivgVc4t0mnmia0B8YygW.jpg
+109191,Winter's Tale,冬季奇蹟,Drama|Fantasy|Mystery,2014.0,3.0166666666666666,300.0,1837709,137321.0,US,https://image.tmdb.org/t/p/w500/npMy87PmxfIOho8VKsAUfZ2YkuM.jpg
+109226,Attila,神鬼傳說,Action|Horror|Thriller,2013.0,1.5833333333333333,6.0,3184096,232731.0,US,https://image.tmdb.org/t/p/w500/nF6KyKir4qwjw4DtvO3xUsb2d3Y.jpg
+109243,Joe,絕地重生,Drama,2013.0,3.4367816091954024,348.0,2382396,157847.0,US,https://image.tmdb.org/t/p/w500/zepqX8anTBY2eWFqTHioy14gPAK.jpg
+109267,Big Bad Wolf,惡狼遊戲,Comedy|Horror,2006.0,2.75,10.0,488962,39341.0,US,https://image.tmdb.org/t/p/w500/31nFN67QsO3oJ4DDaytejEKKB1J.jpg
+109319,Gamera the Brave,小勇者們～卡美拉～,Action|Sci-Fi,2006.0,3.1818181818181817,11.0,467923,60160.0,JP,https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg
+109321,"Painting, The (Tableau, Le)",畫畫小人國,Animation,2011.0,3.212962962962963,54.0,1891769,98162.0,FR,https://image.tmdb.org/t/p/w500/8C3ijxnbX3ZR3EJwKwdCdjQo1bE.jpg
+109362,Mystery (Fu cheng mi shi),浮城謎事,Crime|Mystery|Thriller,2012.0,3.4,5.0,2369127,103875.0,CN,https://image.tmdb.org/t/p/w500/iuTZIgFm8t82ilNBal3ec2eDYZq.jpg
+109372,About Last Night,昨夜風流,Comedy|Romance,2014.0,3.1029411764705883,102.0,1826590,222899.0,US,https://image.tmdb.org/t/p/w500/z3dVYQtxXldDawz7d15wqt2PQLe.jpg
+109374,"Grand Budapest Hotel, The",歡迎來到布達佩斯大飯店,Comedy|Drama,2014.0,4.028973740373017,21554.0,2278388,120467.0,US,https://image.tmdb.org/t/p/w500/2OfmHuihnQs43CtoiPfy4bAIvBS.jpg
+109376,Cuban Fury,騷莎大塊呆,Comedy,2014.0,3.126923076923077,130.0,2390237,201086.0,GB,https://image.tmdb.org/t/p/w500/xuRAyIUJmgXwI1ba06AxYBAQMTc.jpg
+109390,"Black Coal, Thin Ice (Bai ri yan huo)",白日焰火,Crime|Drama|Mystery|Thriller,2014.0,3.467741935483871,93.0,3469910,255756.0,CN,https://image.tmdb.org/t/p/w500/gRCydXOySeD9ezlPH2ZjKDggh7W.jpg
+109392,Blind Massage (Tui na),推拿,Drama,2014.0,3.5625,8.0,3469964,256106.0,CN,https://image.tmdb.org/t/p/w500/fRzXEP0wsT6ULU1OfNXHHy5ArE1.jpg
+109420,Mater and the Ghostlight,拖線遇上鬼火,Animation|Children|Comedy,2006.0,2.7595419847328246,131.0,901686,13934.0,US,https://image.tmdb.org/t/p/w500/thZHluscCvT3SCzVckmFszOVVtM.jpg
+109423,Your Friend the Rat,您的老鼠好友,Animation,2007.0,3.133928571428572,112.0,1134859,13061.0,US,https://image.tmdb.org/t/p/w500/zdZWEPeIGSdXZ0fOshcZY8LkysU.jpg
+109425,Dug's Special Mission,小逗的特殊任務,Animation|Children|Comedy,2009.0,3.2,140.0,1537759,24589.0,US,https://image.tmdb.org/t/p/w500/97GpFYlTOkuLeA0wwE5kJuQaqaH.jpg
+109452,Omar,奧瑪的抉擇,Drama|Romance,2013.0,3.675824175824176,91.0,2852406,187028.0,PS,https://image.tmdb.org/t/p/w500/1VHB7v6kj5XDGgAsE1R16REh4sA.jpg
+109457,When Pigs Have Wings,天外飛來一隻豬,Comedy,2011.0,3.5185185185185186,27.0,1735200,77458.0,FR,https://image.tmdb.org/t/p/w500/mzMTpTrP94f5XyxmRpLzebxXxvM.jpg
+109472,Grand Piano,關鍵琴聲,Mystery|Thriller,2013.0,3.057823129251701,147.0,2039345,220286.0,ES,https://image.tmdb.org/t/p/w500/wQ9rpyfhoszgjYZ8AtBNV1qdG4r.jpg
+109485,"Inevitable Defeat of Mister & Pete, The",無可避免,Drama,2013.0,3.462962962962963,27.0,2113075,158908.0,US,https://image.tmdb.org/t/p/w500/nh6xU7IKEPdrBPYKezf6iKi1Jgc.jpg
+109487,Interstellar,星際效應,Sci-Fi|IMAX,2014.0,4.133447264310897,37157.0,816692,157336.0,US,https://image.tmdb.org/t/p/w500/7z0QoRia9Tknxe1R1vz7jwkzUrm.jpg
+109569,3 Days to Kill,特務殺很大,Action|Crime|Drama,2014.0,3.081261950286807,523.0,2172934,192102.0,US,https://image.tmdb.org/t/p/w500/tcwhHqmRR7aObvlxo0RQxvgXgEC.jpg
+109576,Welcome to the Jungle,叢林遊戲,Comedy,2013.0,2.551282051282051,78.0,2193265,205724.0,US,https://image.tmdb.org/t/p/w500/xWXn2Pfrkbe7Xuwv2BZ2UL53Wdf.jpg
+109578,Non-Stop,空中救援,Action|Mystery|Thriller,2014.0,3.45707656612529,2155.0,2024469,225574.0,US,https://image.tmdb.org/t/p/w500/jVDTvYUJgInRTiOZNdu6rSdfVT6.jpg
+109596,Wrinkles (Arrugas),歡樂皺紋,Animation|Drama,2011.0,3.7615384615384615,65.0,1407052,85444.0,ES,https://image.tmdb.org/t/p/w500/wp1g39itv13q7MKGR7s8w7FUiov.jpg
+109600,"Art of War III: Retribution, The",神鬼任務3,Action|Thriller,2009.0,1.5,5.0,878647,24756.0,US,https://image.tmdb.org/t/p/w500/igxwKUqgGh5gD1Z2TzVmW1f4DZQ.jpg
+109602,"Monster X Strikes Back: Attack the G8 Summit, The (Girara no gyakushû: Tôya-ko Samitto kikiippatsu)",ギララの逆襲 洞爺湖サミット危機一発,Comedy|Sci-Fi,2008.0,2.583333333333333,6.0,1190867,70798.0,JP,https://image.tmdb.org/t/p/w500/dBrmiTmqjTg1shDeB9WtSFnM5mx.jpg
+109616,Fire in the Blood,血中火焰,Documentary,2013.0,4.071428571428571,7.0,1787067,156284.0,US,https://image.tmdb.org/t/p/w500/zBqtsRKTHVocSggb6lmg3jp4YW7.jpg
+109627,Mystery Road,謎樣公路,Mystery|Thriller,2013.0,3.522988505747126,87.0,2236054,199818.0,AU,https://image.tmdb.org/t/p/w500/8ZqMarXrFw3EkWjSVyfWQpmZfFA.jpg
+109633,"Garden of Words, The (Koto no ha no niwa)",言葉之庭,Animation|Romance,2013.0,3.7865853658536586,820.0,2591814,198375.0,JP,https://image.tmdb.org/t/p/w500/jKLcFPvAG9hfc8NZtAkTP332nI5.jpg
+109638,"Gentle Breeze in the Village, A (Tennen kokekkô) ",天然子結構,Drama,2007.0,3.375,16.0,997184,83214.0,JP,https://image.tmdb.org/t/p/w500/5zNN1HT6CGIgy69qKUk3l4QmXSo.jpg
+109673,300: Rise of an Empire,300壯士：帝國崛起,Action|Drama|War|IMAX,2014.0,2.9457857769973663,2278.0,1253863,53182.0,US,https://image.tmdb.org/t/p/w500/TAmMyVfw6P25KU5XMMiNSUnn7i.jpg
+109687,Particle Fever,粒子狂熱,Documentary,2013.0,3.850877192982456,228.0,1385956,202141.0,US,https://image.tmdb.org/t/p/w500/3MHs9BrHt6ZjlPvaL4CP1ULYV2Z.jpg
+109720,Contracted,屍控一夜情,Drama|Horror|Thriller,2013.0,2.768292682926829,123.0,2281159,204349.0,US,https://image.tmdb.org/t/p/w500/hIxQKqdruk8XsW4zUMifQIPdFSZ.jpg
+109723,"Bag Man, The",血殺客,Crime|Drama|Thriller,2014.0,2.6515151515151514,66.0,2212008,242076.0,US,https://image.tmdb.org/t/p/w500/iWVuYsgZYhtDVroaxu6zCF5FA63.jpg
+109742,Cheap Thrills,絕命賭局,Comedy|Thriller,2013.0,3.304824561403509,228.0,2389182,175291.0,US,https://image.tmdb.org/t/p/w500/mnOifypguJ1gVU971KCjnmek043.jpg
+109769,"Keeper of Lost Causes, The (Kvinden i buret)",懸案密碼：籠裡的女人,Crime|Mystery|Thriller,2013.0,3.503012048192771,166.0,2438644,196024.0,DK,https://image.tmdb.org/t/p/w500/ajb3CZKCiZwTwVTGcaDkVDTjTag.jpg
+109781,"Werewolf Boy, A (Neuk-dae-so-nyeon)",狼少年：不朽的愛,Drama|Fantasy|Romance,2012.0,3.591666666666667,60.0,2315152,128246.0,KR,https://image.tmdb.org/t/p/w500/bFRNl5hrXzH6JQGuPvQVBCbic7G.jpg
+109790,Ashura,阿修羅城の瞳,Action|Fantasy,2005.0,2.9375,8.0,459744,45384.0,JP,https://image.tmdb.org/t/p/w500/39j4BNswrwvlFg2SsGyx5iDX8je.jpg
+109802,"Man from the Future, The (O Homem do Futuro)",未來之人,Comedy|Fantasy|Sci-Fi,2011.0,3.435897435897436,78.0,2027178,73624.0,BR,https://image.tmdb.org/t/p/w500/3HKRvyDTz516ez1zatxmRi1b4M3.jpg
+109846,Mr. Peabody & Sherman,皮巴弟先生與薛曼的時光冒險,Adventure|Animation|Comedy,2014.0,3.1979565772669223,783.0,864835,82703.0,US,https://image.tmdb.org/t/p/w500/s6aPqPmyp9i9LSDpGbPSHFJLr5q.jpg
+109848,Under the Skin,肌膚之侵,Horror|Sci-Fi|Thriller,2013.0,3.393162393162393,2574.0,1441395,97370.0,GB,https://image.tmdb.org/t/p/w500/v989miv3tCInJzewQc4jcZ9WSRX.jpg
+109850,Need for Speed,極速快感,Action|Crime|Drama|IMAX,2014.0,2.8955627705627704,924.0,2369135,136797.0,US,https://image.tmdb.org/t/p/w500/hfDRlXIzsgV4T6n5zSidPrJM6SB.jpg
+109853,Barefoot,赤足天使,Comedy|Drama|Romance,2014.0,3.2916666666666665,192.0,2355495,242042.0,US,https://image.tmdb.org/t/p/w500/qvs9OMjEleZo46t4igakxewgUXJ.jpg
+109887,"Great Passage, The (Fune wo amu)",宅男的戀愛字典,Drama,2013.0,3.6944444444444446,18.0,2315226,182827.0,JP,https://image.tmdb.org/t/p/w500/aHepEArhhMc15aIVBiePhm5MLmG.jpg
+109897,Son of God,上帝之子,Drama,2014.0,3.381578947368421,38.0,3210686,235260.0,US,https://image.tmdb.org/t/p/w500/bCNcVQ1sts0WfuGzus90OYHTIlt.jpg
+109941,Puss in Boots: The Three Diablos,鞋貓劍客番外篇：三小惡貓,Animation|Comedy,2012.0,2.8026315789473686,76.0,2268617,83201.0,US,https://image.tmdb.org/t/p/w500/ptvbHUWpU8Nh6vrmSvjx4ESDgfC.jpg
+109949,Blood Out,血債血償,Action,2011.0,2.3,5.0,1477675,54597.0,US,https://image.tmdb.org/t/p/w500/e7KebNqtudY3zRUSklwf8CqsEn.jpg
+109963,"French Minister, The (Quai d'Orsay)",外交達人出任務,Comedy,2013.0,3.223684210526316,38.0,2609222,209355.0,FR,https://image.tmdb.org/t/p/w500/oxloXzgxjWXiM5JiK0hdNgV9JDU.jpg
+109968,Why Don't You Play In Hell? (Jigoku de naze warui),地獄開麥拉,Action|Drama,2013.0,3.74251497005988,167.0,2409302,134350.0,JP,https://image.tmdb.org/t/p/w500/4jeWfWvaza0UtX0LTO8XEIqdDja.jpg
+109993,George & A.J.,喬治和AJ,Animation|Children|Comedy,2009.0,2.5294117647058822,34.0,1552624,72962.0,US,https://image.tmdb.org/t/p/w500/rIEV9tf9tjlzns2oygAxrSFv4sr.jpg
+110030,"Bless Me, Ultima",希望之眼,Drama|War,2013.0,3.1666666666666665,12.0,1390398,164184.0,US,https://image.tmdb.org/t/p/w500/jWtu6b6m0rrSGNP76CPh1BbH1r0.jpg
+110070,From Within,連環殺鎮,Horror|Thriller,2008.0,3.0535714285714284,56.0,1063056,16167.0,US,https://image.tmdb.org/t/p/w500/yyAiGq6SycABwV9m9KqqB2i6Ctl.jpg
+110102,Captain America: The Winter Soldier,美國隊長2：酷寒戰士,Action|Adventure|Sci-Fi|IMAX,2014.0,3.6850325379609545,13830.0,1843866,100402.0,US,https://image.tmdb.org/t/p/w500/9559qINSm9ef3e2YHwOSfgwOaRD.jpg
+110110,Starred Up,超危險人物,Drama,2013.0,3.666,500.0,2567712,209276.0,GB,https://image.tmdb.org/t/p/w500/e1DRGfyRxYQclvJOJiXwAw5gDg2.jpg
+110116,Key of Life (Kagi-dorobô no mesoddo),落KEY人生,Comedy|Crime|Romance,2012.0,3.847826086956522,23.0,2078599,128113.0,JP,https://image.tmdb.org/t/p/w500/ivip8HThi4ktBTpOuj9uLvgrGVr.jpg
+110127,Noah,挪亞方舟,Adventure|Drama|IMAX,2014.0,2.7030132788559755,1958.0,1959490,86834.0,US,https://image.tmdb.org/t/p/w500/j4v1nG53Ml1mJFGFiRdwa8MKI6P.jpg
+110130,"Nut Job, The",搶劫堅果店,Adventure|Animation|Children|Comedy,2014.0,2.8487544483985765,281.0,1821658,227783.0,CA,https://image.tmdb.org/t/p/w500/4iHnGlmOjAj2k5zUftYDIzSITCf.jpg
+110134,Belle and Sebastien (Belle et Sébastien),靈犬雪麗,Adventure,2013.0,3.6621621621621614,37.0,3146360,204668.0,FR,https://image.tmdb.org/t/p/w500/l42jkT9yE3h7kpQJ1yYWm4VU3Dn.jpg
+110295,"Legend of Hercules, The",鋼鐵力士,Action|Adventure,2014.0,2.350220264317181,227.0,1043726,188207.0,US,https://image.tmdb.org/t/p/w500/lwQMGmEVXofv9iCVO5mP9ZGjEK1.jpg
+110297,Muppets Most Wanted,布偶歷險記：全面追緝,Adventure|Comedy|Crime,2014.0,3.080246913580247,405.0,2281587,145220.0,US,https://image.tmdb.org/t/p/w500/o9mGTVnnsqMS3Oh2IloPKPpLiL3.jpg
+110320,"Man, Woman and the Wall (Kikareta onna no mirareta yoru)",色慾迷牆,Drama|Romance|Thriller,2006.0,2.875,8.0,1236242,40172.0,JP,https://image.tmdb.org/t/p/w500/70V7RtYLWb6JCEAY2iUrsoMdxAA.jpg
+110324,"Missing Picture, The (L'image manquante)",遺失的映像,Documentary,2013.0,3.367647058823529,34.0,2852470,186997.0,FR,https://image.tmdb.org/t/p/w500/lCRypAaY6MnCpcVnidA2JkEgd2I.jpg
+110346,Blood Ties,烈血風雲,Crime|Drama|Thriller,2013.0,3.1621621621621623,74.0,1747958,190955.0,FR,https://image.tmdb.org/t/p/w500/7tMuywiZUoaAihEIkCu3BAL1xPC.jpg
+110352,Survival Island (Three),荒島驚魂,Adventure|Drama|Horror,2005.0,1.9558823529411764,34.0,377309,9753.0,GB,https://image.tmdb.org/t/p/w500/v45dAZ1vI4NUqcYcLUmGVXHGYFj.jpg
+110407,"Machine, The",特種進化,Sci-Fi|Thriller,2013.0,3.1908315565031984,469.0,2317225,174675.0,US,https://image.tmdb.org/t/p/w500/mpgALOzr6dzm4I4hu9h9yrKBt6b.jpg
+110431,"Girl from the Naked Eye, The",裸眼女郎,Action|Romance|Thriller,2012.0,2.5416666666666665,12.0,1079360,80973.0,US,https://image.tmdb.org/t/p/w500/yWIIlDEij3CSDoDR7qws6mNKzQS.jpg
+110453,Draft Day,超級選秀日,Drama,2014.0,3.26989247311828,465.0,2223990,200505.0,US,https://image.tmdb.org/t/p/w500/bnl2ocjS1io4UCPhjoFuPKmJ9bf.jpg
+110459,Girls Against Boys ,獵男姐妹團,Crime|Thriller,2012.0,2.458333333333333,12.0,2036376,94887.0,US,https://image.tmdb.org/t/p/w500/s15s3Ut9CRnkKKk9KIrp1ommFUz.jpg
+110501,The Raid 2: Berandal,全面突襲2：拳力進擊,Action|Crime|Thriller,2014.0,3.790164935858277,1637.0,2265171,180299.0,ID,https://image.tmdb.org/t/p/w500/nJ1jYLehe3a3GKEbkpUozXRAPkp.jpg
+110553,The Amazing Spider-Man 2,蜘蛛人驚奇再起 2：電光之戰,Action|Sci-Fi|IMAX,2014.0,3.012546468401487,4304.0,1872181,102382.0,US,https://image.tmdb.org/t/p/w500/trwRKA0X5AogKNH6HepVePyj4Dm.jpg
+110591,Oculus,鬼遮眼,Horror,2013.0,3.4161656646626586,1497.0,2388715,157547.0,US,https://image.tmdb.org/t/p/w500/u9EEu13FVEWfhOqPyl0DNelTHk9.jpg
+110607,Dinoshark,特禽鯊龍,Horror|Sci-Fi,2010.0,1.9545454545454544,11.0,1545986,35074.0,US,https://image.tmdb.org/t/p/w500/qMZQhzde1nrMTDj6ImwcGEPQnKR.jpg
+110611,Cold in July,七月寒潮,Drama|Thriller,2014.0,3.3434163701067616,281.0,1179031,244509.0,US,https://image.tmdb.org/t/p/w500/1rXkxhubAtKVTZl29Xbnwpfen3H.jpg
+110655,Rio 2,里約大冒險2,Adventure|Animation|Children|Comedy,2014.0,3.058155080213904,748.0,2357291,172385.0,US,https://image.tmdb.org/t/p/w500/scw0mHsAe6bmtaeKbLza0RZiydd.jpg
+110675,In Your Eyes,你眼中的世界,Drama|Fantasy|Romance,2014.0,3.6064593301435406,418.0,2101569,226448.0,US,https://image.tmdb.org/t/p/w500/cAITGPh6IFGjvwtSkQx7WWUjaV.jpg
+110730,Transcendence,全面進化,Drama|Sci-Fi|IMAX,2014.0,3.2224075197089146,3298.0,2209764,157353.0,US,https://image.tmdb.org/t/p/w500/fK4hNoIQIeCCXtoTVeAVgxgQSbz.jpg
+110746,Hatchet III,鬼斧魔差3,Comedy|Horror,2013.0,2.805555555555556,54.0,1870419,167575.0,US,https://image.tmdb.org/t/p/w500/yB4PYZRInb4fKZwbiNVx2ONCj1y.jpg
+110750,Heaven Is for Real,看見天堂,Drama,2014.0,2.8884297520661155,121.0,1929263,236751.0,CA,https://image.tmdb.org/t/p/w500/iQ4Q1hU2q6tcEIFeZ5yzNSrVF2r.jpg
+110771,"Other Woman, The",婦仇者聯盟,Comedy|Romance,2014.0,3.303703703703704,1215.0,2203939,193610.0,US,https://image.tmdb.org/t/p/w500/lT0awXQ9dUhdWSNwEo6aVotpmY8.jpg
+110773,"Haunted House 2, A",鬼屋電影2,Comedy|Horror,2014.0,2.3963963963963963,111.0,2828996,184345.0,US,https://image.tmdb.org/t/p/w500/oV7M00fPXy5P0nbdeMbSUjYv0vx.jpg
+110796,Le Week-End,愛在巴黎破曉時,Comedy|Drama,2013.0,3.3703703703703702,81.0,2392326,209350.0,GB,https://image.tmdb.org/t/p/w500/l5tYBFH0GhWGRbff4AXQXUoieZB.jpg
+110809,Vampire Academy,吸血鬼學院,Action|Comedy|Fantasy,2014.0,2.864427860696517,402.0,1686821,203739.0,US,https://image.tmdb.org/t/p/w500/wT43IA9ZI1BnpA7zpGCatL4xj6K.jpg
+110826,Brick Mansions,玩命特區,Action|Crime|Drama,2014.0,2.8181818181818183,187.0,1430612,254473.0,CA,https://image.tmdb.org/t/p/w500/x7zu8GKO5LKTVw54Y4qOTrR5aaR.jpg
+110828,Devil's Knot,魔谷奇案,Crime|Drama|Thriller,2013.0,3.030172413793104,116.0,804463,152792.0,US,https://image.tmdb.org/t/p/w500/8DMDx7XMylIL7lpBEOMzIjuwhw0.jpg
+110871,"Rocket, The",火箭男孩,Drama,2013.0,3.5135135135135136,37.0,2178256,168742.0,AU,https://image.tmdb.org/t/p/w500/pqzOIZ62PThogg08DTAsUhrz02n.jpg
+110882,Locke,失控,Drama,2013.0,3.640784524449221,1861.0,2692904,210479.0,GB,https://image.tmdb.org/t/p/w500/wXxrInh5BnhKPQwsEbanvyJFaeW.jpg
+110899,Rage,即刻復仇,Action|Crime|Thriller,2014.0,2.373684210526316,95.0,2401807,242310.0,US,https://image.tmdb.org/t/p/w500/AiqOUryIS9EcYxlPehBq4mjnBT.jpg
+110968,Pompeii,龐貝,Action|Adventure|Drama,2014.0,2.5943396226415096,530.0,1921064,76649.0,CA,https://image.tmdb.org/t/p/w500/pFSRxGtyMvtgdHQ1H8Ocb8CRR0K.jpg
+111113,Neighbors,惡鄰纏身,Comedy,2014.0,3.221872045382918,3173.0,2004420,195589.0,US,https://image.tmdb.org/t/p/w500/62nLtpLmYbK15jsGVJebKFJBvKL.jpg
+111249,Belle,佳人蓓爾,Drama,2013.0,3.638132295719844,257.0,2404181,205601.0,GB,https://image.tmdb.org/t/p/w500/qCK00C3L0bM5jphoYU0gFpG3Hly.jpg
+111251,"Immigrant, The",浮世傷痕,Drama|Romance,2013.0,3.2195121951219514,205.0,1951181,152599.0,US,https://image.tmdb.org/t/p/w500/hHUhFKcNQQogdCUnWxVujR0Z43B.jpg
+111255,"Wednesday!, A",一個星期三的下午,Action|Drama|Thriller,2008.0,3.822072072072072,222.0,1280558,19703.0,IN,https://image.tmdb.org/t/p/w500/gVUSxtJM3arL5VIUIRNYde20EF0.jpg
+111259,Good People,鎖命橫財,Drama|Thriller,2014.0,2.7569444444444446,72.0,1361318,262338.0,DK,https://image.tmdb.org/t/p/w500/pIYALWS6Dk1MLTlUCGWJjxnkLtx.jpg
+111312,Into the Blue 2: The Reef,深海尋寶2,Action|Adventure|Thriller,2009.0,2.52,25.0,865907,16931.0,US,https://image.tmdb.org/t/p/w500/t7B2DHF2F8RyJ1NzhehkEGH5dC.jpg
+111318,City Under Siege (Chun sing gai bei),全城戒備,Action|Sci-Fi,2010.0,2.5,4.0,1691832,44263.0,HK,https://image.tmdb.org/t/p/w500/zJGglhvEbjMQAhVc4lzMHTeUyav.jpg
+111320,Mom's Night Out,母親外出之夜,Comedy,2014.0,2.8705882352941177,85.0,3014666,252680.0,US,https://image.tmdb.org/t/p/w500/gP97yU8YrVZY2yLxTwsicS8KuSe.jpg
+111360,Lucy,露西,Action|Sci-Fi,2014.0,3.1121010638297872,7520.0,2872732,240832.0,FR,https://image.tmdb.org/t/p/w500/n66nkkHG1XoI8E2NPJkw8WT7Zkb.jpg
+111362,X-Men: Days of Future Past,X戰警：未來昔日,Action|Adventure|Sci-Fi,2014.0,3.692837046612425,13151.0,1877832,127585.0,US,https://image.tmdb.org/t/p/w500/pzgglbFb1Tyota0G0th6OG2x89i.jpg
+111364,Godzilla,哥吉拉,Action|Adventure|Sci-Fi|IMAX,2014.0,2.9731285988483687,3647.0,831387,124905.0,US,https://image.tmdb.org/t/p/w500/ybTEfdh3Z9fs2W5YAn6FnjQAsfE.jpg
+111375,Walk of Shame,姐姐我醉大,Comedy,2014.0,2.973314606741573,356.0,2463288,187596.0,US,https://image.tmdb.org/t/p/w500/yvkcgZDx18L6uSBPagWLSAxHA8h.jpg
+111384,Blue Ruin,藍色是最該死的顏色,Thriller,2013.0,3.731379310344828,1450.0,2359024,188166.0,FR,https://image.tmdb.org/t/p/w500/q0itEsso2drJXqH9kfdidxIT5dF.jpg
+111387,Palo Alto,帕羅奧圖年少,Drama,2013.0,3.426517571884984,313.0,2479800,192132.0,US,https://image.tmdb.org/t/p/w500/yjcwwYP3eSigxLKKVBoVVz85ZWv.jpg
+111443,Chef,五星主廚快餐車,Comedy,2014.0,3.680914092255607,2363.0,2883512,212778.0,US,https://image.tmdb.org/t/p/w500/dsGhUnkOv6Vvq9OrXlGwFFGRdO1.jpg
+111447,"Treasure Hunter, The (Ci ling)",刺陵,Action|Adventure|Fantasy|Romance|Sci-Fi,2009.0,2.0625,16.0,1328865,37848.0,TW,https://image.tmdb.org/t/p/w500/938tuiJ5Gx2YazBfTxVKgEy5DCQ.jpg
+111597,Heroic Duo (Shuang xiong),雙雄,Thriller,2003.0,2.833333333333333,3.0,379985,45482.0,HK,https://image.tmdb.org/t/p/w500/uFNd2FRUdItbX1D0gl3Po2KdnCk.jpg
+111617,Blended,當我們混在一起,Comedy,2014.0,3.3619337979094075,1148.0,1086772,232672.0,US,https://image.tmdb.org/t/p/w500/c5M0zpMHUJm0YiBaXKBG1Il99Yl.jpg
+111622,Begin Again,曼哈頓戀習曲,Comedy|Romance,2013.0,3.754416961130742,1981.0,1980929,198277.0,US,https://image.tmdb.org/t/p/w500/fuFl2Se8EBsGKnLli0whkpfSq85.jpg
+111628,Mega Python vs. Gatoroid,無敵巨蟒VS禁藥狂鱷,Action|Horror|Sci-Fi,2011.0,1.6428571428571428,21.0,1680138,56171.0,US,https://image.tmdb.org/t/p/w500/miVYYhbtFhlizvfaOyUQzxrMMo2.jpg
+111630,Big Ass Spider!,妖獸大蛛王,Comedy|Sci-Fi,2013.0,2.701492537313433,67.0,1830713,166822.0,US,https://image.tmdb.org/t/p/w500/24VQ6AyIa0UdOsDbaOsOOh2ntyH.jpg
+111659,Maleficent,黑魔女：沉睡魔咒,Action|Adventure|Children|IMAX,2014.0,3.3461168781237984,5202.0,1587310,102651.0,US,https://image.tmdb.org/t/p/w500/3klbWZFXbTyZDGsdjjtOCcXVBbb.jpg
+111663,Zombeavers,狸老屍卡好,Action|Comedy|Horror,2014.0,2.654696132596685,181.0,2784512,254474.0,US,https://image.tmdb.org/t/p/w500/s8BskMsdBT5vXIAdTU2o2qbQoqE.jpg
+111680,At Middleton,招生情緣,Comedy|Romance,2013.0,3.344262295081968,61.0,1483324,194722.0,US,https://image.tmdb.org/t/p/w500/6hhXewoxobQ0C6sWFmvnsslvZOB.jpg
+111732,"Dance of Reality, The (Danza de la realidad, La)",童年幻舞,Drama|Fantasy,2013.0,3.8691275167785233,149.0,2301592,137698.0,CL,https://image.tmdb.org/t/p/w500/8xdVWZAJqvqtOUReGrUf2iWfIzb.jpg
+111734,"Love Punch, The",愛情重擊,Comedy,2013.0,2.7606382978723403,94.0,2234261,209249.0,GB,https://image.tmdb.org/t/p/w500/iaJZm5z38RUi9czHxaiayN1OMAe.jpg
+111743,A Million Ways to Die in the West,百萬種硬的方式,Comedy|Western,2014.0,3.0137408861469432,1783.0,2557490,188161.0,US,https://image.tmdb.org/t/p/w500/rCqPUeAchrO7LxhbHSG7J8WaMFQ.jpg
+111752,Empire of Silver (Bai yin di guo),白銀帝國,Drama|Romance,2009.0,2.333333333333333,3.0,1362045,31185.0,CN,https://image.tmdb.org/t/p/w500/rTZKb5wtW7iqP3CSWw7vTy5DZBQ.jpg
+111759,Edge of Tomorrow,明日邊界,Action|Sci-Fi|IMAX,2014.0,3.9581983805668015,19760.0,1631867,137113.0,US,https://image.tmdb.org/t/p/w500/n8cAE1yMENXGjGPFeFRYVrO2jX9.jpg
+111778,Tracks,駱駝女孩的沙漠之旅,Adventure|Drama,2013.0,3.696917808219178,292.0,2167266,203819.0,AU,https://image.tmdb.org/t/p/w500/qDSA80DC8BmBrErQsiL23qwoeCw.jpg
+111781,Mission: Impossible - Rogue Nation,不可能的任務：失控國度,Action|Adventure|Thriller,2015.0,3.64981303853032,6151.0,2381249,177677.0,US,https://image.tmdb.org/t/p/w500/ULiEqvtKBWQii0t8islDCPlJoV.jpg
+111811,Sunlight Jr.,開啟陽光的鑰匙,Drama,2013.0,3.625,16.0,1517249,173908.0,US,https://image.tmdb.org/t/p/w500/rL1dhso58VmJnCwSSwGsT4usjB4.jpg
+111815,Once Upon a Time in Shanghai,惡戰,Crime,2014.0,3.270833333333333,24.0,2290567,248376.0,CN,https://image.tmdb.org/t/p/w500/wd8Zh3p3wkGav9iSshvxi1Hh4nA.jpg
+111913,Lilting,輕輕搖晃,Drama,2014.0,3.76056338028169,71.0,2560102,248212.0,GB,https://image.tmdb.org/t/p/w500/1FevzSkxlAYnu3fsU3NWJnUoWZP.jpg
+111921,The Fault in Our Stars,生命中的美好缺憾,Drama|Romance,2014.0,3.5315074593631706,4491.0,2582846,222935.0,US,https://image.tmdb.org/t/p/w500/2tSCzZ8QeFUUQzQGGSz9ytH5kDr.jpg
+111931,Raze,摧毀,Action|Horror,2013.0,2.5875,40.0,2111392,174682.0,US,https://image.tmdb.org/t/p/w500/nlv1nVSyXzfATNGnegR7XnzQUJL.jpg
+112062,Camille Claudel 1915,最後的卡蜜兒,Drama,2013.0,3.1842105263157894,19.0,2018086,110428.0,FR,https://image.tmdb.org/t/p/w500/uQso9HwY57RFVmtEhShRpJuJhRn.jpg
+112066,"Letter to Momo, A (Momo e no tegami)",給小桃的信,Animation|Drama,2011.0,3.602941176470588,136.0,1853614,100271.0,JP,https://image.tmdb.org/t/p/w500/jLzM72pyztswjcVY4MFBOrM9mwQ.jpg
+112085,Goodbye World,世界再見,Comedy|Drama,2013.0,3.095238095238096,42.0,2352802,201066.0,US,https://image.tmdb.org/t/p/w500/1WEzts5eapNbxglUSNUXUrs98CR.jpg
+112138,22 Jump Street,龍虎少年隊：童顏巨捕,Action|Comedy|Crime,2014.0,3.5063918184723555,6258.0,2294449,187017.0,US,https://image.tmdb.org/t/p/w500/34FOnuMpit2ey4SXW4KRWc8PmxB.jpg
+112171,"Equalizer, The",私刑教育,Action|Crime|Thriller,2014.0,3.688316073840612,4442.0,455944,156022.0,US,https://image.tmdb.org/t/p/w500/cFrx790Wth3Ld9D4OMWDQu0KBGq.jpg
+112175,How to Train Your Dragon 2,馴龍高手2,Action|Adventure|Animation,2014.0,3.725052246603971,7656.0,1646971,82702.0,US,https://image.tmdb.org/t/p/w500/vYQsThTi4S38qpToNf3a2nIXRYq.jpg
+112183,Birdman: Or (The Unexpected Virtue of Ignorance),鳥人,Comedy|Drama,2014.0,3.728523251686191,11268.0,2562232,194662.0,US,https://image.tmdb.org/t/p/w500/rUa1QaHw0esANyp5E4slMV9mBak.jpg
+112279,Doc of the Dead,活人生吃全都錄,Documentary,2014.0,3.155172413793104,29.0,2481248,250577.0,US,https://image.tmdb.org/t/p/w500/4bqpJvaXIh3CLUmjQoj9n549i5C.jpg
+112288,Coming Home (Gui lai),歸來,Drama,2014.0,3.62,50.0,3125472,259943.0,CN,https://image.tmdb.org/t/p/w500/37RL5PYX42RBLXJ6HI38XcRZehQ.jpg
+112290,Boyhood,年少時代,Drama,2014.0,3.789406856520951,5513.0,1065073,85350.0,US,https://image.tmdb.org/t/p/w500/ggwMIJhuW49pc6HMQKmNWH6CA2e.jpg
+112293,"Trials of Cate McCall, The",凱特的審判,Crime|Drama,2013.0,2.951219512195122,41.0,1323973,253279.0,US,https://image.tmdb.org/t/p/w500/jk0NsJqXvJw4pfa386fEEC5RpIj.jpg
+112299,Saints and Soldiers: Airborne Creed,聖戰士2：空降信條,Action|Drama|War,2012.0,3.0277777777777777,18.0,2082415,133558.0,US,https://image.tmdb.org/t/p/w500/jOxcnkIPk7mGZYOF5HOhdJNkOy9.jpg
+112303,Think Like a Man Too,男人行不行2,Comedy|Romance,2014.0,3.0,96.0,2239832,184098.0,US,https://image.tmdb.org/t/p/w500/bsKfhf0y9Zx7h4j5GHu1JANpKwl.jpg
+112316,Jersey Boys,紐澤西男孩,Drama|Musical,2014.0,3.3410041841004183,239.0,1742044,209451.0,US,https://image.tmdb.org/t/p/w500/mNB6RjZBvrizSG1BiPoS3PVw8fo.jpg
+112334,"Internet's Own Boy: The Story of Aaron Swartz, The",互聯網之子,Documentary,2014.0,3.862903225806452,434.0,3268458,250658.0,US,https://image.tmdb.org/t/p/w500/6yfXtkVPWxeU3OonoKDem4Hrdbb.jpg
+112370,Transformers: Age of Extinction,變形金剛4：絕跡重生,Action|Adventure|Sci-Fi,2014.0,2.5272265805260727,2167.0,2109248,91314.0,US,https://image.tmdb.org/t/p/w500/pNbYJZEIkgaKk9LYSLGRTKZGU7P.jpg
+112399,Finding Vivian Maier,尋秘街拍客,Documentary,2013.0,3.8387755102040817,245.0,2714900,169607.0,US,https://image.tmdb.org/t/p/w500/euksQ3uYMyqZ4KDeD7nHb59iaZa.jpg
+112404,Jack Strong,華沙諜戰,Action|Crime|Thriller,2014.0,3.036363636363636,55.0,2785288,204968.0,PL,https://image.tmdb.org/t/p/w500/ueVbg4DNp3OEtwEMjMZNHsNmTTV.jpg
+112421,Frank,法蘭克,Comedy|Drama|Mystery,2014.0,3.562176165803109,1158.0,1605717,171372.0,IE,https://image.tmdb.org/t/p/w500/7QPp865rjr2sw3VcCJTefe4bD4k.jpg
+112460,Planes: Fire & Rescue,飛機總動員：打火英雄,Adventure|Animation|Comedy,2014.0,2.7857142857142856,196.0,2980706,218836.0,US,https://image.tmdb.org/t/p/w500/itHaPkb166jcZpYn843w9wAViWV.jpg
+112473,Stuart: A Life Backward,斯圖爾特：倒帶人生,Drama,2007.0,3.817073170731707,82.0,853153,50032.0,GB,https://image.tmdb.org/t/p/w500/vpzjn5QQ9AFNoY6Lr7M8evFXK3l.jpg
+112497,Tammy,譚美,Comedy,2014.0,2.6643454038997216,359.0,2103254,226486.0,US,https://image.tmdb.org/t/p/w500/efsVMziwE9BNTDX5fNmYVA5oAzJ.jpg
+112512,Colourful (Karafuru),劇場版動畫：借來的100天,Animation|Drama|Fantasy|Mystery,2010.0,3.6485148514851486,101.0,1677561,64246.0,JP,https://image.tmdb.org/t/p/w500/A3gdiELbzyVBISatsZ556UUFMYQ.jpg
+112550,White God (Fehér isten),忠犬追殺令,Drama,2014.0,3.370503597122302,139.0,2844798,267999.0,HU,https://image.tmdb.org/t/p/w500/eMKwDcdiFKtjUHijIKdkzhep1a6.jpg
+112552,Whiplash,進擊的鼓手,Drama,2014.0,4.154746624223443,19477.0,2582802,244786.0,US,https://image.tmdb.org/t/p/w500/7NHomD7LT2vx1qQwdT31TI2xTVC.jpg
+112556,Gone Girl,控制,Drama|Thriller,2014.0,3.953546626984127,20160.0,2267998,210577.0,US,https://image.tmdb.org/t/p/w500/2x3yXiyG4kcEIIVEFdjlE4EFeAz.jpg
+112582,Life Itself,超級影評的傳奇人生,Documentary,2014.0,3.725581395348837,430.0,2382298,250766.0,US,https://image.tmdb.org/t/p/w500/nK4cYTEO2eHLMgMII0Ux0kBOGhG.jpg
+112623,Dawn of the Planet of the Apes,猩球崛起：黎明的進擊,Sci-Fi,2014.0,3.55908203125,7168.0,2103281,119450.0,US,https://image.tmdb.org/t/p/w500/bFCHdkiXTppqtqHXjpiSjpK5hxi.jpg
+112625,The Great Magician,大魔術師,Comedy|Drama|Romance,2011.0,2.9444444444444446,27.0,1869721,83721.0,CN,https://image.tmdb.org/t/p/w500/j8Rz6QJfc8zKoC8BdJJEwVyrYEi.jpg
+112640,Ra.One,超世紀戰神,Action|Musical|Sci-Fi,2011.0,2.466666666666667,75.0,1562871,41517.0,IN,https://image.tmdb.org/t/p/w500/mXlS41qbd0bzhO44iPDtJqYtQt8.jpg
+112642,Gun Woman,女體銃,Action|Thriller,2014.0,2.3125,24.0,3141912,258750.0,JP,https://image.tmdb.org/t/p/w500/leOwpkzyKbtz0PmiogB6GojKeMj.jpg
+112653,"Battered Bastards of Baseball, The",棒球雜牌軍,Documentary,2014.0,3.701219512195122,82.0,3445270,250700.0,US,https://image.tmdb.org/t/p/w500/h7hdQt7zpCRlDU3EqeJR6IVqNZW.jpg
+112655,No One Lives,無人生還,Horror|Thriller,2012.0,2.936046511627907,86.0,1763264,123109.0,US,https://image.tmdb.org/t/p/w500/7beorWrix1hHGKpG7YEuUXXDFVk.jpg
+112727,Deliver Us from Evil,惡魔刑事錄,Crime|Horror|Thriller,2014.0,2.9773462783171523,309.0,2377322,184346.0,US,https://image.tmdb.org/t/p/w500/pf5OgZtEPgs1fln3euuOElZinPo.jpg
+112749,And So It Goes,如此這般,Comedy|Drama|Romance,2014.0,2.833333333333333,72.0,2465146,253235.0,US,https://image.tmdb.org/t/p/w500/bJoWtA8OAIqavlb5mbx3EzvxFUA.jpg
+112751,Ju-on: The Beginning of the End (Ju-on: Owari no hajimari),咒怨：終結的開始,Horror,2014.0,3.107142857142857,14.0,3572132,259233.0,JP,https://image.tmdb.org/t/p/w500/u94oUHaqzGQqr4IlBJGM8tWEISm.jpg
+112767,Premature,天天初體驗,Comedy,2014.0,2.957547169811321,106.0,2182256,253310.0,US,https://image.tmdb.org/t/p/w500/iU7OQ2oG2HyIqmZjikXA4N86wpN.jpg
+112788,Sex Tape,愛愛上雲端,Comedy,2014.0,2.613161131611316,813.0,1956620,225886.0,US,https://image.tmdb.org/t/p/w500/w8fp5gH0YNdfHMzlReAQmsVHRdV.jpg
+112804,I Origins,I型起源,Drama|Sci-Fi,2014.0,3.715208455666471,1703.0,2884206,244267.0,US,https://image.tmdb.org/t/p/w500/gJz7Kxj3Jpxu029B84PpGNCfMTy.jpg
+112811,"Front Line, The (Go-ji-jeon)",高地戰,Drama|War,2011.0,3.3684210526315788,38.0,2007387,79553.0,KR,https://image.tmdb.org/t/p/w500/cJWqD8Voney8LgdF0lhLrq44jvH.jpg
+112818,"Purge: Anarchy, The",國定殺戮日：無法無天,Action|Horror|Thriller,2014.0,3.1222504230118444,1182.0,2975578,238636.0,FR,https://image.tmdb.org/t/p/w500/jv67wHBnFLojOnbTcTEBfB26fbl.jpg
+112850,Words and Pictures,字畫情緣,Comedy|Drama|Romance,2013.0,3.325,60.0,2380331,214075.0,AU,https://image.tmdb.org/t/p/w500/d557IKXSWFgWMi5dAlqhLy0fj5L.jpg
+112852,Guardians of the Galaxy,星際異攻隊,Action|Adventure|Sci-Fi,2014.0,3.910184276112076,26482.0,2015381,118340.0,US,https://image.tmdb.org/t/p/w500/c45b22nDGdQtDilq7HnvNH052zi.jpg
+112868,"Signal, The",詭異訊,Sci-Fi|Thriller,2014.0,3.145952109464082,877.0,2910814,242095.0,US,https://image.tmdb.org/t/p/w500/ksfyMjlCESLylnnhLiloBxPmVzc.jpg
+112897,The Expendables 3,浴血任務3,Action|Adventure,2014.0,2.921299188007495,1601.0,2333784,138103.0,US,https://image.tmdb.org/t/p/w500/5BaDe11btr43BRpjNSRkhx4ccqQ.jpg
+112909,Kites,寶萊塢之我倆沒有明天,Action|Drama|Romance,2010.0,1.9705882352941175,17.0,1198101,37737.0,IN,https://image.tmdb.org/t/p/w500/lYJhUIsKtlke4gNNHkYZNppYlTZ.jpg
+112911,Hercules,海克力士,Action|Adventure,2014.0,2.7806925498426023,953.0,1267297,184315.0,US,https://image.tmdb.org/t/p/w500/6fhyBzCMfV7zBkWG1gYat4jjhm0.jpg
+112938,"Detective, The (C+ jing taam)",C+偵探,Drama|Mystery|Thriller,2007.0,3.3461538461538463,13.0,1107807,56329.0,HK,https://image.tmdb.org/t/p/w500/4bgbtjBPp4xr2kev7n121EG5wLQ.jpg
+112940,A Most Wanted Man,諜報風雲,Thriller,2014.0,3.4435774309723888,833.0,1972571,157849.0,US,https://image.tmdb.org/t/p/w500/kpgQnUyw8Q5fUoqhf3RIG0wpj6d.jpg
+112946,Wish I Was Here,笑笑小家庭 / B咖的幸福劇本,Comedy|Drama,2014.0,3.433219178082192,292.0,2870708,231576.0,US,https://image.tmdb.org/t/p/w500/hDDXIWLBS6rNPJS4tQvEXWxGXjK.jpg
+112974,C.O.G.,神的孩子奇遇記,Comedy|Drama,2013.0,2.926470588235294,34.0,1650393,156713.0,US,https://image.tmdb.org/t/p/w500/sa0iJ5XAPZzxsZWo0fEoMjrujaZ.jpg
+113041,Father and Guns (De père en flic),活寶警探,Comedy|Crime,2009.0,3.1666666666666665,12.0,1258134,26566.0,CA,https://image.tmdb.org/t/p/w500/ldIwA1FU8xAwqDtWn69cKUuPclP.jpg
+113062,Hellion,叛逆青春,Drama|Thriller,2014.0,3.0357142857142856,28.0,3186318,244536.0,US,https://image.tmdb.org/t/p/w500/7jfSzQumy9o28Scbfs3ENf32NRt.jpg
+113064,"Trip to Italy, The",享受吧！尋味義大利,Comedy|Drama,2014.0,3.3653846153846154,234.0,2967006,242088.0,GB,https://image.tmdb.org/t/p/w500/3gkJGDQGnqepmHG5M3Tb1Yu7nwz.jpg
+113071,Earth to Echo,地球迴聲,Adventure|Children|Sci-Fi,2014.0,2.8366666666666664,150.0,2183034,238603.0,US,https://image.tmdb.org/t/p/w500/a026TDG1roqQG8N1waoBfwJqGLM.jpg
+113080,"Burma Conspiracy, The (Largo Winch II)",神鬼獵殺2,Action|Adventure|Thriller,2011.0,3.186046511627907,43.0,1322333,57331.0,FR,https://image.tmdb.org/t/p/w500/1Yy9P949REbqUVA93qL1l66sAMV.jpg
+113103,Step Up All In,舞力全開5 3D,Drama|Musical|Romance,2014.0,3.2450980392156863,255.0,2626350,243683.0,US,https://image.tmdb.org/t/p/w500/9uh7bJBxtA92bTKSnBOWQvOsLMN.jpg
+113186,Felony,重罪/罪不可赦,Thriller,2013.0,3.1444444444444444,45.0,2402603,209269.0,AU,https://image.tmdb.org/t/p/w500/b36OAp2q5m0oZ4oUcwg2B0cTHrV.jpg
+113188,"Rover, The",絕命正義,Crime|Drama,2014.0,3.2572944297082227,377.0,2345737,157845.0,AU,https://image.tmdb.org/t/p/w500/c3pmFB9DL2Hsc4HNrgR1Ij8Jxvi.jpg
+113216,"Suspect, The (Yong-eui-ja)",諜影殺機,Action|Thriller,2013.0,3.2313432835820897,67.0,3404158,242454.0,KR,https://image.tmdb.org/t/p/w500/j9rwSaBsqcK9ERKX3XQe0ea9QMq.jpg
+113225,Magic in the Moonlight,魔幻月光,Comedy|Drama|Romance,2014.0,3.3952618453865338,802.0,2870756,229297.0,US,https://image.tmdb.org/t/p/w500/pxDwGclK8iwEMA6un9chppWKIxA.jpg
+113240,Winter Sleep (Kis Uykusu),冬日甦醒,Drama,2014.0,3.83248730964467,394.0,2758880,265169.0,TR,https://image.tmdb.org/t/p/w500/r9nvVyNnfM1bpYn7ksCNqaVp0BK.jpg
+113250,In Order of Disappearance (Kraftidioten),該死的順序,Action|Comedy|Crime|Thriller,2014.0,3.492094861660079,253.0,2675914,252822.0,DK,https://image.tmdb.org/t/p/w500/AeIX484shou5c3YPSEANFy8ml2v.jpg
+113252,Housebound,嚎宅禁地,Comedy|Horror|Thriller,2014.0,3.5016750418760467,597.0,3504048,253306.0,NZ,https://image.tmdb.org/t/p/w500/jPKEeHmUuoDnIaRs6VUqSr4qRGR.jpg
+113275,The Hundred-Foot Journey,美味不設限,Comedy|Drama,2014.0,3.7983870967741935,930.0,2980648,228194.0,US,https://image.tmdb.org/t/p/w500/bUQvdi2EYS95mMludrGr4uYIXlF.jpg
+113313,"Den, The",奪命網咖,Horror|Thriller,2013.0,3.0565217391304347,115.0,2503154,244610.0,US,https://image.tmdb.org/t/p/w500/yIHpSpXYomzp6mJdYm1Hbnlt3J1.jpg
+113345,Jupiter Ascending,朱比特崛起,Action|Adventure|Sci-Fi,2015.0,2.6352554179566563,2584.0,1617661,76757.0,US,https://image.tmdb.org/t/p/w500/u5zQT1AxhZ47MMGBnvAUKEmOySb.jpg
+113348,Teenage Mutant Ninja Turtles,忍者龜：變種世代,Action|Adventure|Comedy,2014.0,2.579560585885486,1502.0,1291150,98566.0,US,https://image.tmdb.org/t/p/w500/ss21uIgZueWDDUgCGmVHqtCAn4y.jpg
+113350,I'll Follow You Down,時空效應,Drama|Mystery|Sci-Fi,2013.0,2.9307692307692306,65.0,2048770,273404.0,CA,https://image.tmdb.org/t/p/w500/3osrKXIz5OkSrpnEt1hqHAAyvbd.jpg
+113352,Death in Buenos Aires (Muerte en Buenos Aires),魂斷布宜諾斯艾利斯,Crime|Drama|Romance,2014.0,3.4444444444444446,9.0,3621802,296778.0,AR,https://image.tmdb.org/t/p/w500/jbZiBC7bk2zbvbXHIIDB1sa5ZCv.jpg
+113378,"Giver, The",記憶傳承人：極樂謊言,Drama|Sci-Fi,2014.0,3.3263768115942027,1725.0,435651,227156.0,US,https://image.tmdb.org/t/p/w500/kXUXRABJjEN50pMtacRqNUQwV1j.jpg
+113416,Revenge of the Green Dragons,青龍幫的復仇,Action|Crime|Drama,2014.0,2.15625,16.0,1396523,286709.0,US,https://image.tmdb.org/t/p/w500/nbRoDc1zpy2hJD2wMWybCWZ35kQ.jpg
+113453,Let's Be Cops,冒牌條子,Comedy|Crime,2014.0,3.1489252814738995,977.0,1924435,193893.0,US,https://image.tmdb.org/t/p/w500/rf439opXrgWxrJU3yDar8QUv5bt.jpg
+113503,Generation Um...,隨性所慾,Drama,2012.0,2.3,20.0,1718158,124972.0,US,https://image.tmdb.org/t/p/w500/nyrGOMjRHVWrYlPUTAzbJ7roT8S.jpg
+113510,Switch,換屋驚魂,Action|Crime|Thriller,2011.0,3.15625,16.0,1401636,69225.0,FR,https://image.tmdb.org/t/p/w500/wYF09egkGID3WFv2EkyKYljcFdR.jpg
+113557,Age of Tomorrow,明日邊境,Action|Sci-Fi|Thriller,2014.0,1.5294117647058822,17.0,3677466,275619.0,US,https://image.tmdb.org/t/p/w500/fSvS7uRbn6kbSv4eKA0ItsiJmBg.jpg
+113573,Sin City: A Dame to Kill For,萬惡城市：紅顏奪命,Action|Crime|Thriller,2014.0,3.188637481554353,2033.0,458481,189.0,US,https://image.tmdb.org/t/p/w500/ht1ZiaQK0jZ4PwThDaUmBU9nqP9.jpg
+113604,If I Stay,如果我留下,Drama,2014.0,3.423772609819121,774.0,1355630,249164.0,US,https://image.tmdb.org/t/p/w500/7BU40hPhFEzGOGSJccA4KOcwOO1.jpg
+113640,"Canal, The",運河怪談,Horror|Thriller,2014.0,2.9791666666666665,168.0,2517658,265010.0,US,https://image.tmdb.org/t/p/w500/yPUbM6JEDOypuTJ4C0Ak8TNn9Rz.jpg
+113696,Are You Here,人生大逆轉,Comedy,2014.0,2.6523809523809523,105.0,1545754,209244.0,US,https://image.tmdb.org/t/p/w500/v83MAkGH8jF8uNhJhKgADqw3Xup.jpg
+113705,"Two Days, One Night (Deux jours, une nuit)",兩天一夜,Drama,2014.0,3.598360655737705,549.0,2737050,221902.0,BE,https://image.tmdb.org/t/p/w500/kDxBjvDMB7CEcsHtNid4x0c2Gug.jpg
+113741,Coherence,彗星來的那一夜,Drama|Mystery|Sci-Fi|Thriller,2013.0,3.8875406925125775,3379.0,2866360,220289.0,US,https://image.tmdb.org/t/p/w500/7zQE3Dx96FDfu82cIqJHl1dCV3J.jpg
+113769,"Pyramid, The",驚字塔,Horror,2014.0,2.34,150.0,2799166,282813.0,US,https://image.tmdb.org/t/p/w500/jx3Ip70lsIH7bBW5ZyuXdHPyJd7.jpg
+113771,Exists,厄夜迷踪,Horror,2014.0,2.8796296296296298,54.0,1988621,124470.0,US,https://image.tmdb.org/t/p/w500/2xfrRHSCasP7JqF9WPYNunYwnQL.jpg
+113775,Life of Crime,百萬嬌妻綁架計畫,Comedy|Crime,2013.0,2.894160583941606,137.0,1663207,209189.0,US,https://image.tmdb.org/t/p/w500/apO5xGmcEHpdIBc3Zreax7MXl2m.jpg
+113778,Cat Run 2,性感女特工2,Action,2014.0,2.357142857142857,7.0,3461828,273621.0,US,https://image.tmdb.org/t/p/w500/4GzDcNWovT05iKrSAPNGlRGuoQk.jpg
+113780,"As Above, So Below",忐忑,Horror|Thriller,2014.0,3.371641791044776,1005.0,2870612,256274.0,US,https://image.tmdb.org/t/p/w500/z13JwYlouKfgk49LU84NfXydkw6.jpg
+113853,Antisocial,屍控網路,Horror|Sci-Fi|Thriller,2013.0,2.590909090909091,22.0,2772092,207780.0,CA,https://image.tmdb.org/t/p/w500/6sTInq5u1eQl81kXst7gmhVndJP.jpg
+113862,"Guest, The",神秘訪客,Thriller,2014.0,3.471315092674316,1133.0,2980592,241848.0,GB,https://image.tmdb.org/t/p/w500/ntpRSltGZsChFr42AMGEgQSHa8r.jpg
+113866,Leprechaun: Origins,鬼精靈：起源,Horror,2014.0,1.8214285714285716,42.0,2345613,126172.0,US,https://image.tmdb.org/t/p/w500/yyZ7folrZTqEJFD7wUuGf84CmPK.jpg
+114007,Before I Go to Sleep,別相信任何人,Mystery|Thriller,2014.0,3.2761806981519506,487.0,1726592,204922.0,GB,https://image.tmdb.org/t/p/w500/te6xzYPivgX3Dxgg03PZ5dWfiM0.jpg
+114028,Pride,驕傲大聯盟,Comedy|Drama,2014.0,3.9165621079046415,797.0,3169706,234200.0,GB,https://image.tmdb.org/t/p/w500/deQG5EZU7SsGGq1yP2yDErzrboB.jpg
+114033,Into the Storm,直闖暴風圈,Action|Thriller,2014.0,2.872549019607843,306.0,2106361,216282.0,US,https://image.tmdb.org/t/p/w500/5pFOUxmNCIV3LdlKeGLmXalF6fh.jpg
+114042,Third Person,情慾三重奏,Drama|Romance,2013.0,2.992,125.0,2343793,192145.0,US,https://image.tmdb.org/t/p/w500/kqFQgz7mvDmm9M4n5SBPaMyisWV.jpg
+114044,Honeymoon,血色蜜月,Horror,2014.0,3.0982905982905984,234.0,3177316,254191.0,US,https://image.tmdb.org/t/p/w500/8XPGgvhsJxFvmVH9xAm9q9J7Coy.jpg
+114046,God's Pocket,上帝的口袋,Drama,2014.0,2.885135135135135,74.0,2920808,244517.0,US,https://image.tmdb.org/t/p/w500/yirCze85wLM7Ya31NpFwtH4dKSs.jpg
+114060,The Drop,錢藏凶機,Crime|Drama|Thriller,2014.0,3.583794466403162,1265.0,1600196,154400.0,US,https://image.tmdb.org/t/p/w500/6NQYQt7bvsHK6pEijsKgGPuDvfz.jpg
+114066,"20,000 Days on Earth",尼克凱夫：地球兩萬日,Documentary|Drama|Musical,2014.0,3.5182481751824817,137.0,2920540,246400.0,GB,https://image.tmdb.org/t/p/w500/pUmYsh07P2Bq6ip2RZmOq6mr2vF.jpg
+114074,The Skeleton Twins,人生雙告急,Drama,2014.0,3.337719298245614,570.0,1571249,244772.0,US,https://image.tmdb.org/t/p/w500/lDygTdg1KlrVJVzqsFL515uGzSe.jpg
+114078,Seinto Seiya: Legend of Sanctuary (Seinto Seiya: Legend of Sanctuary),聖鬥士星矢：聖域傳說,Animation,2014.0,2.363636363636364,22.0,2231489,287590.0,JP,https://image.tmdb.org/t/p/w500/ts1ursuZX6PGxRbr2aj8Kfe37c8.jpg
+114093,Camel Spiders,食人巨蛛,Horror|Sci-Fi,2011.0,1.5384615384615383,13.0,1618372,83188.0,US,https://image.tmdb.org/t/p/w500/d4kEoQoBrJkVa6MAeB6Lkrttuhn.jpg
+114174,American Dreams in China,海闊天空,Comedy|Drama,2013.0,3.25,8.0,2278392,196325.0,CN,https://image.tmdb.org/t/p/w500/3ih3WBdQmvNwoiiDhCc5EatDIoD.jpg
+114180,"Maze Runner, The",移動迷宮,Action|Mystery|Sci-Fi,2014.0,3.323484533222361,7209.0,1790864,198663.0,US,https://image.tmdb.org/t/p/w500/ka2yS07QwlUZvpoVD40MXJf4OAw.jpg
+114182,No Good Deed,危險行為,Thriller,2014.0,2.925531914893617,94.0,2011159,136835.0,US,https://image.tmdb.org/t/p/w500/wcDLqCS70LsPcovieuQrb311Qr1.jpg
+114184,Camp X-Ray,戰犯風暴,Drama,2014.0,3.302325581395349,215.0,2994190,244506.0,US,https://image.tmdb.org/t/p/w500/zDbtMSRQOrm72seBOYkbOZWmyw2.jpg
+114244,"Riot Club, The",高富帥俱樂部,Drama|Thriller,2014.0,2.909090909090909,110.0,2717860,270302.0,GB,https://image.tmdb.org/t/p/w500/r334FPNCgmYbiFDrZCmWGeWNMBZ.jpg
+114246,"Walk Among the Tombstones, A",鐵血神探,Action|Crime|Mystery|Thriller,2014.0,3.1896774193548385,775.0,365907,169917.0,US,https://image.tmdb.org/t/p/w500/euPgyPsiNFp6gOBB7nUFxvN5ZaY.jpg
+114250,My Old Lady,巴黎窈窕熟女,Comedy|Drama,2014.0,3.28,75.0,2908856,282296.0,US,https://image.tmdb.org/t/p/w500/hPLAUrmJkXdv1sEtIqk9EwXvmbH.jpg
+114265,Laggies,大愛晚成,Comedy|Romance,2014.0,3.3580246913580245,405.0,2034031,244264.0,US,https://image.tmdb.org/t/p/w500/k0PO3in0JHAC0NDkOwrdjPQPfzh.jpg
+114329,What We Did on Our Holiday,這個夏天的秘密,Comedy,2014.0,3.5934343434343434,198.0,2725962,276843.0,GB,https://image.tmdb.org/t/p/w500/8HmC4HIQDmUkDfysUBXDNvj6oQB.jpg
+114342,Force Majeure (Turist),婚姻風暴,Drama,2014.0,3.738751814223512,689.0,3630276,265189.0,SE,https://image.tmdb.org/t/p/w500/zyDLs6CIT8XmKj5s3wxH46GCsiu.jpg
+114392,"Homesman, The",逃離邊境,Drama|Western,2014.0,3.3468992248062017,258.0,2398231,264656.0,US,https://image.tmdb.org/t/p/w500/hZnWBR830dGHqrzotjgz3hDNqeq.jpg
+114436,"World of Kanako, The (Kawaki.)",渴望,Crime|Drama|Mystery,2014.0,3.269230769230769,52.0,3108158,251981.0,JP,https://image.tmdb.org/t/p/w500/1BY7ghBx5A3EefvOc3IaR3xsvxb.jpg
+114439,"November Man, The",特務交鋒,Action|Crime|Thriller,2014.0,3.110337972166998,503.0,2402157,254904.0,GB,https://image.tmdb.org/t/p/w500/4ai3KeJcFRt5AwWmajKGJMMhqe4.jpg
+114453,My Girlfriend Is an Agent (Chilgeup gongmuwon),我的特務女友,Action|Comedy|Romance,2009.0,3.2291666666666665,24.0,1432078,18374.0,KR,https://image.tmdb.org/t/p/w500/bZQ8WwglLzz7siSaoSuJqL6af4x.jpg
+114459,White Bird in a Blizzard,暴風雪中的白鳥,Drama|Romance|Thriller,2014.0,3.211640211640212,189.0,2238050,157825.0,US,https://image.tmdb.org/t/p/w500/rb4otZsHEbQWUvnEsv393pMSO0d.jpg
+114494,Who Am I (Kein System Ist Sicher),我是誰：沒有任何一個系統是安全的,Thriller,2014.0,3.685018050541516,554.0,3042408,284427.0,DE,https://image.tmdb.org/t/p/w500/2wmCBQQsKWIu0fH9eZ6kUaKq37r.jpg
+114552,"Boxtrolls, The",怪怪箱,Adventure|Animation|Children|Comedy|Fantasy,2014.0,3.3348264277715565,893.0,787474,170687.0,US,https://image.tmdb.org/t/p/w500/AtjbijrFzEV0vZ3JMRuko2WcmdW.jpg
+114554,"Tale of Princess Kaguya, The (Kaguyahime no monogatari)",輝耀姬物語,Animation|Drama|Fantasy,2013.0,3.936063936063936,1001.0,2576852,149871.0,JP,https://image.tmdb.org/t/p/w500/63Rzaxubx4AlAsiMZljEEUaIae0.jpg
+114601,This Is Where I Leave You,愛在頭七天,Comedy|Drama,2014.0,3.3113382899628254,538.0,1371150,239678.0,US,https://image.tmdb.org/t/p/w500/4TIPqyhiVa0QRReUXJjy0KOsCvn.jpg
+114635,"Look of Silence, The",沉默一瞬,Documentary,2014.0,4.086206896551724,261.0,3521134,267480.0,DK,https://image.tmdb.org/t/p/w500/7TakQLT8gyzIMG8hX8RLTd5qROQ.jpg
+114659,Cabin Fever: Patient Zero,血肉森林3：帶原者,Horror|Sci-Fi|Thriller,2014.0,2.4375,64.0,2102496,157424.0,US,https://image.tmdb.org/t/p/w500/phGT4wTrf5riNY52H7upNIWFY9e.jpg
+114662,American Sniper,美國狙擊手,Action|War,2014.0,3.467771359075707,6578.0,2179136,190859.0,US,https://image.tmdb.org/t/p/w500/jElelKpew8elYTKCK6asOcsTjsU.jpg
+114667,Fort Bliss,布裡斯堡,Drama|War,2014.0,3.583333333333333,18.0,2093995,263855.0,US,https://image.tmdb.org/t/p/w500/bDCWv9myyBpkvrKfcQusosFRAg1.jpg
+114670,Tusk,人型海象,Comedy|Drama|Horror,2014.0,2.702401372212693,583.0,3099498,246403.0,CA,https://image.tmdb.org/t/p/w500/1DWeNoK2h07nWasR3qWrt18xomC.jpg
+114678,Hector and the Search for Happiness,尋找快樂的15種方法,Adventure|Comedy|Drama,2014.0,3.5157232704402515,477.0,1626146,254375.0,DE,https://image.tmdb.org/t/p/w500/lymRg46xAt6s9ApWa9MBcgnzXAS.jpg
+114680,Rigor Mortis (Geung si),殭屍,Action|Drama|Horror,2013.0,3.0588235294117645,68.0,2771800,210911.0,HK,https://image.tmdb.org/t/p/w500/rnE48ufifdKbXDs3Bd66KBkeYxt.jpg
+114700,"Tribe, The (Plemya)",過於寂靜的喧囂,Crime|Drama,2014.0,3.52991452991453,117.0,1745787,271397.0,UA,https://image.tmdb.org/t/p/w500/uBWaVbPMPaQlaMrge8WEoKMSW7g.jpg
+114704,Space Station 76,76號太空站,Comedy|Drama|Sci-Fi,2014.0,2.60989010989011,91.0,2369317,253312.0,US,https://image.tmdb.org/t/p/w500/cToUKM0dDUaLMW4Lgr3QXHlzqdM.jpg
+114713,Annabelle,安娜貝爾,Horror,2014.0,2.7547931382441977,991.0,3322940,250546.0,US,https://image.tmdb.org/t/p/w500/udiXYwya8piLGV5Ac1w5yJSHKQb.jpg
+114758,Open Windows,雲端仇人,Crime|Thriller,2014.0,2.8230088495575223,113.0,2409818,151368.0,US,https://image.tmdb.org/t/p/w500/dHA9jV7xKWjOvv2lYWxDwAmZjhk.jpg
+114762,Two Night Stand,暴雪二夜情,Comedy|Romance,2014.0,3.4432339449541285,872.0,2140619,286554.0,US,https://image.tmdb.org/t/p/w500/rz0YnlHieXP9SBuJU4ANBW8ttIw.jpg
+114793,Time of Eve (Eve no jikan),夏娃的時間 劇場版,Animation|Romance|Sci-Fi,2010.0,3.4722222222222223,90.0,1715210,234284.0,JP,https://image.tmdb.org/t/p/w500/4IS3LCIkAEOh4E167BUZkh443A2.jpg
+114795,Dracula Untold,德古拉：永咒傳奇,Action|Drama|Fantasy,2014.0,3.0879272326350606,1814.0,829150,49017.0,US,https://image.tmdb.org/t/p/w500/rGvfQZThsz9DZRVQ1XqPJTzOKOe.jpg
+114847,Autómata (Automata),奧圖瑪塔,Sci-Fi|Thriller,2014.0,3.325449385052034,1057.0,1971325,262543.0,BG,https://image.tmdb.org/t/p/w500/zI64IfjUdffwVibZUbqpNaJD5HN.jpg
+114849,The Prince,無間救援,Action|Thriller,2014.0,2.5,77.0,1085492,241254.0,US,https://image.tmdb.org/t/p/w500/22b2fmxhZveWSyWkgUz2y94fp3w.jpg
+114856,"Adventurer: The Curse of the Midas Box, The",魔幻冒險王：消失的黃金盒,Adventure|Fantasy,2013.0,2.5405405405405403,37.0,1376213,227707.0,US,https://image.tmdb.org/t/p/w500/31ykUoOS2RNdARk3B8z3y25gD8b.jpg
+114925,"Captive, The",雪地迷蹤,Crime|Drama|Thriller,2014.0,2.9728915662650603,166.0,2326612,244761.0,CA,https://image.tmdb.org/t/p/w500/wLoFxTZFEfAzFLk2qSoPbcz58Jb.jpg
+114933,Ilo Ilo,爸媽不在家,Drama,2013.0,3.743243243243243,37.0,2901736,188598.0,SG,https://image.tmdb.org/t/p/w500/aOFTAhDoX1gLH0XXqPSsW7nhHoJ.jpg
+114935,Predestination,超時空攔截,Action|Mystery|Sci-Fi|Thriller,2014.0,3.789120104866459,6103.0,2397535,206487.0,AU,https://image.tmdb.org/t/p/w500/55GzVkmOP4GPHa38vrD6QWTDAWy.jpg
+114945,Jack and the Cuckoo-Clock Heart (Jack et la mécanique du coeur),心之動力學,Adventure|Animation|Drama|Fantasy|Musical|Romance,2013.0,3.1894736842105265,95.0,1181840,204436.0,FR,https://image.tmdb.org/t/p/w500/2oKEdtqVbVeday0NyYUznTnPQEz.jpg
+115065,Justin and the Knights of Valour,賈斯汀出任務,Adventure|Animation,2013.0,2.761904761904762,42.0,1639826,146381.0,GB,https://image.tmdb.org/t/p/w500/z6GrOTKOazrLnHQWVrN1pA082qi.jpg
+115071,Jackass Presents: Bad Grandpa .5,無厘取鬧：祖孫卡好又來了,Comedy|Documentary,2014.0,3.0876288659793816,97.0,3766424,273641.0,US,https://image.tmdb.org/t/p/w500/4FBfykfsiFHp3EPlG1rH7S5XwF3.jpg
+115122,What We Do in the Shadows,吸血鬼家庭屍篇,Comedy|Horror,2014.0,4.010166734444896,4918.0,3416742,246741.0,NZ,https://image.tmdb.org/t/p/w500/8yuF6DI17VzNMhiijmGW487NvcK.jpg
+115137,Celine: Through the Eyes of the World,《為愛冒險世界巡迴演唱會》中的生活的紀錄片音樂會電影,Documentary,2010.0,0.0,0.0,1570982,37925.0,CA,https://image.tmdb.org/t/p/w500/zayTNcmuLOjQ3tPFaZOjWHXf3pr.jpg
+115147,The Best of Me,有你，生命最完整,Drama|Romance,2014.0,3.565891472868217,387.0,1972779,239571.0,US,https://image.tmdb.org/t/p/w500/xp2StNdLViPXKy7HnkfRCl4CdHn.jpg
+115149,John Wick,捍衛任務,Action|Thriller,2014.0,3.846380697050938,13055.0,2911666,245891.0,US,https://image.tmdb.org/t/p/w500/ns9KwWeZRakdh0RzpjaLB5OFbfq.jpg
+115166,Snakes and Earrings (Hebi ni piasu),蛇信與舌環,Drama|Thriller,2008.0,3.875,4.0,1254249,38551.0,JP,https://image.tmdb.org/t/p/w500/jjQjFmyXAEiDYUESZuTZNqS8dp6.jpg
+115170,"Judge, The",大法官,Drama,2014.0,3.5048678720445063,1438.0,1872194,205587.0,US,https://image.tmdb.org/t/p/w500/3nbOHdwY6Dzp6leCa0bDg6Kw2hf.jpg
+115174,Love Is Strange,愛，不散,Drama,2014.0,3.388392857142857,112.0,2639344,244268.0,US,https://image.tmdb.org/t/p/w500/fc3kcmhERxzDONpB9PlxkA5sfZp.jpg
+115207,Mount Head (Atama yama),頭山,Animation|Comedy|Drama|Fantasy,2002.0,3.259259259259259,27.0,351382,36072.0,JP,https://image.tmdb.org/t/p/w500/2XsbnsB3lZFhSAE8mS9EoGviief.jpg
+115210,Fury,怒火特攻隊,Action|Drama|War,2014.0,3.749322299900129,7009.0,2713180,228150.0,US,https://image.tmdb.org/t/p/w500/vyVe6vV060XtT8SLC8o9vpMV2mZ.jpg
+115216,"Salvation, The",浴血復仇路,Drama|Western,2014.0,3.2623574144486693,263.0,2720680,266285.0,DK,https://image.tmdb.org/t/p/w500/oMS5EZkXRYTpq3yYI6iWNUZOCvS.jpg
+115231,St. Vincent,歐吉桑鄰好,Comedy,2014.0,3.481692432872254,1229.0,2170593,239563.0,US,https://image.tmdb.org/t/p/w500/5secRUEM28Fer4kgX2nqJ4Et7NA.jpg
+115240,Land Ho!,冰島嬉遊記,Adventure|Comedy|Drama,2014.0,3.048780487804878,41.0,3283556,252102.0,IS,https://image.tmdb.org/t/p/w500/sjRksEzgB70a8KzEEqjsuvPRVwX.jpg
+115285,Sleeping Beauty,睡美人：黑魔女詛咒,Adventure|Fantasy,2014.0,2.5454545454545454,11.0,3343136,275318.0,US,https://image.tmdb.org/t/p/w500/jSI38WAoQ6NvNSOgeB18TnPamqh.jpg
+115291,"Chaperone, The",監護者,Action|Comedy,2011.0,2.467741935483871,31.0,1663187,54557.0,US,https://image.tmdb.org/t/p/w500/l5IKZ3V5OF1Feake5w1aVxIsV8R.jpg
+115381,"Alexander and the Terrible, Horrible, No Good, Very Bad Day",亞歷山大衰到家,Comedy,2014.0,3.0902255639097747,266.0,1698641,218778.0,US,https://image.tmdb.org/t/p/w500/pAqjFZdXpRYrz4x8y8DWTi8OiJK.jpg
+115414,Left Behind,末日迷蹤,Action|Sci-Fi|Thriller,2014.0,1.8783783783783785,185.0,2467046,218043.0,CA,https://image.tmdb.org/t/p/w500/e9hBaMyi03IAVX7RamndWOkXZ8h.jpg
+115437,Blind,盲,Drama,2014.0,3.294117647058824,85.0,2616810,245844.0,NO,https://image.tmdb.org/t/p/w500/poa6IZ0pOpcoKS12eq9ddlHYhxq.jpg
+115502,"Rewrite, The",字作多情,Comedy|Romance,2014.0,3.138235294117647,170.0,2509850,289727.0,US,https://image.tmdb.org/t/p/w500/IrJiEtUa2OhZvFEM2pseyaxChd.jpg
+115534,Ouija,碟仙,Horror,2014.0,2.400837988826816,358.0,1204977,242512.0,US,https://image.tmdb.org/t/p/w500/9K7FSMG1u3SRcY47QPcezpfFlZB.jpg
+115569,Nightcrawler,獨家腥聞,Crime|Drama|Thriller,2014.0,3.9763904653802498,13215.0,2872718,242582.0,US,https://image.tmdb.org/t/p/w500/bdidxsfYNVIGBGJ00DacZmn4eou.jpg
+115574,Child of God,神之子,Crime|Drama|Thriller,2013.0,2.9565217391304346,23.0,1951095,152736.0,US,https://image.tmdb.org/t/p/w500/6HFUfOnpwHeuHJLs8o4w4QK20C2.jpg
+115617,Big Hero 6,大英雄天團,Action|Animation|Comedy,2014.0,3.858769132653061,15680.0,2245084,177572.0,US,https://image.tmdb.org/t/p/w500/p3SDxXL2kVke2smA093oYjmLFju.jpg
+115629,Marshland,神秘沼澤,Crime|Thriller,2014.0,3.5982532751091703,229.0,3253930,236735.0,ES,https://image.tmdb.org/t/p/w500/4UCgxOoYxw3ttQKmAYDHXzv9nox.jpg
+115664,The Book of Life,曼羅奇遇記,Adventure|Animation|Romance,2014.0,3.5172275641025643,1248.0,2262227,228326.0,US,https://image.tmdb.org/t/p/w500/rsWMCP2TSPqQ7tHBWUYSi3qubsz.jpg
+115667,"Love, Rosie",真愛繞圈圈,Comedy|Romance,2014.0,3.751897533206831,1054.0,1638002,200727.0,GB,https://image.tmdb.org/t/p/w500/8udNSsbF1Ojqt239NxhZWhrJ4qj.jpg
+115669,Young Detective Dee: Rise of the Sea Dragon (Di Renjie: Shen du long wang),狄仁傑之神都龍王,Action|Adventure|Drama|Fantasy|Mystery|IMAX,2013.0,3.433333333333333,45.0,2992146,217923.0,CN,https://image.tmdb.org/t/p/w500/3joU1K9hR7S6VUWQBvu1a6PJh5g.jpg
+115678,"Like Sunday, Like Rain",如晴天，似雨天,Drama|Romance,2014.0,3.5,30.0,3104818,225044.0,US,https://image.tmdb.org/t/p/w500/guz3N2s4fMMnBCvrhvZubuDvokR.jpg
+115680,Time Lapse,明日拍立得,Crime|Drama|Sci-Fi|Thriller,2014.0,3.600089766606822,1114.0,2669336,273271.0,US,https://image.tmdb.org/t/p/w500/aMxe985Soo4NF4E1IpRo0HS9OTT.jpg
+115685,National Theatre Live: Frankenstein,科學怪人,Drama|Sci-Fi,2011.0,3.6557377049180326,61.0,1795369,203912.0,GB,https://image.tmdb.org/t/p/w500/3MZDyB4eu9XyIcjdBKbmHLk5j4F.jpg
+115699,Turning Tide (En solitaire),逆轉風帆,Adventure|Drama,2013.0,3.769230769230769,13.0,2165236,149087.0,FR,https://image.tmdb.org/t/p/w500/Agd9646dO4gRU0GblOfT4SHWwh4.jpg
+115713,Ex Machina,人造意識,Drama|Sci-Fi|Thriller,2015.0,3.988002720031086,20588.0,470752,264660.0,GB,https://image.tmdb.org/t/p/w500/xTxameM8qkGEO5SA7pbkanpo757.jpg
+115770,Before I Disappear,在我消失之前,Drama,2014.0,3.6176470588235294,119.0,3060492,253254.0,US,https://image.tmdb.org/t/p/w500/fVn4g01k6uEFdOsv7lNcJYvcldR.jpg
+115824,Mr. Turner,畫世紀：透納先生,Drama,2014.0,3.2974910394265238,279.0,2473794,245700.0,GB,https://image.tmdb.org/t/p/w500/v1qQqzvRYJP23jTW1O78k8q8zul.jpg
+115871,Mercy ,梅西的詛咒,Horror|Thriller,2014.0,2.5892857142857144,56.0,2481496,180305.0,US,https://image.tmdb.org/t/p/w500/wiYki9Cz1SCsKzERLd9dABC8Q5r.jpg
+115875,Toy Story Toons: Hawaiian Vacation,玩具總動員：來去夏威夷,Adventure|Animation|Children|Comedy|Fantasy,2011.0,3.0431654676258995,139.0,1850374,77887.0,US,https://image.tmdb.org/t/p/w500/7DrKSrV5NCgR9Ky4WNzgM6ybqdq.jpg
+115879,Toy Story Toons: Small Fry,玩具總動員：薯假包換,Adventure|Animation|Children|Comedy|Fantasy,2011.0,3.0772357723577235,123.0,2033372,82424.0,US,https://image.tmdb.org/t/p/w500/8siICxMft0JSWZDq9YrXh5U5PZx.jpg
+115887,"Sniper, The",神鎗手,Action|Thriller,2009.0,2.825,20.0,1194624,17082.0,HK,https://image.tmdb.org/t/p/w500/n4pfyzu15lzz2rZmACQ0vMhremS.jpg
+115903,Young Goethe in Love,少年歌德的煩惱,Drama|Romance,2011.0,3.411764705882353,17.0,1440180,52475.0,DE,https://image.tmdb.org/t/p/w500/m3nmwZxgS4xoaMQFqrrbpLmQFDR.jpg
+115909,"Hit List, The",絕命清單,Action|Thriller,2011.0,2.755813953488372,43.0,1575694,58626.0,US,https://image.tmdb.org/t/p/w500/tR88diuLaMMdxl9rBVdAKERzIjo.jpg
+115913,30 Nights of Paranormal Activity With the Devil Inside the Girl With the Dragon Tattoo,鬼影實錄中龍紋身的女孩在三十極夜被鬼上身,Comedy,2013.0,1.7647058823529411,17.0,2417650,157058.0,US,https://image.tmdb.org/t/p/w500/xng4MvtKEj8mV2aHgc51tGZzkdN.jpg
+115917,"Marine 2, The",海陸悍將2,Action|Adventure|Drama|Thriller,2009.0,2.4705882352941178,17.0,1266027,27310.0,US,https://image.tmdb.org/t/p/w500/yjFgKW58976rjQTFjkLgipIvVai.jpg
+115921,Dead in Tombstone,血戰墓碑鎮,Action|Fantasy|Horror,2013.0,2.3461538461538463,39.0,2268419,151933.0,US,https://image.tmdb.org/t/p/w500/hWQfInQkauNbyZRQRxbM7IXm3DF.jpg
+115923,Seal Team Eight: Behind Enemy Lines,衝出封鎖線4,Action|Drama|War,2014.0,2.571428571428572,7.0,2992552,260063.0,US,https://image.tmdb.org/t/p/w500/fmI6cpKVpw9sDyDmcgXJcnyckww.jpg
+115951,Stranded,星際風暴,Horror|Sci-Fi,2013.0,2.108695652173913,23.0,2268573,196830.0,CA,https://image.tmdb.org/t/p/w500/dxqwma5Ds2UYhTwi0btsE2qSbVa.jpg
+115961,The Marine 3: Homefront,海陸悍將3,Action,2013.0,2.2857142857142856,7.0,2334841,171581.0,CA,https://image.tmdb.org/t/p/w500/f3Pf9pZy2CfRKlG7vjog1lSZhHd.jpg
+115971,Kung Fu Dunk,功夫灌籃,Action|Adventure|Comedy,2008.0,2.6,20.0,848538,17108.0,CN,https://image.tmdb.org/t/p/w500/170ai4l32VoFqCITTC7JbTIgDgG.jpg
+115991,"Kumiko, the Treasure Hunter",久美子的奇異旅程,Comedy|Drama,2014.0,3.3006535947712417,153.0,3263614,244563.0,US,https://image.tmdb.org/t/p/w500/9q9K7HqGftpqocvjFqvwqyeUSIQ.jpg
+115996,Stereo,身歷聲,Thriller,2014.0,3.55,20.0,3348102,256311.0,DE,https://image.tmdb.org/t/p/w500/b64MdnHYONzg0VB3HePJjuA9zhi.jpg
+115998,The Guardians,捍衛天使,Action|Thriller,2012.0,3.423076923076923,26.0,2107814,130747.0,DE,https://image.tmdb.org/t/p/w500/57LolRRwtqqtGMyZfb2frIuS90O.jpg
+116018,Chasing Madoff,追捕馬多夫,Documentary,2010.0,3.911764705882353,17.0,1636849,68197.0,CA,https://image.tmdb.org/t/p/w500/ueJlJoSpxBGCabhKh9YLwxzPPIV.jpg
+116132,Concrete Blondes,捲款大作戰,Action|Comedy|Crime,2013.0,3.5,1.0,2005185,250608.0,US,https://image.tmdb.org/t/p/w500/cwwx7sqEvmlNCFzLMTQduScWymj.jpg
+116138,Leviathan,纏繞之蛇,Drama,2014.0,3.779523293607801,923.0,2802154,265180.0,RU,https://image.tmdb.org/t/p/w500/zknIX7rL1UVbaKs4wRbPZCQeTbJ.jpg
+116155,Still Life,無人出席的告別式,Drama,2013.0,3.5538461538461537,65.0,2395417,216156.0,GB,https://image.tmdb.org/t/p/w500/WxGIgw13bKHXFbMhJqBc8Sk2TY.jpg
+116161,Foxcatcher,暗黑冠軍路,Drama,2014.0,3.3663793103448274,1508.0,1100089,87492.0,US,https://image.tmdb.org/t/p/w500/aFXGbcQ2RMBOuZnehJQ61HYorAY.jpg
+116169,Reign of Assassins,劍雨,Action,2010.0,3.465909090909091,44.0,1460743,44092.0,CN,https://image.tmdb.org/t/p/w500/tg3rDMG0YkfQ0mzYFcQ9ZZdHJnm.jpg
+116191,Wolf Creek 2,鬼哭狼嚎 2,Horror|Thriller,2013.0,3.040178571428572,112.0,2004432,199534.0,AU,https://image.tmdb.org/t/p/w500/uELzdTzPOpZwSFqBbwpjuKE7UW3.jpg
+116205,The Clinic,嬰兒轉孕站,Horror|Thriller,2010.0,2.717391304347826,23.0,1345772,57749.0,AU,https://image.tmdb.org/t/p/w500/wWWjKwaWJ8pidrCxWeUsvXl00pl.jpg
+116213,Walking With Dinosaurs,與恐龍冒險 3D,Adventure|Animation|Children,2013.0,2.951219512195122,41.0,1762399,77951.0,AU,https://image.tmdb.org/t/p/w500/lkElT9HpOUIjIL20Hwy3LZqgXWc.jpg
+116217,Secret of the Wings,奇妙仙子：冬森林的祕密,Adventure|Animation|Children|Fantasy,2012.0,3.207182320441989,181.0,1217213,75258.0,US,https://image.tmdb.org/t/p/w500/sXuT7x4gsAfsC9R23pWknpVyeUf.jpg
+116219,Tinker Bell and the Lost Treasure,奇妙仙子與失落的寶藏,Adventure|Animation|Children|Fantasy,2009.0,3.0950920245398774,163.0,1216516,25475.0,US,https://image.tmdb.org/t/p/w500/ibYPw9MOXOZnlO3D1fpZGMgyi3s.jpg
+116299,Sniper: Legacy,戰略陰謀5,Action|Thriller,2014.0,2.635135135135135,37.0,3776288,290729.0,US,https://image.tmdb.org/t/p/w500/a9L1t3vRaZRU1Fa0kolfQGiTCnQ.jpg
+116301,Catch Hell,非法囚禁,Drama|Thriller,2014.0,2.8823529411764706,17.0,2403558,293633.0,US,https://image.tmdb.org/t/p/w500/z66jSY5zfxs9RqD4FOBGPJdjST6.jpg
+116307,You're Not You,漸動人生,Drama,2014.0,3.534482758620689,145.0,1198156,290542.0,US,https://image.tmdb.org/t/p/w500/g2fvnXfZAy6id5Yk3tEoLNtgRXu.jpg
+116317,Crush,迷戀,Thriller,2013.0,2.796875,32.0,2093977,183662.0,US,https://image.tmdb.org/t/p/w500/v197Yp1gFcgqpTt5chz0yelhBCb.jpg
+116397,Stonehearst Asylum,地獄醫院,Thriller,2014.0,3.439138576779026,534.0,1772264,207933.0,US,https://image.tmdb.org/t/p/w500/6WX15Og7WlA6ZYxCIQHyGKO4Htn.jpg
+116411,Tangerines,橘子收成時,Drama,2013.0,3.8742603550295858,338.0,2991224,238628.0,EE,https://image.tmdb.org/t/p/w500/p9YPW7qdiMkadQZwAT3Y6GgR4cx.jpg
+116453,Hateship Loveship,愛情沒什麼道理,Drama,2013.0,3.019607843137255,51.0,2463512,209271.0,US,https://image.tmdb.org/t/p/w500/kvdVpjrRREFBCowBhOGs6Tj14ld.jpg
+116463,Ice Castles,冰上圓舞曲,Drama|Romance,2010.0,3.147058823529412,17.0,1411276,33570.0,CA,https://image.tmdb.org/t/p/w500/nyOdft1lgrcCQANnfYMMCwZ7RIB.jpg
+116483,Hawaii,我心遺忘夏威夷,Romance,2013.0,3.661764705882353,34.0,2801746,199851.0,AR,https://image.tmdb.org/t/p/w500/tKeIxgPt9QFyiJd1IXr3SbumS8E.jpg
+116489,Out in the Dark,愛，悄悄越界,Drama|Romance,2012.0,3.488636363636364,44.0,2318625,128154.0,IL,https://image.tmdb.org/t/p/w500/3wHMe8o5evtO6cwzQtMefZUbxPp.jpg
+116491,The Noble Family,我們是貴族,Comedy,2013.0,3.5892857142857144,28.0,2222394,180147.0,MX,https://image.tmdb.org/t/p/w500/7HkjlEjSIbipKHQKb0eSwWvvW6F.jpg
+116493,The Returned,僵屍歸來,Drama|Horror|Thriller,2013.0,3.020833333333333,48.0,2093270,227094.0,CA,https://image.tmdb.org/t/p/w500/gMdNeOFGmYXdan1ov835HOio1Qn.jpg
+116529,Stalingrad,史達林格勒,Action|Drama|War|IMAX,2013.0,2.5783132530120483,83.0,1966566,203793.0,RU,https://image.tmdb.org/t/p/w500/bLSYKJIxqKQhDmZNotA6ULwE4Dg.jpg
+116535,Scarecrow,鐮刀噬血魔,Action|Comedy|Drama|Horror,2002.0,1.5,2.0,341564,48314.0,US,https://image.tmdb.org/t/p/w500/tjwMFZMEzsUr0P8uIWCZHgZ5p3X.jpg
+116660,Free Fall,警校禁戀,Drama,2013.0,3.547029702970297,202.0,2617828,167581.0,DE,https://image.tmdb.org/t/p/w500/l7yoSvt19fST0kLY0wefTwMXECk.jpg
+116668,Dead Snow 2: Red vs. Dead ,冰血奇緣,Action|Comedy|Horror,2014.0,3.2064676616915424,201.0,2832470,241842.0,NO,https://image.tmdb.org/t/p/w500/6Eq24GK1Dp9Xu6cmcyhpAOFPHCa.jpg
+116720,The Inhabited Island 2: Rebellion,人煙之島2 大決戰,Action|Adventure|Sci-Fi,2009.0,2.4827586206896552,29.0,1399952,18122.0,RU,https://image.tmdb.org/t/p/w500/mZuRkOM3t714W1MTJ4K6uqSIqvA.jpg
+116724,You Are the Apple of My Eye,那些年，我們一起追的女孩,Comedy|Drama|Romance,2011.0,3.736111111111111,36.0,2036416,84111.0,TW,https://image.tmdb.org/t/p/w500/8RzySj0enMBxzto3m7iIfYQSWiC.jpg
+116726,Hamilton - In the Interest of the Nation (Hamilton: I nationens intresse),漢密爾頓：國家利益,Action|Drama|Thriller,2012.0,3.0892857142857144,28.0,1856014,82450.0,SE,https://image.tmdb.org/t/p/w500/8ggFKlS8uZRqpnmbnN36g2r75WL.jpg
+116742,Secret,不能說的秘密,Drama|Fantasy|Romance,2007.0,3.642857142857143,49.0,1037850,20342.0,TW,https://image.tmdb.org/t/p/w500/A2Nq5DKNQZf5Zo1cu7iL8VSsjpa.jpg
+116744,Warriors of the Rainbow: Seediq Bale,賽德克．巴萊(上)太陽旗,Action|Drama,2011.0,3.4722222222222223,18.0,2007993,98344.0,TW,https://image.tmdb.org/t/p/w500/mrdrts2XXkJHg24I0CqhUWNUh40.jpg
+116758,Death Racers,絕命尬車手,Action|Adventure|Comedy|Sci-Fi|Thriller,2008.0,1.4444444444444444,9.0,1261046,22515.0,US,https://image.tmdb.org/t/p/w500/b0d41RQPjbl27ksFYYKCpkPwuq.jpg
+116770,Last Passenger,最後的旅人,Action|Mystery|Thriller,2013.0,3.013888888888889,36.0,1858481,104329.0,US,https://image.tmdb.org/t/p/w500/ntIHy3C3Xgd5bl0c85pFX6joTFq.jpg
+116781,Serena,瞞天殺機,Drama,2014.0,2.6958333333333333,120.0,1247690,164251.0,US,https://image.tmdb.org/t/p/w500/exXUc0SAHcu74Y4p52gOAuchP5w.jpg
+116797,The Imitation Game,模仿遊戲,Drama|Thriller|War,2014.0,3.992477514309076,24460.0,2084970,205596.0,US,https://image.tmdb.org/t/p/w500/5f7dj0iS2AyxCa7TvLAic2PoLRW.jpg
+116799,Inherent Vice,性本惡,Comedy|Crime|Drama|Mystery|Romance,2014.0,3.4715041128084607,1702.0,1791528,171274.0,US,https://image.tmdb.org/t/p/w500/lmuoirZjwHHSrVfBJh0bZjmTXGm.jpg
+116801,Labyrinth of Lies,謊言迷宮,Drama,2014.0,3.663265306122449,98.0,3825638,287495.0,DE,https://image.tmdb.org/t/p/w500/pdXxj8QoCCHFbaN8EK5y5y5HN9q.jpg
+116803,Battle of the Warriors,墨攻,Action|Drama|War,2006.0,3.2857142857142856,14.0,485863,14808.0,CN,https://image.tmdb.org/t/p/w500/xJCi941e6YMg0dcTat3BKCcudRq.jpg
+116805,Confucius,孔子,Drama,2010.0,2.8684210526315788,19.0,1397498,34182.0,CN,https://image.tmdb.org/t/p/w500/iwJTSxiYmNkmZhZS97P1ovptOnl.jpg
+116807,Babysitting,褓姆Hold不住,Comedy,2014.0,3.477777777777778,90.0,3013602,262551.0,FR,https://image.tmdb.org/t/p/w500/zFxj7SVStNZgFlYUJPMF1xFzgIy.jpg
+116817,Rudderless,生命沒有歸處,Comedy|Drama,2014.0,3.696428571428572,140.0,1798243,244403.0,US,https://image.tmdb.org/t/p/w500/28uuzZsVRtmMchOHa6FCkJNiLlr.jpg
+116823,The Hunger Games: Mockingjay - Part 1,飢餓遊戲：自由幻夢Ⅰ,Adventure|Sci-Fi|Thriller,2014.0,3.406414899120538,9665.0,1951265,131631.0,US,https://image.tmdb.org/t/p/w500/fzS6UHZa7SXiNDc4P9ZkgMGEjeB.jpg
+116841,Rosewater,叛諜風暴,Drama,2014.0,3.295,100.0,2752688,222649.0,US,https://image.tmdb.org/t/p/w500/bhhWG0BtWzJt1AC7mgvcqIFDcCX.jpg
+116855,The Way He Looks,愛情的模樣,Drama|Romance,2014.0,3.8021680216802167,369.0,1702014,237791.0,BR,https://image.tmdb.org/t/p/w500/1rhNs0GeUomCLSAddZcbxBhNjU9.jpg
+116857,Love and Honor,愛與榮耀,Drama|Romance|War,2012.0,3.106382978723404,47.0,1976989,140222.0,US,https://image.tmdb.org/t/p/w500/9QWC9cluFEf7TM6fNU8q1VClhJT.jpg
+116887,Exodus: Gods and Kings,出埃及記：天地王者,Action|Adventure|Drama,2014.0,2.7617142857142856,875.0,1528100,147441.0,GB,https://image.tmdb.org/t/p/w500/1wckMP4bvcOcbYxXfkf0jjwOaOt.jpg
+116893,Trash,垃圾男孩,Adventure|Crime|Drama|Thriller,2014.0,3.4541284403669725,109.0,1921149,206563.0,BR,https://image.tmdb.org/t/p/w500/kd4v23x0lalIRdwgLRkHgBhYBUQ.jpg
+116897,Wild Tales,生命中最抓狂的小事,Comedy|Drama|Thriller,2014.0,4.108892617449665,2980.0,3011894,265195.0,AR,https://image.tmdb.org/t/p/w500/oCCeJfQ5uIcqVO1gVwBx80Hcplx.jpg
+116899,Summer Days With Coo,河童之夏,Animation,2007.0,3.7,20.0,1179773,17234.0,JP,https://image.tmdb.org/t/p/w500/nbp9w5hDwj565zYXD1HCU2isSOR.jpg
+116905,Patema Inverted,帕蒂瑪的顛倒世界,Adventure|Animation|Drama|Fantasy|Sci-Fi,2013.0,3.749221183800623,321.0,2981768,212167.0,JP,https://image.tmdb.org/t/p/w500/r3049Dkc5O7dMeG58tky6YOJ1RR.jpg
+116911,"Yobi, The Five-Tailed Fox",小小五尾狐,Animation|Fantasy,2007.0,2.9375,24.0,1077274,58700.0,KR,https://image.tmdb.org/t/p/w500/mZD7eTo5Lc9Qytws9ft476unYI6.jpg
+116951,Bo Burnham: what.,柏·本漢：蛤,Comedy,2013.0,3.94375,480.0,3210258,244001.0,US,https://image.tmdb.org/t/p/w500/kGDpMWPOKStmvf4F1gkqfeFZmXA.jpg
+116977,Dumb and Dumber To,阿呆與阿瓜：賤招拆招,Comedy,2014.0,2.585668789808917,1570.0,2096672,100042.0,US,https://image.tmdb.org/t/p/w500/v4No8QxaT9Etim82GROHPwv0t9p.jpg
+117065,The Damned,闇魔怨,Horror|Mystery|Thriller,2014.0,2.619047619047619,42.0,2387408,258086.0,US,https://image.tmdb.org/t/p/w500/30RZFwxis3FHt3TtHWRJuL9TP1O.jpg
+117107,Miss Meadows,甜心殺手,Drama,2014.0,2.9683544303797467,79.0,3128900,261037.0,US,https://image.tmdb.org/t/p/w500/yjNr65BFuoQwr8Q4jLRxRoOwqqx.jpg
+117133,Painted Skin,畫皮,Action|Drama|Thriller,2008.0,3.6,30.0,1055300,17808.0,CN,https://image.tmdb.org/t/p/w500/7UrM6bzKDVw19HiQDbSJr706DwX.jpg
+117136,One Chance,翻聲吧！保羅,Comedy|Drama,2013.0,3.63,50.0,1196956,209361.0,US,https://image.tmdb.org/t/p/w500/3SgV4i9rBm4ZUbU7QRmDTTG6B01.jpg
+117138,Rent: Filmed Live on Broadway,吉屋出租：百老匯,Drama|Musical,2008.0,3.3076923076923075,39.0,1273675,15199.0,US,https://image.tmdb.org/t/p/w500/uTrqKaDWd1Fyd2uRIEqReQnBu8C.jpg
+117142,An Empress and the Warriors,江山美人,Action|Drama|Romance|War,2008.0,3.34375,16.0,1186803,14539.0,CN,https://image.tmdb.org/t/p/w500/czFkHXSAWBYhurfGNVKotfBhso2.jpg
+117148,Dil Bole Hadippa!,寶萊塢之板球尤物,Comedy|Drama|Romance,2009.0,2.3157894736842106,19.0,1202540,22609.0,IN,https://image.tmdb.org/t/p/w500/zt6r5WddPoBaXW6knwQWRnor61F.jpg
+117176,The Theory of Everything,愛的萬物論,Drama|Romance,2014.0,3.7921590349581487,8124.0,2980516,266856.0,GB,https://image.tmdb.org/t/p/w500/ojX2f80FFG91w4bDTZAP3249Uv3.jpg
+117194,Dolphin Tale 2,溫特的故事：泳不放棄2,Children|Drama,2014.0,3.0737704918032787,61.0,2978462,227735.0,US,https://image.tmdb.org/t/p/w500/7ujGA9YqxQ3uwtMelCEsaBKasuR.jpg
+117308,When the Game Stands Tall,攻無不克/比賽制高點,Drama,2014.0,2.966666666666667,75.0,2247476,232679.0,US,https://image.tmdb.org/t/p/w500/ffVhh4sBLpJCu875v6hwLJN5VNR.jpg
+117310,Aashiqui 2,誓愛如歌2,Drama|Musical|Romance,2013.0,3.2363636363636363,55.0,2203308,192558.0,IN,https://image.tmdb.org/t/p/w500/lMblq8xcQIRRIVdaMg1XC283gU0.jpg
+117312,The ABCs of Death 2,26種死法2,Comedy|Horror,2014.0,2.7556818181818183,88.0,2926810,193726.0,CA,https://image.tmdb.org/t/p/w500/mWsyM3ET4dDp139B5CPFmIaHvrE.jpg
+117330,The Mark of the Angels - Miserere,天使的印跡：苦難,Thriller,2013.0,2.833333333333333,6.0,2354215,201759.0,FR,https://image.tmdb.org/t/p/w500/6LCEXCm3rZl785ZKelxMpJFuZcw.jpg
+117334,The New Girlfriend,女朋友的女朋友,Drama,2014.0,3.149122807017544,57.0,3184934,283726.0,FR,https://image.tmdb.org/t/p/w500/nHvEPTFPMnvA1HlaUgVnieEvzrF.jpg
+117336,The Missionaries,性愛診療室,Comedy|Romance,2014.0,2.647058823529412,17.0,2978426,289153.0,FR,https://image.tmdb.org/t/p/w500/n7ya7mtJ25T0qUAyt4zKUBha1bK.jpg
+117338,Red Mist,魂殺,Horror|Thriller,2008.0,2.769230769230769,13.0,1185264,15011.0,GB,https://image.tmdb.org/t/p/w500/dICXXZVyeJJlV0FqBXWBNZxyqZd.jpg
+117344,Ragnarok,末日魔獸/神秘仙境,Action|Adventure,2013.0,2.9761904761904763,42.0,2363213,140818.0,NO,https://image.tmdb.org/t/p/w500/nKj6LVga9Y5gNWgueqbkNrEdwdb.jpg
+117358,20th Century Boys - Chapter 1: Beginning of the End,20世紀少年,Adventure|Mystery|Sci-Fi,2008.0,2.775,20.0,1155705,36683.0,JP,https://image.tmdb.org/t/p/w500/zPjj5uRCUAOL6A33PsYLpKgVc5X.jpg
+117362,If You Are the One,非誠勿擾,Comedy|Romance,2008.0,3.7857142857142856,14.0,1330607,18232.0,CN,https://image.tmdb.org/t/p/w500/5EJ3WXtAV0itREDaFM4GRhFSTh8.jpg
+117368,The Madagascar Penguins in a Christmas Caper,馬達加斯加企鵝幫聖誕惡搞歷險記,Animation|Comedy,2005.0,3.333333333333333,132.0,484439,10258.0,US,https://image.tmdb.org/t/p/w500/gOVdfrRfzQjYwezOxIap13j05d8.jpg
+117372,V/H/S: Viral,索命影帶3,Horror|Thriller,2014.0,2.4405594405594404,143.0,3704538,267806.0,US,https://image.tmdb.org/t/p/w500/naiCIRlSlFooIYxoJkhTNbomuL1.jpg
+117434,Starry Eyes,腥夢驚魂,Horror,2014.0,3.071428571428572,245.0,2793490,254194.0,BE,https://image.tmdb.org/t/p/w500/t1sIumVCl91XThMoJqUjpERYeAM.jpg
+117438,When Marnie Was There,回憶中的瑪妮,Animation|Drama,2014.0,3.8,740.0,3398268,242828.0,JP,https://image.tmdb.org/t/p/w500/1aLc9QxRH5NLuoJLghBfMwHGZ1d.jpg
+117440,Lupin the 3rd,世紀怪盜：魯邦三世,Action|Adventure|Comedy,2014.0,2.611111111111111,9.0,862748,241868.0,JP,https://image.tmdb.org/t/p/w500/hBffIzPO8wtMIC0b1xkDaqWd6ZM.jpg
+117442,The Monkey King,西遊記之大鬧天宮,Action|Adventure|Children|IMAX,2014.0,2.561224489795918,49.0,1717715,119892.0,CN,https://image.tmdb.org/t/p/w500/edGjzfMPCD6A7PBR8PyREZSU7r0.jpg
+117444,Song of the Sea,海洋幻想曲,Animation|Children|Fantasy,2014.0,4.019345238095238,1680.0,1865505,110416.0,IE,https://image.tmdb.org/t/p/w500/z5Sj5vhQralSBajag1ZZQLR67iv.jpg
+117448,Kiki's Delivery Service,魔女宅急便,Fantasy,2014.0,2.833333333333333,12.0,2865558,252391.0,JP,https://image.tmdb.org/t/p/w500/3viN2yz3GAIs3Tp6D152kStckJh.jpg
+117456,Beyond the Lights,燈光之外,Drama,2014.0,3.4516129032258065,124.0,3125324,241771.0,US,https://image.tmdb.org/t/p/w500/5Di9UXTa2bDec68WOFcZzgB1ot3.jpg
+117464,Paulette,美味毒婦,Comedy|Crime,2012.0,3.4081632653061225,49.0,2215395,159121.0,FR,https://image.tmdb.org/t/p/w500/1wu8NVmeStEWls0RaX5NjauIM9g.jpg
+117466,In the Heart of the Sea,白鯨傳奇：怒海之心,Action|Adventure|Drama,2015.0,3.325,740.0,1390411,205775.0,US,https://image.tmdb.org/t/p/w500/9TEDH6X28K7khJ4TH6sSJNeemN6.jpg
+117474,Iceman,急凍行者(上卷),Action|Comedy|Sci-Fi,2014.0,2.863636363636364,22.0,2557256,105001.0,CN,https://image.tmdb.org/t/p/w500/nWXWSSjq1dyh6fJGSXhyeLVpmdo.jpg
+117488,A Promise,爱的承诺,Drama|Romance,2013.0,3.130434782608696,23.0,2191082,214081.0,FR,https://image.tmdb.org/t/p/w500/p6QfDLXrO2PX5xAl2x2koJmwlNa.jpg
+117523,Love You You,夏日乐悠悠,Romance,2011.0,0.5,1.0,2062580,79151.0,HK,https://image.tmdb.org/t/p/w500/ttK8p7jtaxCXWfza6UOkjiHayMg.jpg
+117529,Jurassic World,侏羅紀世界,Action|Adventure|Drama|Sci-Fi|Thriller,2015.0,3.2677437641723355,8820.0,369610,135397.0,US,https://image.tmdb.org/t/p/w500/edBEPUqnfKFzVQdWpvHGUR1fXO6.jpg
+117531,Watermark,水風景,Documentary,2014.0,3.375,16.0,3106868,215032.0,US,https://image.tmdb.org/t/p/w500/ggHgV6OfSAkCZeUbQtMK1sNWq9G.jpg
+117533,Citizenfour,第四公民,Documentary,2014.0,3.926496097137901,2306.0,4044364,293310.0,US,https://image.tmdb.org/t/p/w500/e2KxvrdSXJMbQb3ejggOTLIAdX4.jpg
+117545,Asterix: The Land of the Gods (Astérix: Le domaine des dieux),高盧英雄：諸神領域,Animation,2014.0,3.455555555555556,225.0,3759416,170522.0,FR,https://image.tmdb.org/t/p/w500/lhB8cU7sHMy4ibKHVn67YcP4dI.jpg
+117547,She Monkeys,她說她愛她,Drama,2011.0,2.9285714285714284,21.0,1827358,78646.0,SE,https://image.tmdb.org/t/p/w500/eTl33EoGf2oeAN7scEr1Ct2ch4a.jpg
+117549,The Taking of Deborah Logan,失魂記憶,Horror|Thriller,2014.0,3.309090909090909,440.0,3387648,297608.0,US,https://image.tmdb.org/t/p/w500/77i7EBUyQKOUiZeYQ5tWDGQb0AI.jpg
+117574,The Incite Mill - 7 Day Death Game,算計：7日死亡遊戲,Horror|Mystery|Thriller,2010.0,2.75,10.0,1586753,63484.0,JP,https://image.tmdb.org/t/p/w500/aMhT3m6dIporATHJCBhlG3i9iRp.jpg
+117586,My Dear Desperado,我的流氓情人,Comedy,2010.0,3.1666666666666665,3.0,1672091,43212.0,KR,https://image.tmdb.org/t/p/w500/kK45Ve6AqF8numkcxzHQdeJ5wM1.jpg
+117590,Horrible Bosses 2,老闆不是人2,Comedy|Crime,2014.0,3.1751807228915663,2075.0,2170439,227159.0,US,https://image.tmdb.org/t/p/w500/6w7GyC1tx2H8LrerZIxtaedDmnF.jpg
+117646,Dragonheart 2: A New Beginning,魔龍傳奇續集,Action|Adventure|Comedy|Drama|Fantasy|Thriller,2000.0,2.5,37.0,214641,10473.0,US,https://image.tmdb.org/t/p/w500/yTRf0eiLAFCSRfiboiUFUloRc3l.jpg
+117676,El Gringo,邊境大逃殺,Action|Drama,2012.0,2.9130434782608696,23.0,1990216,102629.0,US,https://image.tmdb.org/t/p/w500/4VygHrrOlkwpfNc90VHO3qR3DQ2.jpg
+117851,Penguins of Madagascar,馬達加斯加爆走企鵝,Adventure|Animation|Children|Comedy,2014.0,3.2124352331606216,1351.0,1911658,270946.0,US,https://image.tmdb.org/t/p/w500/aCrtS3YFRJ45gnzVR5ANMJAWfh2.jpg
+117867,'71,暴亂夜,Action|Drama|Thriller|War,2014.0,3.661354581673306,502.0,2614684,252178.0,GB,https://image.tmdb.org/t/p/w500/xHVVzpolB5FJQToQWdjvJhXD8Oe.jpg
+117871,"Water Diviner, The",伊斯坦堡救援,Action|Drama|War,2014.0,3.3515625,320.0,3007512,256917.0,AU,https://image.tmdb.org/t/p/w500/15s8IN6cQLRv6VMRHpsr36fPfNO.jpg
+117881,Still Alice,我想念我自己,Drama,2014.0,3.752549286199864,1471.0,3316960,284293.0,US,https://image.tmdb.org/t/p/w500/hMoKN27O18nqYr5cwyLdosW185P.jpg
+117887,Paddington,柏靈頓：熊愛趴趴走,Children|Comedy,2014.0,3.5831683168316832,1515.0,1109624,116149.0,GB,https://image.tmdb.org/t/p/w500/choUOqOkYixEQZl3zzAuvJ9WOzO.jpg
+117893,Jessabelle,母難日,Horror|Thriller,2014.0,2.987012987012987,154.0,2300975,203834.0,US,https://image.tmdb.org/t/p/w500/9WP1ADKCeDG0avA0WSo4mUemTqW.jpg
+117895,Maze Runner: Scorch Trials,移動迷宮：焦土試煉,Action|Thriller,2015.0,3.173458540042523,2822.0,4046784,294254.0,US,https://image.tmdb.org/t/p/w500/2nh54g8qxottzCdVA7x6sINoKvi.jpg
+117913,Scooby-Doo! Frankencreepy,叔比狗之科學怪物,Adventure|Animation|Children|Mystery,2014.0,3.217948717948718,39.0,3919322,284995.0,US,https://image.tmdb.org/t/p/w500/9Ql1KEdLPr0bl5503qFiUscDT1q.jpg
+117922,Ice Age: A Mammoth Christmas,冰原歷險記：長毛象歡度聖誕,Adventure|Animation|Children,2011.0,3.147368421052632,190.0,2100546,79218.0,US,https://image.tmdb.org/t/p/w500/2bVGFGaKxA9YBszXRKVmn43kqNq.jpg
+117928,Kajaki,卡加奇：真實故事,Adventure|Drama|War,2014.0,3.525,80.0,3622120,306650.0,GB,https://image.tmdb.org/t/p/w500/shAhtzoR3npXW17w7HovbyXpVYV.jpg
+118082,The Voices,血色孤語,Comedy|Crime|Thriller,2014.0,3.2543103448275863,696.0,1567437,244458.0,US,https://image.tmdb.org/t/p/w500/weY5OVSFmxvA3D4lfyhgvugklEh.jpg
+118195,Tenchi: The Samurai Astronomer,天地明察,Drama,2012.0,3.5,1.0,1834303,163870.0,JP,https://image.tmdb.org/t/p/w500/ozrRFtnABr1KtQfykXq15DJvy0E.jpg
+118198,The Green Prince,哈瑪斯之子,Documentary|Drama|Thriller,2014.0,3.712121212121212,33.0,2304915,250798.0,US,https://image.tmdb.org/t/p/w500/wWEaArfQxfX6aKHkB59CRr5NKgb.jpg
+118202,Cowspiracy: The Sustainability Secret,奶牛陰謀：永遠不能說的秘密,Adventure|Comedy|Documentary|Mystery,2014.0,3.764591439688716,257.0,3302820,282297.0,US,https://image.tmdb.org/t/p/w500/lzU2Qr2qTdPTB33aiaMTwSLULnY.jpg
+118246,Clouds of Sils Maria,星光雲寂,Drama,2014.0,3.5140625,320.0,2452254,246860.0,DE,https://image.tmdb.org/t/p/w500/4qS3N2oMDycMeFWS76yAf9uiv2D.jpg
+118248,Dying of the Light,微光復仇,Drama|Thriller,2014.0,2.192982456140351,57.0,1274586,297596.0,US,https://image.tmdb.org/t/p/w500/gL6riNxQeyPXT5YsgqE2aWhl1zi.jpg
+118252,All Cheerleaders Die,去死吧！啦啦隊,Comedy|Horror|Thriller,2013.0,2.951388888888889,72.0,2527186,210908.0,US,https://image.tmdb.org/t/p/w500/onshjkyjhzyLntdOYQw4EMUXGcG.jpg
+118256,WolfCop,魔狼特警,Comedy|Horror,2014.0,2.861111111111111,72.0,2781516,262840.0,CA,https://image.tmdb.org/t/p/w500/k8M81MqeTbv5LFjgRbfmZ0Y4BJ0.jpg
+118264,The Kick,泡菜拳霸,Action,2011.0,3.09375,16.0,2020110,82469.0,KR,https://image.tmdb.org/t/p/w500/hxLYNaPTvG4Tk4fkXN2LkNZscfm.jpg
+118272,Saving General Yang,忠烈楊家將,Adventure,2013.0,3.576923076923077,13.0,2072220,181009.0,HK,https://image.tmdb.org/t/p/w500/wZy06D7VZFXwGbZhB889zHNUOVo.jpg
+118300,Home Alone: The Holiday Heist,小鬼當家5：假日劫案,Children|Comedy|Crime,2012.0,1.8611111111111112,72.0,2308733,134375.0,CA,https://image.tmdb.org/t/p/w500/96U86KwCv1vxf8RSvbfXnihRDJo.jpg
+118328,The Protector 2,冬蔭功2,Action,2013.0,2.8947368421052637,38.0,1925518,110552.0,TH,https://image.tmdb.org/t/p/w500/vi15vJlANSl3654N2NYfL0TP9p7.jpg
+118342,Mortuary,停屍間,Horror|Mystery|Thriller,2005.0,2.0588235294117645,17.0,415167,14228.0,US,https://image.tmdb.org/t/p/w500/boMzrtOzF3depzgELFsvnU5t1Mo.jpg
+118354,Kill the Messenger,告密者,Crime|Drama|Mystery|Thriller,2014.0,3.375,280.0,1216491,245916.0,US,https://image.tmdb.org/t/p/w500/7HTNqFUUL2rKaNoKK14WnXdONba.jpg
+118466,"Kingdom of Dreams and Madness, The",夢與瘋狂的王國,Animation|Documentary,2013.0,3.755244755244755,143.0,3204392,252511.0,JP,https://image.tmdb.org/t/p/w500/AhjY38296XsBAfuIh7AvlqZKuJN.jpg
+118496,A Cinderella Story: Once Upon a Song,灰姑娘的美聲奇蹟,Children|Comedy|Romance,2011.0,3.223684210526316,190.0,1814614,74018.0,US,https://image.tmdb.org/t/p/w500/awuuwPA8Hy9c5EH04xwkEXOSYiL.jpg
+118512,Bring It On: In It To Win It,魅力四射4：全力以赴,Comedy,2007.0,2.7457627118644066,59.0,972785,15261.0,US,https://image.tmdb.org/t/p/w500/sjegJKncu4WxcoYRMnFtUM0s21x.jpg
+118570,Jarhead 2: Field of Fire,鍋蓋頭2 : 火線戰場,Action|Drama|War,2014.0,2.682926829268293,41.0,3699508,285423.0,US,https://image.tmdb.org/t/p/w500/wzke0kYlCQlNb1YSTIXr6qzSdeZ.jpg
+118684,Jingle All the Way 2,一路響叮噹2,Children|Comedy,2014.0,1.58,25.0,3486392,289728.0,US,https://image.tmdb.org/t/p/w500/x8JinWPxZIZY9HzJvvsC5puYsNu.jpg
+118686,The Face of Love,聽說愛情回來過,Drama|Romance,2013.0,3.4,25.0,1839642,214086.0,US,https://image.tmdb.org/t/p/w500/fpCHgbltugwZpoTfXsyKxL6Ersa.jpg
+118696,The Hobbit: The Battle of the Five Armies,哈比人：五軍之戰,Adventure|Fantasy,2014.0,3.473885793871866,8616.0,2310332,122917.0,US,https://image.tmdb.org/t/p/w500/9q0ch2Rj3smwnMbjfb0u6eBC6pQ.jpg
+118700,Selma,逐夢大道,Drama,2014.0,3.679347826086957,1288.0,1020072,273895.0,US,https://image.tmdb.org/t/p/w500/a15OMpRsHDIz3i3fQozt5veZU9L.jpg
+118702,Unbroken,永不屈服,Drama|War,2014.0,3.564814814814815,1188.0,1809398,227306.0,US,https://image.tmdb.org/t/p/w500/ghtKJGNcKWmAeNi6raKn3xbxkdN.jpg
+118706,Black Sea,黑海浩劫,Adventure|Mystery|Thriller,2015.0,3.0840336134453783,238.0,2261331,246080.0,US,https://image.tmdb.org/t/p/w500/2KBzeNGyaoVmMTu07y8WUpt5U9n.jpg
+118760,The Good Lie,扭轉命運的樂章,Drama,2014.0,3.655940594059406,202.0,2652092,250538.0,US,https://image.tmdb.org/t/p/w500/yAhoeIwwtPxJ7uf9HLIMHIqWFnL.jpg
+118792,House of the Dead 2,惡靈鬼屋2,Action|Horror|Sci-Fi|Thriller,2005.0,1.875,16.0,435665,29293.0,US,https://image.tmdb.org/t/p/w500/8Mrzua1bm1Wdrayb5yL4w9ejMFz.jpg
+118818,Frozen,為你鍾情,Fantasy|Romance,2010.0,5.0,1.0,1611845,95174.0,HK,https://image.tmdb.org/t/p/w500/etDRhc599Q2JCaUu8k7ei2hqmgZ.jpg
+118844,The Atrocity Exhibition,暴行展覽,Drama|Horror,2000.0,2.833333333333333,3.0,197256,65456.0,US,https://image.tmdb.org/t/p/w500/eZGQhSB4jG6OwhrL3uCyvmTOUn9.jpg
+118874,Bachelor Night,醉後單身夜,Comedy,2014.0,3.6666666666666665,6.0,3797142,292191.0,US,https://image.tmdb.org/t/p/w500/xBdTFoNAPewUoY0vgWFvIMs7PeU.jpg
+118876,Khumba,酷巴：尋斑大冒險,Adventure|Animation|Children,2013.0,2.707317073170732,41.0,1487931,172391.0,ZA,https://image.tmdb.org/t/p/w500/bG32hRPM9LguHXj2tbyeILJisOK.jpg
+118884,1987,加拿大電影1987,Comedy|Drama|Romance,2014.0,3.7916666666666665,12.0,2833074,280218.0,CA,https://image.tmdb.org/t/p/w500/1iw2xxhwhaAUaHb3mlBZyjb4gfo.jpg
+118894,Scooby-Doo! Abracadabra-Doo,魔法叔比狗,Animation|Children|Mystery,2010.0,3.25,50.0,1599351,32916.0,US,https://image.tmdb.org/t/p/w500/hDfQ3DqU5fWKZinIGgo2psvLh4j.jpg
+118896,Mommy,親愛媽咪,Drama,2014.0,3.9032869785082176,791.0,3612616,265177.0,CA,https://image.tmdb.org/t/p/w500/rPMLKH0QiXyrOLMscMozsPMtsu3.jpg
+118898,A Most Violent Year,暴力年代,Action|Crime|Drama|Thriller,2014.0,3.5577942735949097,943.0,2937898,241239.0,US,https://image.tmdb.org/t/p/w500/xqb0KhnmAHWBgIyWNEXaWufJIvd.jpg
+118900,Wild,那時候，我只剩下勇敢,Drama,2014.0,3.5580325548478413,1413.0,2305051,228970.0,US,https://image.tmdb.org/t/p/w500/3SJ0IowA0Uc7iWCwt0Rx81h0LI.jpg
+118924,Top Five,喜劇人生,Comedy,2014.0,3.185344827586207,232.0,2784678,284296.0,US,https://image.tmdb.org/t/p/w500/d0zPiFZEI0P1JWwS3pbwPmppdgB.jpg
+118970,Redirected,殺回歸家路,Action|Comedy|Crime,2014.0,3.109022556390977,133.0,2275946,190469.0,LT,https://image.tmdb.org/t/p/w500/mwu6LIBmJRR4Phq8LRKjglcUwaj.jpg
+118985,Big Eyes,大眼睛,Drama,2014.0,3.3515452538631347,906.0,1126590,87093.0,US,https://image.tmdb.org/t/p/w500/hB1giXpGrxEEZGb03mWAKJQGAkj.jpg
+118997,Into the Woods,魔法黑森林,Children|Comedy|Fantasy|Musical,2014.0,2.982456140350877,1482.0,2180411,224141.0,US,https://image.tmdb.org/t/p/w500/buNnZMHStknggTrZZijcbXYKPag.jpg
+119126,Killers,網絡瘋殺,Action|Crime|Drama|Thriller,2014.0,3.230769230769231,26.0,2409300,171846.0,JP,https://image.tmdb.org/t/p/w500/vkTi1Y5js8exwZ8V6mbXNEQy2Om.jpg
+119141,The Interview,名嘴出任務,Action|Comedy,2014.0,3.092030143868463,4379.0,2788710,228967.0,US,https://image.tmdb.org/t/p/w500/g5Zo6Rp2T6NDzDusZDHcmnoxniC.jpg
+119145,Kingsman: The Secret Service,金牌特務,Action|Adventure|Comedy|Crime,2015.0,3.802364864864865,15392.0,2802144,207703.0,GB,https://image.tmdb.org/t/p/w500/r7gjKO6epOfkexDAiXFkUvujIDs.jpg
+119155,Night at the Museum: Secret of the Tomb,博物館驚魂夜3,Adventure|Children|Comedy|Fantasy,2014.0,3.0472972972972974,1850.0,2692250,181533.0,US,https://image.tmdb.org/t/p/w500/x0zmaHETC6xaeHoFDGrTvJnkim0.jpg
+119169,Special ID,特殊身份,Action|Crime|Drama,2013.0,2.6666666666666665,21.0,2118775,222216.0,CN,https://image.tmdb.org/t/p/w500/peKnbWHTVw4gkJWfavKNJ1CbEQe.jpg
+119180,Summer in February,二月之夏,Drama|Romance,2013.0,2.3181818181818183,11.0,2184287,180951.0,GB,https://image.tmdb.org/t/p/w500/78p1N5yne7VpEq7s7saaim1fuHB.jpg
+119190,Walking on Sunshine,舞力假期,Musical|Romance,2014.0,3.090909090909091,22.0,2107861,267863.0,US,https://image.tmdb.org/t/p/w500/7ifoomzww3SIJdOtIH1GZQF3rt5.jpg
+119226,Nicholas on Holiday,我們的最強暑假,Comedy,2014.0,3.06,25.0,3019796,277368.0,FR,https://image.tmdb.org/t/p/w500/ehrTaMknfraoHjwK4YNhLhHG4wM.jpg
+119426,Thérèse,泰芮絲的寂愛人生,Drama,2012.0,3.0588235294117645,17.0,1654829,110323.0,FR,https://image.tmdb.org/t/p/w500/8C4vBwyKxnbPwLetmGpHYcQDItX.jpg
+119432,A Thousand Times Goodnight,一千次晚安,Drama,2014.0,3.575757575757576,33.0,2353767,212606.0,IE,https://image.tmdb.org/t/p/w500/7FD5OWTIWFcrKg1hASKoTmcd9OH.jpg
+119655,Seventh Son,第七傳人,Adventure|Children|Fantasy,2014.0,2.776481149012567,557.0,1121096,68737.0,US,https://image.tmdb.org/t/p/w500/qAWr69f3h7gXkVWgnFUZfJcMnw.jpg
+119670,National Gallery,歡迎光臨國家畫廊,Documentary,2014.0,3.58,25.0,3720794,266080.0,US,https://image.tmdb.org/t/p/w500/7j8tD2Gt72aSPxekNcd8tS6Q2M5.jpg
+119677,Heatstroke,沙漠危情,Thriller,2013.0,2.9722222222222223,18.0,3663040,278334.0,US,https://image.tmdb.org/t/p/w500/w1WLAWoC4DcJmYumkdHNhhMMRQ6.jpg
+119689,The Haunting of Helena,牙鬼,Horror|Thriller,2012.0,2.4473684210526314,19.0,2378191,159211.0,US,https://image.tmdb.org/t/p/w500/iB8rf8FYHGlrbmLybCo6Mpg8hNt.jpg
+119754,Common,母難,Crime|Drama,2014.0,2.7222222222222223,9.0,2937752,280509.0,GB,https://image.tmdb.org/t/p/w500/7jkIl0J98W8hRyOmeHNtxsbFGTs.jpg
+119770,Fanny,愛似朝陽,Drama,2013.0,3.466666666666667,15.0,1872101,201018.0,FR,https://image.tmdb.org/t/p/w500/5QnwWAuow1gYJ7fiIWLbZvr8BT.jpg
+119954,Force of Execution,重裝叛逃,Action|Crime,2013.0,2.225,20.0,2611626,227359.0,US,https://image.tmdb.org/t/p/w500/1KQlvJDp1X609PhMlr9aLx4Wc7L.jpg
+120112,The Grump,我家來個怪老爹,Comedy,2014.0,3.2096774193548385,31.0,2480454,287486.0,FI,https://image.tmdb.org/t/p/w500/3G5hHIlzXJ3zw3049uUWu7O8NaA.jpg
+120130,Into the Forest of Fireflies' Light,螢火之森,Animation|Drama|Fantasy,2011.0,3.857142857142857,259.0,2061702,92321.0,JP,https://image.tmdb.org/t/p/w500/tHol7EhS02JRe1IKh0BWXGTxqPw.jpg
+120132,Annie,安妮,Children|Comedy|Drama|Musical,2014.0,2.76431718061674,227.0,1823664,196867.0,US,https://image.tmdb.org/t/p/w500/vHjrntS42qwL7UN20M6qm3LdIRZ.jpg
+120138,PK,來自星星的傻瓜PK,Comedy|Drama|Fantasy|Mystery|Romance,2014.0,3.763744427934621,673.0,2338151,297222.0,IN,https://image.tmdb.org/t/p/w500/hZR1C0JlsX3LDbRMC6z4RUrDVu5.jpg
+120202,Finders Keepers,撿到歸我,Horror|Thriller,2014.0,2.0681818181818183,22.0,3534842,296626.0,US,https://image.tmdb.org/t/p/w500/5817pI8hFBXqChubTM3XlHmVzpf.jpg
+120290,My Rainy Days,天使之戀,Drama|Romance,2009.0,3.35,10.0,1538401,43635.0,JP,https://image.tmdb.org/t/p/w500/7xlawQDu4MaGA8rAdDALZlxp5eY.jpg
+120301,Miss Granny,回到20歲,Comedy|Fantasy,2014.0,3.5568181818181817,44.0,3516378,253065.0,KR,https://image.tmdb.org/t/p/w500/pOHjyz4mPoFeaFaLeRmjQ1WyRy1.jpg
+120462,The Invisible Boy,少年透明人,Fantasy|Sci-Fi,2014.0,3.351851851851852,27.0,3078296,303542.0,IT,https://image.tmdb.org/t/p/w500/bYD9U89ub35M9Wy8RPcJhc8z4Sy.jpg
+120466,Chappie,成人世界,Action|Thriller,2015.0,3.384955752212389,4407.0,1823672,198184.0,ZA,https://image.tmdb.org/t/p/w500/b9r6qjjhjVdPI7LB2hk3NaK96JH.jpg
+120468,Toy Story Toons: Partysaurus Rex,派對恐龍,Animation|Children|Comedy,2012.0,3.3241758241758244,91.0,2340678,130925.0,US,https://image.tmdb.org/t/p/w500/7Y7NBliUme8KFqBh4MvQ1NOSDNW.jpg
+120474,Toy Story That Time Forgot,玩具總動員：迷失時空,Animation|Children,2014.0,3.2166172106824926,337.0,3473654,256835.0,US,https://image.tmdb.org/t/p/w500/ooo2rQAnaMLSMdNOG08YedXlxFq.jpg
+120478,The Salt of the Earth,薩爾加多的凝視,Documentary,2014.0,3.983231707317073,328.0,3674140,265297.0,BR,https://image.tmdb.org/t/p/w500/ni79BpUtd6rIEDDt05h4i0oHLuj.jpg
+120536,The Snow White Murder Case,白雪公主殺人事件,Drama|Mystery,2014.0,3.4545454545454546,11.0,3096712,253454.0,JP,https://image.tmdb.org/t/p/w500/rhBaQbZ22RLo5JB7VjHy1aOv5AT.jpg
+120580,Girls Gone Dead,小妞死翹翹,Comedy|Horror,2012.0,1.6666666666666667,12.0,1884318,117942.0,US,https://image.tmdb.org/t/p/w500/h4fkp6KuY55vocpkInbFeXOSrgT.jpg
+120625,The Fool,驚爆危樓,Drama,2014.0,3.915954415954416,351.0,3560686,285700.0,RU,https://image.tmdb.org/t/p/w500/3LesVrVsmWgHRF3FzTTtqkEWgz9.jpg
+120635,Taken 3,即刻救援3,Action|Crime|Thriller,2015.0,2.960308056872038,1688.0,2446042,260346.0,US,https://image.tmdb.org/t/p/w500/gGoEErUEaOeoSmKtow2PkLQpmot.jpg
+120637,Blackhat,黑帽駭客,Action|Crime|Drama|Mystery|Thriller,2015.0,2.694933920704846,454.0,2717822,201088.0,US,https://image.tmdb.org/t/p/w500/Aog9EGFjzZnOytDKbEQmXpT8314.jpg
+120799,Terminator Genisys,魔鬼終結者：創世契機,Action|Adventure|Sci-Fi|Thriller,2015.0,2.979961215255333,3094.0,1340138,87101.0,US,https://image.tmdb.org/t/p/w500/sBKdPymxVzHphqKN0SrFaSj0t5G.jpg
+120825,The Woman in Black 2: Angel of Death,顫慄黑影：死亡天使,Drama|Horror|Thriller,2015.0,2.681347150259068,193.0,2339741,288158.0,CA,https://image.tmdb.org/t/p/w500/wKNdKa2Q98YqqQvZSa2oRP4V0XK.jpg
+120845,Penthouse North,頂層樓房,Drama|Mystery|Thriller,2013.0,2.95,20.0,2055709,199591.0,US,https://image.tmdb.org/t/p/w500/1CcbRXZMbhZqFoBPqoR9386iqJp.jpg
+120919,Man on High Heels,高跟神探,Action|Comedy,2014.0,3.326923076923077,26.0,3837196,267573.0,KR,https://image.tmdb.org/t/p/w500/gF0pkUEDJW40a6GAl6bv0yCUicY.jpg
+120921,Miss Zombie,活屍女僕,Horror,2013.0,2.85,10.0,2542616,221437.0,JP,https://image.tmdb.org/t/p/w500/5Atg0cgCIgjpVv8mp26kgfbM3t2.jpg
+120928,Lullaby,最後晚安曲,Drama,2014.0,2.590909090909091,11.0,2210781,261768.0,US,https://image.tmdb.org/t/p/w500/tbRdxb00vfy310Z0no4OXN9TQ6u.jpg
+120930,Over Your Dead Body,鬼門食女,Horror,2014.0,3.0416666666666665,12.0,2916416,199925.0,CN,https://image.tmdb.org/t/p/w500/w7rvo7VTGMAjz7mClgh1bJx555o.jpg
+121007,Space Buddies,星際狗狗,Adventure|Children|Fantasy|Sci-Fi,2009.0,2.342857142857143,35.0,1164647,14749.0,CA,https://image.tmdb.org/t/p/w500/lKdmo9aYMZ2XBcQR6RCCnG0FYcf.jpg
+121023,Viy,噩林村莊 Viy,Adventure|Fantasy|Mystery|Thriller,2014.0,2.8095238095238093,42.0,1224378,208763.0,RU,https://image.tmdb.org/t/p/w500/eK0ZhJO1xKOCIhWym3wF2DN0cRU.jpg
+121099,101 Dalmatians II: Patch's London Adventure,101忠狗續集：倫敦大冒險,Animation|Children,2003.0,2.8515625,128.0,324941,13654.0,US,https://image.tmdb.org/t/p/w500/sC4BZK4FHbXBz9LUTWoWBTQiJbZ.jpg
+121109,Van Wilder: Freshman Year,留級之王 3,Comedy,2009.0,2.685483870967742,62.0,1276434,19824.0,US,https://image.tmdb.org/t/p/w500/tjDH8REu8bqgW9zXDIOy6C8FNtH.jpg
+121115,Tarzan,泰山,Adventure|Animation|Children|Drama,2013.0,2.390909090909091,55.0,1705952,230222.0,US,https://image.tmdb.org/t/p/w500/sFuXVXXV9X3RMTtsqKaWpLnOAEf.jpg
+121124,StreetDance 2,舞力對決2,Drama|Romance,2012.0,2.526315789473684,19.0,1718903,85373.0,US,https://image.tmdb.org/t/p/w500/30oE4brCZQLbCQQUEIKGZmxaNkq.jpg
+121129,The Hungover Games,醉餓遊戲,Comedy,2014.0,1.876543209876543,81.0,3138104,244688.0,US,https://image.tmdb.org/t/p/w500/sOqB812jWYgcHCyT2PVEk3RBtSm.jpg
+121135,Nurse 3D,血護士,Horror|Thriller,2013.0,2.403225806451613,62.0,1913166,78383.0,US,https://image.tmdb.org/t/p/w500/3OvX96gN6oTFmxRq2vrddZJubl5.jpg
+121137,Wrong Turn 5: Bloodlines,鬼擋路5,Horror|Thriller,2012.0,2.746575342465753,73.0,2375779,125509.0,US,https://image.tmdb.org/t/p/w500/xmQOOouYS8iFz1qy8AmefCtopAV.jpg
+121143,Flu,流感,Action|Drama|Sci-Fi,2013.0,3.2628205128205128,78.0,2351310,200085.0,KR,https://image.tmdb.org/t/p/w500/5JNbro395FFUANUSoVIATWTqRBG.jpg
+121148,The Fox & the Child,狐狸與我：我和她的冒險日記,Adventure|Children|Drama,2007.0,3.3,25.0,756648,5139.0,FR,https://image.tmdb.org/t/p/w500/oPvRqNKYbrwBCX4BHUzLKliq8mF.jpg
+121152,The White Haired Witch of Lunar Kingdom,白髮魔女傳之明月天國,Action|Fantasy,2014.0,3.0384615384615383,13.0,3465456,257648.0,CN,https://image.tmdb.org/t/p/w500/bytQaoxlivc1EZtpNiMXsYXiIV7.jpg
+121155,Kevin Hart: Let Me Explain,凱文·哈特：聽我解釋,Comedy|Documentary,2013.0,3.1206896551724137,87.0,2609912,181330.0,US,https://image.tmdb.org/t/p/w500/lzYQkVuEN0zw2JvJsMUsOU47nb4.jpg
+121157,"Tad, the Lost Explorer",泰德瓊斯：法櫃天兵,Adventure|Animation|Children|Comedy,2012.0,2.581081081081081,37.0,1764625,121734.0,ES,https://image.tmdb.org/t/p/w500/hnJUhmknSFTmgA2pZHwId8ahBvq.jpg
+121169,The Duke of Burgundy,慾情勃根第,Drama,2014.0,3.419354838709677,186.0,2570858,250225.0,GB,https://image.tmdb.org/t/p/w500/gUxyr5zfglwUE8Xod7yYiY1zNqQ.jpg
+121171,Red Army,冰上最強,Documentary,2014.0,3.75,136.0,3264102,256876.0,RU,https://image.tmdb.org/t/p/w500/y2e6I7A8AgNTfB1MeNZfhh9Q4ES.jpg
+121202,Hansel & Gretel,驚駭糖果屋,Drama|Fantasy|Horror|Mystery|Thriller,2007.0,3.4423076923076925,52.0,1002567,25597.0,KR,https://image.tmdb.org/t/p/w500/j2vkZrb30xmOS0wxqMc2o2CPynp.jpg
+121219,Rest Stop: Don't Look Back,恐怖休息站2,Horror|Thriller,2008.0,2.5,19.0,995863,19066.0,US,https://image.tmdb.org/t/p/w500/41C6yKLrkQppVVXQYrHdQxycRJx.jpg
+121231,It Follows,靈病,Horror,2014.0,3.636829558998808,4195.0,3235888,270303.0,US,https://image.tmdb.org/t/p/w500/ovBOo4fC8w05qxzdh45VNeLnO3s.jpg
+121243,Touchback,達陣,Children|Drama|Fantasy,2011.0,2.9318181818181817,22.0,1628055,75074.0,US,https://image.tmdb.org/t/p/w500/6tc4S4UJzAUtZJPHFpq2Weaa1bA.jpg
+121251,Thunderstruck,雷帝錯上身,Children|Comedy,2012.0,2.7857142857142856,14.0,2041488,119738.0,US,https://image.tmdb.org/t/p/w500/vT91XHy52fgvXXH1Ric2TBVlQb5.jpg
+121253,The Town that Dreaded Sundown,殺出魔鬼鎮,Horror|Thriller,2014.0,2.839622641509434,106.0,2561546,287084.0,US,https://image.tmdb.org/t/p/w500/byiRbRiVZrQzjAs088qxG3PldCx.jpg
+121261,Leprechaun: Back 2 Tha Hood,異靈入侵,Comedy|Fantasy|Horror,2003.0,1.7878787878787878,33.0,339294,19288.0,US,https://image.tmdb.org/t/p/w500/uBXtcz92oigWaWnFDyS8j5tMAc1.jpg
+121269,The Shortcut,絕命路,Horror|Mystery|Thriller,2009.0,2.2413793103448274,29.0,1243955,22175.0,US,https://image.tmdb.org/t/p/w500/gAHga8XTYlQxGUSVlTzKnWuxIAE.jpg
+121302,Someone's Gaze,來自誰的凝望,Animation,2013.0,3.5,40.0,3300814,222715.0,JP,https://image.tmdb.org/t/p/w500/sSrj6SIKbeIxs0nnypVGNbsuujt.jpg
+121310,The Perfect World of Kai,琴之森,Animation|Drama,2007.0,3.692307692307693,13.0,1119194,59298.0,JP,https://image.tmdb.org/t/p/w500/jP5o5MebQP9YLO5lYrBMSnD06dO.jpg
+121314,The Berlin File,柏林諜戰,Action|Drama|Thriller,2013.0,3.2265625,64.0,2357377,160704.0,KR,https://image.tmdb.org/t/p/w500/9D9MK5eq7BOsRMMnrPV8Jh387Q9.jpg
+121316,The Attorney,正義辯護人,Drama,2013.0,3.861111111111111,54.0,3404140,242452.0,KR,https://image.tmdb.org/t/p/w500/yGyUmoStaHmqcTJ2q5cX30av4c5.jpg
+121330,Altitude,高空驚魂,Horror|Mystery|Thriller,2010.0,2.2549019607843137,51.0,1407049,44678.0,CA,https://image.tmdb.org/t/p/w500/1MhCLk4TzLAQmj7SfUWO7X2iWQP.jpg
+121364,Memories of My Melancholy Whores,我的鬱妓回憶錄,Comedy|Drama|Romance,2011.0,2.9166666666666665,6.0,1504019,114286.0,MX,https://image.tmdb.org/t/p/w500/mwdAzeNRdqjmcxdxEhlb9V7UF4Y.jpg
+121366,Get a Horse!,米奇拯救米妮大作戰,Animation|Children|Comedy,2013.0,3.1538461538461537,65.0,2980764,234567.0,US,https://image.tmdb.org/t/p/w500/axVSbOZxa6Xp0ticSJA6faVeyDY.jpg
+121370,Happy New Year,寶萊塢之舞林大盜,Action|Comedy|Crime|Drama|Musical|Romance,2014.0,2.443661971830986,71.0,2461132,277432.0,IN,https://image.tmdb.org/t/p/w500/oxgHdOgvl18YpyrErosIUDZzUn.jpg
+121382,Jack the Giant Killer,傑克與飛天城堡,Action|Fantasy,2013.0,3.1052631578947367,19.0,2552498,177566.0,US,https://image.tmdb.org/t/p/w500/k8tqmcjX68m6Pn5mgPUuhiL90Nh.jpg
+121444,Journey to the End of the Night,神鬼危機,Drama|Thriller,2006.0,2.1666666666666665,6.0,454879,15558.0,BR,https://image.tmdb.org/t/p/w500/3R7jh0a1RAQpoIIVDRohrZdMeiD.jpg
+121583,The Uninvited Guest,不速之客,Drama|Horror|Mystery|Thriller,2004.0,3.0,30.0,436374,48594.0,ES,https://image.tmdb.org/t/p/w500/nbhS7qaydKT94r3hwctBgX1XpeM.jpg
+121715,Sebastian Maniscalco: What's Wrong with People?,賽巴斯汀：大家是怎樣？,Comedy,2012.0,4.125,8.0,2215489,102517.0,US,https://image.tmdb.org/t/p/w500/cd7LpSJ8GOwaqxnRADV4VTqm1Dp.jpg
+121790,Seventh Moon,七月鬼門開,Horror|Thriller,2008.0,1.9259259259259256,27.0,1052040,24330.0,US,https://image.tmdb.org/t/p/w500/6AHspCVXvIXogKhZktn7bLSZVmS.jpg
+121794,Sacrifice,無間盜,Action|Crime|Thriller,2011.0,2.4,10.0,1630564,56913.0,CA,https://image.tmdb.org/t/p/w500/fMXYwKqR82b9qDiCq8A6fVgekhw.jpg
+121985,Princess and the Pony,公主小馬,Children|Drama,2011.0,2.0,3.0,1757944,55190.0,US,https://image.tmdb.org/t/p/w500/pHMn3HOV5aP8KWXf5HYPTJ9QeUs.jpg
+122029,The Hound of the Baskervilles,福爾摩斯探案 巴斯克維爾的獵犬,Adventure|Drama|Horror|Mystery,2002.0,3.5,15.0,322622,28486.0,GB,https://image.tmdb.org/t/p/w500/fVC7KS1LSKJ18yGqk8a6CfGOCuY.jpg
+122031,Psych:9,靈異醫院,Horror|Mystery|Thriller,2010.0,2.409090909090909,22.0,901504,55045.0,US,https://image.tmdb.org/t/p/w500/nGxy7Jd7VCSwpjMXJ7ZwWJuFGnC.jpg
+122039,Snow Buddies,狗狗向前衝,Adventure|Children,2008.0,3.1739130434782608,23.0,1079448,14059.0,US,https://image.tmdb.org/t/p/w500/7sAgr6VaePA6hLCkcQicZALtYbp.jpg
+122043,The Haunting Hour: Don't Think About It,勇闖天關,Children|Fantasy|Horror|Thriller,2007.0,2.78125,16.0,905994,21935.0,US,https://image.tmdb.org/t/p/w500/jqQfKmqR2qXjEjJ2F0cH5DbwIGv.jpg
+122048,The Message,風聲,Crime|Drama|Thriller|War,2009.0,3.857142857142857,21.0,1434423,32582.0,CN,https://image.tmdb.org/t/p/w500/hO0x9BVUFErJ1wVwgjSbAaQP1Ol.jpg
+122129,Scooby-Doo! Camp Scare,叔比狗 露營驚魂記,Adventure|Animation|Children|Comedy|Mystery,2010.0,3.1578947368421053,57.0,1731767,45752.0,US,https://image.tmdb.org/t/p/w500/zurVOCpOLwLTBknYlgcXHWE0xvu.jpg
+122234,The Lookout,緝盜追捕令,Action|Crime|Thriller,2012.0,2.833333333333333,9.0,1946298,122192.0,FR,https://image.tmdb.org/t/p/w500/ans4DwhyZj5X0Gag0xiYVLHtwgL.jpg
+122276,The Philly Kid,搏命擂台,Action|Drama,2012.0,3.333333333333333,6.0,1937506,102222.0,US,https://image.tmdb.org/t/p/w500/pN0UFnqzkIFjmhH8ICKVAqxNBdo.jpg
+122323,Wild Cherry,野櫻桃,Comedy,2009.0,1.8,5.0,1222329,53729.0,CA,https://image.tmdb.org/t/p/w500/dxmKhXpIznlYvIjAKJKQKKb3T8r.jpg
+122329,Sonny Boy,愛在尼德蘭,Drama|Romance|War,2011.0,2.9,5.0,1138481,59424.0,NL,https://image.tmdb.org/t/p/w500/dGv3oVnO03RoCLSCt4DVThbpO5q.jpg
+122351,Stir of Echoes: The Homecoming,靈異駭客2：回魂時刻,Horror|Thriller,2007.0,2.2142857142857144,14.0,805619,34734.0,CA,https://image.tmdb.org/t/p/w500/3XUer0nqAgeYB3YAXnfhrSkfcmN.jpg
+122361,Primates of the Caribbean,海島小英雄馬可,Animation|Children|Comedy,2012.0,2.6,5.0,1614955,141009.0,DK,https://image.tmdb.org/t/p/w500/bwr1o2loo4uEi09lzWEAEjoz3jT.jpg
+122419,Switch,天機：富春山居圖,Action|Crime|Romance|Thriller,2013.0,1.0,1.0,2460488,196385.0,CN,https://image.tmdb.org/t/p/w500/qr6sSZx07tWKNXn7PlTnYtdkoLP.jpg
+122464,Student Services,我親愛的課程,Drama|Romance,2010.0,2.9375,16.0,1570970,65496.0,FR,https://image.tmdb.org/t/p/w500/o7f1htyhi8F4U4dUhTEsp00prNP.jpg
+122466,JLA Adventures: Trapped in Time,正義聯盟：時間困境,Action|Animation|Sci-Fi,2014.0,2.9482758620689653,29.0,3468260,251768.0,US,https://image.tmdb.org/t/p/w500/qchNuTbnleCtlIB8wyV03f36VuF.jpg
+122468,Joy Ride 3,致命玩笑3,Thriller,2014.0,2.6052631578947367,19.0,3138376,259074.0,CA,https://image.tmdb.org/t/p/w500/hStzPjFQj404Ay50bqgyg517lzc.jpg
+122519,The Search for Santa Paws,全面搜尋聖誕狗狗,Adventure|Children,2010.0,2.647058823529412,17.0,1544572,48844.0,CA,https://image.tmdb.org/t/p/w500/sl2OyY527RkEhvMqEsKXIly8nbM.jpg
+122521,Spooky Buddies,恐怖狗狗,Children|Comedy,2011.0,2.8,15.0,1792131,70587.0,CA,https://image.tmdb.org/t/p/w500/pSgfsm9GjpwC4LXpIAqtunZscRT.jpg
+122523,Treasure Buddies,寶藏狗狗,Children|Comedy,2012.0,2.85,10.0,1791658,78047.0,CA,https://image.tmdb.org/t/p/w500/7v3uL2GZCj5oyyi2GPhspWFnd6C.jpg
+122525,Santa Paws 2: The Santa Pups,聖誕狗狗之聖誕小寶貝,Children,2012.0,2.083333333333333,12.0,2414212,142308.0,US,https://image.tmdb.org/t/p/w500/ekSTL8yozHwaIIRZJPCsS1F8Ei8.jpg
+122527,Super Buddies,超級狗狗,Children,2013.0,2.5277777777777777,18.0,2999390,149910.0,US,https://image.tmdb.org/t/p/w500/u7sMtMLSe5CrsLqOPVnYseJj7wE.jpg
+122758,The 7 Adventures of Sinbad,辛巴達勇闖奇島,Action|Adventure,2010.0,1.1666666666666667,3.0,1636629,44773.0,US,https://image.tmdb.org/t/p/w500/5yGly2FxojI5HPZvnqBfhhSFCva.jpg
+122772,Love Birds,愛情鳥,Comedy|Romance,2011.0,3.1875,8.0,1636539,69792.0,NZ,https://image.tmdb.org/t/p/w500/hybHtrMWPfz0zUZekAVbCO6X7hB.jpg
+122774,Monster,柯洛弗東京檔案,Action|Horror|Sci-Fi,2008.0,2.8,5.0,1148277,16309.0,US,https://image.tmdb.org/t/p/w500/5W638IgQdUe0lhPWamRXEI8NvGF.jpg
+122876,Torrente 4: Lethal Crisis,多浪迪警官 4 致命危機,Action|Comedy|Crime,2011.0,2.8392857142857144,28.0,1417108,59117.0,ES,https://image.tmdb.org/t/p/w500/ye6vXu1Ts4lo8gPlKUBRESvdgic.jpg
+122880,I Want You,壞壞愛2:愛回歸,Drama|Romance,2012.0,3.202702702702702,37.0,1797504,109689.0,ES,https://image.tmdb.org/t/p/w500/s16By5DjE1QJDPDfmTnbGozak0H.jpg
+122882,Mad Max: Fury Road,瘋狂麥斯：憤怒道,Action|Adventure|Sci-Fi|Thriller,2015.0,3.868707482993197,21315.0,1392190,76341.0,AU,https://image.tmdb.org/t/p/w500/3Hj4gkqlLAo4BrdX21pTzKDHkxm.jpg
+122884,Insidious: Chapter 3,陰兒房第3章：從靈開始,Fantasy|Horror|Thriller,2015.0,3.177640603566529,729.0,3195644,280092.0,US,https://image.tmdb.org/t/p/w500/sAWHaaoh0jx4YsglJ5ZlJ86ZMSG.jpg
+122886,Star Wars: Episode VII - The Force Awakens,星際大戰七部曲：原力覺醒,Action|Adventure|Fantasy|Sci-Fi|IMAX,2015.0,3.6176109360815936,18727.0,2488496,140607.0,US,https://image.tmdb.org/t/p/w500/wNdrXBAFbfgpKgprtTFnoePn86x.jpg
+122888,Ben-hur,賓漢,(no genres listed),2016.0,2.839430894308943,246.0,2638144,271969.0,US,https://image.tmdb.org/t/p/w500/rr4IbeHb59ZRQvgNmYC0rwFvyQ1.jpg
+122890,Warcraft,魔獸：崛起,Action|Adventure|Fantasy,2016.0,3.208844688954718,2363.0,803096,68735.0,US,https://image.tmdb.org/t/p/w500/eaUeq6CU84n8WQn5Tjf5YRmNC8E.jpg
+122892,Avengers: Age of Ultron,復仇者聯盟2：奧創紀元,Action|Adventure|Sci-Fi,2015.0,3.4871063724274736,12099.0,2395427,99861.0,US,https://image.tmdb.org/t/p/w500/vnqTgYrnS9dnq9y6gzpR69vsiNu.jpg
+122896,Pirates of the Caribbean: Dead Men Tell No Tales,神鬼奇航5：死無對證,(no genres listed),2017.0,3.1969647519582245,3064.0,1790809,166426.0,US,https://image.tmdb.org/t/p/w500/w75KcZWbG5ygeN06VHHamECTtyI.jpg
+122898,Justice League,正義聯盟,Action|Adventure|Sci-Fi,2017.0,2.724601175482788,2382.0,974015,141052.0,US,https://image.tmdb.org/t/p/w500/kAuH4BJ2LAWR6oKDDPnCICvuqJS.jpg
+122900,Ant-Man,蟻人,Action|Adventure|Sci-Fi,2015.0,3.5421897121283625,10595.0,478970,102899.0,US,https://image.tmdb.org/t/p/w500/2DvCGnl4MUFeWWw660P7fJPEVag.jpg
+122902,Fantastic Four,驚奇4超人,Action|Adventure|Fantasy|Sci-Fi,2015.0,2.129422169811321,1696.0,1502712,166424.0,US,https://image.tmdb.org/t/p/w500/5sYL7n5EMqp8WbrGga8hFph5mOh.jpg
+122904,Deadpool,惡棍英雄：死侍,Action|Adventure|Comedy|Sci-Fi,2016.0,3.850282974035512,23147.0,1431045,293660.0,US,https://image.tmdb.org/t/p/w500/wWzGAWmdX7IL1mOYyhiYKso0FrI.jpg
+122906,Black Panther,黑豹,Action|Adventure|Sci-Fi,2017.0,3.6185432714091528,8828.0,1825683,284054.0,US,https://image.tmdb.org/t/p/w500/6u3aQmsLzyVJxI4T0OtPsMm2f4c.jpg
+122910,Captain Marvel,驚奇隊長,Action|Adventure|Sci-Fi,2018.0,3.2508389261744965,4172.0,4154664,299537.0,US,https://image.tmdb.org/t/p/w500/dfkPx9scDnzUhYqxzgr5RVn5rIy.jpg
+122912,Avengers: Infinity War - Part I,復仇者聯盟：無限之戰,Action|Adventure|Sci-Fi,2018.0,3.896722430863776,14645.0,4154756,299536.0,US,https://image.tmdb.org/t/p/w500/oK7IP8Yx4pTgZSFE8RD74pwlJtW.jpg
+122914,Avengers: Infinity War - Part II,復仇者聯盟：終局之戰,Action|Adventure|Sci-Fi,2019.0,3.870544407755482,11811.0,4154796,299534.0,US,https://image.tmdb.org/t/p/w500/fXgoEedB0k5TgaYrBqbY3eZ3DAI.jpg
+122916,Thor: Ragnarok,雷神索爾 3：諸神黃昏,Action|Adventure|Sci-Fi,2017.0,3.878631642330273,13286.0,3501632,284053.0,US,https://image.tmdb.org/t/p/w500/hcE3W9QWPX84PU1fUEeVSZWj85b.jpg
+122918,Guardians of the Galaxy 2,星際異攻隊2,Action|Adventure|Sci-Fi,2017.0,3.812619138391155,13115.0,3896198,283995.0,US,https://image.tmdb.org/t/p/w500/wTLVbBmU0pX6qe5yog8LK4hY1oB.jpg
+122920,Captain America: Civil War,美國隊長3：英雄內戰,Action|Sci-Fi|Thriller,2016.0,3.6957352005092297,10997.0,3498820,271110.0,US,https://image.tmdb.org/t/p/w500/pR9I3b3GlTAsMm8ZI4UBi4d81Rb.jpg
+122922,Doctor Strange,奇異博士,Action|Adventure|Sci-Fi,2016.0,3.750564334085779,12404.0,1211837,284052.0,US,https://image.tmdb.org/t/p/w500/8CIlKZRWA6LjudZ87mw8DUcni7m.jpg
+122924,X-Men: Apocalypse,X戰警：天啟,Action|Adventure|Fantasy|Sci-Fi,2016.0,3.171350095077118,4733.0,3385516,246655.0,US,https://image.tmdb.org/t/p/w500/6zNIYOmAgEfK0BWiJ9faqYlfUv2.jpg
+122948,Love at First Fight,不打不相愛,Comedy|Romance,2014.0,3.2717391304347827,46.0,3204144,270343.0,FR,https://image.tmdb.org/t/p/w500/uH5tKjSOxp9fLowlQJDNvbLe08t.jpg
+123163,The Suspect,極度重犯,Thriller,2013.0,2.6,10.0,2073121,228245.0,US,https://image.tmdb.org/t/p/w500/ixZSs07C94Nv4Hal6Ou9JrTOfYL.jpg
+123165,Mongolian Death Worm,蟲圍入侵,Horror|Sci-Fi,2010.0,1.8846153846153848,13.0,1504443,44811.0,US,https://image.tmdb.org/t/p/w500/azbcwYTj5dYXCetFKlaiqcpKqDg.jpg
+123188,Ironclad 2: Battle for Blood,鐵甲衣2：浴血奮戰,Action|Adventure,2014.0,2.875,8.0,2404583,258251.0,US,https://image.tmdb.org/t/p/w500/ms66USpYj5g5tjMZyvH6UMeYjK5.jpg
+123308,Suddenly,小鎮突襲,Thriller,2013.0,2.772727272727273,11.0,2569236,217896.0,CA,https://image.tmdb.org/t/p/w500/hBHqiCsV1JXNkeB4fiFhmp18oh.jpg
+123427,Meskada,荒鎮謀殺案,Crime|Drama|Mystery|Thriller,2010.0,2.5,4.0,1461249,47902.0,US,https://image.tmdb.org/t/p/w500/iUXWFncKx2FYdQA2nALFXGULJD3.jpg
+123553,In the Name of the King III,末日危城3：最後一戰,Action|Adventure|Drama|Fantasy,2014.0,1.7,15.0,2379386,252360.0,CA,https://image.tmdb.org/t/p/w500/8trjHL8mvHcmtEtbdRC0GxFywxS.jpg
+123567,IMAX - Roving Mars,漫遊火星,Documentary,2006.0,3.5,8.0,436595,18085.0,US,https://image.tmdb.org/t/p/w500/l2SX7melm80fHU0KNYRSwW5KmPg.jpg
+123585,Love,愛,Drama|Romance,2012.0,2.75,6.0,2202471,95919.0,CN,https://image.tmdb.org/t/p/w500/vmcNRanBi1dxVYZwYNE5XV12gVY.jpg
+123943,Shun Li and the Poet,我是麗,Drama,2011.0,3.294117647058824,17.0,2036388,75562.0,FR,https://image.tmdb.org/t/p/w500/9qO6YdIdjCZwcQqt1ft9fikhCo3.jpg
+123947,Cake,蛋糕的滋味,Drama,2014.0,3.195754716981132,212.0,3442006,284276.0,US,https://image.tmdb.org/t/p/w500/2JSJj0lhZE2lKNHUhYSh6JEwbjJ.jpg
+124125,Way Back Home,帶我回家,Drama,2013.0,3.5,13.0,2797106,242458.0,KR,https://image.tmdb.org/t/p/w500/yIf9YhN0GpNy4X9FA5qZYFyHi5V.jpg
+124166,No Man's Land,無人區,Crime|Drama|Western,2013.0,3.2,5.0,1456660,238811.0,CN,https://image.tmdb.org/t/p/w500/9aLI1tqUM5gWozSU16jg5tfh0BH.jpg
+124529,Hillside Cannibals,再闖魔山,Comedy|Crime|Horror,2006.0,1.3333333333333333,3.0,494712,103433.0,US,https://image.tmdb.org/t/p/w500/5DGh23kp4BVqfZnu4WezCEjYJqM.jpg
+124564,Stranded,惡靈戰場,Action|Horror|War,2010.0,2.5,1.0,1372689,53923.0,FR,https://image.tmdb.org/t/p/w500/h1SOTyaWEA1LNy6uab6XgzSW1l1.jpg
+124577,A Boy and His Samurai,布丁武士,Comedy|Drama|Romance,2010.0,3.625,4.0,1595354,61682.0,JP,https://image.tmdb.org/t/p/w500/uXIpQza3F42pinGWRTSQhq6yJmm.jpg
+124619,Night and Fog,天水圍的夜與霧,Drama,2009.0,0.0,0.0,1392249,50650.0,HK,https://image.tmdb.org/t/p/w500/k4qLi3bDAnFStmRZzeXeJFaXFuR.jpg
+124645,The Midnight Game,午夜遊戲,(no genres listed),2013.0,2.0,3.0,2155391,167198.0,US,https://image.tmdb.org/t/p/w500/6fIACANitWyaVO23CxFRS1XcNyd.jpg
+124837,Voyna i mir IV. - Pierre Bezukhov,戰爭與和平4：皮埃爾·別祖霍夫,Drama,2014.0,3.8333333333333335,24.0,62456,149468.0,SU,https://image.tmdb.org/t/p/w500/gowq7cxGwQp20daMhdSaai4Ro2R.jpg
+124857,Deception,致命陷阱,Action,2013.0,2.6666666666666665,9.0,2179226,199556.0,AU,https://image.tmdb.org/t/p/w500/fSKWzXaWFTxzLLbF3wAJL2qxXeb.jpg
+124859,The Gambler,玩命賭徒,Crime|Drama|Thriller,2014.0,3.0136612021857925,366.0,2039393,284536.0,US,https://image.tmdb.org/t/p/w500/hIgU3cxn7Y87joQGM3srofnXOm5.jpg
+124867,Justice League: Throne of Atlantis,正義聯盟：亞特蘭提斯的王位,Action|Animation,2015.0,3.1415929203539825,226.0,3878542,297556.0,US,https://image.tmdb.org/t/p/w500/mjLMDukPSufM8oVni1A5W8Ql8TC.jpg
+124901,The Ouija Experiment,占卜實驗,Horror,2011.0,2.347826086956522,23.0,2364842,207475.0,US,https://image.tmdb.org/t/p/w500/EeqPNq8D4GckMFmWH2hlIpk73R.jpg
+124957,"The Foreign Duck, the Native Duck and God in a Coin Locker",家鴨與野鴨的置物櫃,Drama,2007.0,2.333333333333333,3.0,997138,140509.0,JP,https://image.tmdb.org/t/p/w500/ulhWheMauc3VA6gaKbYfLCxly7Z.jpg
+125145,BlackJacks,捕食者的崛起,Action|Sci-Fi|Thriller,2014.0,0.0,0.0,2078549,240900.0,US,https://image.tmdb.org/t/p/w500/asNFexcb3uMVUMANN0fRkj9VwLo.jpg
+125231,Real,REAL：完美的蛇頸龍之日,Drama|Sci-Fi,2013.0,2.9166666666666665,12.0,2280964,180891.0,JP,https://image.tmdb.org/t/p/w500/s2yfXxwYBp9m58zsx8GzWUUWUyH.jpg
+125269,Touching Home,逐夢奇蹟,Drama,2008.0,3.0,3.0,860870,52323.0,US,https://image.tmdb.org/t/p/w500/tWOPvn0Ho6vvjEgeHzBnL54Lgd3.jpg
+125407,Only The Brave,珍珠港-孤軍,Action|Drama,2006.0,3.5,1.0,410403,31101.0,US,https://image.tmdb.org/t/p/w500/rgf5T0yy6c6asRbDOk1xa10KTUM.jpg
+125543,Against The Sun,孤筏求生三十日,Adventure,2015.0,2.84,25.0,2557276,302828.0,US,https://image.tmdb.org/t/p/w500/dFtfIBvdJP0kvNnL7tJv3MA8tnr.jpg
+125545,The Divine Move,神之一手,Action|Crime|Drama,2014.0,3.2285714285714286,35.0,3419894,281298.0,KR,https://image.tmdb.org/t/p/w500/iWgBnrdGg0x8f2kE96t1eL8vZ4J.jpg
+125640,Walker,行者,(no genres listed),2012.0,3.3,10.0,2225782,142724.0,HK,https://image.tmdb.org/t/p/w500/mAnyPmrHM9I9FSL9fX1lFtUEQKh.jpg
+125702,Kanikôsen,蟹工船,Drama,2009.0,2.5,1.0,1323930,105139.0,JP,https://image.tmdb.org/t/p/w500/ik1JpOPvYIERsV7znDSAIrs3WQv.jpg
+125704,Bunny Drop,白兔玩偶,Comedy,2011.0,3.772727272727273,11.0,1672214,95853.0,JP,https://image.tmdb.org/t/p/w500/vOcGp88lf9gzz5U43M8yo7kd9pm.jpg
+125866,Love and Distrust,愛與懷疑,Drama|Romance,2010.0,2.25,2.0,1686782,48798.0,US,https://image.tmdb.org/t/p/w500/7uuVzCB04DAncrN51A5VYnJvpFC.jpg
+125874,2012: Ice Age,2012冰河末日,Action|Adventure|Sci-Fi,2011.0,2.772727272727273,44.0,1846444,59722.0,US,https://image.tmdb.org/t/p/w500/10A2oHXjDep33j17Jeqnoe28o1H.jpg
+125914,Mortdecai,神鬼大盜,Adventure|Comedy|Mystery|Romance,2015.0,2.7696850393700787,508.0,3045616,210860.0,US,https://image.tmdb.org/t/p/w500/qaUNBrdeISWnIGPfj2po8PQEZAY.jpg
+125916,Fifty Shades of Grey,格雷的五十道陰影,Drama|Romance,2015.0,2.058341608738828,2014.0,2322441,216015.0,US,https://image.tmdb.org/t/p/w500/eM4S6DYsPjsKOSioJmaiBixVppG.jpg
+126046,Franz Kafka's a Country Doctor,カフカ 田舎医者,Animation|Drama,2007.0,3.327586206896552,29.0,1118665,73714.0,JP,https://image.tmdb.org/t/p/w500/feUeTU82uwy3nqdfJtZ2BsQu5F0.jpg
+126393,Wolves,狼人鎮,Action|Horror,2014.0,2.4125,40.0,1403241,290555.0,CA,https://image.tmdb.org/t/p/w500/xcuXfRZYan6xQq4e1MLC1hMhTPK.jpg
+126401,The Unexpected Love,意外人生,Comedy,2014.0,3.0,5.0,2311348,229559.0,ES,https://image.tmdb.org/t/p/w500/w6vO9rVbWFIeyx7SR0vDS3QfwEr.jpg
+126414,Planet Ocean,海洋星球,Documentary,2012.0,3.7666666666666666,15.0,2240784,152113.0,FR,https://image.tmdb.org/t/p/w500/5NzORcdyV2uteD1oL3F86WX1Aqy.jpg
+126420,American Heist,偷天大劫案,Action,2015.0,2.263157894736842,57.0,2923316,250066.0,CA,https://image.tmdb.org/t/p/w500/526uxanwv4mMK0YTxjVrsmMXXo2.jpg
+126482,Strange Magic,仲夏夜魔法,Animation|Children|Fantasy|Musical,2015.0,3.183333333333333,90.0,4191054,302429.0,US,https://image.tmdb.org/t/p/w500/vjCdrK8gGRFnyuZb1j9BzgN2RaY.jpg
+126544,The Flying Machine,夢幻飛琴,Adventure|Animation|Children,2011.0,3.5,2.0,1537314,94820.0,PL,https://image.tmdb.org/t/p/w500/olN5r6gkYuSZciN83TyfxFiBFHX.jpg
+126548,The DUFF,恐龍尤物,Comedy,2015.0,3.3116465863453817,1245.0,1666801,272693.0,US,https://image.tmdb.org/t/p/w500/jBh5lzkCdd50jeaRVSdA95RTeR.jpg
+126554,Age of Ice,冰凍浩劫,Adventure|Sci-Fi,2014.0,1.7142857142857142,7.0,3924510,297544.0,US,https://image.tmdb.org/t/p/w500/jy4EELldANd01OjkJZqSqG5TH5V.jpg
+126562,The Remaining,倖存者,Horror|Thriller,2014.0,2.303030303030303,33.0,2714380,280002.0,US,https://image.tmdb.org/t/p/w500/tjWvDLjKENlFkHJytISczPeW9HF.jpg
+126575,Everly,惡女出閘,Action|Thriller,2014.0,2.591304347826087,115.0,1945084,277355.0,US,https://image.tmdb.org/t/p/w500/ia0OiIkLlrySVCfKK0PboLW6FIY.jpg
+126584,Beyond Outrage,極惡非道2,Action,2012.0,3.4451219512195124,82.0,1724962,121828.0,JP,https://image.tmdb.org/t/p/w500/unwwJRHiTJi5ytWKSbTWx9muN8Q.jpg
+126599,The Little Death,愛愛小確性,Comedy,2014.0,3.463133640552996,217.0,2785032,276844.0,AU,https://image.tmdb.org/t/p/w500/wH15YYgBT9ZX37nFkSQ0OM8qjCE.jpg
+126779,Grandmother,阿嬤打官司,Drama,2010.0,2.333333333333333,3.0,1496792,72985.0,PH,https://image.tmdb.org/t/p/w500/fP8NfK8r0r8WsycaauXJviJ3jtx.jpg
+126781,Our Sunhi,我們善熙,Drama,2013.0,3.3181818181818183,11.0,2942512,211579.0,KR,https://image.tmdb.org/t/p/w500/jgTzcQoF6JO6QJHj4xT3mKSYwiS.jpg
+126921,The Fox and the Hound 2,狐狸與獵狗2：終生的朋友,Adventure|Animation|Children|Comedy,2006.0,3.0,98.0,465997,9948.0,US,https://image.tmdb.org/t/p/w500/dSXIbd0SOMr1r7NuWuwFiCc2rbC.jpg
+126975,Kamome Diner,海鷗食堂,(no genres listed),2006.0,3.5357142857142856,28.0,483022,25657.0,JP,https://image.tmdb.org/t/p/w500/6OyLUl1TxyCvmd4TZyXi4piU6gl.jpg
+126979,Dream Land,夢之地,(no genres listed),2004.0,4.0,2.0,497204,257537.0,DE,https://image.tmdb.org/t/p/w500/p4h7vJVTALtllHQPjJrBUQ2cwB.jpg
+127096,Project Almanac,跨界失控,Sci-Fi|Thriller,2015.0,3.269649334945586,827.0,2436386,227719.0,US,https://image.tmdb.org/t/p/w500/flFupyCLKnaJuL8WDBZK4Gg2EIw.jpg
+127108,Brooklyn,愛在他鄉,Drama|Romance,2015.0,3.787922987164528,1714.0,2381111,167073.0,GB,https://image.tmdb.org/t/p/w500/xkHTy5lNVC9HpZ7ZDl2cDgecCcB.jpg
+127112,Don Verdean,唐維登紀事,Comedy,2015.0,2.793103448275862,58.0,3534282,309298.0,US,https://image.tmdb.org/t/p/w500/v4dF5vYM2mJ1s0ylKkhDcUX0Tkp.jpg
+127114,The End of the Tour,寂寞公路,Drama,2015.0,3.68259385665529,586.0,3416744,249688.0,US,https://image.tmdb.org/t/p/w500/veeWW6HsRBNIvlPEhpBYsjQd0fe.jpg
+127120,Lila & Eve,慈母復仇路,Drama|Thriller,2015.0,2.590909090909091,44.0,3442990,309581.0,US,https://image.tmdb.org/t/p/w500/zGY41KlplvdPcUT0OeTu04ZPHke.jpg
+127124,I'll See You in My Dreams,我們夢中見,Comedy|Drama,2015.0,3.305555555555556,72.0,3236120,310121.0,US,https://image.tmdb.org/t/p/w500/nlOSiuSxWFPiFOIWoXxfRzcJW7s.jpg
+127126,Seoul Searching,首爾熱搜,Comedy|Drama,2015.0,3.333333333333333,12.0,2566644,310001.0,US,https://image.tmdb.org/t/p/w500/484oHzBz4ymDS5x1zvoH17DbECA.jpg
+127130,Mistress America,紐約新鮮人,Comedy,2015.0,3.411688311688312,385.0,2872462,309245.0,US,https://image.tmdb.org/t/p/w500/1Y9rlzMIfzwjKI6eaCEV9J2eqfH.jpg
+127134,A Walk in the Woods,別跟山過不去,Adventure|Comedy|Drama,2015.0,3.275,200.0,1178665,232572.0,US,https://image.tmdb.org/t/p/w500/9eotiGX8yWXQQVgSJSc68pSSHtz.jpg
+127136,True Story,真實的故事,Drama|Mystery|Thriller,2015.0,3.1607669616519174,339.0,2273657,245706.0,US,https://image.tmdb.org/t/p/w500/ncP8XQ0bXP0xSpJmMsRt8mUcEXd.jpg
+127140,Sleeping with Other People,愛睡在一起,Comedy|Drama|Romance,2015.0,3.3782816229116945,419.0,3165612,288036.0,US,https://image.tmdb.org/t/p/w500/iHAbk5wxBolqggRk2YA5mRxUsPO.jpg
+127146,Kurt Cobain: Montage of Heck,科特·柯本：煩惱的蒙太奇,Documentary,2015.0,3.6045197740112993,354.0,4229236,319075.0,US,https://image.tmdb.org/t/p/w500/d0DgEvMNrGGlUXqyQ7HJbgnIxO7.jpg
+127152,Going Clear: Scientology and the Prison of Belief,解密山達基,Documentary,2015.0,3.902255639097744,1197.0,4257858,318224.0,US,https://image.tmdb.org/t/p/w500/zWHQYR9srde9nZjU6Dot8qTjoni.jpg
+127164,"What Happened, Miss Simone?",妮娜·西蒙：女伶的靈魂,Documentary,2015.0,3.717277486910995,191.0,4284010,318044.0,US,https://image.tmdb.org/t/p/w500/8XpM91NVq6IyCnDkiWf4xjHpewK.jpg
+127178,99 Homes,居住正義,Drama,2014.0,3.514802631578948,304.0,2891174,283235.0,US,https://image.tmdb.org/t/p/w500/xK1y6yV8Rh45lB7Rpm4oiLcccvm.jpg
+127196,The Diary of a Teenage Girl,女孩愛愛日記,Drama,2015.0,3.5247093023255816,344.0,3172532,250124.0,US,https://image.tmdb.org/t/p/w500/5YlUrdYKuscD7pwf3yy9duVLbui.jpg
+127198,Dope,嘻哈宅男真藥命,Comedy|Drama,2015.0,3.607394366197183,1136.0,3850214,308639.0,US,https://image.tmdb.org/t/p/w500/n6u00imN7AX2NiyWUc5kTgHXmEf.jpg
+127200,I Smile Back,微笑以對,Drama,2015.0,2.980769230769231,52.0,3640682,307946.0,US,https://image.tmdb.org/t/p/w500/8ufYyCJsID2ufc493ZkJocdkPCY.jpg
+127202,Me and Earl and the Dying Girl,我們的故事未完待續,Drama,2015.0,3.839130434782609,2300.0,2582496,308369.0,US,https://image.tmdb.org/t/p/w500/9WpwdR7hIH3QZWwiBiS7Sis5FTm.jpg
+127204,The Overnight,通宵夜未眠,Comedy,2015.0,3.0320855614973263,187.0,3844362,308024.0,US,https://image.tmdb.org/t/p/w500/3XsGz8FbapcT8TsIeeTZrknJ2O8.jpg
+127206,"People, Places, Things",愛要有你才完美,Comedy,2015.0,3.4836601307189543,153.0,4104022,308027.0,US,https://image.tmdb.org/t/p/w500/5Tt4phUBTF2Uhdth5ZW9KdYV87Y.jpg
+127212,The Stanford Prison Experiment,史丹佛監獄實驗,Drama|Thriller,2015.0,3.5073529411764706,408.0,420293,308032.0,US,https://image.tmdb.org/t/p/w500/orMkBkPqu7szuBRdMLUB4TWKiVV.jpg
+127298,A Pigeon Sat on a Branch Reflecting on Existence,鴿子在樹枝上沈思,Comedy|Drama,2014.0,3.606884057971015,276.0,1883180,110390.0,SE,https://image.tmdb.org/t/p/w500/3BdoaA8sHdzg8XS22NVVuc8MkuE.jpg
+127302,Nine Miles Down,地下九英里,Horror|Mystery|Thriller,2009.0,2.9473684210526314,19.0,812352,26722.0,US,https://image.tmdb.org/t/p/w500/lX9SCW24HhO889tOHCxnIUWKhXF.jpg
+127311,The Forbidden Room,禁忌密室,Comedy|Drama|Mystery|Romance,2015.0,3.45625,80.0,3066630,315855.0,CA,https://image.tmdb.org/t/p/w500/apISTiqipiBxL47lQKYV4CJrBO2.jpg
+127315,Alien Outpost,異形前哨,Action|Sci-Fi|Thriller,2014.0,2.3846153846153846,65.0,2474972,312526.0,US,https://image.tmdb.org/t/p/w500/dXe0HXP66DyTv6mw5pxbGq89knr.jpg
+127319,The Loft,閣樓殺機,Thriller,2014.0,3.1453287197231834,289.0,1850397,72784.0,US,https://image.tmdb.org/t/p/w500/msHg4MRKZBcGwIakhMEaYRSdYag.jpg
+127321,[REC] 4: Apocalypse,錄到鬼4：末世錄,Horror|Thriller,2014.0,2.8116438356164384,146.0,1649443,185341.0,ES,https://image.tmdb.org/t/p/w500/bTVwGKhVXkpP2KP0VI2YUyUZqNW.jpg
+127323,Vice,啟動機械碼,Action|Adventure|Sci-Fi|Thriller,2015.0,2.5129310344827585,116.0,3480796,307663.0,US,https://image.tmdb.org/t/p/w500/bTW92MHTE8a6AWgWiEK7zSGg5Qt.jpg
+127441,Last Days in Vietnam,在越南最後的日子,Documentary|War,2014.0,3.93125,80.0,3279124,250761.0,US,https://image.tmdb.org/t/p/w500/6HUVUGg9DmmMvwXinoJJBUTa4NI.jpg
+127565,Lost River,遺落流域,Fantasy|Thriller,2014.0,3.25748502994012,167.0,2366608,167810.0,US,https://image.tmdb.org/t/p/w500/AlvHXzMKy51262qTWax9hWFHv6K.jpg
+127585,Fear Clinic,恐懼診療室,Horror,2014.0,2.7,20.0,2165765,287524.0,US,https://image.tmdb.org/t/p/w500/sYLfCI8dzueqGUfSsrOarR2JZKQ.jpg
+127652,We Are Young. We Are Strong.,騷動年代,Drama,2014.0,3.625,12.0,4076058,302376.0,DE,https://image.tmdb.org/t/p/w500/pWJb8jLkiSDjfDcgL1ncay5hKVf.jpg
+127658,Calculator,鈦,Sci-Fi,2014.0,2.736842105263158,19.0,3105350,316269.0,RU,https://image.tmdb.org/t/p/w500/5XJOJqYQDKfg0LTFJ8noGLKCh59.jpg
+128089,Kevin Hart: I'm a Grown Little Man,凱文·哈特：我是小大人,Comedy,2009.0,3.55,90.0,1420554,27866.0,US,https://image.tmdb.org/t/p/w500/xixDPGXhg9Kz93HspsDo1iHf5PO.jpg
+128149,Not Safe for Work,危險工作,Thriller,2014.0,2.8666666666666667,30.0,2226495,256347.0,US,https://image.tmdb.org/t/p/w500/jSSMXBKwoTXGVOiy2WsGOUlOzv6.jpg
+128153,Killing Kennedy,刺殺甘迺迪,Drama,2013.0,2.888888888888889,9.0,2815030,235093.0,US,https://image.tmdb.org/t/p/w500/oKhgsXzQggIcSO4lOdj1q7cr3Lr.jpg
+128227,Shadow,荒山人魔,Horror|Thriller,2010.0,2.5,11.0,1425253,37813.0,US,https://image.tmdb.org/t/p/w500/4cAbADlMs3pv7NQBFN7kh1uKllu.jpg
+128273,Inseparable,形影不离,Comedy|Drama|Mystery|Thriller,2011.0,3.0,4.0,1032763,51245.0,CN,https://image.tmdb.org/t/p/w500/90owZIJuY8ZNCNFp6DIsXvu7gsM.jpg
+128327,The Mayor of Casterbridge,嘉德橋市長,Drama,2003.0,3.6875,8.0,283474,238792.0,US,https://image.tmdb.org/t/p/w500/1BtvewE4qGbCXX9Uz9eHckDbiZw.jpg
+128360,The Hateful Eight,八惡人,Western,2015.0,3.882938596491228,11400.0,3460252,273248.0,US,https://image.tmdb.org/t/p/w500/oNo2gd5uKoTZKr9h78qPICI7NyN.jpg
+128425,Stray Dogs,郊遊,Drama,2014.0,3.3076923076923075,39.0,3119416,209840.0,TW,https://image.tmdb.org/t/p/w500/jpeWZnK41NQYjrkfYQmLVTyYhfk.jpg
+128441,Sea Fog,海霧,Drama,2014.0,3.4038461538461537,26.0,3303728,272691.0,KR,https://image.tmdb.org/t/p/w500/gbdPJGXigmEFuYQXThuFJfzb2Hb.jpg
+128447,Little Accidents,礦塵迷途,Drama,2014.0,3.147058823529412,17.0,3125220,244260.0,US,https://image.tmdb.org/t/p/w500/AckVtOp8piXny7dorhjmQnMq00x.jpg
+128488,Wild Card,拳力突襲,Action|Crime|Drama|Thriller,2015.0,2.947289156626506,332.0,2231253,265208.0,US,https://image.tmdb.org/t/p/w500/m2fy0j9d04SNZFM1R9RSHtgfmRt.jpg
+128506,Rent-a-Cat,吉貓出租,Comedy|Drama,2012.0,3.717391304347826,23.0,2246953,116303.0,JP,https://image.tmdb.org/t/p/w500/sZBogqzLZla7I4J7DI5KGp39pO6.jpg
+128512,Paper Towns,紙上城市,Drama|Mystery|Romance,2015.0,3.154888673765731,1033.0,3622592,286565.0,US,https://image.tmdb.org/t/p/w500/bzVM3a2NJnaLWMdahEJAx2LX5p1.jpg
+128518,The Wonders,蜂蜜之夏,Drama,2014.0,3.1,35.0,3044244,265226.0,IT,https://image.tmdb.org/t/p/w500/am2WLfvT5ElOqNR6IS7lYTFyEw2.jpg
+128520,The Wedding Ringer,伴郎友沒友,Comedy,2015.0,3.357007575757576,528.0,884732,252838.0,US,https://image.tmdb.org/t/p/w500/ciR2suRkfJen9lQvfz22lgCj7g7.jpg
+128542,Wyrmwood,屍速狂殺,Action|Horror|Sci-Fi,2015.0,3.109375,128.0,2535470,290999.0,AU,https://image.tmdb.org/t/p/w500/qmWpSUUQaJUVVMbqHZAUYpEILTk.jpg
+128592,The Boy Next Door,隔壁的男孩殺過來,Mystery|Thriller,2015.0,2.555172413793104,145.0,3181822,241251.0,US,https://image.tmdb.org/t/p/w500/z1RyR2KBs5KANEJolKrx3Qgb6H3.jpg
+128601,Hearty Paws,伴我走天涯,Adventure|Drama,2006.0,2.5,1.0,1710565,154326.0,KR,https://image.tmdb.org/t/p/w500/kjO1jOwRvP7zatUQfsizd92pkEF.jpg
+128604,Knight of Cups,聖杯騎士,Drama,2015.0,3.0934959349593494,246.0,2101383,86835.0,US,https://image.tmdb.org/t/p/w500/rU3ZssQaYkMk6FtrDBWpQ3ezWl1.jpg
+128608,Diary of a Chambermaid,女僕心機,Drama,2015.0,2.46,25.0,2711898,320003.0,BE,https://image.tmdb.org/t/p/w500/z1MP79iSpQBc0JFrMLAEjtgO788.jpg
+128610,Ixcanul Volcano,火山少女的愛愁,(no genres listed),2015.0,3.5416666666666665,36.0,4135844,320001.0,GT,https://image.tmdb.org/t/p/w500/eAXXVyZmCK96tuVm6PvW7SOQ505.jpg
+128620,Victoria,維多莉亞,Crime|Drama|Romance,2015.0,3.8505869797225194,937.0,4226388,320007.0,DE,https://image.tmdb.org/t/p/w500/cGezdmLDDjRF6eIGU2JdzUtpi6y.jpg
+128622,Heavenly Forest,現在只想愛你,Drama|Romance,2006.0,3.9814814814814814,27.0,872022,40243.0,JP,https://image.tmdb.org/t/p/w500/w0WzkEQUQKnUCXxp4Ym2LtAe1fF.jpg
+128626,The Golden Dream,我要去美國,Drama,2013.0,3.661764705882353,34.0,2042583,186976.0,MX,https://image.tmdb.org/t/p/w500/eNCgyW7IG0EWyIslm22oxxkPYp9.jpg
+128632,Home Sweet Hell,甜蜜地獄之家,Comedy|Drama,2015.0,2.5549450549450547,91.0,2802136,276839.0,US,https://image.tmdb.org/t/p/w500/a0S1ou77hJ8RAxGkpyZGbfUr2SG.jpg
+128671,Timbuktu,在地圖結束的地方,Drama,2014.0,3.550314465408805,159.0,3409392,265228.0,FR,https://image.tmdb.org/t/p/w500/pG5SYVCdN22Cc10nKhW4XFugtpj.jpg
+128832,The Last Five Years,最後那五年,Comedy|Drama|Musical|Romance,2014.0,3.281746031746032,126.0,2474024,206296.0,US,https://image.tmdb.org/t/p/w500/dxTLKSTyGb5IXB64iNgU9AWAsXT.jpg
+128838,Crimson Peak,腥紅山莊,Horror,2015.0,3.260596026490066,1510.0,2554274,201085.0,US,https://image.tmdb.org/t/p/w500/kzUCQAPLuEcmDgO3mHtH3mJzoaG.jpg
+128842,Dragonheart 3: The Sorcerer's Curse,魔龍傳奇3：巫師的詛咒,Action|Adventure|Fantasy,2015.0,2.131578947368421,38.0,3829170,300803.0,US,https://image.tmdb.org/t/p/w500/8aNGnx3gsOc9beVkUjQUPhveIPx.jpg
+128872,Love is God,我的神奇旅伴,Adventure|Comedy|Drama,2003.0,3.62,25.0,367495,26910.0,IN,https://image.tmdb.org/t/p/w500/nT556HbikCCLABe8xQ4zQ2QIb0O.jpg
+128968,Stitch! The Movie,星際寶貝史迪奇,Animation|Children|Comedy,2003.0,3.2318435754189943,179.0,348124,15567.0,US,https://image.tmdb.org/t/p/w500/flwMGZcOO80lqsnZ6lIwsKja5N.jpg
+128975,Hot Tub Time Machine 2,扭轉時光機2,Comedy|Sci-Fi,2015.0,2.631742738589212,482.0,2637294,243938.0,US,https://image.tmdb.org/t/p/w500/lBroHetSm8RMI8zp7ThpFJsw9E1.jpg
+129078,Tokyo Fiancée,東京未婚妻,(no genres listed),2015.0,3.3026315789473686,38.0,3877718,287509.0,BE,https://image.tmdb.org/t/p/w500/akplwUDUxa6O6KY3yZgYqK82tK2.jpg
+129307,Wu yen,鍾無艷,Comedy|Fantasy,2001.0,3.6666666666666665,6.0,272362,45417.0,HK,https://image.tmdb.org/t/p/w500/gy53OOjWiqL6DlDuaTFSIUGm6Bl.jpg
+129313,Reality,不真實的荒謬,Comedy,2014.0,3.690721649484536,97.0,2392672,179150.0,FR,https://image.tmdb.org/t/p/w500/1WLGqZdUorGgNNQSeYZTNLhqYOR.jpg
+129342,Han Gong-ju,青春勿語,Drama,2013.0,3.9444444444444446,18.0,3265462,229304.0,KR,https://image.tmdb.org/t/p/w500/g6J1GsdvA6kMhxXoJFJjZxNk4sI.jpg
+129354,Focus,決勝焦點,Comedy|Crime|Drama|Romance,2015.0,3.502107652399481,3084.0,2381941,256591.0,US,https://image.tmdb.org/t/p/w500/vpRSvakhcnEE30F6LrHqsbj7JHs.jpg
+129364,Every Thing Will Be Fine,一切終將安好,Drama,2015.0,3.086206896551724,29.0,1707380,246127.0,DE,https://image.tmdb.org/t/p/w500/qTQC2MVoxYl0Qi336fB7iOBBuEN.jpg
+129370,"SpongeBob Movie: Sponge Out of Water, The",海綿寶寶：海陸大出擊,Adventure|Animation|Children|Comedy,2015.0,2.8184281842818426,369.0,2279373,228165.0,US,https://image.tmdb.org/t/p/w500/mqfGMkMt4uCwzwNZ11oV7AWbbee.jpg
+129372,Demonic,叫魂,Horror|Thriller,2015.0,2.6666666666666665,96.0,1841642,234212.0,US,https://image.tmdb.org/t/p/w500/ghYdXadF5VLmyJvtgw9g8I3AbNR.jpg
+129397,Marvel One-Shot: Item 47,47號物品,Action|Fantasy|Sci-Fi,2012.0,3.2590909090909093,110.0,2247732,119569.0,US,https://image.tmdb.org/t/p/w500/hnSxG8clwLuAXEkp9emc8HCUcHD.jpg
+129405,Tomie: Unlimited,富江：陰魂不散,Horror,2011.0,3.125,8.0,1728217,85349.0,JP,https://image.tmdb.org/t/p/w500/iNFgEfyIwpC6BK2rPKkMyyCxu3B.jpg
+129428,The Second Best Exotic Marigold Hotel,金盞花大酒店2,Comedy|Drama,2015.0,3.4140401146131807,349.0,2555736,268238.0,US,https://image.tmdb.org/t/p/w500/gLdhUEOsDQNIQrALdbvBYKomICN.jpg
+129439,Personal Tailor,私人訂制,Comedy|Drama,2013.0,2.0,1.0,2992152,243919.0,CN,https://image.tmdb.org/t/p/w500/hhJCiKXbZLudPVkEZwGpaSWw9id.jpg
+129657,Tracers,極限快遞,Action,2015.0,2.731707317073171,123.0,2401097,290764.0,US,https://image.tmdb.org/t/p/w500/9sVhQEk3b4OpjFZFj0RR1mYxlOp.jpg
+129659,"McFarland, USA",夢想越野隊,Drama,2015.0,3.74025974025974,462.0,2097298,228203.0,US,https://image.tmdb.org/t/p/w500/3c5Gs12gyzVPKfsnNvtVMFOi6mS.jpg
+129675,Wolf Totem,狼圖騰,Adventure,2015.0,3.28,25.0,2909116,309302.0,CN,https://image.tmdb.org/t/p/w500/nw9q4xEl3aNtBCB0e240n81SS8x.jpg
+129707,The Lazarus Effect,永夜魔女,Horror|Thriller,2015.0,2.654109589041096,292.0,2918436,243940.0,US,https://image.tmdb.org/t/p/w500/uGJ8DjyK1nNzJpNgp85n2tw0EvF.jpg
+129737,Unfinished Business,凸槌三人行,Comedy,2015.0,2.8314285714285714,175.0,2358925,239573.0,US,https://image.tmdb.org/t/p/w500/eVWVZf3fkx9eNqbHyn9xNlmC2h4.jpg
+129739,Bogowie,神,Drama,2014.0,3.75,76.0,3745620,298040.0,PL,https://image.tmdb.org/t/p/w500/aXAjqVrysErOF4fimE69AtIM9ry.jpg
+129749,The Connection,法國毒網,Action|Crime|Thriller,2014.0,3.5625,64.0,2935564,197950.0,BE,https://image.tmdb.org/t/p/w500/f1ZihdwexPoB49G8BGpvTtsqKNk.jpg
+129771,Jacky in the Kingdom of Women (Jacky au royaume des filles),女子漢的顛倒性世界,Comedy,2014.0,3.2333333333333334,30.0,2382422,223954.0,FR,https://image.tmdb.org/t/p/w500/xmQhx28FeJdPauZc5bgne9EPtgr.jpg
+129781,About Alex,回憶我和你,Drama,2014.0,3.4593023255813957,86.0,2667918,259956.0,US,https://image.tmdb.org/t/p/w500/dWn9qrUP8W3u2TXfBMa6TkLkoLt.jpg
+129786,Dhobi Ghat,孟買日記,Drama,2011.0,3.227272727272727,22.0,1433810,54890.0,IN,https://image.tmdb.org/t/p/w500/bB0ZO7fBLZypcMSvHreNlkcH8sx.jpg
+129820,Spare Parts,夢想啟動,Drama,2015.0,3.718390804597701,87.0,3233418,264337.0,US,https://image.tmdb.org/t/p/w500/r2bMAt51027Pm3sjvfDuRXs9IHW.jpg
+129826,LEGO DC Comics Super Heroes: Justice League vs. Bizarro League,樂高電影：正義聯盟大戰反正義聯盟,Action|Adventure|Animation|Children,2015.0,2.565217391304348,23.0,4189260,322456.0,US,https://image.tmdb.org/t/p/w500/g3EP0qrVY9k08OABBsLQMHzA0nG.jpg
+129830,Animals United,動物總動員,Animation|Children|Comedy,2011.0,2.1296296296296298,27.0,1620449,50135.0,DE,https://image.tmdb.org/t/p/w500/lFKP0GZX3oKqwNra23RFDBj0YSU.jpg
+129845,Falcon Rising,獵鷹上升,Action|Adventure,2014.0,2.565217391304348,46.0,2295722,270938.0,US,https://image.tmdb.org/t/p/w500/4wnfTO8mvqcTU62YMkUeKq49VMT.jpg
+129859,Mardock Scramble: The Second Combustion,殼中少女 燃燒,Animation|Sci-Fi,2011.0,3.096774193548387,31.0,2048804,73530.0,JP,https://image.tmdb.org/t/p/w500/woPUgAzWhEtOarY7hNAQAxkBMzX.jpg
+129905,The Floating Castle,傀儡之城,Comedy|Drama,2012.0,4.25,2.0,1674778,209032.0,JP,https://image.tmdb.org/t/p/w500/meAp8iX1yjq0pKaOOCMmbUwIfSi.jpg
+129937,Run All Night,一夜狂奔,Action|Crime|Drama|Thriller,2015.0,3.190967741935484,775.0,2199571,241554.0,US,https://image.tmdb.org/t/p/w500/zHyexVBdFnf0v9xNoDqptzFTBps.jpg
+130036,Saints and Soldiers: The Void,聖戰士3：虛空,Action|Drama|War,2014.0,2.875,12.0,1270114,294690.0,US,https://image.tmdb.org/t/p/w500/9kXpca09Ajdfs5v12A0Uqme14xK.jpg
+130044,Late Phases,惡狼纏身,Drama|Horror,2014.0,2.882716049382716,81.0,2420756,254193.0,US,https://image.tmdb.org/t/p/w500/7ulbyPajXTNZkki9AtcLI9YYhc2.jpg
+130066,Camille Rewinds,再一次初戀,Comedy|Romance,2012.0,3.0789473684210527,19.0,2253939,135281.0,FR,https://image.tmdb.org/t/p/w500/eYMrF8lLK5kEJ0m5DsXzvlziWMs.jpg
+130071,Nymph,人魚禁地,Fantasy|Horror,2014.0,1.8333333333333333,12.0,3171764,260030.0,RS,https://image.tmdb.org/t/p/w500/uaXHRV41HPuj5bWbDdZdsxxEsPb.jpg
+130073,Cinderella,仙履奇緣,Children|Drama|Fantasy|Romance,2015.0,3.356175972927242,1773.0,1661199,150689.0,US,https://image.tmdb.org/t/p/w500/l2tvKwDm17bQBF75TAeqDEHk06b.jpg
+130075,Frozen Fever,冰雪奇緣：驚喜連連,Adventure|Animation,2015.0,3.081081081081081,370.0,4007502,326359.0,US,https://image.tmdb.org/t/p/w500/r6wDfRoBV8UFrLBzEuVCQ6XTz0F.jpg
+130081,Our Summer in Provence,普羅旺斯的夏天,Comedy|Drama,2014.0,3.1944444444444446,18.0,3013588,263281.0,FR,https://image.tmdb.org/t/p/w500/aCwclMveAMa7TfEdiVdFczCSpP2.jpg
+130083,Kidnapping Mr. Heineken,綁架海尼根,Action|Crime|Drama|Thriller,2015.0,2.8504273504273505,117.0,2917388,228968.0,GB,https://image.tmdb.org/t/p/w500/ia4MxrIcJbBVDwOQV0d1eGI7N4J.jpg
+130087,The Cobbler,命運鞋奏曲,Comedy|Drama|Fantasy,2015.0,2.875,440.0,3203616,238215.0,US,https://image.tmdb.org/t/p/w500/3XIZ2IqoBS00hIOBj1G7VTDTqh8.jpg
+130089,Crazy Beautiful You,愛上刁蠻美少女,(no genres listed),2015.0,3.333333333333333,3.0,4377918,327225.0,PH,https://image.tmdb.org/t/p/w500/sZAi6bz8I31NrVPUAkza9qtxqZE.jpg
+130196,The Neighbors,惡鄰拼圖,Thriller,2012.0,2.5,4.0,2195490,133601.0,KR,https://image.tmdb.org/t/p/w500/8dS7WNdfD3KyXph8kqLZCUmrXpV.jpg
+130342,Ice Poison,冰毒,(no genres listed),2014.0,3.0,2.0,3420534,256306.0,TW,https://image.tmdb.org/t/p/w500/5k7Kgd0npiiUAPXFci4DtsZttKW.jpg
+130376,Kill Speed,空戰對決,Action|Crime|Thriller,2010.0,2.4,5.0,1027683,47467.0,US,https://image.tmdb.org/t/p/w500/w64IOlFCuM2s7XRqW3pO5wTeHg6.jpg
+130384,Mega Piranha,食人魚,Action|Adventure|Horror|Sci-Fi,2010.0,1.3928571428571428,28.0,1587807,39522.0,US,https://image.tmdb.org/t/p/w500/dO28MNGFlRHW4yuZ7pVouVSDpOH.jpg
+130390,Contract Killers,迷霧特工,Action|Adventure|Thriller,2009.0,2.55,10.0,1001548,13277.0,US,https://image.tmdb.org/t/p/w500/lfL4koU1lAHwKEQK6hd9VcwnDjS.jpg
+130398,Transmorphers,變形金鋼S：最終戰士,Action|Adventure|Sci-Fi,2007.0,1.261904761904762,21.0,960835,25055.0,US,https://image.tmdb.org/t/p/w500/ApKCORujeMhIBSoqHMXOGLENoSr.jpg
+130402,Cardcaptor Sakura: The Sealed Card,庫洛魔法使劇場版：被封印的卡片,Adventure|Animation|Comedy|Fantasy|Romance,2000.0,3.426470588235294,34.0,301083,31347.0,JP,https://image.tmdb.org/t/p/w500/yYxKAinMH6GkbpLnLK5kXiVUbYx.jpg
+130442,Patrick,恐怖診所,Horror|Sci-Fi|Thriller,2013.0,2.2916666666666665,36.0,2147459,199578.0,AU,https://image.tmdb.org/t/p/w500/7qBKs8ziqHEYydJJnRyTo6IGpFC.jpg
+130444,Ruby Red,紅寶石,Adventure|Children|Fantasy|Sci-Fi,2013.0,3.28125,48.0,2418558,175774.0,DE,https://image.tmdb.org/t/p/w500/vZO9L5HGKStAczsmXp0kj29c4Zz.jpg
+130448,Poltergeist,鬼哭神嚎：惡靈15,Horror|Thriller,2015.0,2.6746361746361744,481.0,1029360,243688.0,US,https://image.tmdb.org/t/p/w500/iXovyyxhrUjX19E4My55I14MKIU.jpg
+130450,Pan,潘恩：航向夢幻島,Adventure|Children|Fantasy,2015.0,2.6881959910913142,449.0,3332064,266647.0,AU,https://image.tmdb.org/t/p/w500/24DWImOFfUMCNlGXyMP1siYFUzT.jpg
+130452,While We're Young,青春倒退嚕,Comedy|Drama,2014.0,3.2620751341681573,559.0,1791682,252512.0,US,https://image.tmdb.org/t/p/w500/kbFyw7THCfARzY8aZwIjn6LLWyn.jpg
+130474,Suite Française,亂世有情天,Drama|Romance|War,2015.0,3.633333333333333,120.0,900387,271674.0,CA,https://image.tmdb.org/t/p/w500/tCV5vSvUAL7wzFGoGOSFf2VCSpw.jpg
+130488,The Infinite Man,搶救愛情的時空旅人,Comedy,2014.0,3.1630434782608696,46.0,2553424,253307.0,AU,https://image.tmdb.org/t/p/w500/tFAHx3bJBE3ZpLpIlYCLSE4eKqQ.jpg
+130490,Insurgent,分歧者2：叛亂者,Action|Sci-Fi|Thriller,2015.0,3.1444860980943456,3201.0,2908446,262500.0,CA,https://image.tmdb.org/t/p/w500/bc933QmF0F2EpMXDypgwr8C36ly.jpg
+130496,Big Game,總統遊戲,Action|Adventure,2014.0,2.654028436018957,211.0,2088003,230179.0,US,https://image.tmdb.org/t/p/w500/zs1D9vghWyNLd7C8eI3X1rgLlF4.jpg
+130506,Berserk: The Golden Age Arc 2 - The Battle for Doldrey,劍風傳奇 黃金時代篇2：多爾多雷攻略,Action|Animation|Fantasy,2012.0,3.675233644859813,214.0,2358911,118412.0,JP,https://image.tmdb.org/t/p/w500/6ytPHimWtZDVObGcSmazMo4noRc.jpg
+130508,Berserk: The Golden Age Arc - The Egg of the King,劍風傳奇 黃金時代篇1：霸王之卵,Action|Adventure|Animation|Fantasy|Horror,2012.0,3.691235059760956,251.0,2210479,113082.0,JP,https://image.tmdb.org/t/p/w500/zioHGKVDJd3OcJqrTsDCKKlYLMG.jpg
+130510,Berserk: The Golden Age Arc 3 - Descent,劍風傳奇 黃金時代篇3：降臨,Action|Animation|Fantasy,2013.0,3.92032967032967,182.0,2358913,144288.0,JP,https://image.tmdb.org/t/p/w500/6WzLVzg97FSStqZO0iGkyBVwUUZ.jpg
+130512,Hippocrates,醫手遮天,Comedy|Drama,2014.0,3.3260869565217392,23.0,2891070,271724.0,FR,https://image.tmdb.org/t/p/w500/1ydLX0C0GMUZFOeh4ecQgfLYArb.jpg
+130520,Home,好家在一起,Adventure|Animation|Children|Comedy|Fantasy|Sci-Fi,2015.0,3.208784213876512,1571.0,2224026,228161.0,US,https://image.tmdb.org/t/p/w500/6zBjmzg7sIet3sDjKkEfmubl2EF.jpg
+130526,The Detective 2,B+偵探,Action,2011.0,3.066666666666667,15.0,1534786,69619.0,HK,https://image.tmdb.org/t/p/w500/jRYQoBVP1U70OWWBHeFdhLyO9QE.jpg
+130576,Midnight Special,通天眼,Drama|Sci-Fi,2015.0,3.293201133144476,1059.0,2649554,245703.0,US,https://image.tmdb.org/t/p/w500/uogcouZVZgtStFH8qHaD3g1MHxQ.jpg
+130578,"Gunman, The",全面逃殺,Action|Thriller,2015.0,2.933333333333333,195.0,2515034,266396.0,FR,https://image.tmdb.org/t/p/w500/t3PxDG0m9arlIFSiFk7m8slpDy.jpg
+130580,The Disappearance of Eleanor Rigby: Her,因為愛情：在離開他以後,Drama,2013.0,3.595238095238096,63.0,3720788,275060.0,US,https://image.tmdb.org/t/p/w500/ynQT7JLYoLwV8P2ropoQEpTH7gG.jpg
+130582,The Disappearance of Eleanor Rigby: Him,因為愛情：在她消失以後,Drama|Romance,2013.0,3.5,68.0,1531924,276401.0,US,https://image.tmdb.org/t/p/w500/wCxiOB5dgShUrsUkyTaMsRTiw7j.jpg
+130588,Escobar: Paradise Lost,毒梟帝國,Romance|Thriller,2014.0,3.208955223880597,67.0,2515030,255343.0,FR,https://image.tmdb.org/t/p/w500/4HngNLzCmUYCPB8FbxSZWN0eDKM.jpg
+130618,Baby,寶貝計畫,Action|Crime|Mystery|Thriller,2015.0,3.553763440860215,93.0,3848892,314389.0,IN,https://image.tmdb.org/t/p/w500/5yezGgo37qmd6kDknZKFzbhT19b.jpg
+130622,The Circle,禁愛風暴,Documentary|Drama,2014.0,3.2,10.0,3148952,255890.0,CH,https://image.tmdb.org/t/p/w500/ioMXyYkvuaQlxYX05Uf8Hh8jSnq.jpg
+130626,Vengeance Can Wait,乱暴と待機,Comedy|Drama|Romance,2010.0,4.0,1.0,1569488,136070.0,JP,https://image.tmdb.org/t/p/w500/ciVYNCzb2yQH9xF96opFcl07DPL.jpg
+130628,Boys,田徑男孩,Drama,2014.0,3.758720930232558,172.0,3318220,244063.0,NL,https://image.tmdb.org/t/p/w500/wmc6kOnwzXrJ99Y5JuNsBLztSEv.jpg
+130634,Furious 7,玩命關頭7,Action|Crime|Thriller,2015.0,3.3197443181818183,3520.0,2820852,168259.0,US,https://image.tmdb.org/t/p/w500/fNZFqhIoE9Du1Gr6Py0rwhhV3fE.jpg
+130636,Unfriended,弒訊,Horror|Mystery|Thriller,2014.0,2.7886740331491717,724.0,3713166,277685.0,US,https://image.tmdb.org/t/p/w500/pDOA60PxLEIsz0km8ZMuV7QO134.jpg
+130640,貞子3D,貞子3D,Horror,2012.0,2.25,14.0,1844025,140441.0,JP,https://image.tmdb.org/t/p/w500/fVmoGQWdOxMXLN3k4zHBkRsSfYg.jpg
+130642,Backcountry,絕境求生,Drama|Horror|Thriller,2014.0,3.2243243243243245,185.0,2944198,228973.0,CA,https://image.tmdb.org/t/p/w500/z8fZRpozerkVNhzSJGYIhx0xs8y.jpg
+130644,The Garden of Sinners - Chapter 5: Paradox Paradigm,空之境界 第五章：矛盾螺旋,Animation,2008.0,3.656862745098039,51.0,1278060,23155.0,JP,https://image.tmdb.org/t/p/w500/3fKSJjvUwwsRikASgAwiuZ0oYcv.jpg
+130682,Muck,屍戮沼澤,Horror,2015.0,1.7,15.0,2207484,256030.0,US,https://image.tmdb.org/t/p/w500/hwJDQ1EjDMlSvExRzzeEE3F9JbX.jpg
+130684,We Are Still Here,怨靈再起,Horror,2015.0,2.995575221238938,226.0,3520418,291272.0,US,https://image.tmdb.org/t/p/w500/cept8wVTjFy2lo3ALqAhjShQHTO.jpg
+130686,The Final Girls,驚叫少女,Comedy|Horror,2015.0,3.331408775981524,433.0,2118624,293970.0,US,https://image.tmdb.org/t/p/w500/gQYKSRVo5iZACFOY6x50RblI6rx.jpg
+130784,The Whisperer in Darkness,克蘇魯怪談：黑暗細語,Horror|Mystery|Sci-Fi|Thriller,2011.0,3.41,50.0,1498878,87178.0,US,https://image.tmdb.org/t/p/w500/tJ1VzzZ13gx3nWzQwY81MjZ1WUy.jpg
+130840,Spring,魔物戀人,Horror|Romance|Sci-Fi,2015.0,3.447058823529412,425.0,3395184,241855.0,US,https://image.tmdb.org/t/p/w500/dZLj2vaJDMyIW9b2VoBd4KCLjGH.jpg
+130862,Cymbeline,辛白林：誘惑獵痕,Drama,2014.0,2.28,25.0,3093522,240745.0,US,https://image.tmdb.org/t/p/w500/vEgSK1kyJE7si36YvwDCzg9WAXP.jpg
+130880,Spiders II: Breeding Ground,天蛛地滅2,Horror|Sci-Fi,2001.0,2.6,5.0,282179,40040.0,US,https://image.tmdb.org/t/p/w500/xAgJTqKimQ2wCxKvYpHNLwt3MYs.jpg
+130956,Child 44,失控獵殺：第44個孩子,Crime|Thriller,2015.0,3.021428571428572,280.0,1014763,181283.0,US,https://image.tmdb.org/t/p/w500/ouMSqNdwNGndEGcRazVmgFWefTg.jpg
+130988,A Little Chaos,美人情園,Drama|Romance,2014.0,3.337037037037037,135.0,2639254,283227.0,US,https://image.tmdb.org/t/p/w500/20ss5SNODjxvdB4hBAVPW37jaJ6.jpg
+131013,Get Hard,獄前教育,Comedy|Crime,2015.0,3.0957300275482096,1452.0,2561572,257091.0,US,https://image.tmdb.org/t/p/w500/fk8EnGD6mHdYRlnOuLX3USOHiCj.jpg
+131023,That Sugar Film,惡食工廠,Documentary,2014.0,3.600806451612903,124.0,3892434,305091.0,US,https://image.tmdb.org/t/p/w500/qF1fDtJ1vU3hrLDNJCgRoQekFmM.jpg
+131066,Ronal the Barbarian,野蠻人羅納爾,Adventure|Animation|Fantasy,2011.0,2.985294117647059,102.0,1629374,79433.0,DK,https://image.tmdb.org/t/p/w500/b1JpzPAWRp7dVj5XCq4lPfKzB0F.jpg
+131080,Cinderella III: A Twist in Time,仙履奇緣3：時間魔法,Animation|Children|Fantasy|Musical|Romance,2007.0,2.8216374269005846,171.0,465940,16119.0,US,https://image.tmdb.org/t/p/w500/jS1d7cxdHkBANAEbkUUrfbpM9Fr.jpg
+131138,My Führer,我的元首：關於阿道夫希特勒的真相,Comedy|Drama|War,2007.0,2.921052631578948,19.0,780568,6172.0,DE,https://image.tmdb.org/t/p/w500/llep6dJdEFaWGMAQdCLiBJx4HyH.jpg
+131140,Stopped on Track,瀕臨邊緣的人,Drama,2011.0,3.071428571428572,7.0,1780856,78313.0,DE,https://image.tmdb.org/t/p/w500/x5XshcarYoktbdTL8WiYnbUa00F.jpg
+131168,Phoenix,回不去的時光,Drama,2014.0,3.674008810572688,227.0,2764784,254578.0,DE,https://image.tmdb.org/t/p/w500/b6ge0RM3Adgvc5rScrMDAgkW4MM.jpg
+131170,Parallels,平行宇宙,Sci-Fi|Thriller,2015.0,3.0335195530726256,179.0,3479316,328595.0,US,https://image.tmdb.org/t/p/w500/fqUallsX9KSSey1tw7AbujlOmOa.jpg
+131180,Dead Rising: Watchtower,死亡復甦：瞭望台,Action|Horror|Thriller,2015.0,2.5681818181818183,44.0,3816458,293771.0,US,https://image.tmdb.org/t/p/w500/95gMn5GwR6rPHmmHfDyEs0pO2U7.jpg
+131192,App,手機有鬼,Thriller,2013.0,2.4722222222222223,18.0,2536436,179053.0,NL,https://image.tmdb.org/t/p/w500/w8lCym2VZmaBEEqfAOqYliNCILk.jpg
+131248,Brother Bear 2,熊的傳說2,Adventure|Animation|Children|Comedy|Fantasy,2006.0,3.101239669421488,242.0,465925,10010.0,US,https://image.tmdb.org/t/p/w500/vrt2pPIXeRDNX5J6IfqED6G5NMe.jpg
+131254,Kein Bund für's Leben,大兵學院,Comedy,2007.0,2.625,8.0,466713,4436.0,DE,https://image.tmdb.org/t/p/w500/5v55XXxQjmFAaPKK3jrpyJxI3ZI.jpg
+131258,The Pirates,海賊：汪洋爭霸,Adventure,2014.0,3.4642857142857144,28.0,3485166,285213.0,KR,https://image.tmdb.org/t/p/w500/6elGjsueql8JoL3LRvcRe656wCE.jpg
+131270,Kung Fu Jungle,一個人的武林,Action|Crime|Thriller,2014.0,3.3421052631578947,95.0,2952602,290864.0,CN,https://image.tmdb.org/t/p/w500/kchVm5veesO5c31f6VxNu9rvuTV.jpg
+131433,Confession of Murder,殺人告白,Action|Thriller,2012.0,3.5508474576271185,118.0,2468774,140212.0,KR,https://image.tmdb.org/t/p/w500/aDVOLE88UAWfwE6iumZqbdW4Yjj.jpg
+131437,Moby Dick,白鯨,Action|Horror|Thriller,2011.0,3.066666666666667,15.0,1984208,75006.0,KR,https://image.tmdb.org/t/p/w500/lr9yQkkdgi4vJVAuT3Ciafzuwe3.jpg
+131439,Kill Me Three Times,弑不過三,Thriller,2014.0,2.926829268292683,205.0,2393845,237756.0,AU,https://image.tmdb.org/t/p/w500/6adSp8xHMOXF2amlI8w1acG2i31.jpg
+131444,Rurouni Kenshin: The Legend Ends,神劍闖江湖3：傳說的最終篇,Action|Adventure|Drama,2014.0,3.467741935483871,93.0,3029556,221732.0,JP,https://image.tmdb.org/t/p/w500/30wBFyQI1HctmAa3srZP8N0QUBQ.jpg
+131446,Rurouni Kenshin: Kyoto Inferno,神劍闖江湖2︰京都大火篇,Action|Adventure|Animation|Drama,2014.0,3.517094017094017,117.0,3029558,221731.0,JP,https://image.tmdb.org/t/p/w500/6rOGF3d7pgCp6lD7AL0yTpq1u3Q.jpg
+131451,The Atticus Institute,阿提克斯超能實驗,Horror,2015.0,3.1296296296296298,81.0,3280916,299551.0,US,https://image.tmdb.org/t/p/w500/ompMn7y7LAlRgwfOYjp88bCCD1O.jpg
+131453,The Last Will and Testament of Rosalind Leigh,闇陰宅,Horror|Thriller,2012.0,2.855769230769231,52.0,2332831,106717.0,CA,https://image.tmdb.org/t/p/w500/xyXN9dfPuE07EM0JgTB5LNRldKP.jpg
+131457,Rise of the Legend,黃飛鴻之英雄有夢,Action|Drama,2014.0,3.3902439024390243,41.0,3469592,294993.0,HK,https://image.tmdb.org/t/p/w500/y3b9U4JYHhd60Q9g7ZYmPiyvlbP.jpg
+131466,Gangster Payday,大茶飯,Crime|Drama|Romance|Thriller,2014.0,3.0,10.0,4141260,294991.0,HK,https://image.tmdb.org/t/p/w500/nXQYtXDBaKOuf28uTa7yv0Yowjf.jpg
+131470,The Houses October Built,鬼面懼,Horror,2014.0,2.833333333333333,87.0,1958043,293572.0,US,https://image.tmdb.org/t/p/w500/s95lgkbe6mZlQ5Pi146lwvIq2k4.jpg
+131570,The Humbling,百老匯熟男日記,Comedy|Drama,2015.0,2.4833333333333334,30.0,1568343,254023.0,US,https://image.tmdb.org/t/p/w500/lbD0yd8979HvNRGcbUibnTcjsGm.jpg
+131572,"Isoroku Yamamoto, the Commander-in-Chief of the Combined Fleet",聯合艦隊司令長官 山本五十六,War,2011.0,2.875,8.0,1932695,131739.0,JP,https://image.tmdb.org/t/p/w500/q4Q3T4DAY8iaH9QjrBIWHQkdE2m.jpg
+131656,Shaun the Sheep Movie,笑笑羊大電影,Adventure|Animation|Children|Comedy,2015.0,3.4836867862969005,613.0,2872750,263109.0,GB,https://image.tmdb.org/t/p/w500/bdGHQwUQa6gIW0Hsq6UmRL1rQw7.jpg
+131658,Infinitely Polar Bear,永遠的北極熊,Comedy|Drama|Romance,2014.0,3.371794871794872,117.0,1969062,244539.0,US,https://image.tmdb.org/t/p/w500/vdpdDg72hkAGKSlDiADR30kvcIw.jpg
+131712,Ages of Love,真愛跨世代,Comedy|Romance,2011.0,2.875,16.0,1712187,58219.0,IT,https://image.tmdb.org/t/p/w500/16xO296qvrx9xqpk0aDGPPrI4g.jpg
+131714,Last Knights,第七軍團：最後戰役,Action|Adventure,2015.0,3.067765567765568,273.0,2493486,308504.0,US,https://image.tmdb.org/t/p/w500/kDDwAQHkqPy8RYQc38lFTuRw8Ro.jpg
+131716,The Viral Factor,逆戰,Action|Drama,2012.0,2.9444444444444446,9.0,2063011,83706.0,CN,https://image.tmdb.org/t/p/w500/fdUU6pEgD7d2pyyHer9JAvIdvBB.jpg
+131720,Penny Pinchers,賺錢羅曼史,Comedy|Romance,2011.0,3.4,5.0,2115426,92038.0,KR,https://image.tmdb.org/t/p/w500/fNMEySxAa5C428coBzwmO3YpB4z.jpg
+131739,Batman vs. Robin,蝙蝠俠大戰羅賓,Action|Adventure|Animation,2015.0,3.2844444444444445,225.0,4324274,321528.0,US,https://image.tmdb.org/t/p/w500/vExbdL4Z7lVe1l86sZDnEvGU0AL.jpg
+131749,Libre et assoupi,自由與昏沉,Comedy,2014.0,3.6142857142857134,35.0,2922440,268523.0,FR,https://image.tmdb.org/t/p/w500/t3w7bVAlihvm0uYbhWNptAJKgVc.jpg
+131796,Woman in Gold,名畫的控訴,Drama,2015.0,3.6952983725135615,553.0,2404425,304357.0,GB,https://image.tmdb.org/t/p/w500/cSAjBlHOK6fwhXq5qY46PjEHzDl.jpg
+131820,Echoes,恐怖回音,Horror,2015.0,2.25,20.0,3033948,328763.0,US,https://image.tmdb.org/t/p/w500/3Af5FJEmhdUkRH4Hg9dRNJbWaR4.jpg
+131830,Samba,巴黎遇見愛,Comedy|Drama,2014.0,3.411764705882353,119.0,3399024,269148.0,FR,https://image.tmdb.org/t/p/w500/iMqnwCZ9gMkv7Vn0n9BOUDx2dcZ.jpg
+131838,An Afghan Love Story,瓦姿瑪的抉擇,(no genres listed),2013.0,3.8,5.0,2551492,158455.0,AF,https://image.tmdb.org/t/p/w500/uyVcRhgnskRVOc8laqXS7D9nprv.jpg
+131848,Seven Dwarfs,七個小矮人,Comedy,2004.0,2.2948717948717947,39.0,382295,9803.0,DE,https://image.tmdb.org/t/p/w500/b7cfDQirLJbOryFB0VfpQJHwTIx.jpg
+132012,Lemonade Mouth,檸檬大嘴巴,Children,2011.0,3.1913043478260867,115.0,1648204,65218.0,US,https://image.tmdb.org/t/p/w500/8Wm42aXeFZsVfW34Q2rnha0YeG3.jpg
+132046,Tomorrowland,明日世界,Action|Adventure|Children|Mystery|Sci-Fi,2015.0,3.181976947258121,2863.0,1964418,158852.0,US,https://image.tmdb.org/t/p/w500/vIfg5CNBH4i2GXQNAAs5em2nBqE.jpg
+132056,The Forger,驚世劫作,Crime|Drama|Thriller,2014.0,2.9375,72.0,2376218,255157.0,US,https://image.tmdb.org/t/p/w500/jizsQaj2BtOYWuPtryly2qLPQdR.jpg
+132068,Far from Men,遠離人跡,Drama,2014.0,3.755555555555556,45.0,2936180,283708.0,FR,https://image.tmdb.org/t/p/w500/efhEOjjqLhnmBsLiS6Ep69hMAzy.jpg
+132078,Hiver rouge,致命季節：深紅冬天,Thriller,2011.0,3.333333333333333,3.0,1854538,289126.0,FR,https://image.tmdb.org/t/p/w500/oBPYYMBVVIvcfm1X3u0duVMUW8r.jpg
+132112,Good Kill,巡弋狙擊手,Drama|Thriller,2014.0,3.2839506172839505,162.0,3297330,253626.0,US,https://image.tmdb.org/t/p/w500/w1s0XeYemVLmcdq4WTuAsjoBXwX.jpg
+132122,Hungry Hearts,飢餓的心,Drama,2014.0,3.466666666666667,30.0,3344922,283698.0,US,https://image.tmdb.org/t/p/w500/pSLlzA8bJWaLjrm7F7IAhJiHNVi.jpg
+132134,15 Years and One Day,15歲又一天,Drama,2013.0,3.25,4.0,2368525,180418.0,ES,https://image.tmdb.org/t/p/w500/cidTFapHXtGXxVUUxtPI18V6Q0m.jpg
+132140,Good Deeds,愛轉人生,Comedy|Drama|Romance,2012.0,2.9642857142857144,28.0,1885265,62008.0,US,https://image.tmdb.org/t/p/w500/ntgkXjkiKnTzmJoJngesirAeyVr.jpg
+132157,Paul Blart: Mall Cop 2,百貨戰警 2,Action|Comedy|Crime,2015.0,2.0294784580498866,441.0,3450650,256961.0,US,https://image.tmdb.org/t/p/w500/83j0E2AkcA29ft6U9JgOIcXnIoE.jpg
+132169,Time Traveller: The Girl Who Leapt Through Time,穿越時空的少女：2010電影版,Adventure,2010.0,3.403225806451613,31.0,1614408,54770.0,JP,https://image.tmdb.org/t/p/w500/331DeAPqP6IABlcnQfnO7KAJ0Lj.jpg
+132173,Adult Beginners,哥哥褓母,Comedy,2015.0,3.081818181818182,55.0,3318750,287587.0,US,https://image.tmdb.org/t/p/w500/H9zeZ4Vr1lPUfOCz07FPn1ENRX.jpg
+132335,Breathe,窒友,Drama,2014.0,3.54,75.0,3365778,270400.0,FR,https://image.tmdb.org/t/p/w500/qrVmB9XPg1Yo5a4bnLeUBSM2gin.jpg
+132352,Spiders,3D食人蛛,Horror|Sci-Fi|Thriller,2013.0,1.825,20.0,1659216,164331.0,US,https://image.tmdb.org/t/p/w500/8cqIa6PiJXRylJlCMyWSQn0a6y6.jpg
+132366,The Eternal Zero,永遠的0,Drama|War,2013.0,3.5,9.0,2404217,248087.0,JP,https://image.tmdb.org/t/p/w500/n5T4GltPa4PydvkjiJKX4BA9qfB.jpg
+132377,Outcast,最後的戰爭,Action,2014.0,2.1796875,64.0,1552224,289720.0,US,https://image.tmdb.org/t/p/w500/efsgCTlofzIuysfokEp7hwQnUho.jpg
+132381,The Admiral: Roaring Currents,鳴梁：怒海交鋒,Action|Drama|War,2014.0,3.5060240963855422,83.0,3541262,282631.0,KR,https://image.tmdb.org/t/p/w500/uvzIlZwe95XKZqW6HKlrZs3yueK.jpg
+132402,Tazza: The Hidden Card,千王新世紀,Crime|Drama,2014.0,3.5,11.0,3402110,290865.0,KR,https://image.tmdb.org/t/p/w500/6o6zBn4pUiUM9eb5Tn5BE8sWFDF.jpg
+132418,The Marine 4: Moving Target,海陸悍將4,Action|Thriller,2015.0,2.595238095238096,21.0,3528666,329540.0,CA,https://image.tmdb.org/t/p/w500/jYFXK03ohNGVcTPzT1LdRg7UyWa.jpg
+132424,The Longest Ride,愛情沒有終點,Drama|Romance,2015.0,3.645772594752186,686.0,2726560,228205.0,US,https://image.tmdb.org/t/p/w500/yiDhx9LxV3Sk7fqEemEMQPC2kKP.jpg
+132432,Five Dances,舞影隨行,Drama|Romance,2013.0,3.361111111111111,18.0,2186781,142115.0,US,https://image.tmdb.org/t/p/w500/rg6iIu10tAkAVbh3uqVBRh9cOP6.jpg
+132446,Atari: Game Over,雅達利：遊戲結束,Documentary,2014.0,3.3206106870229006,131.0,3715406,284470.0,US,https://image.tmdb.org/t/p/w500/69VCXTki2gDutUhndJgU8UHlvxA.jpg
+132456,Lage Raho Munna Bhai,傻瓜大哥再出擊,Comedy|Drama|Romance,2006.0,3.69108280254777,157.0,456144,21461.0,IN,https://image.tmdb.org/t/p/w500/lgSn1tXDstMXSHJYkSibKkHqW8y.jpg
+132458,Monkey Kingdom,猴子王國,Documentary,2015.0,3.4318181818181817,44.0,3660770,295592.0,US,https://image.tmdb.org/t/p/w500/bia1f0FIOC7w6wZYGoL8xXCbsbz.jpg
+132480,The Age of Adaline,時空永恆的愛戀,Drama|Fantasy|Romance,2015.0,3.673022994952328,1783.0,1655441,293863.0,US,https://image.tmdb.org/t/p/w500/21sMN321MxMWmb3b9NtkNL3gpwm.jpg
+132496,Danny Collins,翻唱人生,Comedy|Drama,2015.0,3.3659090909090907,220.0,1772288,256924.0,US,https://image.tmdb.org/t/p/w500/55Cr4BftavTYPigEjLE4v0MDW21.jpg
+132549,Grandma,拉嬤上路,(no genres listed),2015.0,3.478527607361963,163.0,4270516,309304.0,US,https://image.tmdb.org/t/p/w500/4LW20TF4NfQgHj5rZs0d0cgxRjV.jpg
+132551,Mea Culpa,厄夜救援,Action|Thriller,2014.0,2.8095238095238093,21.0,3112654,248611.0,FR,https://image.tmdb.org/t/p/w500/3Z1iq7AMrkGpCJNOb2RuddRq48p.jpg
+132577,Mardock Scramble: The First Compression,殼中少女 壓縮,Action|Animation|Drama|Thriller,2010.0,3.1621621621621623,37.0,1754177,73529.0,JP,https://image.tmdb.org/t/p/w500/56mDT6kxGfFSHcWIU9ZAAenPqJ9.jpg
+132579,Mardock Scramble: The Third Exhaust,殼中少女 排氣,Animation|Sci-Fi,2012.0,2.8448275862068964,29.0,2423504,122662.0,JP,https://image.tmdb.org/t/p/w500/actTwaiNfcDOCWMTSy7SIycZrBN.jpg
+132584,The Even Stevens Movie,活寶家族渡假記,Children|Comedy,2003.0,2.922535211267605,71.0,327698,50794.0,US,https://image.tmdb.org/t/p/w500/zPfJWjBNKZXZuQD7i967DiDqpQI.jpg
+132604,キサラギ,如月疑雲,Comedy|Mystery,2007.0,3.083333333333333,6.0,1158278,27698.0,JP,https://image.tmdb.org/t/p/w500/5O4HdEOF1pnhux6FgEpXtdXdjIs.jpg
+132622,Magic Beyond Words: The JK Rowling Story,JK羅琳的魔法奇蹟,(no genres listed),2011.0,3.4615384615384617,13.0,1979269,80530.0,US,https://image.tmdb.org/t/p/w500/a8luhZ3kQ2XfCwdgGqSjuTzf8HB.jpg
+132630,Tinker Bell and the Legend of the NeverBeast,奇妙仙子：奇幻獸傳說,Adventure|Animation|Children,2014.0,3.292517006802721,147.0,3120408,297270.0,US,https://image.tmdb.org/t/p/w500/fjf3B5DZw1dougtkIqQG5iw7PBa.jpg
+132632,The Pirate Fairy,奇妙仙子：海盜仙子,Animation|Children|Fantasy,2014.0,3.33587786259542,131.0,2483260,175112.0,US,https://image.tmdb.org/t/p/w500/eBwqQcmuQeB8MtSS8d4SJ40PBCc.jpg
+132648,Honig im Kopf,腦中蜜,Comedy|Drama,2014.0,3.3295454545454546,44.0,3488462,269258.0,DE,https://image.tmdb.org/t/p/w500/okb3kxnQBOhZuQdCHEPPnI0d6Qo.jpg
+132652,Mother's Day,母親劫,Crime|Drama|Horror|Thriller,2010.0,3.1184210526315788,76.0,1434435,101669.0,US,https://image.tmdb.org/t/p/w500/lt7WJAds7d3nf9Rw1h5VkBzElPC.jpg
+132656,Batman Unlimited: Animal Instincts,蝙蝠俠無限：動物天性,Animation,2015.0,2.25,36.0,4437640,327418.0,US,https://image.tmdb.org/t/p/w500/utKCTyTwfUGKJbhwQZpDgo6lPuU.jpg
+132660,Man Up,冒牌情緣,Comedy|Romance,2015.0,3.496551724137931,580.0,3064298,332340.0,GB,https://image.tmdb.org/t/p/w500/73EtIA1QvDh7un7S3KidkadONw9.jpg
+132794,Sweet Home,屠屍館,Horror,2015.0,2.958333333333333,12.0,3477752,328252.0,ES,https://image.tmdb.org/t/p/w500/tn0XdfDMdpawzyoTSJvL7bxVOtq.jpg
+132796,San Andreas,加州大地震,Action|Drama|Thriller,2015.0,2.865826330532213,1785.0,2126355,254128.0,US,https://image.tmdb.org/t/p/w500/gEnw74B8NROyZ2qNSTgCkiNqxZp.jpg
+132798,Regression,邪靈刑事錄,Thriller,2015.0,2.788990825688073,218.0,3319920,241257.0,US,https://image.tmdb.org/t/p/w500/itcv6u98aNA1aOu8cHWXiv0smcD.jpg
+132800,Welcome to Me,歡迎來到我的世界,Comedy|Drama,2014.0,3.117021276595745,235.0,2788716,284537.0,US,https://image.tmdb.org/t/p/w500/pGZV5m7T8NzNC4V2gk304W5SpVX.jpg
+132883,Testament of Youth,青春誓言,Drama|War,2014.0,3.628834355828221,163.0,1441953,284689.0,GB,https://image.tmdb.org/t/p/w500/a6kFsaDCulCLfYHmKLDKTYaddM4.jpg
+132906,The Man with the Iron Fists 2,鐵拳無敵2,Action,2015.0,2.235294117647059,34.0,3625152,321494.0,US,https://image.tmdb.org/t/p/w500/b3M2HnHD3pWfEmUuigHTkwnS2CC.jpg
+132954,Awake: The Life of Yogananda,一個瑜伽行者的自傳,Documentary,2014.0,3.0789473684210527,19.0,3741860,290504.0,US,https://image.tmdb.org/t/p/w500/nPiUpBhb16F2bAw7EWg4Jo7hjyF.jpg
+132961,Far from the Madding Crowd,遠離塵囂：珍愛相隨,Drama,2015.0,3.6080178173719375,449.0,2935476,250734.0,US,https://image.tmdb.org/t/p/w500/cr4cctBPv9qHDtjDps4wi0kqI7h.jpg
+132977,The House of Magic,魔法之家,Adventure|Animation|Children|Fantasy,2014.0,2.8365384615384617,52.0,3148834,202575.0,BE,https://image.tmdb.org/t/p/w500/3R13g2XgblynIrQGF8geFZJPNvR.jpg
+132979,A Company Man,超完美殺手,Action|Drama,2012.0,3.2033898305084745,59.0,2371486,134126.0,KR,https://image.tmdb.org/t/p/w500/r7zw1jamqs1A3EulpyG5kcT0H0X.jpg
+132989,Frontera,邊境,Drama|Western,2014.0,3.4027777777777777,36.0,2510028,259611.0,US,https://image.tmdb.org/t/p/w500/rjdJN48tBaLB7HdmyzBnlypXvPj.jpg
+132991,No Tears for the Dead,殺手的品格,Action|Thriller,2014.0,3.4910714285714284,56.0,3697566,265851.0,KR,https://image.tmdb.org/t/p/w500/bqivostz7auoPh02YcJ7gBCwVjb.jpg
+132997,Wrong Turn 6: Last Resort,鬼擋路6,Horror,2014.0,2.856164383561644,73.0,3612032,259072.0,BG,https://image.tmdb.org/t/p/w500/7raoz46h2cbMJIAE7GnwxrmEIIE.jpg
+133185,The Bélier Family,貝禮一家,Comedy,2014.0,3.713815789473684,152.0,3547740,304410.0,BE,https://image.tmdb.org/t/p/w500/ludVWYu7m7ZJx5VhTa3TpdNyd23.jpg
+133195,Hitman: Agent 47,刺客任務：殺手47,Action|Crime|Thriller,2015.0,3.0219399538106235,866.0,2679042,249070.0,US,https://image.tmdb.org/t/p/w500/oenjOaGabCUFN9LPRur8DNhMLE8.jpg
+133219,Tinker Bell and the Great Fairy Rescue,奇妙仙子：拯救精靈大作戰,Adventure|Animation|Children|Fantasy,2010.0,3.1468531468531467,143.0,1216515,44683.0,US,https://image.tmdb.org/t/p/w500/k4qfytzQq9Nr0r4zAiIlpIw78AG.jpg
+133229,Court,等待判決的日子,(no genres listed),2014.0,3.397727272727273,44.0,3717068,290815.0,IN,https://image.tmdb.org/t/p/w500/ve1UFCZYu8WHmeGRH4ToEcGnj6e.jpg
+133281,Ricki and the Flash,搖滾女王,Comedy|Drama,2015.0,2.8212121212121213,165.0,3623726,275601.0,US,https://image.tmdb.org/t/p/w500/y9hw9XSk8uVgLRfq3cweiAEJtU.jpg
+133289,100 Degrees Below Zero,零下100度,Action|Sci-Fi,2013.0,2.75,8.0,2538128,182228.0,US,https://image.tmdb.org/t/p/w500/7RBZMyildsNs5jtah9Ny7KAcR1p.jpg
+133375,Hush,惡愛謊言,Thriller,2012.0,3.2,5.0,2077772,149868.0,FI,https://image.tmdb.org/t/p/w500/iI52lZVATZgVWHIUKOfC2kFoWc3.jpg
+133377,Infini,無限,Horror|Sci-Fi|Thriller,2015.0,2.815068493150685,219.0,3327624,301728.0,AU,https://image.tmdb.org/t/p/w500/uDxbsPqH2451rlG8aRjUQCWh5gN.jpg
+133383,Shrew's Nest,凌刑密密縫,Drama|Horror|Thriller,2014.0,3.3222222222222224,45.0,3417756,284305.0,ES,https://image.tmdb.org/t/p/w500/yiUCX28NUoIjjR0qVI1lRgiKzlW.jpg
+133389,Piku,俏佳人琵庫,Comedy|Drama,2015.0,3.565573770491804,122.0,3767372,332835.0,IN,https://image.tmdb.org/t/p/w500/yo7EZWiLpLGhqs3YnlDGDBPjfTb.jpg
+133399,German Angst,柏林性愛死,Action|Fantasy|Horror|Mystery,2015.0,3.05,10.0,3398436,252596.0,DE,https://image.tmdb.org/t/p/w500/odVYzH2WxKczXlGgkow2jviDkRp.jpg
+133419,Pitch Perfect 2,歌喉讚2,Comedy,2015.0,3.223750573131591,2181.0,2848292,254470.0,US,https://image.tmdb.org/t/p/w500/8d5ApI86I8qdXDkSusyLLrGhjHT.jpg
+133509,Love Hotel,歡迎光臨寂寞賓館,(no genres listed),2014.0,3.4166666666666665,6.0,3526160,266621.0,US,https://image.tmdb.org/t/p/w500/lBWTV4AiNpm9e6Rf0s2v2WAaHwp.jpg
+133545,Just Before I Go,在我走之前,Comedy|Drama,2014.0,3.0086206896551726,116.0,2980472,258099.0,US,https://image.tmdb.org/t/p/w500/rEwXZIOh3CLVA5JJmxT5kaYY6ff.jpg
+133645,Carol,因為愛你,Drama|Romance,2015.0,3.6154086088583903,1603.0,2402927,258480.0,US,https://image.tmdb.org/t/p/w500/arBVphxQGlBapqAtZJVlNyzp5rz.jpg
+133653,Roald Dahl's Esio Trot,愛神小龜,Comedy,2015.0,3.305555555555556,36.0,3205394,313867.0,GB,https://image.tmdb.org/t/p/w500/uaz3IDv0AWJvzUuGucTQAFNbqxx.jpg
+133703,Rough Cut,電影就是電影,Action|Drama,2008.0,3.414285714285714,35.0,1345734,17593.0,KR,https://image.tmdb.org/t/p/w500/o3DCxFqubzQVrq8rLJ4Bx4MJYQw.jpg
+133708,For Love or Money,露水紅顏,Romance,2014.0,2.833333333333333,3.0,4311466,305088.0,CN,https://image.tmdb.org/t/p/w500/99PEQzwbhqLGQtvqmrCPRPavyEa.jpg
+133710,Strangerland,陌生之地,Drama|Thriller,2015.0,2.7872340425531914,47.0,2325977,245846.0,IE,https://image.tmdb.org/t/p/w500/qXYoQNsT2qCraSuPUK5HiUCI9k7.jpg
+133724,The Dorm,女詭宿舍,Horror|Thriller,2014.0,2.25,4.0,3587064,298830.0,US,https://image.tmdb.org/t/p/w500/17MnEeivM6yqCFe30U7ITpH8ep7.jpg
+133731,After,恐懼過後,Mystery|Thriller,2012.0,2.75,42.0,1799508,118612.0,US,https://image.tmdb.org/t/p/w500/kT2GoRg8aqVPdEvYofX1RlIKJXR.jpg
+133747,Monsters: Dark Continent,異獸戰區：黑暗大陸,Drama|Sci-Fi|Thriller,2014.0,2.1666666666666665,60.0,1935302,145221.0,US,https://image.tmdb.org/t/p/w500/vOSw1ow4Uj9TVlxeylDhNGYSX4L.jpg
+133771,The Lobster,單身動物園,Comedy|Romance|Sci-Fi,2015.0,3.661697036628014,5433.0,3464902,254320.0,IE,https://image.tmdb.org/t/p/w500/og4GLTSy8Cu5upQQTzGIlcNwCye.jpg
+133778,The Farewell Party,快樂告別的方法,Drama,2014.0,3.71875,16.0,3163304,287483.0,IL,https://image.tmdb.org/t/p/w500/sdQUghQjD43Jx9rsheGtZeTC0t5.jpg
+133782,Maggie,我的殭屍女兒,Drama|Horror|Thriller,2015.0,2.6790123456790123,243.0,1881002,287424.0,US,https://image.tmdb.org/t/p/w500/yQT8LDs2t1n7ZNDOi83JgeFphKi.jpg
+133798,Hot Pursuit,辣味雙拼,Action|Comedy,2015.0,2.71007371007371,407.0,2967224,268920.0,US,https://image.tmdb.org/t/p/w500/lobNOBHuJQCP9ZYAf86MBMwRrmZ.jpg
+133802,Slow West,槍響前決定愛不愛你,Action|Thriller|Western,2015.0,3.5302083333333334,480.0,3205376,223485.0,NZ,https://image.tmdb.org/t/p/w500/j3PmbRZvf5KpNbapSjn8b0CpD6a.jpg
+133824,The Human Centipede III (Final Sequence),人形蜈蚣3,Horror,2015.0,1.59375,144.0,1883367,94365.0,US,https://image.tmdb.org/t/p/w500/qXbMUbONU6nJD3UCqweoyvTloX.jpg
+133832,The Green Inferno,食人煉獄,Horror|Thriller,2014.0,2.807142857142857,280.0,2403021,171424.0,CA,https://image.tmdb.org/t/p/w500/nTavMI3yVTWqSSdPDPOkXAS4oEl.jpg
+133837,Alien Origin,天劫：外星救贖,Fantasy|Sci-Fi|Thriller,2012.0,2.1333333333333333,15.0,2196430,113040.0,US,https://image.tmdb.org/t/p/w500/wYdRxOX674sWFoAgUCcxt3eNhEG.jpg
+133859,Deli Man,媽呀！我餓了,Documentary,2015.0,3.5,12.0,4239548,310319.0,US,https://image.tmdb.org/t/p/w500/cIhr016lDLtivz4hKq5H7jHEKRl.jpg
+133867,Barely Lethal,刺客學妹,Action|Adventure|Comedy,2015.0,2.9285714285714284,161.0,1731701,248574.0,US,https://image.tmdb.org/t/p/w500/8emz9dKW8KKIqG8WcFG1lJbr2ub.jpg
+133869,MI-5,軍情五處：利益之爭,Action|Drama|Thriller,2015.0,3.056122448979592,98.0,3321300,292040.0,GB,https://image.tmdb.org/t/p/w500/i1dod3PLtUtYSe6NMu48p9nfgZX.jpg
+133893,Brave Story,勇者物語,Animation|Fantasy|Sci-Fi,2008.0,3.131578947368421,19.0,778631,17566.0,JP,https://image.tmdb.org/t/p/w500/2qsC2fPLTVkbrysBlbejfMgYkdT.jpg
+133945,Deep Web,黑市交易 vs. 網路犯罪,Documentary,2015.0,3.4603960396039604,101.0,3312868,321769.0,US,https://image.tmdb.org/t/p/w500/qcG19EB25QZL8W1LEURrX25yP6I.jpg
+134017,You Are My Sunshine,何以笙箫默,Drama|Romance,2015.0,2.5,2.0,4657764,334132.0,CN,https://image.tmdb.org/t/p/w500/pzpJQ7xPnFyfIORuY7tJPyLuyGF.jpg
+134095,My Love,初戀,Animation|Drama,2006.0,3.846938775510204,49.0,874952,104522.0,RU,https://image.tmdb.org/t/p/w500/pFy7fz3P7TDb0XTHjLF7zkQzCLM.jpg
+134117,San Andreas Quake,大加州地震,Action|Sci-Fi,2015.0,1.7894736842105263,38.0,4547120,339533.0,US,https://image.tmdb.org/t/p/w500/uBZ2xELdibJEiTGKMQVNvCtDgrm.jpg
+134126,The Lookalike,致命替身,Crime|Drama|Thriller,2014.0,2.5416666666666665,12.0,2497980,281418.0,US,https://image.tmdb.org/t/p/w500/nbh8jiX08b6QMAz2OUh7MGv6ErA.jpg
+134130,The Martian,絕地救援,Adventure|Drama|Sci-Fi,2015.0,4.024782949046399,28104.0,3659388,286217.0,US,https://image.tmdb.org/t/p/w500/qCXHspsQSiM9CKaXCmm9sISkTc7.jpg
+134158,Return to Sender,控制遊戲,Thriller,2015.0,2.7734375,64.0,2948790,333381.0,US,https://image.tmdb.org/t/p/w500/e2vXMfYPcAGBTA4osoF7XhzGHUu.jpg
+134162,I Am Omega,最終生還者,Action|Horror|Sci-Fi|Thriller,2007.0,1.75,8.0,1075746,30778.0,US,https://image.tmdb.org/t/p/w500/4Ral4ign3yjE7uHgcpquUAnJEIt.jpg
+134170,Kung Fury,功夫厲,Action|Comedy|Fantasy|Sci-Fi,2015.0,3.618709677419355,1550.0,3472226,251516.0,SE,https://image.tmdb.org/t/p/w500/rkkV1wcGQEgWyLdQkpB7BVTBL5M.jpg
+134178,Detective Byomkesh Bakshy,神探巴克希,Crime|Thriller,2015.0,3.532608695652174,46.0,3447364,320295.0,IN,https://image.tmdb.org/t/p/w500/7IvuZioWIvj8UAIWJhGtLsqwwt.jpg
+134204,A Hard Day,非常警探,Action|Crime|Thriller,2014.0,3.734567901234568,162.0,3697626,269494.0,KR,https://image.tmdb.org/t/p/w500/eZjxkLO1fEafCEQZCRjkz0ogEo0.jpg
+134214,Youth,年輕氣盛,Drama,2015.0,3.588495575221239,791.0,3312830,310593.0,IT,https://image.tmdb.org/t/p/w500/jAQ1r9vmSk5SPDehpXtAB74NySn.jpg
+134234,Lakshya,魯蛇奇兵,Action|Drama,2004.0,3.465909090909091,44.0,323013,21175.0,IN,https://image.tmdb.org/t/p/w500/ctB8RWoK2LHn5skqN4eUWVSvpyM.jpg
+134246,Survivor,倒數行動,Action|Thriller,2015.0,2.936548223350254,197.0,3247714,334074.0,US,https://image.tmdb.org/t/p/w500/ca1tkuCg7kGEmFCQAkZy06akr0L.jpg
+134248,Hot Girls Wanted,誠徵辣妹,Documentary,2015.0,2.9709302325581395,258.0,4382552,318256.0,US,https://image.tmdb.org/t/p/w500/75ot83QOkc02vujyzmIbumQCU6Y.jpg
+134332,Bhool Bhulaiyaa,祖廟鬧鬼記,Comedy|Horror|Thriller,2007.0,3.5405405405405403,74.0,995031,19025.0,IN,https://image.tmdb.org/t/p/w500/soRW3p4GlPphHiFkwbqYGrodQ5S.jpg
+134334,Phir Hera Pheri,三傻出奇招,Comedy,2006.0,3.55,60.0,419058,20359.0,IN,https://image.tmdb.org/t/p/w500/c1Mvyd983ZyrU5Vf2aKEe6WncSq.jpg
+134358,The Redwood Massacre,逃出絕命地,Fantasy|Horror,2014.0,2.75,6.0,3242756,339992.0,US,https://image.tmdb.org/t/p/w500/7bknJREBWQ1Q1wkcWiL8z9ptiRp.jpg
+134366,The Last Days of the World (Sekai saigo no hibi),世界最後一日,Comedy|Drama|Fantasy,2011.0,3.0,2.0,1847687,119172.0,JP,https://image.tmdb.org/t/p/w500/ob9wwcUQ3ZiPuzw3lzI3Cs1oQIh.jpg
+134368,Spy,麻辣賤諜,Action|Comedy|Crime,2015.0,3.514110756123536,3756.0,3079380,238713.0,US,https://image.tmdb.org/t/p/w500/vwAKdKUMcrBApJNoqbpzY3kxgtd.jpg
+134370,Still the Water,第二扇窗,Romance,2014.0,3.421052631578948,19.0,3230162,265193.0,JP,https://image.tmdb.org/t/p/w500/upzHvvUGjoF950pnAJe5ZMhbNVt.jpg
+134374,Tinker Bell,奇妙仙子,Adventure|Animation|Children|Fantasy,2008.0,3.2416666666666667,240.0,823671,13179.0,US,https://image.tmdb.org/t/p/w500/aHGeJ15eLIpcJS9Xlg6lGLju9HE.jpg
+134393,Trainwreck,姐姐愛最大,Comedy|Romance,2015.0,3.094972067039106,1969.0,3152624,271718.0,US,https://image.tmdb.org/t/p/w500/wrY629UTCUAKLJ4CxQXz6DCE7pr.jpg
+134521,Casa Grande,走出豪宅的第一天,Drama,2014.0,3.289473684210526,19.0,3474994,268100.0,BR,https://image.tmdb.org/t/p/w500/hNsBCjQ3p1RSxZtEj9t38WSLAEV.jpg
+134526,Zodiac: The Race Begins...,生肖传奇,Adventure|Animation,2012.0,2.0,4.0,780660,86700.0,SG,https://image.tmdb.org/t/p/w500/a8N6bMevF3izx04Zz07TdDGJ71q.jpg
+134528,Aloha,飛越情海,Comedy|Drama|Romance,2015.0,2.700587084148728,511.0,1243974,222936.0,US,https://image.tmdb.org/t/p/w500/sMW8PdcYaN3GWxNAHxvNABPEAj8.jpg
+134587,Song One,紐約情弦,Drama,2014.0,3.0,46.0,2182972,244783.0,US,https://image.tmdb.org/t/p/w500/a6dSJIEMxZFvQ7XJy4sf9fR0p7f.jpg
+134629,Flight World War II,時空攔截：二戰英豪,Action|Sci-Fi|War,2015.0,1.7333333333333334,15.0,4627104,343070.0,US,https://image.tmdb.org/t/p/w500/3ejjK5aCcz5n5osv98KwTcHg7H.jpg
+134643,Dungeons & Dragons: Wrath of the Dragon God,魔龍傳奇II：仁者無敵,Action|Adventure|Fantasy,2005.0,2.3076923076923075,26.0,406728,9288.0,US,https://image.tmdb.org/t/p/w500/n5PV0sV4Nd0eCZMcRfipeNhTpmz.jpg
+134651,Freerunner,曼谷奔逃,Action,2011.0,2.46875,16.0,1579232,76101.0,US,https://image.tmdb.org/t/p/w500/uy1FNiDvSqUkAKkQ7Nvb42ntdfr.jpg
+134657,Cupcakes,唱你媽的歌！,Comedy,2013.0,3.363636363636364,11.0,1935742,223932.0,IL,https://image.tmdb.org/t/p/w500/4QLeqESDu4tJ6H1jERn9lCOrQEQ.jpg
+134680,Taxi,計程人生,Comedy|Drama,2015.0,3.714814814814815,135.0,4359416,320006.0,IR,https://image.tmdb.org/t/p/w500/woykRyTNao03jvRfv3RNr1B1Luf.jpg
+134775,Dragon Blade,天將雄師,Action|Adventure|Drama,2015.0,2.922222222222222,90.0,3672840,300168.0,CN,https://image.tmdb.org/t/p/w500/kAMpDcY8dPuuBajNNzr7GFwWuhp.jpg
+134777,Jab Tak Hai Jaan,沙魯克罕之愛無敵,Drama|Romance,2012.0,3.208333333333333,60.0,2176013,132316.0,IN,https://image.tmdb.org/t/p/w500/1TlzJZrzUlaC95Noqt3oMoxQxCu.jpg
+134783,Entourage,2015大明星小跟班,Comedy,2015.0,2.9987531172069826,401.0,1674771,188222.0,US,https://image.tmdb.org/t/p/w500/eiKl6H2hb7Vo4oHiKR7bl6M0DeI.jpg
+134847,Ghost Graduation,死也要畢業,Comedy,2012.0,3.0434782608695654,23.0,1924273,86541.0,ES,https://image.tmdb.org/t/p/w500/dFpmBzHveMHem14xZR9OIz1RtaP.jpg
+134851,5 Flights Up,魯斯與亞歷克斯,Drama,2014.0,2.9551282051282053,78.0,2933544,286521.0,US,https://image.tmdb.org/t/p/w500/2WI5oq2QswLB0kJFOcL7ZA5ndKr.jpg
+134853,Inside Out,腦筋急轉彎,Adventure|Animation|Children|Comedy|Drama|Fantasy,2015.0,3.909975329330168,21483.0,2096673,150540.0,US,https://image.tmdb.org/t/p/w500/8ZCmz0eAWhbyAPwz9FBWsYrDE7v.jpg
+134859,The Wolfpack,狼子不回頭,Documentary,2015.0,3.4513513513513514,185.0,2415458,307931.0,US,https://image.tmdb.org/t/p/w500/gr0hihtD5wxvsH8N4HB66XKfnAo.jpg
