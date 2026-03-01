@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"; // 用來管理元件狀態
 import { useNavigate } from "react-router-dom"; // React Router：用來做頁面跳轉
 
-const API_BASE = "http://127.0.0.1:5000"; // 後端 API 位置
+const API_BASE = "https://recsys-project.onrender.com"; // 後端 API 位置
 
 // ✅ 小工具：響應式 breakpoints（手機/平板/桌機）
 function useResponsiveBreakpoints() {

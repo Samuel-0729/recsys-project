@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react"; //引入 React hooks
 import { useNavigate } from "react-router-dom"; //路由跳轉
 
 //統一後端 API 的 base URL，後面呼叫 /api/options、/api/recommend 會用到
-const API_BASE = "http://127.0.0.1:5000";
+const API_BASE = "https://recsys-project.onrender.com";
 
 // 確保中文顯示正常
 const FONT_TC =

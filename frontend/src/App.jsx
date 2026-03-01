@@ -11,7 +11,7 @@ export default function App() {
     <Routes>
       {/* 
         首頁路由：
-        使用者一進系統（http://localhost:5173/）會先看到「研究說明／同意頁」
+        使用者一進系統（https://recsys-project.onrender.com）會先看到「研究說明／同意頁」
       */}
       <Route path="/" element={<ConsentPage />} />   
       {/* 

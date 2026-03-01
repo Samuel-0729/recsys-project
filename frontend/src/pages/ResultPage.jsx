@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 // 後端 API（保留，雖然這支檔案目前沒用到）
-const API_BASE = "http://127.0.0.1:5000"; // eslint-disable-line no-unused-vars
+const API_BASE = "https://recsys-project.onrender.com"; // eslint-disable-line no-unused-vars
 
 // ✅ 只放「乾淨的 viewform」
 const GOOGLE_FORM_BASE =
