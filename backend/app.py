@@ -143,7 +143,7 @@ def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
     year_range = f"{y_min or '不限'}–{y_max or '不限'}"
 
     # 地區文字（若沒選就不硬塞）
-    region_txt = f"地區「{region_group}」" if region_group else "你選擇的地區"
+    region_txt = f"「{region_group}」" if region_group else "你選擇的地區"
 
     # 排序原因
     sort_reason = _sort_reason(sort_by, movie)
@@ -162,7 +162,7 @@ def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
     # ✅ 讓 1~5 名語氣更自然、漸進式，且都會提到「類型」
     templates = [
         # 1
-        "這部片符合{region_txt} 與 {overlap_str}類型，{rating_clause}，{sort_reason}。",
+        "這部片來自你偏好的{region_txt} 且屬於 {overlap_str}類型，{rating_clause}，{sort_reason}。",
         # 2
         "這部片落在你設定的條件內（年份 {year_range}、最低評分 {minr:.1f}），且符合 {overlap_str}類型，因此也很適合你（評價人數：{cnt:,} 人）。",
         # 3
@@ -170,7 +170,7 @@ def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
         # 4
         "這部片符合 {overlap_str}類型，且{rating_clause}，加上評價數也不少（{cnt:,}），因此也可能符合你的觀影偏好。。",
         # 5 ✅ 修正：符合門檻 + 補類型
-        "這部片同樣符合{region_txt} 與 {overlap_str}類型，年份也在 {year_range} 範圍內，且{rating_clause}，因此很適合作為備選（評價人數：{cnt:,} 人）。",
+        "這部片同樣符合你偏好的{region_txt} 且屬於 {overlap_str}類型，年份也在 {year_range} 範圍內，且{rating_clause}，因此很適合作為備選（評價人數：{cnt:,} 人）。",
     ]
 
     t = templates[min(max(rank, 1), 5) - 1]
