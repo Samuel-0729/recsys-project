@@ -183,16 +183,7 @@ function getSortMustLine(sortBy, m) {
  * ✅ 手機：換行條列更好讀
  * ✅ 桌機：一句話精簡
  */
-function buildNaturalExplanation({
-  idx,
-  titleZh,
-  sortBy,
-  m,
-  genresZh,
-  regionZh,
-  minRating,
-  isMobile,
-}) {
+function buildNaturalExplanation({ idx, titleZh, sortBy, m, genresZh, regionZh, minRating, isMobile }) {
   const regionText = regionZh ? `地區「${regionZh}」` : "你的地區設定";
   const gText = genresZh?.length ? genresZh.join("、") : "（未特別指定）";
 
@@ -407,7 +398,7 @@ export default function ResultPage() {
     window.open(u.toString(), "_blank", "noopener,noreferrer");
   };
 
-  // ===== Styles（重點：手機/平板/桌機自適應）=====
+  // ===== Styles（桌機優化：右側不要撐滿貼邊）=====
   const styles = {
     page: {
       minHeight: "100vh",
@@ -445,8 +436,6 @@ export default function ResultPage() {
       fontWeight: 950,
       color: "#1d4ed8",
       letterSpacing: 0.2,
-
-      // ✅ 手機置中 + 佔滿一行
       textAlign: isMobile ? "center" : "left",
       width: isMobile ? "100%" : "auto",
     },
@@ -526,22 +515,35 @@ export default function ResultPage() {
     movieTitle: { margin: 0, fontSize: 18.5, fontWeight: 950, color: "#0f172a" },
     movieRank: { fontSize: 12.5, color: "#94a3b8", fontWeight: 900, whiteSpace: "nowrap" },
 
-    // ✅ 核心：平板加左右 padding，避免文字貼右
-    movieBody: {
-      padding: isMobile ? "16px" : isTablet ? "18px 20px" : "18px",
-      display: "flex",
-      gap: isTablet ? 18 : 16,
-      alignItems: "flex-start",
-      flexDirection: isMobile ? "column" : "row",
-    },
+    // ✅ 桌機：用 grid 更穩，右側不會被拉到底貼邊
+    movieBody: isMobile
+      ? {
+          padding: "16px",
+          display: "flex",
+          gap: 16,
+          alignItems: "flex-start",
+          flexDirection: "column",
+        }
+      : {
+          padding: isTablet ? "18px 20px" : "18px 18px",
+          display: "grid",
+          gridTemplateColumns: "150px minmax(0, 1fr)",
+          columnGap: isTablet ? 18 : 18,
+          alignItems: "start",
+        },
 
     // 海報在手機置中，寬度自適應
-    posterWrap: {
-      width: isMobile ? "100%" : 150,
-      flexShrink: 0,
-      display: "flex",
-      justifyContent: isMobile ? "center" : "flex-start",
-    },
+    posterWrap: isMobile
+      ? {
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+        }
+      : {
+          width: 150,
+          display: "flex",
+          justifyContent: "flex-start",
+        },
     posterImg: {
       width: isMobile ? "min(260px, 100%)" : 150,
       height: isMobile ? "auto" : 225,
@@ -566,21 +568,24 @@ export default function ResultPage() {
       fontWeight: 800,
     },
 
-    // ✅ 平板右側多留安全邊距（不影響桌機/手機）
+    // ✅ 右側容器：一定要 minWidth:0 + boxSizing，避免內容撐破/貼邊
     right: {
-      flex: 1,
       minWidth: 0,
-      width: "100%",
-      paddingRight: isTablet ? 10 : 0,
+      display: "flex",
+      flexDirection: "column",
+      boxSizing: "border-box",
     },
 
+    // ✅ 核心：右側説明盒子「不要無限延伸貼右」：maxWidth + marginRight:auto
     explainBox: {
       width: "100%",
+      maxWidth: isMobile ? "100%" : 760, // 桌機留白更舒服（你問題主要在桌機）
+      marginRight: "auto",
+      boxSizing: "border-box",
       borderRadius: 18,
       border: isBaseline ? "1px solid transparent" : "1px solid #e5e7eb",
       background: isBaseline ? "transparent" : "#f8fafc",
-      // ✅ 平板左右 padding 加一點，不會貼邊
-      padding: isBaseline ? 0 : isMobile ? "14px 14px" : isTablet ? "16px 18px" : "16px 16px",
+      padding: isBaseline ? 0 : isMobile ? "14px 14px" : isTablet ? "16px 18px" : "16px 18px",
     },
     explainTitle: {
       fontSize: 13.5,
@@ -596,6 +601,7 @@ export default function ResultPage() {
       lineHeight: 1.95,
       fontWeight: 700,
       wordBreak: "break-word",
+      overflowWrap: "anywhere",
     },
     explainDivider: {
       height: 1,
