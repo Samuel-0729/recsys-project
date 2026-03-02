@@ -557,15 +557,15 @@ export default function ResultPage() {
       flex: 1,
       minWidth: 0,
       width: "100%",
-      paddingRight: isMobile ? 0 : 16, // ⭐ 小幅留白（你要的就是這個）
+      paddingRight: isMobile ? 0 : 16,
       boxSizing: "border-box",
     },
 
     // ✅ 只修這裡：限制說明盒最大寬度，右邊自然會空出來
     explainBox: {
       width: "100%",
-      maxWidth: isMobile ? "100%" : 860, // ⭐ 桌機留白（不改整體版面）
-      marginRight: "auto", // ⭐ 右側留白關鍵
+      maxWidth: isMobile ? "100%" : 860,
+      marginRight: "auto",
       boxSizing: "border-box",
       borderRadius: 18,
       border: isBaseline ? "1px solid transparent" : "1px solid #e5e7eb",
@@ -573,11 +573,14 @@ export default function ResultPage() {
       padding: isBaseline ? 0 : isMobile ? "14px 14px" : isTablet ? "16px 18px" : "16px 16px",
     },
     explainTitle: {
-      fontSize: 13.5,
-      fontWeight: 950,
-      color: "#0f172a",
+      fontSize: 15,
+      fontWeight: 900,
+      color: "#334155",
       marginBottom: 10,
-      letterSpacing: 0.2,
+      display: "inline-block",
+      background: "#eef2ff",
+      padding: "6px 10px",
+      borderRadius: 10,
     },
     explainText: {
       fontSize: isMobile ? 15 : 15.5,
@@ -594,24 +597,31 @@ export default function ResultPage() {
       marginTop: 14,
       marginBottom: 12,
     },
+
+    // ✅✅✅ 修正點：手機 chips 不換行、可左右滑；平板/桌機照舊 wrap
     chipsRow: {
       display: "flex",
-      gap: 10,
-      flexWrap: "wrap",
+      gap: isMobile ? 8 : 10,
+      flexWrap: isMobile ? "nowrap" : "wrap",
       alignItems: "center",
+      overflowX: isMobile ? "auto" : "visible",
+      WebkitOverflowScrolling: "touch",
+      paddingBottom: isMobile ? 4 : 0,
     },
     chip: {
       display: "inline-flex",
       alignItems: "center",
       gap: 8,
-      padding: "8px 12px",
+      padding: isMobile ? "7px 10px" : "8px 12px",
       borderRadius: 999,
       border: "1px solid #e2e8f0",
       background: "#ffffff",
       color: "#0f172a",
-      fontSize: 13.5,
+      fontSize: isMobile ? 13 : 13.5,
       fontWeight: 900,
       letterSpacing: 0.2,
+      whiteSpace: "nowrap",
+      flex: isMobile ? "0 0 auto" : "initial",
     },
     chipLabel: { color: "#64748b", fontWeight: 900 },
 
