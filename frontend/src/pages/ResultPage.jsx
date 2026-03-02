@@ -178,6 +178,13 @@ function getSortMustLine(sortBy, m) {
   return `評分：${fmt1(m?.avg_rating)} 分`;
 }
 
+// 依 sortBy 決定「主要依據」要顯示什麼（用在 explanation 補充）
+function getSortMustLineShort(sortBy, m) {
+  if (sortBy === "評價人數多優先") return `評價人數：${fmtInt(m?.rating_count)} 人`;
+  if (sortBy === "最新上映優先") return `上映年份：${fmtYear(m?.year)} 年`;
+  return `評分：${fmt1(m?.avg_rating)} 分`;
+}
+
 /**
  * 前端 fallback：如果後端沒有 m.explanation，就用這段產生自然語言
  * ✅ 手機：換行條列更好讀
@@ -217,7 +224,6 @@ function buildNaturalExplanation({ idx, titleZh, sortBy, m, genresZh, regionZh, 
       ? "當作前五名的穩妥選擇剛剛好。"
       : "想換口味時可以收進備選。";
 
-  // ✅ 手機：條列（更好看）
   if (isMobile) {
     return [
       `第 ${idx} 名：推薦「${titleZh}」`,
@@ -228,7 +234,6 @@ function buildNaturalExplanation({ idx, titleZh, sortBy, m, genresZh, regionZh, 
     ].join("\n");
   }
 
-  // ✅ 桌機：一句話（不佔空間）
   return `第 ${idx} 名「${titleZh}」：符合 ${regionText}＋${gText}，評分 ${ratingStr}${
     diffPart ? " " + diffPart : ""
   }；你選的是「${sortText}」，${tone}`;
@@ -236,11 +241,10 @@ function buildNaturalExplanation({ idx, titleZh, sortBy, m, genresZh, regionZh, 
 
 function ensureSortInfoInExplanation(explain, sortBy, m) {
   const base = (explain ?? "").toString().trim();
-  const mustLine = getSortMustLine(sortBy, m);
+  const mustLine = getSortMustLineShort(sortBy, m);
 
   if (!base) return `（${mustLine}）`;
 
-  // 評價人數多優先：若 explanation 沒提到人數，就補上
   if (sortBy === "評價人數多優先") {
     const countVal = Number(m?.rating_count);
     const countStr = Number.isFinite(countVal) ? fmtInt(countVal) : "";
@@ -253,7 +257,6 @@ function ensureSortInfoInExplanation(explain, sortBy, m) {
     return `${base}（${mustLine}）`;
   }
 
-  // 其他排序：若都沒有數字，補主要依據
   const hasAnyNumber = /\d/.test(base);
   if (hasAnyNumber) return base;
 
@@ -306,7 +309,6 @@ export default function ResultPage() {
 
   const { isMobile, isTablet } = useResponsiveBreakpoints();
 
-  // 從 localStorage 讀 last_prefs（偏好）只解析一次
   const prefs = useMemo(() => {
     try {
       const raw = localStorage.getItem("last_prefs");
@@ -316,7 +318,6 @@ export default function ResultPage() {
     }
   }, []);
 
-  // 結果頁讀 last_recommend_response
   useEffect(() => {
     try {
       const raw = localStorage.getItem("last_recommend_response");
@@ -350,7 +351,6 @@ export default function ResultPage() {
   const sortKey = prefsUsed?.sort_by || "評分較高優先";
   const minRating = prefsUsed?.min_rating;
 
-  // tie map：最新上映優先（同年+同評分(1位)）
   const tieMap = useMemo(() => {
     const m = Object.create(null);
     for (const x of top5) {
@@ -363,7 +363,6 @@ export default function ResultPage() {
     return m;
   }, [top5]);
 
-  // tie map：評分較高優先（同評分(1位)）
   const ratingTieMap = useMemo(() => {
     const m = Object.create(null);
     for (const x of top5) {
@@ -375,7 +374,6 @@ export default function ResultPage() {
     return m;
   }, [top5]);
 
-  // 前往問卷：只預填 participant_id + log_id（不帶 grp）
   const goToSurvey = () => {
     const pid = participantId || localStorage.getItem("participant_id") || "";
     const lid = logId || "";
@@ -393,12 +391,12 @@ export default function ResultPage() {
     u.searchParams.set("usp", "pp_url");
     u.searchParams.set(ENTRY_PID, pid);
     u.searchParams.set(ENTRY_LOG, lid);
-    u.searchParams.set("t", String(Date.now())); // 防快取/防舊預填
+    u.searchParams.set("t", String(Date.now()));
 
     window.open(u.toString(), "_blank", "noopener,noreferrer");
   };
 
-  // ===== Styles（桌機優化：右側不要撐滿貼邊）=====
+  // ===== Styles（維持原樣：flex 版面不動；只加「右邊不要貼邊」）=====
   const styles = {
     page: {
       minHeight: "100vh",
@@ -515,35 +513,21 @@ export default function ResultPage() {
     movieTitle: { margin: 0, fontSize: 18.5, fontWeight: 950, color: "#0f172a" },
     movieRank: { fontSize: 12.5, color: "#94a3b8", fontWeight: 900, whiteSpace: "nowrap" },
 
-    // ✅ 桌機：用 grid 更穩，右側不會被拉到底貼邊
-    movieBody: isMobile
-      ? {
-          padding: "16px",
-          display: "flex",
-          gap: 16,
-          alignItems: "flex-start",
-          flexDirection: "column",
-        }
-      : {
-          padding: isTablet ? "18px 20px" : "18px 18px",
-          display: "grid",
-          gridTemplateColumns: "150px minmax(0, 1fr)",
-          columnGap: isTablet ? 18 : 18,
-          alignItems: "start",
-        },
+    // ✅ 維持原樣：flex（不要改 grid）
+    movieBody: {
+      padding: isMobile ? "16px" : isTablet ? "18px 20px" : "18px",
+      display: "flex",
+      gap: isTablet ? 18 : 16,
+      alignItems: "flex-start",
+      flexDirection: isMobile ? "column" : "row",
+    },
 
-    // 海報在手機置中，寬度自適應
-    posterWrap: isMobile
-      ? {
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-        }
-      : {
-          width: 150,
-          display: "flex",
-          justifyContent: "flex-start",
-        },
+    posterWrap: {
+      width: isMobile ? "100%" : 150,
+      flexShrink: 0,
+      display: "flex",
+      justifyContent: isMobile ? "center" : "flex-start",
+    },
     posterImg: {
       width: isMobile ? "min(260px, 100%)" : 150,
       height: isMobile ? "auto" : 225,
@@ -568,24 +552,25 @@ export default function ResultPage() {
       fontWeight: 800,
     },
 
-    // ✅ 右側容器：一定要 minWidth:0 + boxSizing，避免內容撐破/貼邊
+    // ✅ 只修這裡：右側加一點 paddingRight，避免文字貼到最右邊
     right: {
+      flex: 1,
       minWidth: 0,
-      display: "flex",
-      flexDirection: "column",
+      width: "100%",
+      paddingRight: isMobile ? 0 : 16, // ⭐ 小幅留白（你要的就是這個）
       boxSizing: "border-box",
     },
 
-    // ✅ 核心：右側説明盒子「不要無限延伸貼右」：maxWidth + marginRight:auto
+    // ✅ 只修這裡：限制說明盒最大寬度，右邊自然會空出來
     explainBox: {
       width: "100%",
-      maxWidth: isMobile ? "100%" : 760, // 桌機留白更舒服（你問題主要在桌機）
-      marginRight: "auto",
+      maxWidth: isMobile ? "100%" : 860, // ⭐ 桌機留白（不改整體版面）
+      marginRight: "auto", // ⭐ 右側留白關鍵
       boxSizing: "border-box",
       borderRadius: 18,
       border: isBaseline ? "1px solid transparent" : "1px solid #e5e7eb",
       background: isBaseline ? "transparent" : "#f8fafc",
-      padding: isBaseline ? 0 : isMobile ? "14px 14px" : isTablet ? "16px 18px" : "16px 18px",
+      padding: isBaseline ? 0 : isMobile ? "14px 14px" : isTablet ? "16px 18px" : "16px 16px",
     },
     explainTitle: {
       fontSize: 13.5,
@@ -663,7 +648,6 @@ export default function ResultPage() {
     emptyState: { marginTop: 10, fontSize: 14, color: "#64748b", fontWeight: 800 },
   };
 
-  // ===== Render: 沒 data =====
   if (!data) {
     return (
       <div style={styles.page}>
@@ -691,7 +675,6 @@ export default function ResultPage() {
     );
   }
 
-  // ===== Render: 有 data =====
   return (
     <div style={styles.page}>
       <div style={styles.container}>
@@ -709,8 +692,6 @@ export default function ResultPage() {
               <span>
                 組別： <span translate="no">{grp || "—"}</span>
               </span>
-
-              {/* 開發時方便確認，目前裝置狀態；不想顯示就刪掉 */}
               <span style={{ opacity: 0.7 }}>{isMobile ? "手機" : isTablet ? "平板" : "桌機"}</span>
             </div>
           </div>
@@ -746,7 +727,6 @@ export default function ResultPage() {
                 const regionZh = m.country_zh || toCountryZh(m.region || m.country || "");
                 const genresZh = getGenresZh(m);
 
-                // fallback explanation（後端沒給 explanation 時）
                 const fallbackExplain = buildNaturalExplanation({
                   idx: idx + 1,
                   titleZh,
@@ -758,14 +738,12 @@ export default function ResultPage() {
                   isMobile,
                 });
 
-                // 後端 explanation → 清理 + 類型中文化；沒有就用 fallback
                 const rawExplain = m.explanation
                   ? stripUnwantedParens(localizeGenresInText(m.explanation))
                   : fallbackExplain;
 
                 let finalExplain = ensureSortInfoInExplanation(rawExplain, sortKey, m);
 
-                // tie-break：評分較高優先時，同分補人數
                 if (sortKey === "評分較高優先") {
                   const r = Number(m?.avg_rating);
                   if (Number.isFinite(r)) {
@@ -776,7 +754,6 @@ export default function ResultPage() {
                   }
                 }
 
-                // tie-break：最新上映優先時，同年+同分補人數
                 if (sortKey === "最新上映優先") {
                   const y = Number(m?.year);
                   const r = Number(m?.avg_rating);
