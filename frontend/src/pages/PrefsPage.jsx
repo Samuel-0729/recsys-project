@@ -137,7 +137,9 @@ export default function PrefsPage() {
       if (p?.region_group) setRegionGroup(String(p.region_group));
       if (Number.isFinite(Number(p?.year_min))) setYearMin(Number(p.year_min));
       if (Number.isFinite(Number(p?.year_max))) setYearMax(Number(p.year_max));
-      if (Number.isFinite(Number(p?.min_rating))) setMinRating(Number(p.min_rating));
+      if (Number.isFinite(Number(p?.min_rating))) {
+        setMinRating(Number(p.min_rating));
+      }
       if (Array.isArray(p?.genres)) setGenres(p.genres);
       if (p?.sort_by) setSortBy(String(p.sort_by));
     } catch {
@@ -160,10 +162,16 @@ export default function PrefsPage() {
         if (cancelled) return;
 
         // genres（移除未分類與 Western）
-        const gen = (data.genres || []).filter((g) => g !== "(no genres listed)" && g !== "Western");
+        const gen = (data.genres || []).filter(
+          (g) => g !== "(no genres listed)" && g !== "Western",
+        );
 
         // sort options（若後端沒給就用預設）
-        const sorts = data.sort_options || ["評分較高優先", "評價人數多優先", "最新上映優先"];
+        const sorts = data.sort_options || [
+          "評分較高優先",
+          "評價人數多優先",
+          "最新上映優先",
+        ];
 
         const yMin = Number(data.year_min ?? 2000);
         const yMax = Number(data.year_max ?? 2023);
@@ -186,7 +194,9 @@ export default function PrefsPage() {
         setYearMax((prev) => clampInt(prev, yMin, yMax));
 
         // 評分 slider 校正（1位小數）
-        setMinRating((prev) => clampToOneDecimal(prev, floor1(rMin), floor1(rMax)));
+        setMinRating((prev) =>
+          clampToOneDecimal(prev, floor1(rMin), floor1(rMax)),
+        );
 
         // 若目前 genres 是空的：給一個預設（Action）
         setGenres((prev) => {
@@ -196,11 +206,13 @@ export default function PrefsPage() {
         });
 
         // sortBy 校正(預設)
-        setSortBy((prev) => (sorts.includes(prev) ? prev : sorts[0] || "評分較高優先"));
+        setSortBy((prev) =>
+          sorts.includes(prev) ? prev : sorts[0] || "評分較高優先",
+        );
 
         // regionGroup 校正
         setRegionGroup((prev) =>
-          REGION_GROUP_OPTIONS.some((x) => x.value === prev) ? prev : "亞洲"
+          REGION_GROUP_OPTIONS.some((x) => x.value === prev) ? prev : "亞洲",
         );
       } catch (e) {
         if (!cancelled) setOptionsErr(e?.message || "options failed");
@@ -232,8 +244,14 @@ export default function PrefsPage() {
   }, [sliderMin, sliderMax]);
 
   //年份範圍提示
-  const yearSpan = useMemo(() => Number(yearMax) - Number(yearMin), [yearMin, yearMax]);
-  const showYearNarrowHint = useMemo(() => Number.isFinite(yearSpan) && yearSpan <= 3, [yearSpan]);
+  const yearSpan = useMemo(
+    () => Number(yearMax) - Number(yearMin),
+    [yearMin, yearMax],
+  );
+  const showYearNarrowHint = useMemo(
+    () => Number.isFinite(yearSpan) && yearSpan <= 3,
+    [yearSpan],
+  );
 
   // strictHint：條件太嚴提示
   useEffect(() => {
@@ -244,16 +262,16 @@ export default function PrefsPage() {
 
     if (isNarrowYears && isHighRating) {
       return setStrictHint(
-        "你目前 年份範圍很窄、評分門檻也偏高，可能找不到 5 部；若推薦結果不足，請回來此頁面 放寬評分 / 年份 或 修改類型。"
+        "你目前 年份範圍很窄、評分門檻也偏高，可能找不到 5 部；若推薦結果不足，請回來此頁面 放寬評分 / 年份 或 修改類型。",
       );
     }
     if (isHighRating) {
       return setStrictHint(
-        "你目前 最低評分門檻偏高，可能找不到 5 部；若推薦結果不足，請回來此頁面 放寬評分 或 修改類型。"
+        "你目前 最低評分門檻偏高，可能找不到 5 部；若推薦結果不足，請回來此頁面 放寬評分 或 修改類型。",
       );
     }
     return setStrictHint(
-      "你目前 年份範圍偏窄，可能找不到 5 部；若推薦結果不足，請回來此頁面 放寬年份範圍 或 修改類型。"
+      "你目前 年份範圍偏窄，可能找不到 5 部；若推薦結果不足，請回來此頁面 放寬年份範圍 或 修改類型。",
     );
   }, [yearSpan, minRating]);
 
@@ -332,13 +350,12 @@ export default function PrefsPage() {
   };
 
   // UI helpers
-  const selectedGenresText =
-    (genres || []).length
-      ? (genres || [])
-          .filter((g) => g !== "Western")
-          .map((g) => GENRE_LABEL[g] || g)
-          .join("、")
-      : "（未選）";
+  const selectedGenresText = (genres || []).length
+    ? (genres || [])
+        .filter((g) => g !== "Western")
+        .map((g) => GENRE_LABEL[g] || g)
+        .join("、")
+    : "（未選）";
 
   const shortId = (id) => {
     if (!id) return "";
@@ -358,15 +375,25 @@ export default function PrefsPage() {
       color: "#111827",
     },
     container: {
-      width: isMobile ? "calc(100vw - 24px)" : "min(1280px, calc(100vw - 64px))",
+      width: isMobile
+        ? "calc(100vw - 24px)"
+        : "min(1280px, calc(100vw - 64px))",
       margin: "0 auto",
-      padding: isMobile ? "18px 0 28px" : isTablet ? "34px 0 50px" : "44px 0 64px",
+      padding: isMobile
+        ? "18px 0 28px"
+        : isTablet
+          ? "34px 0 50px"
+          : "44px 0 64px",
     },
     mainCard: {
       background: "#ffffff",
       border: "1px solid #e2e8f0",
       borderRadius: 16,
-      padding: isMobile ? "18px 14px 16px" : isTablet ? "28px 20px 20px" : "36px 28px 28px",
+      padding: isMobile
+        ? "18px 14px 16px"
+        : isTablet
+          ? "28px 20px 20px"
+          : "36px 28px 28px",
       boxShadow: isMobile ? "0 8px 22px rgba(2,6,23,0.06)" : "none",
     },
 
@@ -387,8 +414,6 @@ export default function PrefsPage() {
       lineHeight: 1.2,
       paddingTop: 4,
       fontFamily: FONT_TC,
-
-      // ✅ 手機置中 + 佔滿一行
       textAlign: isMobile ? "center" : "left",
       width: isMobile ? "100%" : "auto",
     },
@@ -412,8 +437,16 @@ export default function PrefsPage() {
       fontFamily: FONT_TC,
       textAlign: isMobile ? "center" : "left",
     },
-    divider: { height: 1, background: "#e2e8f0", margin: isMobile ? "16px 0 18px" : "22px 0 28px" },
-    formGrid: { display: "grid", gridTemplateColumns: "1fr", gap: isMobile ? 14 : 20 },
+    divider: {
+      height: 1,
+      background: "#e2e8f0",
+      margin: isMobile ? "16px 0 18px" : "22px 0 28px",
+    },
+    formGrid: {
+      display: "grid",
+      gridTemplateColumns: "1fr",
+      gap: isMobile ? 14 : 20,
+    },
 
     sectionCard: {
       border: "1px solid #e2e8f0",
@@ -445,7 +478,10 @@ export default function PrefsPage() {
       fontWeight: 800,
       fontFamily: FONT_TC,
     },
-    sectionBody: { padding: isMobile ? "14px 14px 16px" : "16px 18px 18px", fontFamily: FONT_TC },
+    sectionBody: {
+      padding: isMobile ? "14px 14px 16px" : "16px 18px 18px",
+      fontFamily: FONT_TC,
+    },
 
     help: {
       fontSize: 13,
@@ -461,10 +497,21 @@ export default function PrefsPage() {
       border: "1px solid #cbd5e1",
       borderRadius: 12,
       padding: "12px 14px",
-      background: "#fff",
+      backgroundColor: "#ffffff",
+      color: "#111827",
       fontSize: 15,
       outline: "none",
       fontFamily: FONT_TC,
+      appearance: "none",
+      WebkitAppearance: "none",
+      MozAppearance: "none",
+      WebkitTextFillColor: "#111827",
+      boxSizing: "border-box",
+    },
+
+    option: {
+      color: "#111827",
+      backgroundColor: "#ffffff",
     },
 
     yearWrap: {
@@ -484,7 +531,9 @@ export default function PrefsPage() {
 
     genresWrap: {
       display: "grid",
-      gridTemplateColumns: isMobile ? "repeat(2, minmax(0, 1fr))" : "repeat(auto-fit, minmax(110px, 1fr))",
+      gridTemplateColumns: isMobile
+        ? "repeat(2, minmax(0, 1fr))"
+        : "repeat(auto-fit, minmax(110px, 1fr))",
       gap: "10px 14px",
       marginTop: 12,
     },
@@ -498,13 +547,32 @@ export default function PrefsPage() {
       lineHeight: 1.2,
       whiteSpace: "nowrap",
       fontFamily: FONT_TC,
+      cursor: "pointer",
+    },
+
+    checkboxControl: {
+      width: 16,
+      height: 16,
+      accentColor: "#2563eb",
+      cursor: "pointer",
+      flex: "0 0 auto",
+    },
+
+    radioControl: {
+      width: 16,
+      height: 16,
+      accentColor: "#2563eb",
+      cursor: "pointer",
+      flex: "0 0 auto",
     },
 
     slider: { width: "100%", maxWidth: 860, marginTop: 12 },
 
     radiosWrap: {
       display: "grid",
-      gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fit, minmax(220px, 1fr))",
+      gridTemplateColumns: isMobile
+        ? "1fr"
+        : "repeat(auto-fit, minmax(220px, 1fr))",
       gap: "10px 14px",
       marginTop: 12,
     },
@@ -588,7 +656,9 @@ export default function PrefsPage() {
               <h1 style={styles.title}>偏好設定</h1>
             </div>
             <div style={styles.error}>載入 options 失敗：{optionsErr}</div>
-            <p style={{ ...styles.lead, marginTop: 12 }}>請確認後端有在跑：GET {API_BASE}/api/options</p>
+            <p style={{ ...styles.lead, marginTop: 12 }}>
+              請確認後端有在跑：GET {API_BASE}/api/options
+            </p>
           </div>
         </div>
       </div>
@@ -607,7 +677,9 @@ export default function PrefsPage() {
             </div>
           </div>
 
-          <p style={styles.lead}>請選擇您偏好的條件，系統將產生最多 5 部推薦電影。</p>
+          <p style={styles.lead}>
+            請選擇您偏好的條件，系統將產生最多 5 部推薦電影。
+          </p>
 
           <div style={styles.divider} />
 
@@ -618,9 +690,17 @@ export default function PrefsPage() {
                 <h3 style={styles.sectionTitle}>地區</h3>
               </div>
               <div style={styles.sectionBody}>
-                <select value={regionGroup} onChange={(e) => setRegionGroup(e.target.value)} style={styles.select}>
+                <select
+                  value={regionGroup}
+                  onChange={(e) => setRegionGroup(e.target.value)}
+                  style={styles.select}
+                >
                   {REGION_GROUP_OPTIONS.map((opt) => (
-                    <option key={opt.value} value={opt.value}>
+                    <option
+                      key={opt.value}
+                      value={opt.value}
+                      style={styles.option}
+                    >
                       {opt.label}
                     </option>
                   ))}
@@ -633,7 +713,10 @@ export default function PrefsPage() {
               <div style={styles.sectionHeader}>
                 <h3 style={styles.sectionTitle}>上映年份</h3>
                 <div style={styles.sectionMeta}>
-                  選取範圍：<span translate="no">{yearMin}～{yearMax}</span>
+                  選取範圍：
+                  <span translate="no">
+                    {yearMin}～{yearMax}
+                  </span>
                 </div>
               </div>
               <div style={styles.sectionBody}>
@@ -650,7 +733,7 @@ export default function PrefsPage() {
                       style={styles.select}
                     >
                       {yearOptions.map((y) => (
-                        <option key={y} value={y}>
+                        <option key={y} value={y} style={styles.option}>
                           {y}
                         </option>
                       ))}
@@ -669,7 +752,7 @@ export default function PrefsPage() {
                       style={styles.select}
                     >
                       {yearOptions.map((y) => (
-                        <option key={y} value={y}>
+                        <option key={y} value={y} style={styles.option}>
                           {y}
                         </option>
                       ))}
@@ -678,7 +761,10 @@ export default function PrefsPage() {
                 </div>
 
                 {!strictHint && showYearNarrowHint && (
-                  <div style={styles.help}>你目前選的年份範圍較窄，可能無法產生 5 部推薦（可放寬年份範圍）。</div>
+                  <div style={styles.help}>
+                    你目前選的年份範圍較窄，可能無法產生 5
+                    部推薦（可放寬年份範圍）。
+                  </div>
                 )}
               </div>
             </div>
@@ -687,19 +773,28 @@ export default function PrefsPage() {
             <div style={styles.sectionCard}>
               <div style={styles.sectionHeader}>
                 <h3 style={styles.sectionTitle}>類型</h3>
-                <div style={styles.sectionMeta}>可複選，最多 {MAX_GENRES} 個（至少 1 個）</div>
+                <div style={styles.sectionMeta}>
+                  可複選，最多 {MAX_GENRES} 個（至少 1 個）
+                </div>
               </div>
               <div style={styles.sectionBody}>
                 <div style={styles.genresWrap}>
                   {genresOptions
-                    .filter((g) => g !== "(no genres listed)" && g !== "Western")
+                    .filter(
+                      (g) => g !== "(no genres listed)" && g !== "Western",
+                    )
                     .map((g) => {
                       const labelZh = GENRE_LABEL[g] || g;
                       const checked = (genres || []).includes(g);
 
                       return (
                         <label key={g} style={styles.checkboxLabel}>
-                          <input type="checkbox" checked={checked} onChange={() => toggleGenre(g)} />
+                          <input
+                            type="checkbox"
+                            checked={checked}
+                            onChange={() => toggleGenre(g)}
+                            style={styles.checkboxControl}
+                          />
                           {labelZh}
                         </label>
                       );
@@ -707,7 +802,10 @@ export default function PrefsPage() {
                 </div>
 
                 <div style={styles.help}>
-                  已選： <span style={{ fontWeight: 900, color: "#334155" }}>{selectedGenresText}</span>
+                  已選：{" "}
+                  <span style={{ fontWeight: 900, color: "#334155" }}>
+                    {selectedGenresText}
+                  </span>
                 </div>
 
                 {genreWarn && <div style={styles.warn}>{genreWarn}</div>}
@@ -751,7 +849,14 @@ export default function PrefsPage() {
                 <div style={styles.radiosWrap}>
                   {sortOptions.map((s) => (
                     <label key={s} style={styles.checkboxLabel}>
-                      <input type="radio" name="sort_by" value={s} checked={sortBy === s} onChange={() => setSortBy(s)} />
+                      <input
+                        type="radio"
+                        name="sort_by"
+                        value={s}
+                        checked={sortBy === s}
+                        onChange={() => setSortBy(s)}
+                        style={styles.radioControl}
+                      />
                       {SORT_LABEL[s] || s}
                     </label>
                   ))}
@@ -768,7 +873,9 @@ export default function PrefsPage() {
               disabled={loading}
               style={styles.button}
               onMouseEnter={(e) => {
-                if (!loading) e.currentTarget.style.transform = "translateY(-1px)";
+                if (!loading) {
+                  e.currentTarget.style.transform = "translateY(-1px)";
+                }
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = "translateY(0)";
