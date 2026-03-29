@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"; // 用來管理元件狀態
 import { useNavigate } from "react-router-dom"; // React Router：用來做頁面跳轉
 
-const API_BASE = "https://recsys-project.onrender.com"; // 後端 API 位置
+//const API_BASE = "https://recsys-project.onrender.com"; // 後端 API 位置
+const API_BASE = "http://127.0.0.1:5000";
 
 // ✅ 小工具：響應式 breakpoints（手機/平板/桌機）
 function useResponsiveBreakpoints() {
@@ -72,16 +73,26 @@ export default function ConsentPage() {
 
     // ✅ 手機縮窄左右 padding、卡片高度更舒服
     container: {
-      width: isMobile ? "calc(100vw - 24px)" : "min(1280px, calc(100vw - 64px))",
+      width: isMobile
+        ? "calc(100vw - 24px)"
+        : "min(1280px, calc(100vw - 64px))",
       margin: "0 auto",
-      padding: isMobile ? "18px 0 28px" : isTablet ? "26px 0 46px" : "32px 0 64px",
+      padding: isMobile
+        ? "18px 0 28px"
+        : isTablet
+          ? "26px 0 46px"
+          : "32px 0 64px",
     },
 
     mainCard: {
       background: "#ffffff",
       border: "1px solid #e2e8f0",
       borderRadius: 16,
-      padding: isMobile ? "18px 14px 16px" : isTablet ? "22px 20px 22px" : "24px 28px 28px",
+      padding: isMobile
+        ? "18px 14px 16px"
+        : isTablet
+          ? "22px 20px 22px"
+          : "24px 28px 28px",
       boxShadow: isMobile ? "0 10px 26px rgba(2, 6, 23, 0.06)" : "none",
     },
 
@@ -260,7 +271,9 @@ export default function ConsentPage() {
               <p style={{ ...styles.introText, marginTop: 8 }}>
                 您將依個人偏好操作系統並查看推薦結果，最後填寫一份簡短問卷。
               </p>
-              <p style={{ ...styles.introText, marginTop: 8 }}>非常感謝您的參與。</p>
+              <p style={{ ...styles.introText, marginTop: 8 }}>
+                非常感謝您的參與。
+              </p>
             </div>
 
             <div>
@@ -283,9 +296,15 @@ export default function ConsentPage() {
               <h3 style={styles.sectionTitle}>重要說明</h3>
               <div style={styles.noticePanel}>
                 <ul style={styles.list}>
-                  <li style={styles.listItem}>本研究過程中不會蒐集任何可用以識別個人身分之資訊。</li>
-                  <li style={styles.listItem}>所有蒐集之資料僅供學術研究與統計分析使用，並不作其他用途。</li>
-                  <li style={styles.listItem}>您可於研究進行期間隨時選擇退出，本研究不會因此對您造成任何不利影響。</li>
+                  <li style={styles.listItem}>
+                    本研究過程中不會蒐集任何可用以識別個人身分之資訊。
+                  </li>
+                  <li style={styles.listItem}>
+                    所有蒐集之資料僅供學術研究與統計分析使用，並不作其他用途。
+                  </li>
+                  <li style={styles.listItem}>
+                    您可於研究進行期間隨時選擇退出，本研究不會因此對您造成任何不利影響。
+                  </li>
                 </ul>
               </div>
             </div>
@@ -301,7 +320,8 @@ export default function ConsentPage() {
                   disabled={loading}
                   style={styles.button}
                   onMouseEnter={(e) => {
-                    if (!loading) e.currentTarget.style.transform = "translateY(-1px)";
+                    if (!loading)
+                      e.currentTarget.style.transform = "translateY(-1px)";
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = "translateY(0)";

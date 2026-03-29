@@ -2,6 +2,7 @@ import os
 import json
 import uuid
 import random
+import re
 
 import psycopg2
 from flask import Flask, request, jsonify
@@ -210,7 +211,6 @@ def recommend():
         year_max0 = int(year_max) if year_max is not None else None
         min_rating0 = float(min_rating) if min_rating is not None else None
 
-        # ✅ preferences：不存 region（避免 region=null）
         original_prefs = {
             "region_group": region_group,
             "year_min": year_min0,
@@ -230,7 +230,10 @@ def recommend():
         # ==== 查組別 ====
         with get_conn() as conn:
             with conn.cursor() as cur:
-                cur.execute("SELECT grp FROM participants WHERE participant_id=%s;", (participant_id,))
+                cur.execute(
+                    "SELECT grp FROM participants WHERE participant_id=%s;",
+                    (participant_id,)
+                )
                 row = cur.fetchone()
                 if not row:
                     return jsonify({"status": "error", "message": "participant_id not found"}), 404
@@ -244,10 +247,16 @@ def recommend():
         WEST = EUROPE + AMERICAS
 
         REGION_GROUPS = {
-            "亞洲": ASIA, "歐美": WEST, "其他地區": OTHER,
-            "Asia": ASIA, "ASIA": ASIA,
-            "West": WEST, "WEST": WEST, "Europe+Americas": WEST,
-            "Other": OTHER, "OTHER": OTHER,
+            "亞洲": ASIA,
+            "歐美": WEST,
+            "其他地區": OTHER,
+            "Asia": ASIA,
+            "ASIA": ASIA,
+            "West": WEST,
+            "WEST": WEST,
+            "Europe+Americas": WEST,
+            "Other": OTHER,
+            "OTHER": OTHER,
         }
 
         COUNTRY_ZH = {
@@ -263,32 +272,31 @@ def recommend():
         }
 
         # =========================================================
-        # ✅ 排序規則：完全符合 UI（不再用 AR_RAW）
-        # 1) ROUND(avg_rating,1)
-        # 2) rating_count
-        # 3) year
-        # 4) movie_id（穩定排序）
+        # 排序欄位
         # =========================================================
         RC = "COALESCE(NULLIF(regexp_replace(rating_count::text, '[^0-9]', '', 'g'), ''), '0')::int"
         AR_ROUND = "ROUND(COALESCE(avg_rating, 0)::numeric, 1)"
         YR = "COALESCE(year, 0)::int"
-        STABLE = "movie_id ASC"
 
+        # 先比 genre_match_count，再比使用者選的排序方式
         order_map = {
-            "評分較高優先": f"{AR_ROUND} DESC, {RC} DESC, {YR} DESC, {STABLE}",
-            "評價人數多優先": f"{RC} DESC, {AR_ROUND} DESC, {YR} DESC, {STABLE}",
-            "最新上映優先": f"{YR} DESC, {AR_ROUND} DESC, {RC} DESC, {STABLE}",
+            "評分較高優先": "genre_match_count DESC, avg_rating_round_sort DESC, rating_count_sort DESC, year_sort DESC, movie_id ASC",
+            "評價人數多優先": "genre_match_count DESC, rating_count_sort DESC, avg_rating_round_sort DESC, year_sort DESC, movie_id ASC",
+            "最新上映優先": "genre_match_count DESC, year_sort DESC, avg_rating_round_sort DESC, rating_count_sort DESC, movie_id ASC",
         }
         order_sql = order_map.get(sort_key, order_map["評分較高優先"])
 
-        # ==== WHERE ====
+        # ==== 硬條件 WHERE（地區 / 年份 / 最低評分）====
         where = []
         params = []
 
         if region_group:
             codes = REGION_GROUPS.get(region_group)
             if not codes:
-                return jsonify({"status": "error", "message": "invalid region_group (allowed: 亞洲/歐美/其他地區)"}), 400
+                return jsonify({
+                    "status": "error",
+                    "message": "invalid region_group (allowed: 亞洲/歐美/其他地區)"
+                }), 400
             where.append("region = ANY(%s)")
             params.append(codes)
         elif region:
@@ -303,42 +311,114 @@ def recommend():
             where.append("year <= %s")
             params.append(year_max0)
 
-        # ✅ min_rating：也用 ROUND(1) 比較，保持「UI顯示一致」
         if min_rating0 is not None:
             where.append(f"{AR_ROUND} >= %s")
             params.append(min_rating0)
 
-        if genres:
-            clauses = []
-            for g in genres:
-                clauses.append("genres ~* %s")
-                params.append(rf"(^|\|){g}(\||$)")
-            where.append("(" + " OR ".join(clauses) + ")")
-
         where_sql = ("WHERE " + " AND ".join(where)) if where else ""
 
-        # ==== 查資料 ====
+        rows = []
+
         with get_conn() as conn:
             with conn.cursor() as cur:
-                cur.execute(f"SELECT COUNT(*) FROM movies {where_sql};", tuple(params))
-                (found,) = cur.fetchone()
 
-                cur.execute(
-                    f"""
-                    SELECT movie_id, title, title_zh, genres, year,
-                           avg_rating, rating_count, region, poster_url,
-                           {RC} AS rating_count_sort,
-                           {AR_ROUND} AS avg_rating_round_sort
-                    FROM movies
-                    {where_sql}
-                    ORDER BY {order_sql}
-                    LIMIT 5;
-                    """,
-                    tuple(params),
-                )
-                rows = cur.fetchall()
+                # =====================================================
+                # 情況 1：沒有選 genres
+                # =====================================================
+                if not genres:
+                    cur.execute(f"SELECT COUNT(*) FROM movies {where_sql};", tuple(params))
+                    (found,) = cur.fetchone()
 
-        need_retry = found == 0
+                    raw_order_sql = {
+                        "評分較高優先": f"{AR_ROUND} DESC, {RC} DESC, {YR} DESC, movie_id ASC",
+                        "評價人數多優先": f"{RC} DESC, {AR_ROUND} DESC, {YR} DESC, movie_id ASC",
+                        "最新上映優先": f"{YR} DESC, {AR_ROUND} DESC, {RC} DESC, movie_id ASC",
+                    }[sort_key]
+
+                    cur.execute(
+                        f"""
+                        SELECT
+                            movie_id, title, title_zh, genres, year,
+                            avg_rating, rating_count, region, poster_url,
+                            {RC} AS rating_count_sort,
+                            {AR_ROUND} AS avg_rating_round_sort,
+                            {YR} AS year_sort,
+                            NULL::int AS genre_match_count
+                        FROM movies
+                        {where_sql}
+                        ORDER BY {raw_order_sql}
+                        LIMIT 5;
+                        """,
+                        tuple(params),
+                    )
+                    rows = cur.fetchall()
+
+                # =====================================================
+                # 情況 2：有選 genres
+                # 規則：
+                # - 計算每部電影符合幾個使用者選的類型
+                # - 至少符合 1 個類型才進候選
+                # - 排序時 genre_match_count 優先
+                # =====================================================
+                else:
+                    genre_patterns = [
+                        rf"(^|\|){re.escape(g)}(\||$)"
+                        for g in genres
+                    ]
+
+                    genre_match_expr_parts = []
+                    for p in genre_patterns:
+                        safe_p = p.replace("'", "''")
+                        genre_match_expr_parts.append(
+                            f"CASE WHEN genres ~* '{safe_p}' THEN 1 ELSE 0 END"
+                        )
+
+                    genre_match_expr = " + ".join(genre_match_expr_parts)
+
+                    base_sql = f"""
+                        SELECT
+                            movie_id, title, title_zh, genres, year,
+                            avg_rating, rating_count, region, poster_url,
+                            {RC} AS rating_count_sort,
+                            {AR_ROUND} AS avg_rating_round_sort,
+                            {YR} AS year_sort,
+                            ({genre_match_expr}) AS genre_match_count
+                        FROM movies
+                        {where_sql}
+                    """
+
+                    base_params = list(params)
+
+                    # 只要至少中 1 個類型就納入候選
+                    min_match_required = 1
+
+                    cur.execute(
+                        f"""
+                        SELECT COUNT(*)
+                        FROM (
+                            {base_sql}
+                        ) t
+                        WHERE genre_match_count >= %s;
+                        """,
+                        tuple(base_params + [min_match_required]),
+                    )
+                    (found,) = cur.fetchone()
+
+                    cur.execute(
+                        f"""
+                        SELECT *
+                        FROM (
+                            {base_sql}
+                        ) t
+                        WHERE genre_match_count >= %s
+                        ORDER BY {order_sql}
+                        LIMIT 5;
+                        """,
+                        tuple(base_params + [min_match_required]),
+                    )
+                    rows = cur.fetchall()
+
+        need_retry = (found == 0)
         insufficient = (0 < found < 5)
 
         # ==== 整理結果 ====
@@ -360,13 +440,15 @@ def recommend():
                 "country": country_code,
                 "country_zh": COUNTRY_ZH.get(country_code, country_code),
                 "poster_url": r[8],
+                "genre_match_count": int(r[12]) if r[12] is not None else None,
             })
 
+        # E組才加 explanation
         if grp == "E":
             for i, m in enumerate(results, start=1):
                 m["explanation"] = build_explanation(i, m, original_prefs)
 
-        # ==== 寫 log（強制驗證版）====
+        # ==== 寫 log ====
         log_id = str(uuid.uuid4())
         recommended_ids = [int(m["movie_id"]) for m in results]
 
@@ -378,10 +460,19 @@ def recommend():
                     (log_id, participant_id, grp, preferences, recommended_movie_ids, created_at)
                     VALUES (%s, %s, %s, %s::jsonb, %s, now() AT TIME ZONE 'Asia/Taipei');
                     """,
-                    (log_id, participant_id, grp, json.dumps(original_prefs), recommended_ids),
+                    (
+                        log_id,
+                        participant_id,
+                        grp,
+                        json.dumps(original_prefs),
+                        recommended_ids
+                    ),
                 )
 
-                cur.execute("SELECT COUNT(*) FROM recommendation_logs WHERE log_id=%s;", (log_id,))
+                cur.execute(
+                    "SELECT COUNT(*) FROM recommendation_logs WHERE log_id=%s;",
+                    (log_id,)
+                )
                 (written_cnt,) = cur.fetchone()
 
                 cur.execute("SELECT current_database(), current_schema(), current_user;")
@@ -390,7 +481,7 @@ def recommend():
             conn.commit()
 
         return jsonify({
-            "api_version": "2026-02-28-ui-consistent-v1",
+            "api_version": "2026-03-29-genre-match-score-v1",
             "participant_id": participant_id,
             "grp": grp,
             "log_id": log_id,

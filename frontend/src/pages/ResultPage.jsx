@@ -1,14 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-// 後端 API（保留，雖然這支檔案目前沒用到）
-const API_BASE = "https://recsys-project.onrender.com"; // eslint-disable-line no-unused-vars
+// 後端 API（這支目前沒直接呼叫，可保留備用）
+// const API_BASE = "https://recsys-project.onrender.com"; // eslint-disable-line no-unused-vars
+const API_BASE = "http://127.0.0.1:5000"; // eslint-disable-line no-unused-vars
 
-// ✅ 只放「乾淨的 viewform」
+// Google Form
 const GOOGLE_FORM_BASE =
   "https://docs.google.com/forms/d/e/1FAIpQLSfq7qBe9uh-HGwlIC9Ewl5aHnD2VJBqZu4afQt_qGVP9WgRgw/viewform";
 
-// ✅ 你的表單 entry 編號（用「取得預填連結」拿）
+// 表單 entry 編號
 const ENTRY_PID = "entry.1452297615"; // participant_id
 const ENTRY_LOG = "entry.109337464"; // log_id
 
@@ -35,7 +36,7 @@ const GENRE_LABEL = {
   "(no genres listed)": "（未分類）",
 };
 
-// 把 explanation 文字中的類型英文替換成中文
+// explanation 內的類型英文替換成中文
 function localizeGenresInText(text) {
   if (!text) return text;
   let out = String(text);
@@ -47,20 +48,26 @@ function localizeGenresInText(text) {
 }
 
 /**
- * 清理後端 explanation 裡「不想顯示的括號片段」
+ * 清理後端 explanation 裡不想顯示的括號片段
  * - （上映年份 2023）/ (上映年份 2023) / （年份：2023）
  * - （本片平均 4.2 分）/ (本片平均4.2分) / （平均 4.2 分）
- * * 不會動到（+2.1）這種差值括號
+ * 不會動到（+2.1）這種差值括號
  */
 function stripUnwantedParens(text) {
   if (!text) return text;
   let s = String(text);
 
   // 年份括號
-  s = s.replace(/[（(]\s*(上映\s*年份|年份|year)\s*[:：]?\s*\d{4}\s*[)）]/gi, "");
+  s = s.replace(
+    /[（(]\s*(上映\s*年份|年份|year)\s*[:：]?\s*\d{4}\s*[)）]/gi,
+    "",
+  );
 
   // 平均分數括號
-  s = s.replace(/[（(]\s*(本片\s*)?平均\s*[:：]?\s*\d+(?:\.\d+)?\s*分\s*[)）]/g, "");
+  s = s.replace(
+    /[（(]\s*(本片\s*)?平均\s*[:：]?\s*\d+(?:\.\d+)?\s*分\s*[)）]/g,
+    "",
+  );
 
   // 多餘空白/標點整理
   s = s.replace(/\s{2,}/g, " ").trim();
@@ -149,7 +156,7 @@ function fmtYear(x) {
   return Number.isFinite(n) ? String(n) : "—";
 }
 
-// 從電影物件拿 genres 並轉中文(最多3個)
+// 從電影物件拿 genres 並轉中文（最多3個）
 function getGenresZh(m) {
   const raw = m?.genres;
   if (!raw) return [];
@@ -157,44 +164,59 @@ function getGenresZh(m) {
   if (Array.isArray(raw)) arr = raw;
   else if (typeof raw === "string") arr = raw.split("|");
   else return [];
-  return arr.map((g) => GENRE_LABEL[g] || g).filter(Boolean).slice(0, 3);
+
+  return arr
+    .map((g) => GENRE_LABEL[g] || g)
+    .filter(Boolean)
+    .slice(0, 3);
 }
 
 // 排序規則提示
 const SORT_RULE_TEXT = {
-  評分較高優先: "排序提醒：先依評分排序；若相同，則比較評價人數；最後依上映年份排序。",
-  評價人數多優先: "排序提醒：先依評價人數排序；若相同，則比較評分；最後依上映年份排序。",
-  最新上映優先: "排序提醒：先依上映年份排序；若相同，則比較評分；最後比較評價人數。",
+  評分較高優先:
+    "排序提醒：先依評分排序；若相同，則比較評價人數；最後依上映年份排序。",
+  評價人數多優先:
+    "排序提醒：先依評價人數排序；若相同，則比較評分；最後依上映年份排序。",
+  最新上映優先:
+    "排序提醒：先依上映年份排序；若相同，則比較評分；最後比較評價人數。",
 };
 
 function getSortRuleText(sortBy) {
   return SORT_RULE_TEXT[sortBy] || "";
 }
 
-// 依 sortBy 決定「主要依據」要顯示什麼
-function getSortMustLine(sortBy, m) {
-  if (sortBy === "評價人數多優先") return `評價人數：${fmtInt(m?.rating_count)} 人`;
-  if (sortBy === "最新上映優先") return `上映年份：${fmtYear(m?.year)} 年`;
-  return `評分：${fmt1(m?.avg_rating)} 分`;
-}
-
-// 依 sortBy 決定「主要依據」要顯示什麼（用在 explanation 補充）
+// 依 sortBy 決定主要依據要顯示什麼
 function getSortMustLineShort(sortBy, m) {
-  if (sortBy === "評價人數多優先") return `評價人數：${fmtInt(m?.rating_count)} 人`;
-  if (sortBy === "最新上映優先") return `上映年份：${fmtYear(m?.year)} 年`;
+  if (sortBy === "評價人數多優先") {
+    return `評價人數：${fmtInt(m?.rating_count)} 人`;
+  }
+  if (sortBy === "最新上映優先") {
+    return `上映年份：${fmtYear(m?.year)} 年`;
+  }
   return `評分：${fmt1(m?.avg_rating)} 分`;
 }
 
 /**
  * 前端 fallback：如果後端沒有 m.explanation，就用這段產生自然語言
- * ✅ 手機：換行條列更好讀
- * ✅ 桌機：一句話精簡
+ * 手機：換行條列更好讀
+ * 桌機：一句話精簡
  */
-function buildNaturalExplanation({ idx, titleZh, sortBy, m, genresZh, regionZh, minRating, isMobile }) {
+function buildNaturalExplanation({
+  idx,
+  titleZh,
+  sortBy,
+  m,
+  genresZh,
+  regionZh,
+  minRating,
+  isMobile,
+}) {
   const regionText = regionZh ? `地區「${regionZh}」` : "你的地區設定";
   const gText = genresZh?.length ? genresZh.join("、") : "（未特別指定）";
 
-  const rating = Number.isFinite(Number(m?.avg_rating)) ? Number(m.avg_rating) : null;
+  const rating = Number.isFinite(Number(m?.avg_rating))
+    ? Number(m.avg_rating)
+    : null;
   const mr = Number.isFinite(Number(minRating)) ? Number(minRating) : null;
 
   const ratingStr = rating != null ? fmt1(rating) : "—";
@@ -210,19 +232,19 @@ function buildNaturalExplanation({ idx, titleZh, sortBy, m, genresZh, regionZh, 
     sortBy === "評價人數多優先"
       ? "評價人數優先"
       : sortBy === "最新上映優先"
-      ? "最新上映優先"
-      : "評分優先";
+        ? "最新上映優先"
+        : "評分優先";
 
   const tone =
     idx === 1
       ? "所以我把它放在第一名。"
       : idx === 2
-      ? "也很值得排進前幾名。"
-      : idx === 3
-      ? "如果你想找同調性的片，這部很適合。"
-      : idx === 4
-      ? "當作前五名的穩妥選擇剛剛好。"
-      : "想換口味時可以收進備選。";
+        ? "也很值得排進前幾名。"
+        : idx === 3
+          ? "如果你想找同調性的片，這部很適合。"
+          : idx === 4
+            ? "當作前五名的穩妥選擇剛剛好。"
+            : "想換口味時可以收進備選。";
 
   if (isMobile) {
     return [
@@ -235,7 +257,7 @@ function buildNaturalExplanation({ idx, titleZh, sortBy, m, genresZh, regionZh, 
   }
 
   return `第 ${idx} 名「${titleZh}」：符合 ${regionText}＋${gText}，評分 ${ratingStr}${
-    diffPart ? " " + diffPart : ""
+    diffPart ? ` ${diffPart}` : ""
   }；你選的是「${sortText}」，${tone}`;
 }
 
@@ -249,7 +271,9 @@ function ensureSortInfoInExplanation(explain, sortBy, m) {
     const countVal = Number(m?.rating_count);
     const countStr = Number.isFinite(countVal) ? fmtInt(countVal) : "";
 
-    const hasCountKeyword = /評價人數|評價數|評論數|人評價|rating_count/i.test(base);
+    const hasCountKeyword = /評價人數|評價數|評論數|人評價|rating_count/i.test(
+      base,
+    );
     const hasCountNumber = countStr ? base.includes(countStr) : false;
     if (hasCountKeyword || hasCountNumber) return base;
 
@@ -263,7 +287,9 @@ function ensureSortInfoInExplanation(explain, sortBy, m) {
   const hasRatingKeyword = /評分|分數|平均.*分/.test(base);
   const hasYearKeyword = /上映|年份/.test(base);
 
-  const needMain = sortBy === "最新上映優先" ? !hasYearKeyword : !hasRatingKeyword;
+  const needMain =
+    sortBy === "最新上映優先" ? !hasYearKeyword : !hasRatingKeyword;
+
   return needMain ? `${base}（${mustLine}）` : base;
 }
 
@@ -274,8 +300,11 @@ function ensureCountShown(explain, m) {
   if (!Number.isFinite(countVal)) return base;
 
   const countStr = fmtInt(countVal);
-  const hasCountKeyword = /評價人數|評價數|評論數|人評價|rating_count/i.test(base);
+  const hasCountKeyword = /評價人數|評價數|評論數|人評價|rating_count/i.test(
+    base,
+  );
   const hasCountNumber = countStr ? base.includes(countStr) : false;
+
   if (hasCountKeyword || hasCountNumber) return base;
 
   const tail = `評價人數：${countStr} 人`;
@@ -284,7 +313,7 @@ function ensureCountShown(explain, m) {
   return `${base}（${tail}）`;
 }
 
-// ✅ 小工具：判斷螢幕寬度（手機/平板/桌機）
+// 判斷螢幕寬度（手機/平板/桌機）
 function useResponsiveBreakpoints() {
   const getW = () => (typeof window !== "undefined" ? window.innerWidth : 1200);
   const [w, setW] = useState(getW());
@@ -322,7 +351,9 @@ export default function ResultPage() {
     try {
       const raw = localStorage.getItem("last_recommend_response");
       if (!raw) {
-        setErr("找不到推薦結果（last_recommend_response 不存在），請回偏好頁重新產生推薦。");
+        setErr(
+          "找不到推薦結果（last_recommend_response 不存在），請回偏好頁重新產生推薦。",
+        );
         setData(null);
         return;
       }
@@ -335,7 +366,8 @@ export default function ResultPage() {
     }
   }, []);
 
-  const participantId = data?.participant_id || localStorage.getItem("participant_id") || "";
+  const participantId =
+    data?.participant_id || localStorage.getItem("participant_id") || "";
   const grp = data?.grp || localStorage.getItem("grp") || "";
   const isBaseline = grp === "B";
   const logId = data?.log_id || "";
@@ -345,7 +377,9 @@ export default function ResultPage() {
 
   const needRetry = !!data?.need_retry;
   const insufficient = !!data?.insufficient;
-  const found = Number.isFinite(Number(data?.found)) ? Number(data.found) : results.length;
+  const found = Number.isFinite(Number(data?.found))
+    ? Number(data.found)
+    : results.length;
 
   const prefsUsed = data?.preferences || prefs || {};
   const sortKey = prefsUsed?.sort_by || "評分較高優先";
@@ -382,6 +416,7 @@ export default function ResultPage() {
       alert("缺少 participant_id，請回到首頁重新開始。");
       return;
     }
+
     if (!lid) {
       alert("缺少 log_id（系統紀錄編號），請回偏好頁重新產生推薦結果。");
       return;
@@ -396,7 +431,6 @@ export default function ResultPage() {
     window.open(u.toString(), "_blank", "noopener,noreferrer");
   };
 
-  // ===== Styles（維持原樣：flex 版面不動；只加「右邊不要貼邊」）=====
   const styles = {
     page: {
       minHeight: "100vh",
@@ -491,9 +525,11 @@ export default function ResultPage() {
       lineHeight: 1.75,
       fontWeight: 850,
     },
-
-    list: { display: "grid", gridTemplateColumns: "1fr", gap: 18 },
-
+    list: {
+      display: "grid",
+      gridTemplateColumns: "1fr",
+      gap: 18,
+    },
     movieCard: {
       border: "1px solid #e5e7eb",
       borderRadius: 18,
@@ -510,10 +546,18 @@ export default function ResultPage() {
       gap: 12,
       flexWrap: "wrap",
     },
-    movieTitle: { margin: 0, fontSize: 18.5, fontWeight: 950, color: "#0f172a" },
-    movieRank: { fontSize: 12.5, color: "#94a3b8", fontWeight: 900, whiteSpace: "nowrap" },
-
-    // ✅ 維持原樣：flex（不要改 grid）
+    movieTitle: {
+      margin: 0,
+      fontSize: 18.5,
+      fontWeight: 950,
+      color: "#0f172a",
+    },
+    movieRank: {
+      fontSize: 12.5,
+      color: "#94a3b8",
+      fontWeight: 900,
+      whiteSpace: "nowrap",
+    },
     movieBody: {
       padding: isMobile ? "16px" : isTablet ? "18px 20px" : "18px",
       display: "flex",
@@ -521,7 +565,6 @@ export default function ResultPage() {
       alignItems: "flex-start",
       flexDirection: isMobile ? "column" : "row",
     },
-
     posterWrap: {
       width: isMobile ? "100%" : 150,
       flexShrink: 0,
@@ -551,8 +594,6 @@ export default function ResultPage() {
       color: "#64748b",
       fontWeight: 800,
     },
-
-    // ✅ 只修這裡：右側加一點 paddingRight，避免文字貼到最右邊
     right: {
       flex: 1,
       minWidth: 0,
@@ -560,8 +601,6 @@ export default function ResultPage() {
       paddingRight: isMobile ? 0 : 16,
       boxSizing: "border-box",
     },
-
-    // ✅ 只修這裡：限制說明盒最大寬度，右邊自然會空出來
     explainBox: {
       width: "100%",
       maxWidth: isMobile ? "100%" : 860,
@@ -570,7 +609,13 @@ export default function ResultPage() {
       borderRadius: 18,
       border: isBaseline ? "1px solid transparent" : "1px solid #e5e7eb",
       background: isBaseline ? "transparent" : "#f8fafc",
-      padding: isBaseline ? 0 : isMobile ? "14px 14px" : isTablet ? "16px 18px" : "16px 16px",
+      padding: isBaseline
+        ? 0
+        : isMobile
+          ? "14px 14px"
+          : isTablet
+            ? "16px 18px"
+            : "16px 16px",
     },
     explainTitle: {
       fontSize: 15,
@@ -597,8 +642,6 @@ export default function ResultPage() {
       marginTop: 14,
       marginBottom: 12,
     },
-
-    // ✅✅✅ 修正點：手機 chips 不換行、可左右滑；平板/桌機照舊 wrap
     chipsRow: {
       display: "flex",
       gap: isMobile ? 8 : 10,
@@ -623,8 +666,10 @@ export default function ResultPage() {
       whiteSpace: "nowrap",
       flex: isMobile ? "0 0 auto" : "initial",
     },
-    chipLabel: { color: "#64748b", fontWeight: 900 },
-
+    chipLabel: {
+      color: "#64748b",
+      fontWeight: 900,
+    },
     footerRow: {
       marginTop: 22,
       display: "flex",
@@ -654,8 +699,18 @@ export default function ResultPage() {
       fontWeight: 900,
       opacity: needRetry ? 0.6 : 1,
     },
-    hint: { marginTop: 10, fontSize: 12, color: "#64748b", lineHeight: 1.7 },
-    emptyState: { marginTop: 10, fontSize: 14, color: "#64748b", fontWeight: 800 },
+    hint: {
+      marginTop: 10,
+      fontSize: 12,
+      color: "#64748b",
+      lineHeight: 1.7,
+    },
+    emptyState: {
+      marginTop: 10,
+      fontSize: 14,
+      color: "#64748b",
+      fontWeight: 800,
+    },
   };
 
   if (!data) {
@@ -696,17 +751,23 @@ export default function ResultPage() {
               <span>
                 參與者：{" "}
                 <span translate="no">
-                  {participantId ? `${participantId.slice(0, 6)}...${participantId.slice(-4)}` : "—"}
+                  {participantId
+                    ? `${participantId.slice(0, 6)}...${participantId.slice(-4)}`
+                    : "—"}
                 </span>
               </span>
               <span>
                 組別： <span translate="no">{grp || "—"}</span>
               </span>
-              <span style={{ opacity: 0.7 }}>{isMobile ? "手機" : isTablet ? "平板" : "桌機"}</span>
+              <span style={{ opacity: 0.7 }}>
+                {isMobile ? "手機" : isTablet ? "平板" : "桌機"}
+              </span>
             </div>
           </div>
 
-          {!isBaseline && !needRetry && <div style={styles.sortTipBox}>{getSortRuleText(sortKey)}</div>}
+          {!isBaseline && !needRetry && (
+            <div style={styles.sortTipBox}>{getSortRuleText(sortKey)}</div>
+          )}
 
           {err ? <div style={styles.errorBox}>{err}</div> : null}
 
@@ -734,8 +795,22 @@ export default function ResultPage() {
                 const titleZh = m.title_zh || m.title || "(untitled)";
                 const yearVal = fmtYear(m.year);
                 const ratingVal = fmt1(m.avg_rating);
-                const regionZh = m.country_zh || toCountryZh(m.region || m.country || "");
+                const regionZh =
+                  m.country_zh || toCountryZh(m.region || m.country || "");
                 const genresZh = getGenresZh(m);
+
+                const totalGenreCount = Array.isArray(prefsUsed?.genres)
+                  ? prefsUsed.genres.length
+                  : 0;
+
+                const matchCount = Number.isFinite(Number(m?.genre_match_count))
+                  ? Number(m.genre_match_count)
+                  : null;
+
+                const matchChip =
+                  matchCount != null && totalGenreCount > 0
+                    ? `${matchCount}/${totalGenreCount} 符合`
+                    : "";
 
                 const fallbackExplain = buildNaturalExplanation({
                   idx: idx + 1,
@@ -752,7 +827,11 @@ export default function ResultPage() {
                   ? stripUnwantedParens(localizeGenresInText(m.explanation))
                   : fallbackExplain;
 
-                let finalExplain = ensureSortInfoInExplanation(rawExplain, sortKey, m);
+                let finalExplain = ensureSortInfoInExplanation(
+                  rawExplain,
+                  sortKey,
+                  m,
+                );
 
                 if (sortKey === "評分較高優先") {
                   const r = Number(m?.avg_rating);
@@ -776,10 +855,14 @@ export default function ResultPage() {
                 }
 
                 return (
-                  <div key={m.movie_id || `${titleZh}-${idx}`} style={styles.movieCard}>
+                  <div
+                    key={m.movie_id || `${titleZh}-${idx}`}
+                    style={styles.movieCard}
+                  >
                     <div style={styles.movieHeader}>
                       <h3 style={styles.movieTitle}>
-                        <span style={{ fontWeight: 950 }}>{idx + 1}.</span> {titleZh}
+                        <span style={{ fontWeight: 950 }}>{idx + 1}.</span>{" "}
+                        {titleZh}
                       </h3>
                       <div style={styles.movieRank}>Top {idx + 1}</div>
                     </div>
@@ -787,7 +870,11 @@ export default function ResultPage() {
                     <div style={styles.movieBody}>
                       <div style={styles.posterWrap}>
                         {m.poster_url ? (
-                          <img src={m.poster_url} alt={titleZh} style={styles.posterImg} />
+                          <img
+                            src={m.poster_url}
+                            alt={titleZh}
+                            style={styles.posterImg}
+                          />
                         ) : (
                           <div style={styles.posterPlaceholder}>No Poster</div>
                         )}
@@ -797,19 +884,35 @@ export default function ResultPage() {
                         {!isBaseline ? (
                           <div style={styles.explainBox}>
                             <div style={styles.explainTitle}>推薦說明</div>
-                            <div style={styles.explainText}>{finalExplain || "（系統未提供推薦說明）"}</div>
+
+                            <div style={styles.explainText}>
+                              {finalExplain || "（系統未提供推薦說明）"}
+                            </div>
 
                             <div style={styles.explainDivider} />
+
                             <div style={styles.chipsRow}>
                               <span style={styles.chip}>
-                                <span style={styles.chipLabel}>年份</span> {yearVal}
+                                <span style={styles.chipLabel}>年份</span>
+                                {yearVal}
                               </span>
+
                               <span style={styles.chip}>
-                                <span style={styles.chipLabel}>評分</span> {ratingVal}
+                                <span style={styles.chipLabel}>評分</span>
+                                {ratingVal}
                               </span>
+
                               <span style={styles.chip}>
-                                <span style={styles.chipLabel}>地區</span> {regionZh || "—"}
+                                <span style={styles.chipLabel}>地區</span>
+                                {regionZh || "—"}
                               </span>
+
+                              {matchChip ? (
+                                <span style={styles.chip}>
+                                  <span style={styles.chipLabel}>類型</span>
+                                  {matchChip}
+                                </span>
+                              ) : null}
                             </div>
                           </div>
                         ) : null}
