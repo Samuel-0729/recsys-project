@@ -2,8 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 // 後端 API（這支目前沒直接呼叫，可保留備用）
-// const API_BASE = "https://recsys-project.onrender.com"; // eslint-disable-line no-unused-vars
-const API_BASE = "http://127.0.0.1:5000"; // eslint-disable-line no-unused-vars
+const API_BASE = "https://recsys-project.onrender.com"; // eslint-disable-line no-unused-vars
+//const API_BASE = "http://127.0.0.1:5000"; // eslint-disable-line no-unused-vars
 
 // Google Form
 const GOOGLE_FORM_BASE =
