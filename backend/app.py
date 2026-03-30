@@ -28,15 +28,16 @@ def get_conn():
 
 
 # --------------------------------------------------------------------------------------------
-# 健康檢查：確認 Flask + DB + movies 表
+# 檢查後端和資料庫有沒有正常運作
 @app.get("/api/health")
 def health():
     try:
-        with get_conn() as conn:
+        with get_conn() as conn:   #連資料庫
             with conn.cursor() as cur:
                 cur.execute("SELECT COUNT(*) FROM movies;")
-                (movie_count,) = cur.fetchone()
+                (movie_count,) = cur.fetchone() #取得結果
 
+        #成功回傳
         return jsonify(
             {
                 "status": "ok",
@@ -44,7 +45,7 @@ def health():
                 "movie_count": movie_count,
             }
         ), 200
-
+    #錯誤回傳
     except Exception as e:
         return jsonify(
             {
@@ -56,7 +57,7 @@ def health():
 
 
 # --------------------------------------------------------------------------------------------
-# Consent：建立 participant + 隨機分組
+# Consent：建立受試者＋隨機分組（E/B）
 @app.post("/api/consent")
 def consent():
     """
@@ -67,9 +68,10 @@ def consent():
     - 回傳 participant_id 與 grp
     """
     try:
-        participant_id = str(uuid.uuid4())
-        grp = random.choice(["E", "B"])
+        participant_id = str(uuid.uuid4()) #產生一個「唯一編號」
+        grp = random.choice(["E", "B"]) #隨機分組
 
+       #寫入資料庫
         with get_conn() as conn:
             with conn.cursor() as cur:
                 cur.execute(
@@ -81,28 +83,27 @@ def consent():
             )
             conn.commit()
 
-        return jsonify({"participant_id": participant_id, "grp": grp}), 201
+        return jsonify({"participant_id": participant_id, "grp": grp}), 201 #回傳給前端，
 
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
 
 
 # --------------------------------------------------------------------------------------------
-# Explanation helpers
-def _genres_list(genres_value):
-    # DB genres 可能是 "Action|Sci-Fi"
+# 幫每部電影自動產生推薦說明
+def _genres_list(genres_value): #把 "Action|Sci-Fi"變成 ["Action", "Sci-Fi"] 方便後面比對
     if not genres_value:
         return []
     if isinstance(genres_value, str):
         return [g.strip() for g in genres_value.split("|") if g.strip()]
     return list(genres_value)
 
-
+#找 使用者喜歡的類型 有沒有符合
 def _overlap_genres(user_genres, movie_genres_str):
     mg = set(_genres_list(movie_genres_str))
     return [g for g in (user_genres or []) if g in mg]
 
-
+#排序原因
 def _sort_reason(sort_by, movie):
     avg = float(movie.get("avg_rating") or 0)
     cnt = int(movie.get("rating_count") or 0)
@@ -117,18 +118,20 @@ def _sort_reason(sort_by, movie):
     return f"並依照你選擇的「{sort_by}」排序優先推薦給你"
 
 
+#整段推薦說明的生成器
 def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
     """
     rank: 1~5（第幾名）
     movie: 單部電影 dict
     prefs: 使用者偏好 dict
     """
-
+    #抓電影資料
     title = movie.get("title_zh") or movie.get("title") or "這部電影"
     avg = float(movie.get("avg_rating") or 0)
     cnt = int(movie.get("rating_count") or 0)
 
-    # ✅ 用 region_group（你前面 preferences 已不存 region 了）
+
+    # 抓使用者偏好
     region_group = prefs.get("region_group")
     y_min = prefs.get("year_min")
     y_max = prefs.get("year_max")
@@ -136,31 +139,31 @@ def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
     user_genres = prefs.get("genres") or []
     sort_by = prefs.get("sort_by") or "評分較高優先"
 
-    # 類型交集
+    # 算類型符合
     overlap = _overlap_genres(user_genres, movie.get("genres"))
     overlap_str = "、".join(overlap) if overlap else "你選擇的類型"
 
     # 年份範圍
     year_range = f"{y_min or '不限'}–{y_max or '不限'}"
 
-    # 地區文字（若沒選就不硬塞）
+    # 地區文字
     region_txt = f"「{region_group}」" if region_group else "你選擇的地區"
 
     # 排序原因
     sort_reason = _sort_reason(sort_by, movie)
 
-    # ✅ 門檻文字：避免「超過/+0.0」尷尬
-    # 以 1 位小數比較，符合你 UI
+    # 門檻文字：避免「超過/+0.0」
+    # 以 1 位小數比較
     avg1 = round(avg, 1)
     min1 = round(min_rating, 1)
 
     if avg1 > min1:
         rating_clause = f"評分 {avg1:.1f} 高於門檻（+{(avg1 - min1):.1f}）"
     else:
-        # avg1 == min1 或 avg1 < min1（理論上不會低於，因為你有篩選）
+        # avg1 == min1 或 avg1 < min1
         rating_clause = f"評分 {avg1:.1f} 已達到你的最低門檻"
 
-    # ✅ 讓 1~5 名語氣更自然、漸進式，且都會提到「類型」
+    # 漸進式模板
     templates = [
         # 1
         "這部片來自你偏好的{region_txt} 且屬於 {overlap_str}類型，{rating_clause}，{sort_reason}。",
@@ -170,10 +173,11 @@ def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
         "這部片口碑表現穩定（評分 {avg1:.1f}／{cnt:,} 人評價），同時符合你偏好的 {overlap_str}類型 與 年份範圍，是一部值得你考慮觀看的作品。",
         # 4
         "這部片符合 {overlap_str}類型，且{rating_clause}，加上評價數也不少（{cnt:,}），因此也可能符合你的觀影偏好。。",
-        # 5 ✅ 修正：符合門檻 + 補類型
+        # 5 
         "這部片同樣符合你偏好的{region_txt} 且屬於 {overlap_str}類型，年份也在 {year_range} 範圍內，且{rating_clause}，因此很適合作為備選（評價人數：{cnt:,} 人）。",
     ]
 
+    #把資料塞進句子，變成：完整推薦說明
     t = templates[min(max(rank, 1), 5) - 1]
     return t.format(
         title=title,
@@ -188,16 +192,17 @@ def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
     )
 
 # --------------------------------------------------------------------------------------------
+# 根據使用者偏好 → 找電影 → 排序 → 回傳推薦結果
 @app.post("/api/recommend")
 def recommend():
     try:
-        data = request.get_json(silent=True) or {}
+        data = request.get_json(silent=True) or {} #接收使用者資料
 
-        participant_id = data.get("participant_id")
+        participant_id = data.get("participant_id") #確認 participant_id
         if not participant_id:
             return jsonify({"status": "error", "message": "participant_id is required"}), 400
 
-        # ==== 偏好 ====
+        # 偏好 
         region_group = data.get("region_group")
         region = data.get("region")
         year_min = data.get("year_min")
@@ -220,14 +225,14 @@ def recommend():
             "sort_by": sort_by,
         }
 
-        # sort_by 防呆
+        # sort_by 
         allowed_sort = {"評分較高優先", "評價人數多優先", "最新上映優先"}
         sort_key = original_prefs["sort_by"]
         if sort_key not in allowed_sort:
             sort_key = "評分較高優先"
             original_prefs["sort_by"] = sort_key
 
-        # ==== 查組別 ====
+        # 查此人是哪一組
         with get_conn() as conn:
             with conn.cursor() as cur:
                 cur.execute(
@@ -239,7 +244,7 @@ def recommend():
                     return jsonify({"status": "error", "message": "participant_id not found"}), 404
                 grp = row[0]
 
-        # ==== 地區群組 ====
+        # 地區分組 
         ASIA = ["TW","CN","HK","JP","KR","TH","IN","ID","IL","IR","LB","MN","PS"]
         EUROPE = ["GB","IE","FR","DE","ES","IT","NL","BE","DK","NO","SE","FI","CH","AT","PL","PT","GR","CZ","SK","HU","RO","BG","RS","BA","IS"]
         AMERICAS = ["US","CA","MX","AR","BR","CO"]
@@ -271,14 +276,12 @@ def recommend():
             "AU": "澳洲","NZ": "紐西蘭","ZA": "南非","AE": "阿拉伯聯合大公國","RU": "俄羅斯","TR": "土耳其",
         }
 
-        # =========================================================
-        # 排序欄位
-        # =========================================================
+       
         RC = "COALESCE(NULLIF(regexp_replace(rating_count::text, '[^0-9]', '', 'g'), ''), '0')::int"
         AR_ROUND = "ROUND(COALESCE(avg_rating, 0)::numeric, 1)"
         YR = "COALESCE(year, 0)::int"
 
-        # 先比 genre_match_count，再比使用者選的排序方式
+        # 設定排序邏輯
         order_map = {
             "評分較高優先": "genre_match_count DESC, avg_rating_round_sort DESC, rating_count_sort DESC, year_sort DESC, movie_id ASC",
             "評價人數多優先": "genre_match_count DESC, rating_count_sort DESC, avg_rating_round_sort DESC, year_sort DESC, movie_id ASC",
@@ -286,7 +289,8 @@ def recommend():
         }
         order_sql = order_map.get(sort_key, order_map["評分較高優先"])
 
-        # ==== 硬條件 WHERE（地區 / 年份 / 最低評分）====
+
+        # 硬條件 WHERE（地區 / 年份 / 最低評分）
         where = []
         params = []
 
@@ -322,9 +326,7 @@ def recommend():
         with get_conn() as conn:
             with conn.cursor() as cur:
 
-                # =====================================================
-                # 情況 1：沒有選 genres
-                # =====================================================
+                # 類型匹配
                 if not genres:
                     cur.execute(f"SELECT COUNT(*) FROM movies {where_sql};", tuple(params))
                     (found,) = cur.fetchone()
@@ -354,8 +356,7 @@ def recommend():
                     rows = cur.fetchall()
 
                 # =====================================================
-                # 情況 2：有選 genres
-                # 規則：
+                # 有選 genres
                 # - 計算每部電影符合幾個使用者選的類型
                 # - 至少符合 1 個類型才進候選
                 # - 排序時 genre_match_count 優先
@@ -421,7 +422,7 @@ def recommend():
         need_retry = (found == 0)
         insufficient = (0 < found < 5)
 
-        # ==== 整理結果 ====
+        # 整理結果
         results = []
         for r in rows:
             country_code = r[7]
@@ -448,7 +449,7 @@ def recommend():
             for i, m in enumerate(results, start=1):
                 m["explanation"] = build_explanation(i, m, original_prefs)
 
-        # ==== 寫 log ====
+        # 寫 log 
         log_id = str(uuid.uuid4())
         recommended_ids = [int(m["movie_id"]) for m in results]
 
@@ -480,6 +481,7 @@ def recommend():
 
             conn.commit()
 
+        #回傳給前端
         return jsonify({
             "api_version": "2026-03-29-genre-match-score-v1",
             "participant_id": participant_id,
@@ -514,9 +516,9 @@ def options():
     - 排序選項
     """
     try:
-        with get_conn() as conn:
+        with get_conn() as conn: #連資料庫
             with conn.cursor() as cur:
-                # 年份 & 評分範圍
+                # 找 年份 & 評分範圍
                 cur.execute(
                     """
                     SELECT
@@ -529,7 +531,7 @@ def options():
                 )
                 year_min, year_max, rating_min, rating_max = cur.fetchone()
 
-                # 類型清單
+                # 找 所有電影類型
                 cur.execute(
                     """
                     SELECT DISTINCT
@@ -542,9 +544,11 @@ def options():
                 )
                 genres = [r[0] for r in cur.fetchall()]
 
+        # 固定選項
         region_groups = ["亞洲", "歐美", "其他地區"]
         sort_options = ["評分較高優先", "評價人數多優先", "最新上映優先"]
 
+        # 回傳給前端
         return jsonify(
             {
                 "region_groups": region_groups,
