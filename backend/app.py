@@ -170,7 +170,7 @@ def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
         # 2
         "這部片落在你設定的條件內（年份 {year_range}、最低評分 {minr:.1f}），且符合 {overlap_str}類型，因此也很適合你（評價人數：{cnt:,} 人）。",
         # 3
-        "這部片口碑表現穩定（評分 {avg1:.1f}／{cnt:,} 人評價），同時符合你偏好的 {overlap_str}類型 與 年份範圍，是一部值得你考慮觀看的作品。",
+        "這部片口碑表現穩定（評分 {avg1:.1f}／{cnt:,} 人評價），同時符合你偏好的 {overlap_str}類型 與年份範圍，是一部值得你考慮觀看的作品。",
         # 4
         "這部片符合 {overlap_str}類型，且{rating_clause}，加上評價數也不少（{cnt:,}），因此也可能符合你的觀影偏好。。",
         # 5 
