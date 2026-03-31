@@ -166,7 +166,7 @@ def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
     # 漸進式模板
     templates = [
         # 1
-        "這部片來自你偏好的{region_txt} 且屬於 {overlap_str}類型，{rating_clause}，{sort_reason}。",
+        "這部片來自{region_txt} 且屬於 {overlap_str}類型，{rating_clause}，{sort_reason}。",
         # 2
         "這部片落在你設定的條件內（年份 {year_range}、最低評分 {minr:.1f}），且符合 {overlap_str}類型，因此也很適合你（評價人數：{cnt:,} 人）。",
         # 3
@@ -174,7 +174,7 @@ def build_explanation(rank: int, movie: dict, prefs: dict) -> str:
         # 4
         "這部片符合 {overlap_str}類型，且{rating_clause}，加上評價數也不少（{cnt:,}），因此也可能符合你的觀影偏好。。",
         # 5 
-        "這部片同樣符合你偏好的{region_txt} 且屬於 {overlap_str}類型，年份也在 {year_range} 範圍內，且{rating_clause}，因此很適合作為備選（評價人數：{cnt:,} 人）。",
+        "這部片同樣來自{region_txt} 且屬於 {overlap_str}類型，年份也在 {year_range} 範圍內，且{rating_clause}，因此很適合作為備選（評價人數：{cnt:,} 人）。",
     ]
 
     #把資料塞進句子，變成：完整推薦說明
