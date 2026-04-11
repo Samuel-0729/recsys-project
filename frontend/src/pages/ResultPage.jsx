@@ -799,19 +799,6 @@ export default function ResultPage() {
                   m.country_zh || toCountryZh(m.region || m.country || "");
                 const genresZh = getGenresZh(m);
 
-                const totalGenreCount = Array.isArray(prefsUsed?.genres)
-                  ? prefsUsed.genres.length
-                  : 0;
-
-                const matchCount = Number.isFinite(Number(m?.genre_match_count))
-                  ? Number(m.genre_match_count)
-                  : null;
-
-                const matchChip =
-                  matchCount != null && totalGenreCount > 0
-                    ? `${matchCount}/${totalGenreCount} 符合`
-                    : "";
-
                 const fallbackExplain = buildNaturalExplanation({
                   idx: idx + 1,
                   titleZh,
@@ -906,13 +893,6 @@ export default function ResultPage() {
                                 <span style={styles.chipLabel}>地區</span>
                                 {regionZh || "—"}
                               </span>
-
-                              {matchChip ? (
-                                <span style={styles.chip}>
-                                  <span style={styles.chipLabel}>類型</span>
-                                  {matchChip}
-                                </span>
-                              ) : null}
                             </div>
                           </div>
                         ) : null}
