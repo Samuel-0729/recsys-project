@@ -803,10 +803,7 @@ export default function PrefsPage() {
                 </div>
 
                 <div style={styles.help}>
-                  已選：{" "}
-                  <span style={{ fontWeight: 900, color: "#334155" }}>
-                    {selectedGenresText}
-                  </span>
+                  若符合條件的電影數量不足，系統將逐步放寬類型條件以提供推薦結果。
                 </div>
 
                 {genreWarn && <div style={styles.warn}>{genreWarn}</div>}
