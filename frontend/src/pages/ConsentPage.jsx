@@ -265,18 +265,27 @@ export default function ConsentPage() {
             </div>
 
             <div style={styles.introBlock}>
-              <p style={styles.introText}>
-                本研究旨在探討電影推薦系統之使用體驗，並進一步了解不同推薦資訊呈現方式對使用者信任感受與後續使用行為之影響。
-              </p>
-              <p style={{ ...styles.introText, marginTop: 8 }}>
-                研究過程中，您將依據個人偏好（如地區、電影類型、上映年份及最低評分等）進行設定，並使用系統獲取推薦結果。系統將依據您的偏好提供相對應的電影推薦，且推薦資訊之呈現方式可能有所不同。
-              </p>
-              <p style={{ ...styles.introText, marginTop: 8 }}>
-                在完成推薦結果瀏覽後，您將填寫一份簡短問卷，內容主要用於了解您對推薦結果的看法與使用感受。
-              </p>
-              <p style={{ ...styles.introText, marginTop: 8 }}>
-                非常感謝您的參與與協助。
-              </p>
+              <div style={{ marginBottom: 16 }}>
+                <p style={styles.introText}>
+                  本研究旨在探討電影推薦系統之使用體驗，並進一步了解不同推薦資訊呈現方式對使用者信任感受與後續使用行為之影響。
+                </p>
+              </div>
+
+              <div style={{ marginBottom: 16 }}>
+                <p style={styles.introText}>
+                  研究過程中，您將依據個人偏好（如地區、電影類型、上映年份及最低評分等）進行設定，並使用系統獲取推薦結果。系統將依據您的偏好提供相對應的電影推薦，且推薦資訊的呈現方式可能有所不同。
+                </p>
+              </div>
+
+              <div style={{ marginBottom: 16 }}>
+                <p style={styles.introText}>
+                  在完成推薦結果瀏覽後，您將填寫一份簡短問卷，內容主要用於了解您對推薦結果的看法與使用感受。
+                </p>
+              </div>
+
+              <div>
+                <p style={styles.introText}>非常感謝您的參與與協助。</p>
+              </div>
             </div>
 
             <div>
@@ -300,13 +309,13 @@ export default function ConsentPage() {
               <div style={styles.noticePanel}>
                 <ul style={styles.list}>
                   <li style={styles.listItem}>
-                    本研究過程中不會蒐集任何可用以識別個人身分之資訊。
+                    本研究過程中不會蒐集任何可用以識別個人身分之資訊
                   </li>
                   <li style={styles.listItem}>
-                    所有蒐集之資料僅供學術研究與統計分析使用，並不作其他用途。
+                    所有蒐集之資料僅供學術研究與統計分析使用，並不作其他用途
                   </li>
                   <li style={styles.listItem}>
-                    您可於研究進行期間隨時選擇退出，本研究不會因此對您造成任何不利影響。
+                    您可於研究進行期間隨時選擇退出，本研究不會因此對您造成任何不利影響
                   </li>
                 </ul>
               </div>
