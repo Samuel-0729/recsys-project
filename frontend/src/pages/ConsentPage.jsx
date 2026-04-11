@@ -114,11 +114,6 @@ export default function ConsentPage() {
       textAlign: isMobile ? "center" : "left",
     },
 
-    introBlock: {
-      maxWidth: 980,
-      margin: isMobile ? "0 auto" : 0, // ✅ 手機置中區塊
-    },
-
     introTitle: {
       fontSize: isMobile ? 14.5 : 16,
       fontWeight: 800,
@@ -127,13 +122,18 @@ export default function ConsentPage() {
       margin: "0 0 10px",
     },
 
-    // ✅ 手機字級略降、行距保留
+    introBlock: {
+      maxWidth: "980px",
+      marginTop: "28px",
+    },
+
     introText: {
-      fontSize: isMobile ? 14.5 : 16,
-      fontWeight: 400,
+      fontSize: "18px",
       lineHeight: 1.95,
-      color: "#374151",
+      color: "#1e293b",
       margin: 0,
+      marginBottom: "22px",
+      letterSpacing: "0.2px",
     },
 
     introMetaRow: {
@@ -265,27 +265,19 @@ export default function ConsentPage() {
             </div>
 
             <div style={styles.introBlock}>
-              <div style={{ marginBottom: 16 }}>
-                <p style={styles.introText}>
-                  本研究旨在探討電影推薦系統之使用體驗，並進一步了解不同推薦資訊呈現方式對使用者信任感受與後續使用行為之影響。
-                </p>
-              </div>
+              <p style={styles.introText}>
+                本研究旨在探討電影推薦系統之使用體驗，並進一步了解不同推薦資訊呈現方式對使用者信任感受與後續使用行為之影響。
+              </p>
 
-              <div style={{ marginBottom: 16 }}>
-                <p style={styles.introText}>
-                  研究過程中，您將依據個人偏好（如地區、電影類型、上映年份及最低評分等）進行設定，並使用系統獲取推薦結果。系統將依據您的偏好提供相對應的電影推薦，且推薦資訊的呈現方式可能有所不同。
-                </p>
-              </div>
+              <p style={styles.introText}>
+                研究過程中，您將依據個人偏好（如地區、電影類型、上映年份及最低評分等）進行設定，並使用系統獲取推薦結果。系統將依據您的偏好提供相對應的電影推薦，且推薦資訊的呈現方式可能有所不同。
+              </p>
 
-              <div style={{ marginBottom: 16 }}>
-                <p style={styles.introText}>
-                  在完成推薦結果瀏覽後，您將填寫一份簡短問卷，內容主要用於了解您對推薦結果的看法與使用感受。
-                </p>
-              </div>
+              <p style={styles.introText}>
+                在完成推薦結果瀏覽後，您將填寫一份簡短問卷，內容主要用於了解您對推薦結果的看法與使用感受。
+              </p>
 
-              <div>
-                <p style={styles.introText}>非常感謝您的參與與協助。</p>
-              </div>
+              <p style={styles.introText}>非常感謝您的參與與協助。</p>
             </div>
 
             <div>
