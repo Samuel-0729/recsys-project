@@ -99,7 +99,7 @@ export default function ConsentPage() {
     stack: {
       display: "flex",
       flexDirection: "column",
-      gap: isMobile ? 16 : 20,
+      gap: isMobile ? 10 : 14,
     },
 
     // ✅ 手機置中、字級下修
@@ -124,7 +124,7 @@ export default function ConsentPage() {
 
     introBlock: {
       maxWidth: "980px",
-      marginTop: "28px",
+      marginTop: "4px",
     },
 
     introText: {
