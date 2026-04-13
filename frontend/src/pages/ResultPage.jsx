@@ -743,23 +743,6 @@ export default function ResultPage() {
         <div style={styles.mainCard}>
           <div style={styles.headerRow}>
             <h1 style={styles.title}>推薦結果</h1>
-
-            <div style={styles.metaTopRight}>
-              <span>
-                參與者：{" "}
-                <span translate="no">
-                  {participantId
-                    ? `${participantId.slice(0, 6)}...${participantId.slice(-4)}`
-                    : "—"}
-                </span>
-              </span>
-              <span>
-                組別： <span translate="no">{grp || "—"}</span>
-              </span>
-              <span style={{ opacity: 0.7 }}>
-                {isMobile ? "手機" : isTablet ? "平板" : "桌機"}
-              </span>
-            </div>
           </div>
 
           {!isBaseline && !needRetry && (
@@ -916,16 +899,6 @@ export default function ResultPage() {
             >
               前往問卷
             </button>
-          </div>
-
-          <div style={styles.hint}>
-            {logId ? (
-              <span>
-                日誌ID：<span translate="no">{logId}</span>
-              </span>
-            ) : (
-              <span>（未取得日誌ID）</span>
-            )}
           </div>
         </div>
       </div>

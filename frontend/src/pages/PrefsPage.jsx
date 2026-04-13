@@ -672,10 +672,6 @@ export default function PrefsPage() {
         <div style={styles.mainCard}>
           <div style={styles.titleRow}>
             <h1 style={styles.title}>偏好設定</h1>
-            <div style={styles.idLine}>
-              {participantId ? `參與者：${shortId(participantId)}` : ""}
-              {grp ? `　組別：${grp}` : ""}
-            </div>
           </div>
 
           <p style={styles.lead}>請選擇您偏好的條件，系統最多推薦 5 部電影。</p>
