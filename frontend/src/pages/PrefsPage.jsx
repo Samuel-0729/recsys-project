@@ -678,9 +678,7 @@ export default function PrefsPage() {
             </div>
           </div>
 
-          <p style={styles.lead}>
-            請選擇您偏好的條件，系統將產生最多 5 部推薦電影。
-          </p>
+          <p style={styles.lead}>請選擇您偏好的條件，系統最多推薦 5 部電影。</p>
 
           <div style={styles.divider} />
 

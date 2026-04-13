@@ -128,12 +128,11 @@ export default function ConsentPage() {
     },
 
     introText: {
-      fontSize: "18px",
-      lineHeight: 1.95,
-      color: "#1e293b",
+      fontSize: isMobile ? "14.5px" : "16px",
+      lineHeight: 1.8,
+      color: "#334155",
       margin: 0,
-      marginBottom: "22px",
-      letterSpacing: "0.2px",
+      marginBottom: "16px",
     },
 
     introMetaRow: {
